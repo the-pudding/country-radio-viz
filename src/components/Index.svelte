@@ -3,6 +3,7 @@
 	import BlockChart from "$components/BlockChart.svelte";
 
 	const data = getContext("data");
+	//console.log()
 </script>
 
 <div id="tooltip">

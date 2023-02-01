@@ -15,7 +15,7 @@
     let stationSumData = summaryData.filter(d => d.stationName == callLetters)
 
     onMount(async () => {
-        const response = await fetch(`./src/data/${stationName}`);
+        const response = await fetch(`${base}/assets/${stationName}`);
         const text = await response.text();
         const parsed = d3.csvParse(text)
         data = parsed;

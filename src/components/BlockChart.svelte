@@ -28,15 +28,19 @@
 
     function handleMouseEnter(song) {
         const tt = d3.select("#tooltip").style("opacity", 1);
+        const ttStation = d3.select("#tt-station");
         const ttDate = d3.select("#tt-date");
         const ttTime = d3.select("#tt-time");
         const ttArtist = d3.select("#tt-artist");
         const ttTitle = d3.select("#tt-title");
+        const ttB2B = d3.select("#tt-B2B");
 
         ttDate.text(song.Date)
+        ttStation.text(song.Station)
         ttTime.text(song["Time Played"])
         ttArtist.text(song.Artist)
         ttTitle.text(song.Title)
+        ttB2B.text(song.b2b_gender)
     }
 
     function handleMouseLeave() {

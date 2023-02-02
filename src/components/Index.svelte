@@ -7,10 +7,12 @@
 </script>
 
 <div id="tooltip">
+	<p id="tt-station">Station</p>
 	<p id="tt-date">Date</p>
 	<p id="tt-time">Time</p>
 	<p id="tt-artist">Artist</p>
 	<p id="tt-title">Title</p>
+	<p id="tt-B2B">B2B</p>
 </div>
 
 {#each data as stationName}

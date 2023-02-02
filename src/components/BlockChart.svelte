@@ -19,9 +19,9 @@
         const text = await response.text();
         const parsed = d3.csvParse(text)
         data = parsed;
-        groupedData = d3.groups(data, d => d.Date);
+        groupedData = d3.groups(data, d => d.date);
         const firstData = data[0];
-        station = firstData.Station;
+        station = firstData.station;
         city = firstData.city.replace(/([A-Z])/g, ' $1').trim();
         }
     )
@@ -35,11 +35,11 @@
         const ttTitle = d3.select("#tt-title");
         const ttB2B = d3.select("#tt-B2B");
 
-        ttDate.text(song.Date)
-        ttStation.text(song.Station)
-        ttTime.text(song["Time Played"])
-        ttArtist.text(song.Artist)
-        ttTitle.text(song.Title)
+        ttDate.text(song.date)
+        ttStation.text(song.station)
+        ttTime.text(song.time)
+        ttArtist.text(song.artist)
+        ttTitle.text(song.title)
         ttB2B.text(song.b2b_gender)
     }
 

@@ -1,4 +1,4 @@
-﻿Date,Weekday,Dayparts,OWNER,Station,Time Played,Artist,Title,Rel. Date,GRC,genre,ensemble,gender,race,city,b2b_gender
+date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble,gender,race,city,b2b_gender
 1/7/22,"Friday, Morris",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"JANSON, CHRIS",Bye Mom,2021,R,c-,solo,men,white,Tampa,X
 1/7/22,"Friday, Morris",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"URBAN, KEITH",Cop Car,2013,G,c-,solo,men,white,Tampa,B2Bmen
 1/7/22,"Friday, Morris",OVN,iHeartMedia,WFUS-FM,12:13:00 AM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Tampa,X
@@ -334,7 +334,7 @@
 1/7/22,"Friday, Morris",EVE,iHeartMedia,WFUS-FM,11:53:00 PM,"JANSON, CHRIS",Fix A Drink,2017,G,c-,solo,men,white,Tampa,B2Bmen
 1/7/22,"Friday, Morris",EVE,iHeartMedia,WFUS-FM,11:56:00 PM,"CHURCH, ERIC",Some Of It,2018,G,c-,solo,men,white,Tampa,B2Bmen
 1/7/22,"Friday, Morris",EVE,iHeartMedia,WFUS-FM,11:59:00 PM,"DICKERSON, RUSSELL",Home Sweet,2020,R,c-,solo,men,white,Tampa,B2Bmen
-1/24/22,"Monday, Block",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"BRYAN, LUKE",Up,2021,R,c-,solo,men,white,Tampa,B2Bmen
+1/24/22,"Monday, Block",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"BRYAN, LUKE",Up,2021,R,c-,solo,men,white,Tampa,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Tampa,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Tampa,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,WFUS-FM,12:16:00 AM,FLORIDA GEORGIA LINE,Cruise,2012,G,c-,duo,men,white,Tampa,B2Bmen
@@ -980,7 +980,7 @@
 1/28/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:52:00 PM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Tampa,B2Bmen
 1/28/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"DICKERSON, RUSSELL",Home Sweet,2020,R,c-,solo,men,white,Tampa,B2Bmen
 1/28/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:59:00 PM,"JANSON, CHRIS",Fix A Drink,2017,G,c-,solo,men,white,Tampa,B2Bmen
-2/7/22,"Monday, Barrett",OVN,iHeartMedia,WFUS-FM,12:01:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen
+2/7/22,"Monday, Barrett",OVN,iHeartMedia,WFUS-FM,12:01:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,X
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,WFUS-FM,12:07:00 AM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Tampa,X
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,WFUS-FM,12:17:00 AM,FLORIDA GEORGIA LINE,Stay,2012,G,c-,duo,men,white,Tampa,X
@@ -1627,7 +1627,7 @@
 2/25/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:50:00 PM,"DICKERSON, RUSSELL",Home Sweet,2020,R,c-,solo,men,white,Tampa,B2Bmen
 2/25/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:54:00 PM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Tampa,B2Bmen
 2/25/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:57:00 PM,"HUNT, SAM",Body Like A Back Road,2017,G,c-,solo,men,white,Tampa,B2Bmen
-3/18/22,"Friday, Underwood",OVN,iHeartMedia,WFUS-FM,12:01:00 AM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,Tampa,B2Bmen
+3/18/22,"Friday, Underwood",OVN,iHeartMedia,WFUS-FM,12:01:00 AM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,Tampa,X
 3/18/22,"Friday, Underwood",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen
 3/18/22,"Friday, Underwood",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2021,R,c-,collab,men,multiethnic,Tampa,B2Bmen
 3/18/22,"Friday, Underwood",OVN,iHeartMedia,WFUS-FM,12:16:00 AM,"OWEN, JAKE",Barefoot Blue Jean Night,2011,G,c-,solo,men,white,Tampa,B2Bmen
@@ -2602,7 +2602,7 @@
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,WFUS-FM,11:52:00 PM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Tampa,B2Bmen
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Tampa,B2Bmen
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,WFUS-FM,11:58:00 PM,"DICKERSON, RUSSELL",Love You Like I Used To,2020,G,c-,solo,men,white,Tampa,B2Bmen
-4/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Tampa,B2Bmen
+4/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Tampa,X
 4/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen
 4/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"UNDERWOOD, CARRIE",Ghost Story,2022,R,c-,solo,women,white,Tampa,X
 4/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:16:00 AM,"MOORE, KIP",Beer Money,2012,G,c-,solo,men,white,Tampa,X
@@ -2918,7 +2918,7 @@
 4/29/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:53:00 PM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Tampa,X
 4/29/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Tampa,X
 4/29/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:58:00 PM,"BRYAN, LUKE",One Margarita,2020,G,c-,solo,men,white,Tampa,B2Bmen
-5/20/22,"Friday, Wilson",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Tampa,B2Bmen
+5/20/22,"Friday, Wilson",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Tampa,X
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Tampa,B2Bmen
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"RAY, MICHAEL",Holy Water,2021,C,c-,solo,men,white,Tampa,B2Bmen
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,WFUS-FM,12:17:00 AM,"BRYAN, LUKE",Play It Again,2013,G,c-,solo,men,white,Tampa,B2Bmen
@@ -3232,7 +3232,7 @@
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,WFUS-FM,11:51:00 PM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Tampa,X
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,WFUS-FM,11:54:00 PM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Tampa,B2Bmen
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,WFUS-FM,11:57:00 PM,"BRYAN, LUKE",Down To One,2020,R,c-,solo,men,white,Tampa,B2Bmen
-5/27/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Tampa,B2Bmen
+5/27/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Tampa,X
 5/27/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen
 5/27/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"TENPENNY, MITCHELL",Truth About You,2021,R,c-,solo,men,white,Tampa,B2Bmen
 5/27/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:15:00 AM,"MCCREERY, SCOTTY",See You Tonight,2013,G,c-,solo,men,white,Tampa,B2Bmen
@@ -3551,7 +3551,7 @@
 5/27/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:50:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Tampa,B2Bmen
 5/27/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:53:00 PM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2021,R,c-,collab,men,multiethnic,Tampa,B2Bmen
 5/27/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:56:00 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Tampa,B2Bmen
-6/13/22,"Monday, Pearce",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Tampa,B2Bmen
+6/13/22,"Monday, Pearce",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Tampa,X
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Tampa,B2Bmen
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"RAY, MICHAEL",Holy Water,2021,C,c-,solo,men,white,Tampa,B2Bmen
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,WFUS-FM,12:17:00 AM,"BRYAN, LUKE",I Don't Want This Night To End,2011,G,c-,solo,men,white,Tampa,B2Bmen
@@ -3878,7 +3878,7 @@
 6/13/22,"Monday, Pearce",EVE,iHeartMedia,WFUS-FM,11:52:00 PM,"COMBS, LUKE",She Got The Best Of Me,2018,G,c-,solo,men,white,Tampa,B2Bmen
 6/13/22,"Monday, Pearce",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Tampa,B2Bmen
 6/13/22,"Monday, Pearce",EVE,iHeartMedia,WFUS-FM,11:58:00 PM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Tampa,B2Bmen
-6/24/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:01:00 AM,"RAY, MICHAEL",Holy Water,2021,C,c-,solo,men,white,Tampa,B2Bmen
+6/24/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:01:00 AM,"RAY, MICHAEL",Holy Water,2021,C,c-,solo,men,white,Tampa,X
 6/24/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:04:00 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Tampa,B2Bmen
 6/24/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:07:00 AM,"BALLERINI, KELSEA",Heartfirst,2022,C,c-,solo,women,white,Tampa,X
 6/24/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:16:00 AM,"COMBS, LUKE",Hurricane,2015,G,c-,solo,men,white,Tampa,X
@@ -4197,7 +4197,7 @@
 6/24/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:53:00 PM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen
 6/24/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen
 6/24/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:59:00 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Tampa,B2Bmen
-7/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"ALLEN, JIMMIE",down home,2022,C,c-,solo,men,black,Tampa,B2Bmen
+7/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"ALLEN, JIMMIE",down home,2022,C,c-,solo,men,black,Tampa,X
 7/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen
 7/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"DAVIS, JORDAN",What My World Spins Around,2022,C,c-,solo,men,white,Tampa,B2Bmen
 7/29/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:16:00 AM,"SHELTON, BLAKE",Boys 'Round Here,2013,G,c-,solo,men,white,Tampa,B2Bmen
@@ -4520,7 +4520,7 @@
 7/29/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:53:00 PM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,Tampa,B2Bmen
 7/29/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:56:00 PM,"SWINDELL, COLE/WILSON, LAINEY",Never Say Never,2021,R,c-,collab,male-female,white,Tampa,X
 7/29/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:59:00 PM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Tampa,X
-8/26/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"HUNT, SAM",Water Under The Bridge,2022,C,c-,solo,men,white,Tampa,B2Bmen
+8/26/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:02:00 AM,"HUNT, SAM",Water Under The Bridge,2022,C,c-,solo,men,white,Tampa,X
 8/26/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:05:00 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Tampa,B2Bmen
 8/26/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:08:00 AM,"BENTLEY, DIERKS",Gold,2022,C,c-,solo,men,white,Tampa,B2Bmen
 8/26/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:16:00 AM,"YOUNG, BRETT",In Case You Didn't Know,2016,G,c-,solo,men,white,Tampa,B2Bmen
@@ -4837,7 +4837,7 @@
 8/26/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:52:00 PM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen
 8/26/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"HUNT, SAM",Water Under The Bridge,2022,C,c-,solo,men,white,Tampa,B2Bmen
 8/26/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:57:00 PM,"COMBS, LUKE",Even Though I'm Leaving,2019,G,c-,solo,men,white,Tampa,B2Bmen
-9/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:00:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen
+9/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:00:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,X
 9/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:03:00 AM,"BRYAN, LUKE",Country On,2022,R,c-,solo,men,white,Tampa,B2Bmen
 9/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:07:00 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Tampa,B2Bmen
 9/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:11:00 AM,"HARDY/WILSON, LAINEY",wait in the truck,2022,C,c-,collab,male-female,white,Tampa,X
@@ -5470,7 +5470,7 @@
 10/28/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:52:00 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Tampa,X
 10/28/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"TENPENNY, MITCHELL",Truth About You,2021,R,c-,solo,men,white,Tampa,B2Bmen
 10/28/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:59:00 PM,ZAC BROWN BAND,Out In The Middle,2021,C,c-,group,men,white,Tampa,B2Bmen
-11/25/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:00:00 AM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Tampa,B2Bmen
+11/25/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:00:00 AM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Tampa,X
 11/25/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:03:00 AM,"URBAN, KEITH",Brown Eyes Baby,2022,C,c-,solo,men,white,Tampa,B2Bmen
 11/25/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:06:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Tampa,B2Bmen
 11/25/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:10:00 AM,"KENT, COREY",Wild As Her,2022,C,c-,solo,men,white,Tampa,B2Bmen
@@ -5802,7 +5802,7 @@
 11/25/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:52:00 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Tampa,X
 11/25/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:55:00 PM,"URBAN, KEITH",Brown Eyes Baby,2022,C,c-,solo,men,white,Tampa,B2Bmen
 11/25/22,"Friday, regular",EVE,iHeartMedia,WFUS-FM,11:58:00 PM,ELI YOUNG BAND,Love Ain't,2018,G,c-,group,men,white,Tampa,B2Bmen
-12/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:03:00 AM,"URBAN, KEITH",Brown Eyes Baby,2022,C,c-,solo,men,white,Tampa,B2Bmen
+12/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:03:00 AM,"URBAN, KEITH",Brown Eyes Baby,2022,C,c-,solo,men,white,Tampa,X
 12/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:06:00 AM,"SMITH, NATE",Whiskey On You,2022,C,c-,solo,men,white,Tampa,B2Bmen
 12/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:09:00 AM,"HUNT, SAM",Water Under The Bridge,2022,C,c-,solo,men,white,Tampa,B2Bmen
 12/30/22,"Friday, regular",OVN,iHeartMedia,WFUS-FM,12:18:00 AM,"YOUNG, CHRIS",I'm Comin' Over,2015,G,c-,solo,men,white,Tampa,B2Bmen

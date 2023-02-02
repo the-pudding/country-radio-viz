@@ -1,4 +1,4 @@
-﻿Date,Weekday,Dayparts,OWNER,Station,Time Played,Artist,Title,Rel. Date,GRC,genre,ensemble,gender,race,city,b2b_gender
+date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble,gender,race,city,b2b_gender
 1/7/22,"Friday, Morris",OVN,Steel City,KFKF-FM,12:02:00 AM,"ALDEAN, JASON/LAMBERT, MIRANDA",Drowns The Whiskey,2018,G,c-,collab,male-female,white,KansasCity,X
 1/7/22,"Friday, Morris",OVN,Steel City,KFKF-FM,12:05:00 AM,FLORIDA GEORGIA LINE,Long Live,2020,R,c-,duo,men,white,KansasCity,X
 1/7/22,"Friday, Morris",OVN,Steel City,KFKF-FM,12:08:00 AM,"LAWRENCE, TRACY",Alibis,1993,G,c-,solo,men,white,KansasCity,B2Bmen
@@ -335,7 +335,7 @@
 1/7/22,"Friday, Morris",EVE,Steel City,KFKF-FM,11:51:00 PM,"MCGRAW, TIM","I Like It, I Love It",1995,G,c-,solo,men,white,KansasCity,B2Bmen
 1/7/22,"Friday, Morris",EVE,Steel City,KFKF-FM,11:55:00 PM,"ZAC BROWN BAND/JACKSON, ALAN",As She's Walking Away,2010,G,c-,collab,men,white,KansasCity,B2Bmen
 1/7/22,"Friday, Morris",EVE,Steel City,KFKF-FM,11:58:00 PM,"RHETT, THOMAS",Crash And Burn,2015,G,c-,solo,men,white,KansasCity,B2Bmen
-1/24/22,"Monday, Block",OVN,Steel City,KFKF-FM,12:01:00 AM,LANCO,Greatest Love Story,2016,G,c-,group,men,white,KansasCity,B2Bmen
+1/24/22,"Monday, Block",OVN,Steel City,KFKF-FM,12:01:00 AM,LANCO,Greatest Love Story,2016,G,c-,group,men,white,KansasCity,X
 1/24/22,"Monday, Block",OVN,Steel City,KFKF-FM,12:05:00 AM,"LANE, CHRIS","Big, Big Plans",2019,R,c-,solo,men,white,KansasCity,B2Bmen
 1/24/22,"Monday, Block",OVN,Steel City,KFKF-FM,12:08:00 AM,"STRAIT, GEORGE",Carried Away,1996,G,c-,solo,men,white,KansasCity,B2Bmen
 1/24/22,"Monday, Block",OVN,Steel City,KFKF-FM,12:11:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,KansasCity,B2Bmen
@@ -664,7 +664,7 @@
 1/24/22,"Monday, Block",EVE,Steel City,KFKF-FM,11:53:00 PM,"RODGERS, JAMESON/COMBS, LUKE",Cold Beer Calling…,2020,R,c-,collab,men,white,KansasCity,B2Bmen
 1/24/22,"Monday, Block",EVE,Steel City,KFKF-FM,11:56:00 PM,"WILLIAMS, HANK JR",Born To Boogie,1986,G,c-,solo,men,white,KansasCity,B2Bmen
 1/24/22,"Monday, Block",EVE,Steel City,KFKF-FM,11:59:00 PM,"BRICE, LEE",Parking Lot Party,2012,G,c-,solo,men,white,KansasCity,B2Bmen
-1/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:03:00 AM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,KansasCity,B2Bmen
+1/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:03:00 AM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,KansasCity,X
 1/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:07:00 AM,FLORIDA GEORGIA LINE,Long Live,2020,R,c-,duo,men,white,KansasCity,B2Bmen
 1/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:09:00 AM,"YEARWOOD, TRISHA",She's In Love With The Boy,1991,G,c-,solo,women,white,KansasCity,X
 1/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:13:00 AM,"BRYAN, LUKE",Up,2021,R,c-,solo,men,white,KansasCity,X
@@ -1302,7 +1302,7 @@
 2/7/22,"Monday, Barrett",EVE,Steel City,KFKF-FM,11:43:00 PM,"BRYAN, LUKE",Up,2021,R,c-,solo,men,white,KansasCity,X
 2/7/22,"Monday, Barrett",EVE,Steel City,KFKF-FM,11:54:00 PM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 2/7/22,"Monday, Barrett",EVE,Steel City,KFKF-FM,11:57:00 PM,"ADKINS, TRACE",Every Light In The House,1996,G,c-,solo,men,white,KansasCity,B2Bmen
-2/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:00:00 AM,"ALLEN, JIMMIE",Best Shot,2017,G,c-,solo,men,black,KansasCity,B2Bmen
+2/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:00:00 AM,"ALLEN, JIMMIE",Best Shot,2017,G,c-,solo,men,black,KansasCity,X
 2/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:03:00 AM,"URBAN, KEITH",Kiss A Girl,2009,G,c-,solo,men,white,KansasCity,B2Bmen
 2/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:07:00 AM,"JACKSON, ALAN",Where I Come From,2000,G,c-,solo,men,white,KansasCity,B2Bmen
 2/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:11:00 AM,"MCCOLLUM, PARKER",To Be Loved By You,2020,R,c-,solo,men,white,KansasCity,B2Bmen
@@ -1582,7 +1582,7 @@
 2/25/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:43:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,KansasCity,B2Bmen
 2/25/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:54:00 PM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,KansasCity,B2Bmen
 2/25/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:56:00 PM,"JACKSON, ALAN",Who's Cheatin' Who,1996,G,c-,solo,men,white,KansasCity,B2Bmen
-3/18/22,"Friday, Underwood",OVN,Steel City,KFKF-FM,12:02:00 AM,"PARDI, JON",Heartache Medication,2019,G,c-,solo,men,white,KansasCity,B2Bmen
+3/18/22,"Friday, Underwood",OVN,Steel City,KFKF-FM,12:02:00 AM,"PARDI, JON",Heartache Medication,2019,G,c-,solo,men,white,KansasCity,X
 3/18/22,"Friday, Underwood",OVN,Steel City,KFKF-FM,12:06:00 AM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 3/18/22,"Friday, Underwood",OVN,Steel City,KFKF-FM,12:08:00 AM,"BROOKS, GARTH",The Thunder Rolls,1991,G,c-,solo,men,white,KansasCity,B2Bmen
 3/18/22,"Friday, Underwood",OVN,Steel City,KFKF-FM,12:12:00 AM,"KEITH, TOBY",Old School,2021,C,c-,solo,men,white,KansasCity,B2Bmen
@@ -1901,7 +1901,7 @@
 3/18/22,"Friday, Underwood",EVE,Steel City,KFKF-FM,11:41:00 PM,"BRICE, LEE",Soul,2020,R,c-,solo,men,white,KansasCity,X
 3/18/22,"Friday, Underwood",EVE,Steel City,KFKF-FM,11:52:00 PM,"CHURCH, ERIC",Heart On Fire,2021,R,c-,solo,men,white,KansasCity,B2Bmen
 3/18/22,"Friday, Underwood",EVE,Steel City,KFKF-FM,11:56:00 PM,"ADKINS, TRACE",(This Ain't) No Thinkin' Thing,1996,G,c-,solo,men,white,KansasCity,B2Bmen
-3/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"CHURCH, ERIC",Some Of It,2018,G,c-,solo,men,white,KansasCity,B2Bmen
+3/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"CHURCH, ERIC",Some Of It,2018,G,c-,solo,men,white,KansasCity,X
 3/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:06:00 AM,"SHANE, ELVIE",My Boy,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 3/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:09:00 AM,"MCBRIDE, MARTINA",This One's For The Girls,2003,G,c-,solo,women,white,KansasCity,X
 3/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:13:00 AM,OLD DOMINION,No Hard Feelings,2021,R,c-,group,men,white,KansasCity,X
@@ -2218,7 +2218,7 @@
 3/25/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:42:00 PM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,KansasCity,B2Bmen
 3/25/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:53:00 PM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 3/25/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:56:00 PM,BROOKS & DUNN,She's Not The Cheatin' Kind,1994,G,c-,duo,men,white,KansasCity,B2Bmen
-4/8/22,"Friday, Ballerini",OVN,Steel City,KFKF-FM,12:00:00 AM,"COMBS, LUKE/CHURCH, ERIC",Does To Me,2019,G,c-,collab,men,white,KansasCity,B2Bmen
+4/8/22,"Friday, Ballerini",OVN,Steel City,KFKF-FM,12:00:00 AM,"COMBS, LUKE/CHURCH, ERIC",Does To Me,2019,G,c-,collab,men,white,KansasCity,X
 4/8/22,"Friday, Ballerini",OVN,Steel City,KFKF-FM,12:03:00 AM,"RODGERS, JAMESON",Some Girls,2017,G,c-,solo,men,white,KansasCity,B2Bmen
 4/8/22,"Friday, Ballerini",OVN,Steel City,KFKF-FM,12:07:00 AM,"BROOKS, GARTH",The Dance,1990,G,c-,solo,men,white,KansasCity,B2Bmen
 4/8/22,"Friday, Ballerini",OVN,Steel City,KFKF-FM,12:10:00 AM,"LAMBERT, MIRANDA",If I Was A Cowboy,2021,R,c-,solo,women,white,KansasCity,X
@@ -2536,7 +2536,7 @@
 4/8/22,"Friday, Ballerini",EVE,Steel City,KFKF-FM,11:51:00 PM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,KansasCity,B2Bmen
 4/8/22,"Friday, Ballerini",EVE,Steel City,KFKF-FM,11:53:00 PM,BROOKS & DUNN,Only In America,2001,G,c-,duo,men,white,KansasCity,B2Bmen
 4/8/22,"Friday, Ballerini",EVE,Steel City,KFKF-FM,11:57:00 PM,"RUCKER, DARIUS",Alright,2008,G,c-,solo,men,black,KansasCity,B2Bmen
-4/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"MCCREERY, SCOTTY",In Between,2018,G,c-,solo,men,white,KansasCity,B2Bmen
+4/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"MCCREERY, SCOTTY",In Between,2018,G,c-,solo,men,white,KansasCity,X
 4/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:06:00 AM,"COMBS, LUKE",Better Together,2019,R,c-,solo,men,white,KansasCity,B2Bmen
 4/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:10:00 AM,SAWYER BROWN,The Dirt Road,1991,G,c-,group,men,white,KansasCity,B2Bmen
 4/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:13:00 AM,OLD DOMINION,No Hard Feelings,2021,R,c-,group,men,white,KansasCity,B2Bmen
@@ -2858,7 +2858,7 @@
 4/29/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:53:00 PM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 4/29/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:56:00 PM,"SHELTON, BLAKE",Austin,2001,G,c-,solo,men,white,KansasCity,B2Bmen
 4/29/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:59:00 PM,"MORGAN, CRAIG",Redneck Yacht Club,2004,G,c-,solo,men,white,KansasCity,B2Bmen
-5/20/22,"Friday, Wilson",OVN,Steel City,KFKF-FM,12:01:00 AM,OLD DOMINION,Written In The Sand,2017,G,c-,group,men,white,KansasCity,B2Bmen
+5/20/22,"Friday, Wilson",OVN,Steel City,KFKF-FM,12:01:00 AM,OLD DOMINION,Written In The Sand,2017,G,c-,group,men,white,KansasCity,X
 5/20/22,"Friday, Wilson",OVN,Steel City,KFKF-FM,12:04:00 AM,"CHESNEY, KENNY",Knowing You,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 5/20/22,"Friday, Wilson",OVN,Steel City,KFKF-FM,12:08:00 AM,"TRITT, TRAVIS",Take It Easy,1993,G,c-,solo,men,white,KansasCity,B2Bmen
 5/20/22,"Friday, Wilson",OVN,Steel City,KFKF-FM,12:11:00 AM,"BALLERINI, KELSEA",Heartfirst,2022,C,c-,solo,women,white,KansasCity,X
@@ -3186,7 +3186,7 @@
 5/20/22,"Friday, Wilson",EVE,Steel City,KFKF-FM,11:52:00 PM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 5/20/22,"Friday, Wilson",EVE,Steel City,KFKF-FM,11:54:00 PM,"SHELTON, BLAKE",Austin,2001,G,c-,solo,men,white,KansasCity,B2Bmen
 5/20/22,"Friday, Wilson",EVE,Steel City,KFKF-FM,11:58:00 PM,"CHESNEY, KENNY",Beer In Mexico,2005,G,c-,solo,men,white,KansasCity,B2Bmen
-5/27/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:03:00 AM,"COMBS, LUKE",One Number Away,2017,G,c-,solo,men,white,KansasCity,B2Bmen
+5/27/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:03:00 AM,"COMBS, LUKE",One Number Away,2017,G,c-,solo,men,white,KansasCity,X
 5/27/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:06:00 AM,FLORIDA GEORGIA LINE,Long Live,2020,R,c-,duo,men,white,KansasCity,B2Bmen
 5/27/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:09:00 AM,SAWYER BROWN,The Race Is On,1989,G,c-,group,men,white,KansasCity,B2Bmen
 5/27/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:12:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,KansasCity,B2Bmen
@@ -3511,7 +3511,7 @@
 5/27/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:54:00 PM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,KansasCity,B2Bmen
 5/27/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:57:00 PM,"MONTGOMERY, JOHN MICHAEL",Be My Baby Tonight,1994,G,c-,solo,men,white,KansasCity,B2Bmen
 5/27/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:59:00 PM,"ALDEAN, JASON",Big Green Tractor,2009,G,c-,solo,men,white,KansasCity,B2Bmen
-6/13/22,"Monday, Pearce",OVN,Steel City,KFKF-FM,12:02:00 AM,"RHETT, THOMAS",Unforgettable,2017,G,c-,solo,men,white,KansasCity,B2Bmen
+6/13/22,"Monday, Pearce",OVN,Steel City,KFKF-FM,12:02:00 AM,"RHETT, THOMAS",Unforgettable,2017,G,c-,solo,men,white,KansasCity,X
 6/13/22,"Monday, Pearce",OVN,Steel City,KFKF-FM,12:05:00 AM,"BRYAN, LUKE",Someone Else Calling You Baby,2009,G,c-,solo,men,white,KansasCity,B2Bmen
 6/13/22,"Monday, Pearce",OVN,Steel City,KFKF-FM,12:08:00 AM,CHARLIE DANIELS BAND,The Devil Went Down To Georgia,1979,G,c-,group,men,white,KansasCity,B2Bmen
 6/13/22,"Monday, Pearce",OVN,Steel City,KFKF-FM,12:12:00 AM,OLD DOMINION,No Hard Feelings,2021,R,c-,group,men,white,KansasCity,B2Bmen
@@ -3835,7 +3835,7 @@
 6/13/22,"Monday, Pearce",EVE,Steel City,KFKF-FM,11:50:00 PM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,KansasCity,B2Bmen
 6/13/22,"Monday, Pearce",EVE,Steel City,KFKF-FM,11:54:00 PM,"BLACK, CLINT",Killin' Time,1989,G,c-,solo,men,white,KansasCity,B2Bmen
 6/13/22,"Monday, Pearce",EVE,Steel City,KFKF-FM,11:57:00 PM,"ATKINS, RODNEY",If You're Going Through Hell,2005,G,c-,solo,men,white,KansasCity,B2Bmen
-6/24/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"STELL, MATT",Prayed For You,2018,G,c-,solo,men,white,KansasCity,B2Bmen
+6/24/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"STELL, MATT",Prayed For You,2018,G,c-,solo,men,white,KansasCity,X
 6/24/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:06:00 AM,"CHURCH, ERIC",Hell Of A View,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 6/24/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:09:00 AM,"ADKINS, TRACE",Every Light In The House,1996,G,c-,solo,men,white,KansasCity,B2Bmen
 6/24/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:12:00 AM,OLD DOMINION,Make It Sweet,2018,G,c-,group,men,white,KansasCity,B2Bmen
@@ -4160,7 +4160,7 @@
 6/24/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:41:00 PM,"ERNEST/WALLEN, MORGAN",Flower Shops,2022,R,c-,collab,men,white,KansasCity,B2Bmen
 6/24/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:52:00 PM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,KansasCity,B2Bmen
 6/24/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:56:00 PM,"BROOKS, GARTH",Rodeo,1991,G,c-,solo,men,white,KansasCity,B2Bmen
-7/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"MCCREERY, SCOTTY",Five More Minutes,2017,G,c-,solo,men,white,KansasCity,B2Bmen
+7/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"MCCREERY, SCOTTY",Five More Minutes,2017,G,c-,solo,men,white,KansasCity,X
 7/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:06:00 AM,"MOORE, JUSTIN",We Didn't Have Much,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 7/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:09:00 AM,"ADKINS, TRACE",(This Ain't) No Thinkin' Thing,1996,G,c-,solo,men,white,KansasCity,B2Bmen
 7/29/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:13:00 AM,"JOHNSON, CODY",Human,2021,C,c-,solo,men,white,KansasCity,B2Bmen
@@ -4491,7 +4491,7 @@
 7/29/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:51:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,KansasCity,X
 7/29/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:53:00 PM,"STRAIT, GEORGE",Write This Down,1999,G,c-,solo,men,white,KansasCity,B2Bmen
 7/29/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:57:00 PM,RASCAL FLATTS,Fast Cars And Freedom,2004,G,c-,trio,men,white,KansasCity,B2Bmen
-8/26/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"HUNT, SAM",Body Like A Back Road,2017,G,c-,solo,men,white,KansasCity,B2Bmen
+8/26/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"HUNT, SAM",Body Like A Back Road,2017,G,c-,solo,men,white,KansasCity,X
 8/26/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:04:00 AM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 8/26/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:08:00 AM,BROOKS & DUNN,My Maria,1996,G,c-,duo,men,white,KansasCity,B2Bmen
 8/26/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:11:00 AM,"TENPENNY, MITCHELL",Truth About You,2021,R,c-,solo,men,white,KansasCity,B2Bmen
@@ -4828,7 +4828,7 @@
 8/26/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:51:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,KansasCity,B2Bmen
 8/26/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:54:00 PM,"MURPHY, DAVID LEE",Dust On The Bottle,1995,G,c-,solo,men,white,KansasCity,B2Bmen
 8/26/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:57:00 PM,"ALDEAN, JASON",Amarillo Sky,2005,G,c-,solo,men,white,KansasCity,B2Bmen
-9/30/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:01:00 AM,"COMBS, LUKE",Beautiful Crazy,2017,G,c-,solo,men,white,KansasCity,B2Bmen
+9/30/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:01:00 AM,"COMBS, LUKE",Beautiful Crazy,2017,G,c-,solo,men,white,KansasCity,X
 9/30/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:04:00 AM,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 9/30/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:07:00 AM,"TRITT, TRAVIS",I'm Gonna Be Somebody,1989,G,c-,solo,men,white,KansasCity,B2Bmen
 9/30/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:11:00 AM,"ALDEAN, JASON",That's What Tequila Does,2021,C,c-,solo,men,white,KansasCity,B2Bmen
@@ -5159,7 +5159,7 @@
 9/30/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:50:00 PM,"CHESNEY, KENNY",The Good Stuff,2002,G,c-,solo,men,white,KansasCity,X
 9/30/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:54:00 PM,BROOKS & DUNN,Red Dirt Road,2003,G,c-,duo,men,white,KansasCity,B2Bmen
 9/30/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:58:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,KansasCity,B2Bmen
-10/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"SCOTT, DYLAN",Nobody,2019,R,c-,solo,men,white,KansasCity,B2Bmen
+10/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:02:00 AM,"SCOTT, DYLAN",Nobody,2019,R,c-,solo,men,white,KansasCity,X
 10/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:05:00 AM,"WALLEN, MORGAN",More Than My Hometown,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 10/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:08:00 AM,"MCCOY, NEAL",No Doubt About It,1993,G,c-,solo,men,filipino,KansasCity,B2Bmen
 10/28/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:12:00 AM,"WILSON, LAINEY",Heart Like A Truck,2022,C,c-,solo,women,white,KansasCity,X
@@ -5488,7 +5488,7 @@
 10/28/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:54:00 PM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,KansasCity,B2Bmen
 10/28/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:57:00 PM,"JACKSON, ALAN",Chattahoochee,1992,G,c-,solo,men,white,KansasCity,B2Bmen
 10/28/22,"Friday, regular",EVE,Steel City,KFKF-FM,11:59:00 PM,"LAWRENCE, TRACY",Find Out Who Your Friends Are,2006,G,c-,solo,men,white,KansasCity,B2Bmen
-11/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:00:00 AM,"BROWN, KANE",Good As You,2018,G,c-,solo,men,multiethnic,KansasCity,B2Bmen
+11/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:00:00 AM,"BROWN, KANE",Good As You,2018,G,c-,solo,men,multiethnic,KansasCity,X
 11/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:03:00 AM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,KansasCity,B2Bmen
 11/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:07:00 AM,"MONTGOMERY, JOHN MICHAEL",Be My Baby Tonight,1994,G,c-,solo,men,white,KansasCity,B2Bmen
 11/25/22,"Friday, regular",OVN,Steel City,KFKF-FM,12:09:00 AM,"PEARCE, CARLY",What He Didn't Do,2021,C,c-,solo,women,white,KansasCity,X

@@ -1,4 +1,4 @@
-﻿Date,Weekday,Dayparts,OWNER,Station,Time Played,Artist,Title,Rel. Date,GRC,genre,ensemble,gender,race,city,b2b_gender
+date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble,gender,race,city,b2b_gender
 1/7/22,"Friday, Morris",OVN,Beasley,WSOC-FM,12:03 AM,"WALLEN, MORGAN",Chasin' You,2018,G,c-,solo,men,white,Charlotte,X
 1/7/22,"Friday, Morris",OVN,Beasley,WSOC-FM,12:09 AM,"PARDI, JON",Tequila Little Time,2019,R,c-,solo,men,white,Charlotte,B2Bmen
 1/7/22,"Friday, Morris",OVN,Beasley,WSOC-FM,12:12 AM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Charlotte,B2Bmen
@@ -347,7 +347,7 @@
 1/7/22,"Friday, Morris",EVE,Beasley,WSOC-FM,0.994444444,"RAY, MICHAEL",Kiss You In The Morning,2014,G,c-,solo,men,white,Charlotte,X
 1/7/22,"Friday, Morris",EVE,Beasley,WSOC-FM,0.996527778,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Charlotte,X
 1/7/22,"Friday, Morris",EVE,Beasley,WSOC-FM,0.999305556,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Charlotte,X
-1/24/22,"Monday, Block",OVN,Beasley,WSOC-FM,12:00 AM,"HUNT, SAM",Breaking Up Was Easy In The...,2020,R,c-,solo,men,white,Charlotte,B2Bmen
+1/24/22,"Monday, Block",OVN,Beasley,WSOC-FM,12:00 AM,"HUNT, SAM",Breaking Up Was Easy In The...,2020,R,c-,solo,men,white,Charlotte,X
 1/24/22,"Monday, Block",OVN,Beasley,WSOC-FM,12:03 AM,HARDY,Give Heaven Some Hell,2020,R,c-,solo,men,white,Charlotte,B2Bmen
 1/24/22,"Monday, Block",OVN,Beasley,WSOC-FM,12:06 AM,"MORRIS, MAREN",Rich,2016,G,c-,solo,women,white,Charlotte,X
 1/24/22,"Monday, Block",OVN,Beasley,WSOC-FM,12:10 AM,"ARTS, TENILLE","Back Then, Right Now",2021,R,c-,solo,women,white,Charlotte,B2Bwomen
@@ -1029,7 +1029,7 @@
 1/28/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.99375,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Charlotte,B2Bmen
 1/28/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995833333,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 1/28/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.999305556,"DAVIS, JORDAN",Slow Dance In A Parking Lot,2017,G,c-,solo,men,white,Charlotte,B2Bmen
-2/7/22,"Monday, Barrett",OVN,Beasley,WSOC-FM,12:02 AM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Charlotte,B2Bmen
+2/7/22,"Monday, Barrett",OVN,Beasley,WSOC-FM,12:02 AM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Charlotte,X
 2/7/22,"Monday, Barrett",OVN,Beasley,WSOC-FM,12:05 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 2/7/22,"Monday, Barrett",OVN,Beasley,WSOC-FM,12:08 AM,"NICHOLS, JOE",Yeah,2013,G,c-,solo,men,white,Charlotte,B2Bmen
 2/7/22,"Monday, Barrett",OVN,Beasley,WSOC-FM,12:13 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Charlotte,B2Bmen
@@ -1367,7 +1367,7 @@
 2/7/22,"Monday, Barrett",EVE,Beasley,WSOC-FM,0.994444444,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,Charlotte,X
 2/7/22,"Monday, Barrett",EVE,Beasley,WSOC-FM,0.996527778,"HUNT, SAM",23,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 2/7/22,"Monday, Barrett",EVE,Beasley,WSOC-FM,0.998611111,"RICE, CHASE",If I Were Rock & Roll,2021,R,c-,solo,men,white,Charlotte,B2Bmen
-2/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:01 AM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Charlotte,B2Bmen
+2/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:01 AM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Charlotte,X
 2/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:04 AM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 2/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:08 AM,"LYNCH, DUSTIN",Good Girl,2018,G,c-,solo,men,white,Charlotte,B2Bmen
 2/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:14 AM,"ALLEN, JIMMIE/PAISLEY, BRAD",Freedom Was A Highway,2020,R,c-,collab,men,multiethnic,Charlotte,B2Bmen
@@ -2715,7 +2715,7 @@
 4/8/22,"Friday, Ballerini",EVE,Beasley,WSOC-FM,0.993055556,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Charlotte,B2Bmen
 4/8/22,"Friday, Ballerini",EVE,Beasley,WSOC-FM,0.995138889,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 4/8/22,"Friday, Ballerini",EVE,Beasley,WSOC-FM,0.997222222,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Charlotte,B2Bmen
-4/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:03 AM,"SMITH, CONNER",Learn From It,2021,R,c-,solo,men,white,Charlotte,B2Bmen
+4/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:03 AM,"SMITH, CONNER",Learn From It,2021,R,c-,solo,men,white,Charlotte,X
 4/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:06 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Charlotte,X
 4/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:11 AM,"SWINDELL, COLE",Flatliner,2016,G,c-,solo,men,white,Charlotte,X
 4/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:14 AM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Charlotte,B2Bmen
@@ -3036,7 +3036,7 @@
 4/29/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.994444444,"LAMBERT, MIRANDA",If I Was A Cowboy,2021,R,c-,solo,women,white,Charlotte,X
 4/29/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.996527778,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Charlotte,X
 4/29/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.999305556,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Charlotte,B2Bmen
-5/20/22,"Friday, Wilson",OVN,Beasley,WSOC-FM,12:00 AM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,Charlotte,B2Bmen
+5/20/22,"Friday, Wilson",OVN,Beasley,WSOC-FM,12:00 AM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,Charlotte,X
 5/20/22,"Friday, Wilson",OVN,Beasley,WSOC-FM,12:04 AM,"SHELTON, BLAKE/STEFANI, GWEN",Happy Anywhere,2020,R,c-,collab,male-female,white,Charlotte,X
 5/20/22,"Friday, Wilson",OVN,Beasley,WSOC-FM,12:08 AM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Charlotte,X
 5/20/22,"Friday, Wilson",OVN,Beasley,WSOC-FM,12:11 AM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Charlotte,X
@@ -3696,7 +3696,7 @@
 5/27/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.99375,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Charlotte,X
 5/27/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.996527778,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,Charlotte,X
 5/27/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.998611111,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Charlotte,B2Bmen
-6/13/22,"Monday, Pearce",OVN,Beasley,WSOC-FM,12:02 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Charlotte,B2Bmen
+6/13/22,"Monday, Pearce",OVN,Beasley,WSOC-FM,12:02 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Charlotte,X
 6/13/22,"Monday, Pearce",OVN,Beasley,WSOC-FM,12:05 AM,"DICKERSON, RUSSELL/SCOTT, JAKE",She Likes It,2021,R,c-,collab,men,white,Charlotte,B2Bmen
 6/13/22,"Monday, Pearce",OVN,Beasley,WSOC-FM,12:08 AM,"RUCKER, DARIUS",If I Told You,2016,G,c-,solo,men,black,Charlotte,B2Bmen
 6/13/22,"Monday, Pearce",OVN,Beasley,WSOC-FM,12:11 AM,"SMITH, CONNER",Learn From It,2021,R,c-,solo,men,white,Charlotte,B2Bmen
@@ -4364,7 +4364,7 @@
 6/24/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.99375,"PARMALEE/BROWN, BLANCO",Just The Way,2019,R,c-,collab,men,multiethnic,Charlotte,B2Bmen
 6/24/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995833333,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 6/24/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.997916667,"HOUSER, RANDY",Note To Self,2022,C,c-,solo,men,white,Charlotte,B2Bmen
-7/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:01 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Charlotte,B2Bmen
+7/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:01 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Charlotte,X
 7/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:06 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 7/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:09 AM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,Charlotte,B2Bmen
 7/29/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:12 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Charlotte,B2Bmen
@@ -4699,7 +4699,7 @@
 7/29/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.99375,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Charlotte,X
 7/29/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995833333,"KINSEY, ERIN",Just Drive,2021,C,c-,solo,women,white,Charlotte,X
 7/29/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.997222222,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Charlotte,X
-8/26/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:03 AM,"PARDI, JON",Heartache Medication,2019,G,c-,solo,men,white,Charlotte,B2Bmen
+8/26/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:03 AM,"PARDI, JON",Heartache Medication,2019,G,c-,solo,men,white,Charlotte,X
 8/26/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:07 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Charlotte,B2Bmen
 8/26/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:10 AM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,Charlotte,B2Bmen
 8/26/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:14 AM,"BRYAN, LUKE",Country On,2022,R,c-,solo,men,white,Charlotte,B2Bmen
@@ -5040,7 +5040,7 @@
 8/26/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.99375,"KINSEY, ERIN",Just Drive,2021,C,c-,solo,women,white,Charlotte,X
 8/26/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995138889,"MOON, NIKO",Good Time,2019,R,c-,solo,men,white,Charlotte,X
 8/26/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.998611111,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Charlotte,B2Bmen
-9/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:02 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Charlotte,B2Bmen
+9/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:02 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Charlotte,X
 9/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:05 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Charlotte,X
 9/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:09 AM,"YOUNG, BRETT",You Didn't,2021,C,c-,solo,men,white,Charlotte,X
 9/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:13 AM,"LYNCH, DUSTIN",Ridin' Roads,2019,G,c-,solo,men,white,Charlotte,B2Bmen
@@ -5388,7 +5388,7 @@
 9/30/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.993055556,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Charlotte,B2Bmen
 9/30/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995138889,"BARRETT, GABBY",I Hope,2019,G,c-,solo,women,white,Charlotte,X
 9/30/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.997916667,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Charlotte,X
-10/28/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:00 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Charlotte,B2Bmen
+10/28/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:00 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Charlotte,X
 10/28/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:05 AM,"HUNT, SAM",Breaking Up Was Easy In The...,2020,R,c-,solo,men,white,Charlotte,B2Bmen
 10/28/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:09 AM,ZAC BROWN BAND,Out In The Middle,2021,C,c-,group,men,white,Charlotte,B2Bmen
 10/28/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:12 AM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Charlotte,X
@@ -5728,7 +5728,7 @@
 10/28/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995138889,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Charlotte,B2Bmen
 10/28/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.997222222,DAN + SHAY,You,2021,C,c-,duo,men,multiethnic,Charlotte,B2Bmen
 10/28/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.999305556,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Charlotte,B2Bmen
-11/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:03 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Charlotte,B2Bmen
+11/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:03 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Charlotte,X
 11/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:06 AM,"STELL, MATT",Man Made,2022,C,c-,solo,men,white,Charlotte,B2Bmen
 11/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:09 AM,"DAN + SHAY/BIEBER, JUSTIN","10,000 Hours",2019,G,c-,collab,men,multiethnic,Charlotte,B2Bmen
 11/25/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:12 AM,"ZIMMERMAN, BAILEY",Fall In Love,2022,R,c-,solo,men,white,Charlotte,B2Bmen
@@ -6100,7 +6100,7 @@
 11/25/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.994444444,"BARRETT, GABBY",Pick Me Up,2021,C,c-,solo,women,white,Charlotte,X
 11/25/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.995833333,"HAYES, WALKER",Y'all Life,2022,C,c-,solo,men,white,Charlotte,X
 11/25/22,"Friday, regular",EVE,Beasley,WSOC-FM,0.998611111,"RHETT, THOMAS/GREEN, RILEY",Half Of Me,2022,R,c-,collab,men,white,Charlotte,B2Bmen
-12/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:02 AM,"OWEN, JAKE",Made For You,2018,R,c-,solo,men,white,Charlotte,B2Bmen
+12/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:02 AM,"OWEN, JAKE",Made For You,2018,R,c-,solo,men,white,Charlotte,X
 12/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:07 AM,"ALLEN, JIMMIE",down home,2022,C,c-,solo,men,black,Charlotte,B2Bmen
 12/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:15 AM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Charlotte,X
 12/30/22,"Friday, regular",OVN,Beasley,WSOC-FM,12:18 AM,"COMBS, LUKE","Going, Going, Gone",2022,C,c-,solo,men,white,Charlotte,X

@@ -10,6 +10,7 @@
     let station;
     let city;
     export let stationName;
+    export let value;
 
     let callLetters = stationName.split("_")[1];
     let stationSumData = summaryData.filter(d => d.stationName == callLetters)
@@ -33,14 +34,13 @@
         const ttTime = d3.select("#tt-time");
         const ttArtist = d3.select("#tt-artist");
         const ttTitle = d3.select("#tt-title");
-        const ttB2B = d3.select("#tt-B2B");
+
 
         ttDate.text(song.date)
         ttStation.text(song.station)
         ttTime.text(song.time)
         ttArtist.text(song.artist)
         ttTitle.text(song.title)
-        ttB2B.text(song.b2b_gender)
     }
 
     function handleMouseLeave() {
@@ -55,9 +55,18 @@
         <p>{city}</p>
         <p>{station}</p>
         <div class="stats">
-            <p class="stat-w"><strong>Women-B2B:</strong> {(+stationSumData[0].b2bWomenSongs_PERCENT).toFixed(2)}%</p>
-            <p class="stat-m"><strong>Men-B2B:</strong> {(+stationSumData[0].b2bMenSongs_PERCENT).toFixed(2)}%</p>
-            <p class="stat-x"><strong>Mixed-B2B:</strong> {(+stationSumData[0].b2bMixedGenderSongs_PERCENT).toFixed(2)}%</p>
+            {#if value == "B2B Gender Women+Mixed"}
+                <p class="stat-w"><strong>WomenCombined-B2B:</strong> {(+stationSumData[0].b2bCombinedGenderSongs_PERCENT).toFixed(2)}%</p>
+                <p class="stat-m"><strong>Men-B2B:</strong> {(+stationSumData[0].b2bMenSongs_PERCENT).toFixed(2)}%</p>
+            {:else if value == "Gender Only"}
+                <p class="stat-w"><strong>Women:</strong> {(+stationSumData[0].onlyWomenSongs_PERCENT).toFixed(2)}%</p>
+                <p class="stat-m"><strong>Men:</strong> {(+stationSumData[0].onlyMenSongs_PERCENT).toFixed(2)}%</p>
+                <p class="stat-x"><strong>Mixed:</strong> {(+stationSumData[0].onlyMixedGenderSongs_PERCENT).toFixed(2)}%</p>
+            {:else}
+                <p class="stat-w"><strong>Women-B2B:</strong> {(+stationSumData[0].b2bWomenSongs_PERCENT).toFixed(2)}%</p>
+                <p class="stat-m"><strong>Men-B2B:</strong> {(+stationSumData[0].b2bMenSongs_PERCENT).toFixed(2)}%</p>
+                <p class="stat-x"><strong>Mixed-B2B:</strong> {(+stationSumData[0].b2bMixedGenderSongs_PERCENT).toFixed(2)}%</p>
+            {/if}
         </div>
     </div>
     <div class="all">
@@ -78,7 +87,7 @@
                                 handleMouseLeave()
                                 }
                             } 
-                            class="song song-{song.b2b_gender}"></div>
+                            class="song song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"></div>
                     {/each}
                 </div>
             </div>
@@ -92,7 +101,7 @@
         flex-direction: column;
         max-width: 90rem;
         margin: 0 auto;
-        padding: 2rem 0;
+        padding: 2rem 1rem;
     }
 
     .details {
@@ -196,6 +205,14 @@
     }
 
     .hover {
-        background: black;
+        background: black !important;
+    }
+
+    :global(.hover) {
+        background: black !important;
+    }
+
+    :global(.song:hover) {
+        background: black !important;
     }
 </style>

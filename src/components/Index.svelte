@@ -1,9 +1,18 @@
 <script>
 	import { getContext } from "svelte";
+	import ButtonSet from "$components/helpers/ButtonSet.svelte";
 	import BlockChart from "$components/BlockChart.svelte";
 
 	const data = getContext("data");
-	//console.log()
+
+	const options = [
+		{ value: "B2B Gender" },
+		{ value: "B2B Gender Women+Mixed"},
+		{ value: "Gender Only" }
+	];
+
+	let value;
+	$: console.log(value)
 </script>
 
 <div id="tooltip">
@@ -12,11 +21,13 @@
 	<p id="tt-time">Time</p>
 	<p id="tt-artist">Artist</p>
 	<p id="tt-title">Title</p>
-	<p id="tt-B2B">B2B</p>
 </div>
 
+<nav>
+	<ButtonSet legend={"Color songs by"} {options} bind:value />
+</nav>
 {#each data as stationName}
-	<BlockChart stationName={stationName}/>
+	<BlockChart stationName={stationName} value={value}/>
 {/each}
 <!-- <Footer /> -->
 
@@ -31,10 +42,19 @@
 		padding: 1rem;
 		font-family: var(--sans);
 		font-size: var(--14px);
-		max-width: 20rem;
+		max-width: 30rem;
 	}
 
 	#tooltip p {
 		margin: 0;
+	}
+
+	nav {
+		margin: 0 auto;
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		position: sticky;
+		top: 0;
 	}
 </style>

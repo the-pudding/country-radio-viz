@@ -1,4 +1,5 @@
 <script>
+	import * as d3 from "d3";
 	export let options = [];
 	export let legend = "";
 	export let legendPosition = "top";
@@ -15,6 +16,30 @@
 		slug: makeSlug(d.value)
 	}));
 	$: isTop = legendPosition === "top";
+
+	function handleBtnClick(value) {
+		console.log("click", value)
+
+		if (value == "Gender Only") {
+			d3.selectAll(".song").attr("background", "#dfdfdf").style("background:hover", "#black")
+			d3.selectAll(".song-women").style("background", "magenta").style("background:hover", "#black")
+			d3.selectAll(".song-men").style("background", "#1fc3aa").style("background:hover", "#black")
+			d3.selectAll(".song-male-female").style("background", "yellow").style("background:hover", "#black")
+		}
+
+		if (value == "B2B Gender") {
+			d3.selectAll(".song").style("background", "#dfdfdf")
+			d3.selectAll(".song-B2Bwomen").style("background", "magenta")
+			d3.selectAll(".song-B2Bmen").style("background", "#1fc3aa")
+			d3.selectAll(".song-B2Bmixed").style("background", "yellow")
+		}
+
+		if (value == "B2B Gender Women+Mixed") {
+			d3.selectAll(".song").style("background", "#dfdfdf")
+			d3.selectAll(".song-B2BCombWomen").style("background", "magenta")
+			d3.selectAll(".song-B2BCombMen").style("background", "#1fc3aa")
+		}
+	}
 </script>
 
 <div class="button-set">
@@ -28,7 +53,8 @@
 		{#if legend}<div class="legend" id="legend-{id}">{legend}</div>{/if}
 		<div class="options">
 			{#each optionsWithSlug as option}
-				<div class="option">
+				<div class="option"
+				on:click={handleBtnClick(option.value)}>
 					<input
 						type="radio"
 						id={`${id}-${option.slug}`}
@@ -51,6 +77,7 @@
 	.button-set {
 		display: inline-block;
 		margin-bottom: 4px;
+		font-family: var(--sans);
 	}
 
 	.group {

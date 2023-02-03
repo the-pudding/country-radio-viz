@@ -737,7 +737,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Audacy/Entercom,WPAW-FM,11:45:00 PM,"DICKERSON, RUSSELL",Home Sweet,2020,R,c-,solo,men,white,Greensboro,X,X
 1/24/22,"Monday, Block",EVE,Audacy/Entercom,WPAW-FM,11:48:00 PM,"BRICE, LEE",Rumor,2017,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Audacy/Entercom,WPAW-FM,11:51:00 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"SHELTON, BLAKE",Gonna,2014,G,c-,solo,men,white,Greensboro,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"SHELTON, BLAKE",Gonna,2014,G,c-,solo,men,white,Greensboro,X,X
 1/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:03:00 AM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:06:00 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"ARTS, TENILLE","Back Then, Right Now",2021,R,c-,solo,women,white,Greensboro,X,X
@@ -1108,7 +1108,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:44:00 PM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Greensboro,X,X
 1/28/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:47:00 PM,"YOUNG, BRETT",Lady,2020,R,c-,solo,men,white,Greensboro,X,X
 1/28/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:50:00 PM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Greensboro,X,X
-2/7/22,"Monday, Barrett",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Greensboro,X,B2BCombWomen
+2/7/22,"Monday, Barrett",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Greensboro,X,X
 2/7/22,"Monday, Barrett",OVN,Audacy/Entercom,WPAW-FM,12:04:00 AM,HARDY,Give Heaven Some Hell,2020,R,c-,solo,men,white,Greensboro,X,X
 2/7/22,"Monday, Barrett",OVN,Audacy/Entercom,WPAW-FM,12:07:00 AM,"PARMALEE/BROWN, BLANCO",Just The Way,2019,R,c-,collab,men,multiethnic,Greensboro,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -1483,7 +1483,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/7/22,"Monday, Barrett",EVE,Audacy/Entercom,WPAW-FM,11:48:00 PM,"REXHA, BEBE/FLORIDA GEORGIA LINE",Meant To Be,2017,G,c-,collab,male-female,white,Greensboro,X,X
 2/7/22,"Monday, Barrett",EVE,Audacy/Entercom,WPAW-FM,11:51:00 PM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Greensboro,X,X
 2/7/22,"Monday, Barrett",EVE,Audacy/Entercom,WPAW-FM,11:57:00 PM,"BENTLEY, DIERKS",Gone,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-2/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"COMBS, LUKE",Better Together,2019,R,c-,solo,men,white,Greensboro,X,B2BCombMen
+2/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"COMBS, LUKE",Better Together,2019,R,c-,solo,men,white,Greensboro,X,X
 2/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:06:00 AM,"BRICE, LEE",Soul,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:09:00 AM,OLD DOMINION,No Hard Feelings,2021,R,c-,group,men,white,Greensboro,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:12:00 AM,"DICKERSON, RUSSELL",Love You Like I Used To,2020,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -2590,7 +2590,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/25/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:46:00 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Greensboro,X,X
 3/25/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:48:00 PM,"HURD, RYAN/MORRIS, MAREN",Chasing After You,2021,R,c-,collab,male-female,white,Greensboro,X,X
 3/25/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:52:00 PM,"ERNEST/WALLEN, MORGAN",Flower Shops,2022,R,c-,collab,men,white,Greensboro,X,X
-4/8/22,"Friday, Ballerini",OVN,Audacy/Entercom,WPAW-FM,12:03:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Greensboro,X,B2BCombMen
+4/8/22,"Friday, Ballerini",OVN,Audacy/Entercom,WPAW-FM,12:03:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Greensboro,X,X
 4/8/22,"Friday, Ballerini",OVN,Audacy/Entercom,WPAW-FM,12:05:00 AM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",OVN,Audacy/Entercom,WPAW-FM,12:09:00 AM,"BALLERINI, KELSEA",Heartfirst,2022,C,c-,solo,women,white,Greensboro,X,X
 4/8/22,"Friday, Ballerini",OVN,Audacy/Entercom,WPAW-FM,12:12:00 AM,"BRYAN, LUKE",Most People Are Good,2017,G,c-,solo,men,white,Greensboro,X,X
@@ -3333,7 +3333,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:45:00 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:48:00 PM,"MORRIS, MAREN",The Bones,2019,G,c-,solo,women,white,Greensboro,X,X
 4/29/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:51:00 PM,OLD DOMINION,No Hard Feelings,2021,R,c-,group,men,white,Greensboro,X,X
-5/20/22,"Friday, Wilson",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"MOORE, JUSTIN",We Didn't Have Much,2020,R,c-,solo,men,white,Greensboro,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"MOORE, JUSTIN",We Didn't Have Much,2020,R,c-,solo,men,white,Greensboro,X,X
 5/20/22,"Friday, Wilson",OVN,Audacy/Entercom,WPAW-FM,12:04:00 AM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,Greensboro,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Audacy/Entercom,WPAW-FM,12:07:00 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"MORRIS, MAREN",Circles Around This Town,2022,R,c-,solo,women,white,Greensboro,X,X
@@ -3688,7 +3688,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,Audacy/Entercom,WPAW-FM,11:51:00 PM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Greensboro,X,X
 5/20/22,"Friday, Wilson",EVE,Audacy/Entercom,WPAW-FM,11:54:00 PM,"YOUNG, BRETT",Lady,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,Audacy/Entercom,WPAW-FM,11:57:00 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-5/27/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"ZIMMERMAN, BAILEY",Fall In Love,2022,R,c-,solo,men,white,Greensboro,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"ZIMMERMAN, BAILEY",Fall In Love,2022,R,c-,solo,men,white,Greensboro,X,X
 5/27/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:04:00 AM,"HUNT, SAM",Hard To Forget,2020,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:07:00 AM,"BROWN, KANE",Like I Love Country Music,2022,R,c-,solo,men,multiethnic,Greensboro,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"DAN + SHAY/BIEBER, JUSTIN","10,000 Hours",2019,G,c-,collab,men,multiethnic,Greensboro,B2Bmen,B2BCombMen
@@ -4065,7 +4065,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/27/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:52:00 PM,"BRICE, LEE",Soul,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:55:00 PM,LITTLE BIG TOWN,Better Man,2016,G,c-,group,male-female,white,Greensboro,X,X
 5/27/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:59:00 PM,"CHURCH, ERIC",Heart On Fire,2021,R,c-,solo,men,white,Greensboro,X,X
-6/13/22,"Monday, Pearce",OVN,Audacy/Entercom,WPAW-FM,12:01:00 AM,"COMBS, LUKE/CHURCH, ERIC",Does To Me,2019,G,c-,collab,men,white,Greensboro,X,B2BCombMen
+6/13/22,"Monday, Pearce",OVN,Audacy/Entercom,WPAW-FM,12:01:00 AM,"COMBS, LUKE/CHURCH, ERIC",Does To Me,2019,G,c-,collab,men,white,Greensboro,X,X
 6/13/22,"Monday, Pearce",OVN,Audacy/Entercom,WPAW-FM,12:05:00 AM,"RAY, FRANK",Country'd Look Good On You,2021,R,c-,solo,men,hispanic,Greensboro,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,Audacy/Entercom,WPAW-FM,12:08:00 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,Audacy/Entercom,WPAW-FM,12:11:00 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -4802,7 +4802,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:52:00 PM,"STAPLETON, CHRIS",Joy Of My Life,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:56:00 PM,"SCOTT, DYLAN",My Girl,2016,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:59:00 PM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-7/29/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"BRICE, LEE",One Of Them Girls,2020,G,c-,solo,men,white,Greensboro,X,B2BCombMen
+7/29/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"BRICE, LEE",One Of Them Girls,2020,G,c-,solo,men,white,Greensboro,X,X
 7/29/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:05:00 AM,RESTLESS ROAD,Growing Old With You,2022,R,c-,trio,men,white,Greensboro,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:08:00 AM,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:11:00 AM,"PARMALEE/BROWN, BLANCO",Just The Way,2019,R,c-,collab,men,multiethnic,Greensboro,B2Bmen,B2BCombMen
@@ -5180,7 +5180,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 7/29/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:52:00 PM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Greensboro,B2Bmixed,B2BCombWomen
 7/29/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:55:00 PM,"DICKERSON, RUSSELL",Blue Tacoma,2016,G,c-,solo,men,white,Greensboro,X,X
 7/29/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:59:00 PM,"DAVIS, JORDAN",What My World Spins Around,2022,C,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-8/26/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Greensboro,X,B2BCombMen
+8/26/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Greensboro,X,X
 8/26/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:04:00 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:07:00 AM,RESTLESS ROAD,Growing Old With You,2022,R,c-,trio,men,white,Greensboro,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -5567,7 +5567,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:52:00 PM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:56:00 PM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Greensboro,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:58:00 PM,"TENPENNY, MITCHELL",Truth About You,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-9/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"BRICE, LEE",One Of Them Girls,2020,G,c-,solo,men,white,Greensboro,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,"BRICE, LEE",One Of Them Girls,2020,G,c-,solo,men,white,Greensboro,X,X
 9/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:05:00 AM,"BARRETT, GABBY",Pick Me Up,2021,C,c-,solo,women,white,Greensboro,X,X
 9/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:08:00 AM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Greensboro,X,X
 9/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -5951,7 +5951,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:49:00 PM,DAN + SHAY,Speechless,2018,G,c-,duo,men,multiethnic,Greensboro,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:55:00 PM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:57:00 PM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-10/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:01:00 AM,"YOUNG, CHRIS/BROWN, KANE",Famous Friends,2020,R,c-,collab,men,multiethnic,Greensboro,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:01:00 AM,"YOUNG, CHRIS/BROWN, KANE",Famous Friends,2020,R,c-,collab,men,multiethnic,Greensboro,X,X
 10/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:03:00 AM,"NICHOLS, JOE",Good Day For Living,2022,C,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:07:00 AM,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:10:00 AM,"TENPENNY, MITCHELL",Truth About You,2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -6331,7 +6331,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:50:00 PM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Greensboro,X,X
 10/28/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:54:00 PM,"SMITH, NATE",Whiskey On You,2022,C,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:57:00 PM,DAN + SHAY,Speechless,2018,G,c-,duo,men,multiethnic,Greensboro,B2Bmen,B2BCombMen
-11/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Greensboro,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:02:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Greensboro,X,X
 11/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:05:00 AM,"STAPLETON, CHRIS",Joy Of My Life,2020,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:08:00 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:12:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
@@ -6727,7 +6727,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:50:00 PM,"HUNT, SAM",Hard To Forget,2020,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:54:00 PM,"SMITH, NATE",Whiskey On You,2022,C,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Audacy/Entercom,WPAW-FM,11:57:00 PM,"COMBS, LUKE",Beer Never Broke My Heart,2019,G,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
-12/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"SMITH, NATE",Whiskey On You,2022,C,c-,solo,men,white,Greensboro,X,B2BCombMen
+12/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:00:00 AM,"SMITH, NATE",Whiskey On You,2022,C,c-,solo,men,white,Greensboro,X,X
 12/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:03:00 AM,"SCOTT, DYLAN",Nobody,2019,R,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:06:00 AM,"COOPER, KOLBY",Excuses,2021,C,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,Audacy/Entercom,WPAW-FM,12:09:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Greensboro,B2Bmen,B2BCombMen

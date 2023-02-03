@@ -343,7 +343,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/7/22,"Friday, Morris",EVE,Hubbard,WUBE-FM,11:46:00 PM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Cincinnati,X,X
 1/7/22,"Friday, Morris",EVE,Hubbard,WUBE-FM,11:55:00 PM,"PEARCE, CARLY",Every Little Thing,2016,G,c-,solo,women,white,Cincinnati,X,X
 1/7/22,"Friday, Morris",EVE,Hubbard,WUBE-FM,11:58:00 PM,"HUNT, SAM",Breaking Up Was Easy In The...,2020,R,c-,solo,men,white,Cincinnati,X,X
-1/24/22,"Monday, Block",OVN,Hubbard,WUBE-FM,12:02:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+1/24/22,"Monday, Block",OVN,Hubbard,WUBE-FM,12:02:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Cincinnati,X,X
 1/24/22,"Monday, Block",OVN,Hubbard,WUBE-FM,12:05:00 AM,ELI YOUNG BAND,Even If It Breaks Your Heart,2011,G,c-,group,men,white,Cincinnati,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",OVN,Hubbard,WUBE-FM,12:08:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,Cincinnati,X,X
 1/24/22,"Monday, Block",OVN,Hubbard,WUBE-FM,12:12:00 AM,"RAY, FRANK",Country'd Look Good On You,2021,R,c-,solo,men,hispanic,Cincinnati,X,X
@@ -675,7 +675,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Hubbard,WUBE-FM,11:45:00 PM,"WILSON, LAINEY",Things A Man Oughta Know,2019,R,c-,solo,women,white,Cincinnati,X,X
 1/24/22,"Monday, Block",EVE,Hubbard,WUBE-FM,11:48:00 PM,"DICKERSON, RUSSELL",Home Sweet,2020,R,c-,solo,men,white,Cincinnati,X,X
 1/24/22,"Monday, Block",EVE,Hubbard,WUBE-FM,11:58:00 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:01:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:01:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Cincinnati,X,X
 1/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:04:00 AM,"COMBS, LUKE",She Got The Best Of Me,2018,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:07:00 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Cincinnati,X,X
 1/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:11:00 AM,DAN + SHAY,Steal My Love,2021,R,c-,duo,men,multiethnic,Cincinnati,X,X
@@ -1012,7 +1012,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:44:00 PM,"KEITH, TOBY",Old School,2021,C,c-,solo,men,white,Cincinnati,X,X
 1/28/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:48:00 PM,"SWINDELL, COLE",Ain't Worth The Whiskey,2014,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:58:00 PM,"PARMALEE/BROWN, BLANCO",Just The Way,2019,R,c-,collab,men,multiethnic,Cincinnati,B2Bmen,B2BCombMen
-2/7/22,"Monday, Barrett",OVN,Hubbard,WUBE-FM,12:00:00 AM,"ALDEAN, JASON",Blame It On You,2019,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+2/7/22,"Monday, Barrett",OVN,Hubbard,WUBE-FM,12:00:00 AM,"ALDEAN, JASON",Blame It On You,2019,R,c-,solo,men,white,Cincinnati,X,X
 2/7/22,"Monday, Barrett",OVN,Hubbard,WUBE-FM,12:04:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,Hubbard,WUBE-FM,12:07:00 AM,DAN + SHAY,Speechless,2018,G,c-,duo,men,multiethnic,Cincinnati,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,Hubbard,WUBE-FM,12:11:00 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Cincinnati,X,X
@@ -1647,7 +1647,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:45:00 PM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Cincinnati,X,X
 2/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:48:00 PM,"KEITH, TOBY",Old School,2021,C,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:58:00 PM,"LAMBERT, MIRANDA",Mama's Broken Heart,2011,G,c-,solo,women,white,Cincinnati,X,X
-3/18/22,"Friday, Underwood",OVN,Hubbard,WUBE-FM,12:02:00 AM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Cincinnati,X,B2BCombWomen
+3/18/22,"Friday, Underwood",OVN,Hubbard,WUBE-FM,12:02:00 AM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Cincinnati,X,X
 3/18/22,"Friday, Underwood",OVN,Hubbard,WUBE-FM,12:06:00 AM,"HUNT, SAM",Body Like A Back Road,2017,G,c-,solo,men,white,Cincinnati,X,X
 3/18/22,"Friday, Underwood",OVN,Hubbard,WUBE-FM,12:09:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Hubbard,WUBE-FM,12:12:00 AM,"ERNEST/WALLEN, MORGAN",Flower Shops,2022,R,c-,collab,men,white,Cincinnati,B2Bmen,B2BCombMen
@@ -1965,7 +1965,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/18/22,"Friday, Underwood",EVE,Hubbard,WUBE-FM,11:44:00 PM,OLD DOMINION,One Man Band,2019,G,c-,group,men,white,Cincinnati,X,X
 3/18/22,"Friday, Underwood",EVE,Hubbard,WUBE-FM,11:47:00 PM,"MORRIS, MAREN",Circles Around This Town,2022,R,c-,solo,women,white,Cincinnati,X,X
 3/18/22,"Friday, Underwood",EVE,Hubbard,WUBE-FM,11:58:00 PM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Cincinnati,X,X
-3/25/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,Cincinnati,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,Cincinnati,X,X
 3/25/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Cincinnati,X,X
 3/25/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:07:00 AM,"LYNCH, DUSTIN",Small Town Boy,2017,G,c-,solo,men,white,Cincinnati,X,X
 3/25/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:11:00 AM,"SWINDELL, COLE/WILSON, LAINEY",Never Say Never,2021,R,c-,collab,male-female,white,Cincinnati,X,X
@@ -2290,7 +2290,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:45:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:55:00 PM,"RHETT, THOMAS",It Goes Like This,2013,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:58:00 PM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Cincinnati,B2Bmen,B2BCombMen
-4/8/22,"Friday, Ballerini",OVN,Hubbard,WUBE-FM,12:02:00 AM,"WALLEN, MORGAN",More Than My Hometown,2020,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+4/8/22,"Friday, Ballerini",OVN,Hubbard,WUBE-FM,12:02:00 AM,"WALLEN, MORGAN",More Than My Hometown,2020,R,c-,solo,men,white,Cincinnati,X,X
 4/8/22,"Friday, Ballerini",OVN,Hubbard,WUBE-FM,12:05:00 AM,"OWEN, JAKE",Barefoot Blue Jean Night,2011,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",OVN,Hubbard,WUBE-FM,12:08:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",OVN,Hubbard,WUBE-FM,12:11:00 AM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
@@ -2608,7 +2608,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/8/22,"Friday, Ballerini",EVE,Hubbard,WUBE-FM,11:46:00 PM,"HURD, RYAN/MORRIS, MAREN",Chasing After You,2021,R,c-,collab,male-female,white,Cincinnati,X,X
 4/8/22,"Friday, Ballerini",EVE,Hubbard,WUBE-FM,11:50:00 PM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Cincinnati,X,X
 4/8/22,"Friday, Ballerini",EVE,Hubbard,WUBE-FM,11:59:00 PM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
-4/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Cincinnati,X,B2BCombMen
+4/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Cincinnati,X,X
 4/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:06:00 AM,"HUNT, SAM",Make You Miss Me,2014,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:10:00 AM,"LAMBERT, MIRANDA",If I Was A Cowboy,2021,R,c-,solo,women,white,Cincinnati,X,X
 4/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:13:00 AM,ELI YOUNG BAND,Love Talking,2022,C,c-,group,men,white,Cincinnati,X,X
@@ -2929,7 +2929,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:44:00 PM,"OWEN, JAKE",Barefoot Blue Jean Night,2011,G,c-,solo,men,white,Cincinnati,X,X
 4/29/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:47:00 PM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:49:00 PM,"BRYAN, LUKE",Do I,2009,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,Hubbard,WUBE-FM,12:00:00 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Hubbard,WUBE-FM,12:00:00 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Cincinnati,X,X
 5/20/22,"Friday, Wilson",OVN,Hubbard,WUBE-FM,12:03:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Hubbard,WUBE-FM,12:07:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Hubbard,WUBE-FM,12:10:00 AM,"BALLERINI, KELSEA",Peter Pan,2015,G,c-,solo,women,white,Cincinnati,X,X
@@ -3252,7 +3252,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,Hubbard,WUBE-FM,11:46:00 PM,"UNDERWOOD, CARRIE",Ghost Story,2022,R,c-,solo,women,white,Cincinnati,X,X
 5/20/22,"Friday, Wilson",EVE,Hubbard,WUBE-FM,11:49:00 PM,LOVE AND THEFT,Angel Eyes,2011,G,c-,duo,men,white,Cincinnati,X,X
 5/20/22,"Friday, Wilson",EVE,Hubbard,WUBE-FM,11:59:00 PM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Cincinnati,B2Bmen,B2BCombMen
-5/27/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Cincinnati,X,X
 5/27/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:06:00 AM,"BRYAN, LUKE",Country Girl (Shake It For Me),2011,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:10:00 AM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Cincinnati,X,X
 5/27/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:12:00 AM,"BROWN, KANE",Like I Love Country Music,2022,R,c-,solo,men,multiethnic,Cincinnati,X,X
@@ -3581,7 +3581,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/27/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:46:00 PM,ELI YOUNG BAND,Love Talking,2022,C,c-,group,men,white,Cincinnati,X,X
 5/27/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:55:00 PM,"RHETT, THOMAS/MORRIS, MAREN",Craving You,2017,G,c-,collab,male-female,white,Cincinnati,X,X
 5/27/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:59:00 PM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,Cincinnati,X,X
-6/13/22,"Monday, Pearce",OVN,Hubbard,WUBE-FM,12:00:00 AM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Cincinnati,X,B2BCombMen
+6/13/22,"Monday, Pearce",OVN,Hubbard,WUBE-FM,12:00:00 AM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Cincinnati,X,X
 6/13/22,"Monday, Pearce",OVN,Hubbard,WUBE-FM,12:02:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,Hubbard,WUBE-FM,12:06:00 AM,"BRYAN, LUKE",Country Girl (Shake It For Me),2011,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,Hubbard,WUBE-FM,12:10:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
@@ -3910,7 +3910,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/13/22,"Monday, Pearce",EVE,Hubbard,WUBE-FM,11:47:00 PM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,Cincinnati,X,X
 6/13/22,"Monday, Pearce",EVE,Hubbard,WUBE-FM,11:50:00 PM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Cincinnati,X,X
 6/13/22,"Monday, Pearce",EVE,Hubbard,WUBE-FM,11:59:00 PM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
-6/24/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2021,R,c-,collab,men,multiethnic,Cincinnati,X,B2BCombMen
+6/24/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2021,R,c-,collab,men,multiethnic,Cincinnati,X,X
 6/24/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Cincinnati,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:06:00 AM,"WALLEN, MORGAN",Whiskey Glasses,2016,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:10:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
@@ -4241,7 +4241,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:45:00 PM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Cincinnati,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:48:00 PM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Cincinnati,X,X
 6/24/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:57:00 PM,"ATKINS, RODNEY",These Are My People,2006,G,c-,solo,men,white,Cincinnati,X,X
-7/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:02:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+7/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:02:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Cincinnati,X,X
 7/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:04:00 AM,LADY ANTEBELLUM,Need You Now,2009,G,c-,trio,male-female,white,Cincinnati,X,X
 7/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:08:00 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Cincinnati,X,X
 7/29/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:11:00 AM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Cincinnati,X,X
@@ -5211,7 +5211,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:47:00 PM,"BRICE, LEE",Soul,2020,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:56:00 PM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:59:00 PM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
-10/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Cincinnati,X,X
 10/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:03:00 AM,"BROWN, KANE/BROWN, KATELYN",Thank God,2022,C,c-,collab,male-female,multiethnic,Cincinnati,X,X
 10/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:06:00 AM,KID ROCK,All Summer Long,2007,G,c-,solo,men,white,Cincinnati,X,X
 10/28/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:09:00 AM,"DICKERSON, RUSSELL/SCOTT, JAKE",She Likes It,2021,R,c-,collab,men,white,Cincinnati,B2Bmen,B2BCombMen
@@ -5885,7 +5885,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:45:00 PM,"ALDEAN, JASON",Girl Like You,2018,G,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:48:00 PM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Cincinnati,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Hubbard,WUBE-FM,11:52:00 PM,ZAC BROWN BAND,Out In The Middle,2021,C,c-,group,men,white,Cincinnati,B2Bmen,B2BCombMen
-12/30/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Cincinnati,X,B2BCombMen
+12/30/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:00:00 AM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Cincinnati,X,X
 12/30/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:02:00 AM,"PEARCE, CARLY",What He Didn't Do,2021,C,c-,solo,women,white,Cincinnati,X,X
 12/30/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:05:00 AM,KID ROCK,All Summer Long,2007,G,c-,solo,men,white,Cincinnati,X,X
 12/30/22,"Friday, regular",OVN,Hubbard,WUBE-FM,12:09:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Cincinnati,B2Bmen,B2BCombMen

@@ -656,7 +656,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Cumulus,WFMS-FM,11:50:00 PM,ZAC BROWN BAND,Colder Weather,2010,G,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Cumulus,WFMS-FM,11:54:00 PM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Indianapolis,X,X
 1/24/22,"Monday, Block",EVE,Cumulus,WFMS-FM,11:57:00 PM,"BRYAN, LUKE",Knockin' Boots,2019,G,c-,solo,men,white,Indianapolis,X,X
-1/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Indianapolis,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Indianapolis,X,X
 1/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:03:00 AM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Indianapolis,X,X
 1/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:07:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Indianapolis,X,X
 1/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:17:00 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -1616,7 +1616,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:43:00 PM,"BARRETT, GABBY",I Hope,2019,G,c-,solo,women,white,Indianapolis,X,X
 2/25/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:53:00 PM,"UNDERWOOD, CARRIE",Church Bells,2015,G,c-,solo,women,white,Indianapolis,B2Bwomen,B2BCombWomen
 2/25/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:57:00 PM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Indianapolis,X,X
-3/18/22,"Friday, Underwood",OVN,Cumulus,WFMS-FM,12:00:00 AM,"SHELTON, BLAKE",Austin,2001,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+3/18/22,"Friday, Underwood",OVN,Cumulus,WFMS-FM,12:00:00 AM,"SHELTON, BLAKE",Austin,2001,G,c-,solo,men,white,Indianapolis,X,X
 3/18/22,"Friday, Underwood",OVN,Cumulus,WFMS-FM,12:03:00 AM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Cumulus,WFMS-FM,12:06:00 AM,"ARTS, TENILLE","Back Then, Right Now",2021,R,c-,solo,women,white,Indianapolis,X,X
 3/18/22,"Friday, Underwood",OVN,Cumulus,WFMS-FM,12:16:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Indianapolis,X,X
@@ -1939,7 +1939,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/18/22,"Friday, Underwood",EVE,Cumulus,WFMS-FM,11:52:00 PM,"CHESNEY, KENNY",All The Pretty Girls,2016,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,Cumulus,WFMS-FM,11:56:00 PM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,Cumulus,WFMS-FM,11:58:00 PM,"BENTLEY, DIERKS",Somewhere On A Beach,2016,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-3/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:34:00 AM,"YOUNG, BRETT",Lady,2020,R,c-,solo,men,white,Indianapolis,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:34:00 AM,"YOUNG, BRETT",Lady,2020,R,c-,solo,men,white,Indianapolis,X,X
 3/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:37:00 AM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:46:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:50:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -2594,7 +2594,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/8/22,"Friday, Ballerini",EVE,Cumulus,WFMS-FM,11:50:00 PM,"MCCOLLUM, PARKER",To Be Loved By You,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",EVE,Cumulus,WFMS-FM,11:53:00 PM,"JANSON, CHRIS",Fix A Drink,2017,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",EVE,Cumulus,WFMS-FM,11:56:00 PM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-4/29/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Indianapolis,X,B2BCombMen
+4/29/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Indianapolis,X,X
 4/29/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:03:00 AM,UNCLE KRACKER,Smile,2009,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:06:00 AM,"BRICE, LEE",Soul,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:15:00 AM,"MOORE, JUSTIN",Why We Drink,2019,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -2912,7 +2912,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:50:00 PM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2021,R,c-,collab,men,multiethnic,Indianapolis,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:53:00 PM,"DAVIS, JORDAN",Singles You Up,2017,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:56:00 PM,"DICKERSON, RUSSELL",Love You Like I Used To,2020,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,Cumulus,WFMS-FM,12:00:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Cumulus,WFMS-FM,12:00:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Indianapolis,X,X
 5/20/22,"Friday, Wilson",OVN,Cumulus,WFMS-FM,12:03:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Cumulus,WFMS-FM,12:06:00 AM,"LYNCH, DUSTIN",Party Mode,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Cumulus,WFMS-FM,12:16:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -4839,7 +4839,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:51:00 PM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:54:00 PM,"SWINDELL, COLE/WILSON, LAINEY",Never Say Never,2021,R,c-,collab,male-female,white,Indianapolis,X,X
 8/26/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:57:00 PM,"ALDEAN, JASON",She's Country,2008,G,c-,solo,men,white,Indianapolis,X,X
-9/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"BRYAN, LUKE",Do I,2009,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"BRYAN, LUKE",Do I,2009,G,c-,solo,men,white,Indianapolis,X,X
 9/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:04:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:08:00 AM,"NICHOLS, JOE",Good Day For Living,2022,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:18:00 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -5160,7 +5160,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:50:00 PM,"BRICE, LEE",Rumor,2017,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:53:00 PM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:56:00 PM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-10/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Indianapolis,X,X
 10/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:03:00 AM,"BARRETT, GABBY",Pick Me Up,2021,C,c-,solo,women,white,Indianapolis,X,X
 10/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:06:00 AM,"BALLERINI, KELSEA",Heartfirst,2022,C,c-,solo,women,white,Indianapolis,B2Bwomen,B2BCombWomen
 10/28/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:15:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Indianapolis,X,X
@@ -5490,7 +5490,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:51:00 PM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:54:00 PM,"SCOTT, DYLAN",My Girl,2016,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:57:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-11/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"ALLAN, GARY",Watching Airplanes,2007,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"ALLAN, GARY",Watching Airplanes,2007,G,c-,solo,men,white,Indianapolis,X,X
 11/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:04:00 AM,ZAC BROWN BAND,Out In The Middle,2021,C,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:06:00 AM,"WALLEN, MORGAN",Thought You Should Know,2022,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:17:00 AM,"BRYAN, LUKE",Country On,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -5828,7 +5828,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:52:00 PM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:56:00 PM,"ALDEAN, JASON",You Make It Easy,2018,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Cumulus,WFMS-FM,11:59:00 PM,"SWINDELL, COLE/WILSON, LAINEY",Never Say Never,2021,R,c-,collab,male-female,white,Indianapolis,X,X
-12/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"BARRETT, GABBY",I Hope,2019,G,c-,solo,women,white,Indianapolis,X,B2BCombWomen
+12/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:00:00 AM,"BARRETT, GABBY",I Hope,2019,G,c-,solo,women,white,Indianapolis,X,X
 12/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:03:00 AM,"COMBS, LUKE","Going, Going, Gone",2022,C,c-,solo,men,white,Indianapolis,X,X
 12/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:06:00 AM,"HOUSER, RANDY",Note To Self,2022,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,Cumulus,WFMS-FM,12:16:00 AM,"DAVIS, JORDAN",What My World Spins Around,2022,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen

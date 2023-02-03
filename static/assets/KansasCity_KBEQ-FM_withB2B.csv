@@ -670,7 +670,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Steel City,KBEQ-FM,11:52:00 PM,"ALDEAN, JASON",Tonight Looks Good On You,2014,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Steel City,KBEQ-FM,11:55:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2011,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Steel City,KBEQ-FM,11:58:00 PM,"PAISLEY, BRAD",She's Everything,2003,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,KansasCity,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,KansasCity,X,X
 1/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:06:00 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:09:00 AM,ZAC BROWN BAND,Out In The Middle,2010,G,c-,group,men,white,KansasCity,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:12:00 AM,"ALLEN, JIMMIE/PAISLEY, BRAD",Freedom Was A Highway,2020,R,c-,collab,men,multiethnic,KansasCity,B2Bmen,B2BCombMen
@@ -994,7 +994,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:51:00 PM,"CHESNEY, KENNY",All The Pretty Girls,2020,R,c-,solo,men,white,KansasCity,X,X
 1/28/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:55:00 PM,BROTHERS OSBORNE,I'm Not For Everyone,2020,C,c-,duo,men,white,KansasCity,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:57:00 PM,"BRYAN, LUKE",Rain Is A Good Thing,2013,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-2/7/22,"Monday, Barrett",OVN,Steel City,KBEQ-FM,12:03:00 AM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2018,C,c-,collab,men,multiethnic,KansasCity,X,B2BCombMen
+2/7/22,"Monday, Barrett",OVN,Steel City,KBEQ-FM,12:03:00 AM,"BENTLEY, DIERKS/BRELAND/HARDY",Beers On Me,2018,C,c-,collab,men,multiethnic,KansasCity,X,X
 2/7/22,"Monday, Barrett",OVN,Steel City,KBEQ-FM,12:06:00 AM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown ,2019,G,c-,collab,male-female,white,KansasCity,X,X
 2/7/22,"Monday, Barrett",OVN,Steel City,KBEQ-FM,12:10:00 AM,"SMITH, CONNER",Learn From It,2022,C,c-,solo,men,white,KansasCity,X,X
 2/7/22,"Monday, Barrett",OVN,Steel City,KBEQ-FM,12:13:00 AM,"BROWN, KANE",One Mississippi,2021,R,c-,solo,men,multiethnic,KansasCity,B2Bmen,B2BCombMen
@@ -1321,7 +1321,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/7/22,"Monday, Barrett",EVE,Steel City,KBEQ-FM,11:52:00 PM,HARDY,Give Heaven Some Hell,2020,R,c-,solo,men,white,KansasCity,X,X
 2/7/22,"Monday, Barrett",EVE,Steel City,KBEQ-FM,11:56:00 PM,"CURRINGTON, BILLY",Don't It,2015,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",EVE,Steel City,KBEQ-FM,11:59:00 PM,"COMBS, LUKE",Forever After All,2019,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-2/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:01:00 AM,"MOON, NIKO",Paradise To Me,2020,C,c-,solo,men,white,KansasCity,X,B2BCombMen
+2/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:01:00 AM,"MOON, NIKO",Paradise To Me,2020,C,c-,solo,men,white,KansasCity,X,X
 2/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:05:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,KansasCity,X,X
 2/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:08:00 AM,"RODGERS, JAMESON",Missing One,2020,R,c-,solo,men,white,KansasCity,X,X
 2/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:11:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -1605,7 +1605,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:52:00 PM,OLD DOMINION,No Such Thing As A Broken...,2021,R,c-,group,men,white,KansasCity,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:55:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:58:00 PM,"NIEMANN, JERROD",Drink To That All Night,2022,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-3/18/22,"Friday, Underwood",OVN,Steel City,KBEQ-FM,12:00:00 AM,"GRIFFIN, RYAN","Salt, Lime & Tequila",2022,C,c-,solo,men,white,KansasCity,X,B2BCombMen
+3/18/22,"Friday, Underwood",OVN,Steel City,KBEQ-FM,12:00:00 AM,"GRIFFIN, RYAN","Salt, Lime & Tequila",2022,C,c-,solo,men,white,KansasCity,X,X
 3/18/22,"Friday, Underwood",OVN,Steel City,KBEQ-FM,12:03:00 AM,"ERNEST/WALLEN, MORGAN",Flower Shops ,2022,R,c-,collab,men,white,KansasCity,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Steel City,KBEQ-FM,12:07:00 AM,"SMITH, CONNER",Learn From It,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Steel City,KBEQ-FM,12:10:00 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2022,C,c-,collab,women,white,KansasCity,X,X
@@ -1929,7 +1929,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/18/22,"Friday, Underwood",EVE,Steel City,KBEQ-FM,11:52:00 PM,"CHESNEY, KENNY",Til It's Gone,2014,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,Steel City,KBEQ-FM,11:55:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,KansasCity,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,Steel City,KBEQ-FM,11:58:00 PM,"ALDEAN, JASON",My Kinda Party,2010,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-3/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,KansasCity,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,KansasCity,X,X
 3/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:05:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,KansasCity,X,X
 3/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:08:00 AM,"SCOTT, DYLAN",New Truck,2016,G,c-,solo,men,white,KansasCity,X,X
 3/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:11:00 AM,"CHURCH, ERIC",Heart On Fire,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -2252,7 +2252,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/25/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:52:00 PM,"SMITH, GRANGER",Backroad Song,2022,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:56:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:59:00 PM,"UNDERWOOD, CARRIE",Good Girl,2022,R,c-,solo,women,white,KansasCity,X,X
-4/8/22,"Friday, Ballerini",OVN,Steel City,KBEQ-FM,12:03:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,KansasCity,X,B2BCombWomen
+4/8/22,"Friday, Ballerini",OVN,Steel City,KBEQ-FM,12:03:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,KansasCity,X,X
 4/8/22,"Friday, Ballerini",OVN,Steel City,KBEQ-FM,12:06:00 AM,"SMITH, CONNER",Learn From It,2021,R,c-,solo,men,white,KansasCity,X,X
 4/8/22,"Friday, Ballerini",OVN,Steel City,KBEQ-FM,12:09:00 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",OVN,Steel City,KBEQ-FM,12:12:00 AM,"ROBB, TEDDY",1500,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -2909,7 +2909,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:51:00 PM,"FULCHER, RAY",Anything Like You Dance,2016,G,c-,solo,men,white,KansasCity,X,X
 4/29/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:54:00 PM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:57:00 PM,"OWEN, JAKE",The One That Got Away,2018,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,Steel City,KBEQ-FM,12:00:00 AM,"CHESNEY, KENNY",Everyone She Knows,2022,C,c-,solo,men,white,KansasCity,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Steel City,KBEQ-FM,12:00:00 AM,"CHESNEY, KENNY",Everyone She Knows,2022,C,c-,solo,men,white,KansasCity,X,X
 5/20/22,"Friday, Wilson",OVN,Steel City,KBEQ-FM,12:04:00 AM,"ERNEST/WALLEN, MORGAN",Flower Shops ,2022,R,c-,collab,men,white,KansasCity,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Steel City,KBEQ-FM,12:07:00 AM,"HURD, RYAN",Pass It On,2022,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Steel City,KBEQ-FM,12:10:00 AM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -3241,7 +3241,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,Steel City,KBEQ-FM,11:52:00 PM,"ELDREDGE, BRETT",Love Someone,2017,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,Steel City,KBEQ-FM,11:55:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,KansasCity,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,Steel City,KBEQ-FM,11:57:00 PM,"CURRINGTON, BILLY",Good Directions,2014,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-5/27/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:00:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,KansasCity,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:00:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,KansasCity,X,X
 5/27/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:03:00 AM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:06:00 AM,"CORBIN, EASTON",I Can't Decide,2022,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:10:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -3911,7 +3911,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/13/22,"Monday, Pearce",EVE,Steel City,KBEQ-FM,11:52:00 PM,"CARMICHAEL, DILLON",Son Of A,2021,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,Steel City,KBEQ-FM,11:55:00 PM,"YOUNG, CHRIS",Aw Naw,2021,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,Steel City,KBEQ-FM,11:58:00 PM,"COMBS, LUKE",Even Though I'm Leaving,2019,G,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
-6/24/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,KansasCity,X,B2BCombMen
+6/24/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,KansasCity,X,X
 6/24/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:05:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:07:00 AM,LITTLE BIG TOWN,Hell Yeah,2014,G,c-,group,male-female,white,KansasCity,X,X
 6/24/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:10:00 AM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,KansasCity,X,X
@@ -4575,7 +4575,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 7/29/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:50:00 PM,FLORIDA GEORGIA LINE,Sun Daze,2014,G,c-,duo,men,white,KansasCity,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:53:00 PM,"CARMICHAEL, DILLON",Son Of A,2021,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:57:00 PM,"RUCKER, DARIUS",Wagon Wheel,2008,G,c-,solo,men,black,KansasCity,B2Bmen,B2BCombMen
-8/26/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:00:00 AM,"HUNT, SAM",Water Under The Bridge,2014,G,c-,solo,men,white,KansasCity,X,B2BCombMen
+8/26/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:00:00 AM,"HUNT, SAM",Water Under The Bridge,2014,G,c-,solo,men,white,KansasCity,X,X
 8/26/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:03:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:06:00 AM,"CORBIN, EASTON",I Can't Decide,2021,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:09:00 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -4900,7 +4900,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:42:00 PM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:45:00 PM,"STAPLETON, CHRIS",Joy Of My Life,2020,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:57:00 PM,"RODGERS, JAMESON/COMBS, LUKE",Cold Beer Calling…,2017,G,c-,collab,men,white,KansasCity,B2Bmen,B2BCombMen
-9/30/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"DAVIS, JORDAN",What My World Spins Around,2017,G,c-,solo,men,white,KansasCity,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:02:00 AM,"DAVIS, JORDAN",What My World Spins Around,2017,G,c-,solo,men,white,KansasCity,X,X
 9/30/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:06:00 AM,"DICKERSON, RUSSELL/FLORIDA GEORGIA LINE",She Likes It ,2021,R,c-,collab,men,white,KansasCity,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:08:00 AM,PARMALEE,Girl In Mine,2022,C,c-,group,men,white,KansasCity,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:11:00 AM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -5226,7 +5226,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:52:00 PM,"MOORE, JUSTIN",You Look Like I Need A Drink,2015,G,c-,solo,men,white,KansasCity,X,X
 9/30/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:55:00 PM,"STAPLETON, CHRIS",Joy Of My Life,2020,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:58:00 PM,FLORIDA GEORGIA LINE,Cruise,2022,C,c-,duo,men,white,KansasCity,B2Bmen,B2BCombMen
-10/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:00:00 AM,"CHURCH, ERIC",Doing Life With Me,2022,C,c-,solo,men,white,KansasCity,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:00:00 AM,"CHURCH, ERIC",Doing Life With Me,2022,C,c-,solo,men,white,KansasCity,X,X
 10/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:04:00 AM,"DICKERSON, RUSSELL/FLORIDA GEORGIA LINE",She Likes It ,2021,R,c-,collab,men,white,KansasCity,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:06:00 AM,"MORGAN, CRAIG",How You Make A Man,2022,C,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:10:00 AM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen
@@ -5568,7 +5568,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:53:00 PM,"LAMBERT, MIRANDA",Gunpowder & Lead,2007,G,c-,solo,women,white,KansasCity,B2Bwomen,B2BCombWomen
 10/28/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:56:00 PM,"PEARCE, CARLY/BRICE, LEE",I Hope You're Happy Now,2019,G,c-,solo,male-female,white,KansasCity,X,B2BCombWomen
 10/28/22,"Friday, regular",EVE,Steel City,KBEQ-FM,11:59:00 PM,"MCCOLLUM, PARKER",Handle On You,2019,C,c-,solo,men,white,KansasCity,X,X
-11/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:01:00 AM,"COOPER, KOLBY",Excuses,2022,C,c-,solo,men,white,KansasCity,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:01:00 AM,"COOPER, KOLBY",Excuses,2022,C,c-,solo,men,white,KansasCity,X,X
 11/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:04:00 AM,"ALLEN, JIMMIE",down home,2022,C,c-,solo,men,black,KansasCity,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:07:00 AM,"MIDLAND/PARDI, JON",Longneck Way To Go ,2021,C,c-,collab,men,white,KansasCity,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Steel City,KBEQ-FM,12:10:00 AM,"ZIMMERMAN, BAILEY",Fall In Love,2022,R,c-,solo,men,white,KansasCity,B2Bmen,B2BCombMen

@@ -339,7 +339,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/7/22,"Friday, Morris",EVE,Beasley,WQYK-FM,11:52:00 PM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Tampa,X,X
 1/7/22,"Friday, Morris",EVE,Beasley,WQYK-FM,11:55:00 PM,"JANSON, CHRIS",Bye Mom,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 1/7/22,"Friday, Morris",EVE,Beasley,WQYK-FM,11:59:00 PM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Tampa,B2Bmen,B2BCombMen
-1/24/22,"Monday, Block",OVN,Beasley,WQYK-FM,12:01:00 AM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Tampa,X,B2BCombMen
+1/24/22,"Monday, Block",OVN,Beasley,WQYK-FM,12:01:00 AM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Tampa,X,X
 1/24/22,"Monday, Block",OVN,Beasley,WQYK-FM,12:04:00 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",OVN,Beasley,WQYK-FM,12:07:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",OVN,Beasley,WQYK-FM,12:11:00 AM,"DICKERSON, RUSSELL",Yours,2015,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
@@ -689,7 +689,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Beasley,WQYK-FM,11:43:00 PM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Beasley,WQYK-FM,11:47:00 PM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,Tampa,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Beasley,WQYK-FM,11:58:00 PM,"MCCOLLUM, PARKER",To Be Loved By You,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:01:00 AM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Tampa,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:01:00 AM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Tampa,X,X
 1/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:04:00 AM,"BRICE, LEE",One Of Them Girls,2020,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:08:00 AM,"BROWN, KANE",One Mississippi,2021,R,c-,solo,men,multiethnic,Tampa,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:11:00 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
@@ -1033,7 +1033,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:50:00 PM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:54:00 PM,LADY ANTEBELLUM,Just A Kiss,2011,G,c-,trio,male-female,white,Tampa,X,X
 1/28/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:58:00 PM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Tampa,X,X
-2/7/22,"Monday, Barrett",OVN,Beasley,WQYK-FM,12:00:00 AM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,Tampa,X,B2BCombMen
+2/7/22,"Monday, Barrett",OVN,Beasley,WQYK-FM,12:00:00 AM,"RAY, MICHAEL",Whiskey And Rain,2020,R,c-,solo,men,white,Tampa,X,X
 2/7/22,"Monday, Barrett",OVN,Beasley,WQYK-FM,12:04:00 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,Beasley,WQYK-FM,12:07:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,Tampa,X,X
 2/7/22,"Monday, Barrett",OVN,Beasley,WQYK-FM,12:10:00 AM,"PARDI, JON",Dirt On My Boots,2016,G,c-,solo,men,white,Tampa,X,X
@@ -1705,7 +1705,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:51:00 PM,"BROWN, KANE",One Mississippi,2021,R,c-,solo,men,multiethnic,Tampa,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:55:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:58:00 PM,"BRICE, LEE",Memory I Don't Mess With,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
-3/18/22,"Friday, Underwood",OVN,Beasley,WQYK-FM,12:02:00 AM,DAN + SHAY,Tequila,2018,G,c-,duo,men,multiethnic,Tampa,X,B2BCombMen
+3/18/22,"Friday, Underwood",OVN,Beasley,WQYK-FM,12:02:00 AM,DAN + SHAY,Tequila,2018,G,c-,duo,men,multiethnic,Tampa,X,X
 3/18/22,"Friday, Underwood",OVN,Beasley,WQYK-FM,12:05:00 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Beasley,WQYK-FM,12:09:00 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Beasley,WQYK-FM,12:12:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
@@ -3044,7 +3044,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:52:00 PM,HARDY,Give Heaven Some Hell,2020,R,c-,solo,men,white,Tampa,X,X
 4/29/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:56:00 PM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Tampa,X,X
 4/29/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:59:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Tampa,X,X
-5/20/22,"Friday, Wilson",OVN,Beasley,WQYK-FM,12:01:00 AM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Tampa,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Beasley,WQYK-FM,12:01:00 AM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Tampa,X,X
 5/20/22,"Friday, Wilson",OVN,Beasley,WQYK-FM,12:04:00 AM,"ALLEN, JIMMIE/PAISLEY, BRAD",Freedom Was A Highway,2020,R,c-,collab,men,multiethnic,Tampa,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Beasley,WQYK-FM,12:07:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Beasley,WQYK-FM,12:11:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Tampa,B2Bmen,B2BCombMen
@@ -4060,7 +4060,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/13/22,"Monday, Pearce",EVE,Beasley,WQYK-FM,11:53:00 PM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,Beasley,WQYK-FM,11:56:00 PM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Tampa,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,Beasley,WQYK-FM,11:59:00 PM,"RHETT, THOMAS",T-Shirt,2015,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
-6/24/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:03:00 AM,FLORIDA GEORGIA LINE,Long Live,2020,R,c-,duo,men,white,Tampa,X,B2BCombMen
+6/24/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:03:00 AM,FLORIDA GEORGIA LINE,Long Live,2020,R,c-,duo,men,white,Tampa,X,X
 6/24/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:05:00 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:08:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:12:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
@@ -4405,7 +4405,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:49:00 PM,"MORRIS, MAREN",Circles Around This Town,2022,R,c-,solo,women,white,Tampa,X,X
 6/24/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:52:00 PM,"BARRETT, GABBY",I Hope,2019,G,c-,solo,women,white,Tampa,B2Bwomen,B2BCombWomen
 6/24/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:57:00 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Tampa,X,X
-7/29/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:03:00 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Tampa,X,B2BCombMen
+7/29/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:03:00 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Tampa,X,X
 7/29/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:06:00 AM,THOMPSON SQUARE,Are You Gonna Kiss Me Or Not,2010,G,c-,duo,male-female,white,Tampa,X,X
 7/29/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:10:00 AM,"TENPENNY, MITCHELL",Truth About You,2021,R,c-,solo,men,white,Tampa,X,X
 7/29/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:13:00 AM,"MOORE, JUSTIN",Why We Drink,2019,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
@@ -4758,7 +4758,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 7/29/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:53:00 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:56:00 PM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Tampa,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:59:00 PM,"ALDEAN, JASON",That's What Tequila Does,2021,C,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
-8/26/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:00:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,X,B2BCombMen
+8/26/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:00:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,X,X
 8/26/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:04:00 AM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:07:00 AM,"BARRETT, GABBY",Pick Me Up,2021,C,c-,solo,women,white,Tampa,X,X
 8/26/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:09:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Tampa,X,X
@@ -5097,7 +5097,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:52:00 PM,"RAY, FRANK",Country'd Look Good On You,2021,R,c-,solo,men,hispanic,Tampa,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:55:00 PM,"SHELTON, BLAKE",Honey Bee,2011,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:59:00 PM,"DAN + SHAY/BIEBER, JUSTIN","10,000 Hours",2019,G,c-,collab,men,multiethnic,Tampa,B2Bmen,B2BCombMen
-9/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:02:00 AM,"ALDEAN, JASON",That's What Tequila Does,2021,C,c-,solo,men,white,Tampa,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:02:00 AM,"ALDEAN, JASON",That's What Tequila Does,2021,C,c-,solo,men,white,Tampa,X,X
 9/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:05:00 AM,FLORIDA GEORGIA LINE,Get Your Shine On,2012,G,c-,duo,men,white,Tampa,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:09:00 AM,"LYNCH, DUSTIN",Party Mode,2022,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:12:00 AM,"YOUNG, CHRIS/BROWN, KANE",Famous Friends,2020,R,c-,collab,men,multiethnic,Tampa,B2Bmen,B2BCombMen
@@ -5433,7 +5433,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:50:00 PM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:53:00 PM,"MORRIS, MAREN",I Can't Love You Anymore,2022,C,c-,solo,women,white,Tampa,X,X
 9/30/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:56:00 PM,"COMBS, LUKE",One Number Away,2017,G,c-,solo,men,white,Tampa,X,X
-10/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:01:00 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Tampa,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:01:00 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Tampa,X,X
 10/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:04:00 AM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Tampa,X,X
 10/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:07:00 AM,"BARRETT, GABBY",Pick Me Up,2021,C,c-,solo,women,white,Tampa,X,B2BCombWomen
 10/28/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:09:00 AM,"CARMICHAEL, DILLON",Son Of A,2021,C,c-,solo,men,white,Tampa,X,X
@@ -5788,7 +5788,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:50:00 PM,"YOUNG, BRETT",You Didn't,2021,C,c-,solo,men,white,Tampa,X,X
 10/28/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:54:00 PM,"ALDEAN, JASON",Dirt Road Anthem,2010,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:58:00 PM,"RHETT, THOMAS/GREEN, RILEY",Half Of Me,2022,R,c-,collab,men,white,Tampa,B2Bmen,B2BCombMen
-11/25/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:01:00 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Tampa,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:01:00 AM,"DEAN, JACKSON",Don't Come Lookin',2021,R,c-,solo,men,white,Tampa,X,X
 11/25/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:04:00 AM,"RHETT, THOMAS/GREEN, RILEY",Half Of Me,2022,R,c-,collab,men,white,Tampa,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:07:00 AM,"BRICE, LEE",One Of Them Girls,2020,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:10:00 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
@@ -6161,7 +6161,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:50:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:53:00 PM,"YOUNG, BRETT",You Didn't,2021,C,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Beasley,WQYK-FM,11:57:00 PM,"COMBS, LUKE",Lovin' On You,2019,G,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen
-12/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:03:00 AM,"HUNT, SAM",Body Like A Back Road,2017,G,c-,solo,men,white,Tampa,X,B2BCombMen
+12/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:03:00 AM,"HUNT, SAM",Body Like A Back Road,2017,G,c-,solo,men,white,Tampa,X,X
 12/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:06:00 AM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Tampa,X,X
 12/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:09:00 AM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Tampa,X,X
 12/30/22,"Friday, regular",OVN,Beasley,WQYK-FM,12:11:00 AM,"KENT, COREY",Wild As Her,2022,C,c-,solo,men,white,Tampa,B2Bmen,B2BCombMen

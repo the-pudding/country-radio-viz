@@ -383,7 +383,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/7/22,"Friday, Morris",EVE,Emmis,WLHK-FM,11:52:00 PM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half Of My Hometown,2020,R,c-,collab,male-female,white,Indianapolis,X,X
 1/7/22,"Friday, Morris",EVE,Emmis,WLHK-FM,11:56:00 PM,"COMBS, LUKE",Lovin' On You,2019,G,c-,solo,men,white,Indianapolis,X,X
 1/7/22,"Friday, Morris",EVE,Emmis,WLHK-FM,11:59:00 PM,"LYNCH, DUSTIN",Good Girl,2018,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-1/24/22,"Monday, Block",OVN,Emmis,WLHK-FM,12:00:00 AM,"DICKERSON, RUSSELL",Love You Like I Used To,2020,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+1/24/22,"Monday, Block",OVN,Emmis,WLHK-FM,12:00:00 AM,"DICKERSON, RUSSELL",Love You Like I Used To,2020,G,c-,solo,men,white,Indianapolis,X,X
 1/24/22,"Monday, Block",OVN,Emmis,WLHK-FM,12:03:00 AM,"UNDERWOOD, CARRIE",Before He Cheats,2005,G,c-,solo,women,white,Indianapolis,X,X
 1/24/22,"Monday, Block",OVN,Emmis,WLHK-FM,12:06:00 AM,"DAVIS, JORDAN/BRYAN, LUKE",Buy Dirt,2021,R,c-,collab,men,white,Indianapolis,X,X
 1/24/22,"Monday, Block",OVN,Emmis,WLHK-FM,12:09:00 AM,"WALLEN, MORGAN",More Than My Hometown,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -758,7 +758,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Emmis,WLHK-FM,11:50:00 PM,"RODGERS, JAMESON/COMBS, LUKE",Cold Beer Calling…,2020,R,c-,collab,men,white,Indianapolis,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Emmis,WLHK-FM,11:53:00 PM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Indianapolis,X,X
 1/24/22,"Monday, Block",EVE,Emmis,WLHK-FM,11:57:00 PM,"BRYAN, LUKE",Most People Are Good,2017,G,c-,solo,men,white,Indianapolis,X,X
-1/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,"DICKERSON, RUSSELL",Blue Tacoma,2016,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,"DICKERSON, RUSSELL",Blue Tacoma,2016,G,c-,solo,men,white,Indianapolis,X,X
 1/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:05:00 AM,"RICE, CHASE/FLORIDA GEORGIA LINE",Drinkin' Beer Talkin' God Amen,2020,R,c-,collab,men,white,Indianapolis,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:07:00 AM,"MORRIS, MAREN",The Bones,2019,G,c-,solo,women,white,Indianapolis,X,X
 1/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:11:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Indianapolis,X,X
@@ -1140,7 +1140,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:51:00 PM,"BRYAN, LUKE",Down To One,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:54:00 PM,"MCCOLLUM, PARKER",To Be Loved By You,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:58:00 PM,ELI YOUNG BAND,Even If It Breaks Your Heart,2011,G,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
-2/7/22,"Monday, Barrett",OVN,Emmis,WLHK-FM,12:07:00 AM,ELI YOUNG BAND,Even If It Breaks Your Heart,2011,G,c-,group,men,white,Indianapolis,X,B2BCombMen
+2/7/22,"Monday, Barrett",OVN,Emmis,WLHK-FM,12:07:00 AM,ELI YOUNG BAND,Even If It Breaks Your Heart,2011,G,c-,group,men,white,Indianapolis,X,X
 2/7/22,"Monday, Barrett",OVN,Emmis,WLHK-FM,12:10:00 AM,"SHELTON, BLAKE",Come Back As A Country Boy,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,Emmis,WLHK-FM,12:14:00 AM,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,Emmis,WLHK-FM,12:17:00 AM,"ARTS, TENILLE","Back Then, Right Now",2021,R,c-,solo,women,white,Indianapolis,X,X
@@ -1507,7 +1507,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/7/22,"Monday, Barrett",EVE,Emmis,WLHK-FM,11:50:00 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",EVE,Emmis,WLHK-FM,11:53:00 PM,"CHURCH, ERIC",Heart On Fire,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",EVE,Emmis,WLHK-FM,11:57:00 PM,ELI YOUNG BAND,Even If It Breaks Your Heart,2011,G,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
-2/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"GREEN, RILEY",There Was This Girl,2018,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+2/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"GREEN, RILEY",There Was This Girl,2018,G,c-,solo,men,white,Indianapolis,X,X
 2/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:04:00 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:07:00 AM,"HURD, RYAN/MORRIS, MAREN",Chasing After You,2021,R,c-,collab,male-female,white,Indianapolis,X,X
 2/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:11:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Indianapolis,X,X
@@ -1885,7 +1885,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:53:00 PM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Indianapolis,X,X
 2/25/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:56:00 PM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:59:00 PM,"MCCREERY, SCOTTY",In Between,2018,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-3/18/22,"Friday, Underwood",OVN,Emmis,WLHK-FM,12:02:00 AM,"WALLEN, MORGAN",Chasin' You,2018,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+3/18/22,"Friday, Underwood",OVN,Emmis,WLHK-FM,12:02:00 AM,"WALLEN, MORGAN",Chasin' You,2018,G,c-,solo,men,white,Indianapolis,X,X
 3/18/22,"Friday, Underwood",OVN,Emmis,WLHK-FM,12:05:00 AM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Emmis,WLHK-FM,12:08:00 AM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Indianapolis,X,X
 3/18/22,"Friday, Underwood",OVN,Emmis,WLHK-FM,12:11:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Indianapolis,X,X
@@ -2254,7 +2254,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/18/22,"Friday, Underwood",EVE,Emmis,WLHK-FM,11:52:00 PM,LADY ANTEBELLUM,Just A Kiss,2011,G,c-,trio,male-female,white,Indianapolis,X,X
 3/18/22,"Friday, Underwood",EVE,Emmis,WLHK-FM,11:56:00 PM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Indianapolis,X,X
 3/18/22,"Friday, Underwood",EVE,Emmis,WLHK-FM,11:59:00 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-3/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Indianapolis,X,X
 3/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:06:00 AM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:09:00 AM,"BRYAN, LUKE",Waves,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:13:00 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -3385,7 +3385,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:50:00 PM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Indianapolis,X,X
 4/29/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:54:00 PM,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Indianapolis,X,X
 4/29/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:57:00 PM,"JANSON, CHRIS",Good Vibes,2019,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,Emmis,WLHK-FM,12:01:00 AM,"HUNT, SAM",Leave The Night On,2014,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Emmis,WLHK-FM,12:01:00 AM,"HUNT, SAM",Leave The Night On,2014,G,c-,solo,men,white,Indianapolis,X,X
 5/20/22,"Friday, Wilson",OVN,Emmis,WLHK-FM,12:05:00 AM,"RODGERS, JAMESON/COMBS, LUKE",Cold Beer Calling…,2020,R,c-,collab,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Emmis,WLHK-FM,12:08:00 AM,"MORRIS, MAREN",The Bones,2019,G,c-,solo,women,white,Indianapolis,X,X
 5/20/22,"Friday, Wilson",OVN,Emmis,WLHK-FM,12:11:00 AM,"BROWN, KANE",Like I Love Country Music,2022,R,c-,solo,men,multiethnic,Indianapolis,X,X
@@ -3764,7 +3764,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,Emmis,WLHK-FM,11:50:00 PM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,Emmis,WLHK-FM,11:54:00 PM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,Emmis,WLHK-FM,11:57:00 PM,"COMBS, LUKE",Even Though I'm Leaving,2019,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-5/27/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,"CHESNEY, KENNY",Summertime,2005,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,"CHESNEY, KENNY",Summertime,2005,G,c-,solo,men,white,Indianapolis,X,X
 5/27/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:05:00 AM,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:09:00 AM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:11:00 AM,"BROWN, KANE",Like I Love Country Music,2022,R,c-,solo,men,multiethnic,Indianapolis,B2Bmen,B2BCombMen
@@ -4148,7 +4148,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/27/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:50:00 PM,"MURPHY, DAVID LEE",Dust On The Bottle,1995,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:53:00 PM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Indianapolis,X,X
 5/27/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:57:00 PM,"BRYAN, LUKE",Country Girl (Shake It For Me),2011,G,c-,solo,men,white,Indianapolis,X,X
-6/13/22,"Monday, Pearce",OVN,Emmis,WLHK-FM,12:01:00 AM,LONESTAR,Amazed,1999,G,c-,group,men,white,Indianapolis,X,B2BCombMen
+6/13/22,"Monday, Pearce",OVN,Emmis,WLHK-FM,12:01:00 AM,LONESTAR,Amazed,1999,G,c-,group,men,white,Indianapolis,X,X
 6/13/22,"Monday, Pearce",OVN,Emmis,WLHK-FM,12:05:00 AM,"COMBS, LUKE",Doin' This,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,Emmis,WLHK-FM,12:09:00 AM,"LYNCH, DUSTIN",Ridin' Roads,2019,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,Emmis,WLHK-FM,12:12:00 AM,"ERNEST/WALLEN, MORGAN",Flower Shops,2022,R,c-,collab,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -4520,7 +4520,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/13/22,"Monday, Pearce",EVE,Emmis,WLHK-FM,11:53:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Indianapolis,X,X
 6/13/22,"Monday, Pearce",EVE,Emmis,WLHK-FM,11:56:00 PM,"DAVIS, JORDAN",Take It From Me,2017,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,Emmis,WLHK-FM,11:59:00 PM,"DICKERSON, RUSSELL",Love You Like I Used To,2020,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-6/24/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"BRYAN, LUKE",Rain Is A Good Thing,2009,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+6/24/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"BRYAN, LUKE",Rain Is A Good Thing,2009,G,c-,solo,men,white,Indianapolis,X,X
 6/24/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:03:00 AM,"PARMALEE/BROWN, BLANCO",Just The Way,2019,R,c-,collab,men,multiethnic,Indianapolis,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:06:00 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:09:00 AM,"LYNCH, DUSTIN",Party Mode,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -4893,7 +4893,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:52:00 PM,"ERNEST/WALLEN, MORGAN",Flower Shops,2022,R,c-,collab,men,white,Indianapolis,X,X
 6/24/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:56:00 PM,ZAC BROWN BAND,Homegrown,2015,G,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:59:00 PM,LADY ANTEBELLUM,Just A Kiss,2011,G,c-,trio,male-female,white,Indianapolis,X,X
-7/29/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"ALAINA, LAUREN",Road Less Traveled,2015,G,c-,solo,women,white,Indianapolis,X,B2BCombWomen
+7/29/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"ALAINA, LAUREN",Road Less Traveled,2015,G,c-,solo,women,white,Indianapolis,X,X
 7/29/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:04:00 AM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Indianapolis,X,X
 7/29/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:07:00 AM,"BENTLEY, DIERKS",Gone,2020,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:10:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -5283,7 +5283,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 7/29/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:51:00 PM,RASCAL FLATTS,My Wish,2006,G,c-,trio,men,white,Indianapolis,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:55:00 PM,"RAY, FRANK",Country'd Look Good On You,2021,R,c-,solo,men,hispanic,Indianapolis,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:58:00 PM,"BRYAN, LUKE",Most People Are Good,2017,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-8/26/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:01:00 AM,"HOUSER, RANDY",How Country Feels,2012,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+8/26/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:01:00 AM,"HOUSER, RANDY",How Country Feels,2012,G,c-,solo,men,white,Indianapolis,X,X
 8/26/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:04:00 AM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:07:00 AM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:10:00 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
@@ -6064,7 +6064,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:52:00 PM,"ALDEAN, JASON",Burnin' It Down,2014,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:56:00 PM,"HOUSER, RANDY",How Country Feels,2012,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:59:00 PM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-10/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,DAN + SHAY,Tequila,2018,G,c-,duo,men,multiethnic,Indianapolis,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:02:00 AM,DAN + SHAY,Tequila,2018,G,c-,duo,men,multiethnic,Indianapolis,X,X
 10/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:05:00 AM,"RHETT, THOMAS/GREEN, RILEY",Half Of Me,2022,R,c-,collab,men,white,Indianapolis,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:08:00 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:11:00 AM,"PEARCE, CARLY",What He Didn't Do,2021,C,c-,solo,women,white,Indianapolis,X,X
@@ -6446,7 +6446,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:51:00 PM,"MCCOLLUM, PARKER",Handle On You,2022,C,c-,solo,men,white,Indianapolis,X,X
 10/28/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:54:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Indianapolis,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:57:00 PM,"COMBS, LUKE",Lovin' On You,2019,G,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
-11/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"RHETT, THOMAS",Die A Happy Man,2015,G,c-,solo,men,white,Indianapolis,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:00:00 AM,"RHETT, THOMAS",Die A Happy Man,2015,G,c-,solo,men,white,Indianapolis,X,X
 11/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:04:00 AM,"ANDRESS, INGRID/HUNT, SAM",Wishful Drinking,2021,R,c-,collab,male-female,white,Indianapolis,X,X
 11/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:07:00 AM,"WALLEN, MORGAN",You Proof,2022,R,c-,solo,men,white,Indianapolis,X,X
 11/25/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:10:00 AM,"WILSON, LAINEY",Heart Like A Truck,2022,C,c-,solo,women,white,Indianapolis,X,X
@@ -6825,7 +6825,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:49:00 PM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:53:00 PM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,Emmis,WLHK-FM,11:55:00 PM,RASCAL FLATTS,Life Is A Highway,2006,G,c-,trio,men,white,Indianapolis,B2Bmen,B2BCombMen
-12/30/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:01:00 AM,LOCASH,I Love This Life,2014,G,c-,duo,men,white,Indianapolis,X,B2BCombMen
+12/30/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:01:00 AM,LOCASH,I Love This Life,2014,G,c-,duo,men,white,Indianapolis,X,X
 12/30/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:04:00 AM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Indianapolis,X,X
 12/30/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:08:00 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Indianapolis,X,X
 12/30/22,"Friday, regular",OVN,Emmis,WLHK-FM,12:11:00 AM,"BENTLEY, DIERKS",Gold,2022,C,c-,solo,men,white,Indianapolis,B2Bmen,B2BCombMen

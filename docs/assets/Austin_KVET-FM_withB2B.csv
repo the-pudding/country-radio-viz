@@ -312,7 +312,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/7/22,"Friday, Morris",EVE,iHeartMedia,KVET-FM,11:50 PM,"PAISLEY, BRAD",Mud On The Tires,2003,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/7/22,"Friday, Morris",EVE,iHeartMedia,KVET-FM,11:53 PM,"KRAUSS, ALISON/UNION STATION",When You Say Nothing At All,1995,G,c-,group,male-female,white,Austin,X,X
 1/7/22,"Friday, Morris",EVE,iHeartMedia,KVET-FM,11:57 PM,MIDLAND,Drinkin' Problem,2016,G,c-,trio,men,white,Austin,X,X
-1/24/22,"Monday, Block",OVN,iHeartMedia,KVET-FM,12:03 AM,"BYRD, TRACY",Don't Take Her She's All I Got,1996,G,c-,solo,men,white,Austin,X,B2BCombMen
+1/24/22,"Monday, Block",OVN,iHeartMedia,KVET-FM,12:03 AM,"BYRD, TRACY",Don't Take Her She's All I Got,1996,G,c-,solo,men,white,Austin,X,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,KVET-FM,12:06 AM,"STRAIT, GEORGE",Blue Clear Sky,1996,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",OVN,iHeartMedia,KVET-FM,12:09 AM,"UNDERWOOD, CARRIE",Blown Away,2012,G,c-,solo,women,white,Austin,X,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,KVET-FM,12:13 AM,"KEITH, TOBY",Should've Been A Cowboy,1993,G,c-,solo,men,white,Austin,X,X
@@ -618,7 +618,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,iHeartMedia,KVET-FM,11:53 PM,"BROOKS, GARTH","Two Of A Kind, Working On ...",1991,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,iHeartMedia,KVET-FM,11:56 PM,"PARDI, JON",Heartache Medication,2019,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,iHeartMedia,KVET-FM,11:59 PM,"COMBS, LUKE",When It Rains It Pours,2017,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:00 AM,"JACKSON, ALAN",Pop A Top,1999,G,c-,solo,men,white,Austin,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:00 AM,"JACKSON, ALAN",Pop A Top,1999,G,c-,solo,men,white,Austin,X,X
 1/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:03 AM,"STRAIT, GEORGE","Love Without End, Amen",1990,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"BAND PERRY, THE",If I Die Young,2010,G,c-,trio,male-female,white,Austin,X,X
 1/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:10 AM,"MONTGOMERY, JOHN MICHAEL",Sold (The Grundy County ...),1995,G,c-,solo,men,white,Austin,X,X
@@ -917,7 +917,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:50 PM,"ALLAN, GARY",Watching Airplanes,2007,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:54 PM,"MCGRAW, TIM","I Like It, I Love It",1995,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:57 PM,"COMBS, LUKE",She Got The Best Of Me,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-2/7/22,"Monday, Barrett",OVN,iHeartMedia,KVET-FM,12:00 AM,"BROOKS, GARTH",Shameless,1991,G,c-,solo,men,white,Austin,X,B2BCombMen
+2/7/22,"Monday, Barrett",OVN,iHeartMedia,KVET-FM,12:00 AM,"BROOKS, GARTH",Shameless,1991,G,c-,solo,men,white,Austin,X,X
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,KVET-FM,12:05 AM,"PAISLEY, BRAD/ALABAMA",Old Alabama,2011,G,c-,collab,men,white,Austin,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,KVET-FM,12:08 AM,"STRAIT, GEORGE",Living And Living Well,2001,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,KVET-FM,12:12 AM,"CARTER, DEANA",Strawberry Wine,1996,G,c-,solo,women,white,Austin,X,X
@@ -1220,7 +1220,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/7/22,"Monday, Barrett",EVE,iHeartMedia,KVET-FM,11:51 PM,"UNDERWOOD, CARRIE",Before He Cheats,2005,G,c-,solo,women,white,Austin,X,X
 2/7/22,"Monday, Barrett",EVE,iHeartMedia,KVET-FM,11:54 PM,"CHESNUTT, MARK",It's A Little Too Late,1996,G,c-,solo,men,white,Austin,X,X
 2/7/22,"Monday, Barrett",EVE,iHeartMedia,KVET-FM,11:57 PM,"CHESNEY, KENNY",Get Along,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-2/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:00 AM,BROOKS & DUNN,My Next Broken Heart,1991,G,c-,duo,men,white,Austin,X,B2BCombMen
+2/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:00 AM,BROOKS & DUNN,My Next Broken Heart,1991,G,c-,duo,men,white,Austin,X,X
 2/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:03 AM,LADY ANTEBELLUM,Downtown,2013,G,c-,trio,male-female,white,Austin,X,X
 2/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"STRAIT, GEORGE",Troubadour,2008,G,c-,solo,men,white,Austin,X,X
 2/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:09 AM,"MESSINA, JO DEE",Lesson In Leavin',1998,G,c-,solo,women,white,Austin,X,X
@@ -1828,7 +1828,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/18/22,"Friday, Underwood",EVE,iHeartMedia,KVET-FM,11:42 PM,ALABAMA,Born Country,1991,G,c-,group,men,white,Austin,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,iHeartMedia,KVET-FM,11:53 PM,"NICHOLS, JOE",Gimmie That Girl,2009,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,iHeartMedia,KVET-FM,11:56 PM,BROOKS & DUNN,Neon Moon,1992,G,c-,duo,men,white,Austin,B2Bmen,B2BCombMen
-3/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,LITTLE TEXAS,Amy's Back In Austin,1994,G,c-,group,men,white,Austin,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,LITTLE TEXAS,Amy's Back In Austin,1994,G,c-,group,men,white,Austin,X,X
 3/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"UNDERWOOD, CARRIE",Blown Away,2012,G,c-,solo,women,white,Austin,X,X
 3/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:10 AM,"STRAIT, GEORGE",Blue Clear Sky,1996,G,c-,solo,men,white,Austin,X,X
 3/25/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:13 AM,"MONTGOMERY, JOHN MICHAEL",I Swear,1993,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
@@ -2440,7 +2440,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,KVET-FM,11:51 PM,ZAC BROWN BAND,Whatever It Is,2008,G,c-,group,men,white,Austin,X,X
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,KVET-FM,11:54 PM,"BYRD, TRACY",Watermelon Crawl,1994,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,KVET-FM,11:57 PM,"PARDI, JON",Heartache Medication,2019,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-4/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:01 AM,"TRITT, TRAVIS",Take It Easy,1993,G,c-,solo,men,white,Austin,X,B2BCombMen
+4/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:01 AM,"TRITT, TRAVIS",Take It Easy,1993,G,c-,solo,men,white,Austin,X,X
 4/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:05 AM,ZAC BROWN BAND,Colder Weather,2010,G,c-,group,men,white,Austin,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:09 AM,"STRAIT, GEORGE",Fool Hearted Memory,1982,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:12 AM,"CARPENTER, MARY CHAPIN",Down At The Twist And Shout,1990,G,c-,solo,women,white,Austin,X,X
@@ -2744,7 +2744,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:52 PM,"CURRINGTON, BILLY",Good Directions,2005,G,c-,solo,men,white,Austin,X,X
 4/29/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:56 PM,"JACKSON, ALAN",Livin' On Love,1994,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:59 PM,"COMBS, LUKE",She Got The Best Of Me,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,iHeartMedia,KVET-FM,12:01 AM,"BROOKS, GARTH",The Dance,1990,G,c-,solo,men,white,Austin,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,iHeartMedia,KVET-FM,12:01 AM,"BROOKS, GARTH",The Dance,1990,G,c-,solo,men,white,Austin,X,X
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,KVET-FM,12:05 AM,"ZAC BROWN BAND/BUFFETT, JIMMY",Knee Deep,2010,G,c-,collab,men,white,Austin,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,KVET-FM,12:08 AM,"STRAIT, GEORGE",Does Fort Worth Ever Cross ...,1984,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,KVET-FM,12:12 AM,"LAWRENCE, TRACY",I See It Now,1994,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
@@ -3050,7 +3050,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,KVET-FM,11:52 PM,"CHESNEY, KENNY",Summertime,2005,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,KVET-FM,11:56 PM,"ROBISON, CHARLIE",My Hometown,1998,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,KVET-FM,11:59 PM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-5/27/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:03 AM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Austin,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:03 AM,"STAPLETON, CHRIS",Broken Halos,2016,G,c-,solo,men,white,Austin,X,X
 5/27/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"STRAIT, GEORGE",The Cowboy Rides Away,1985,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:09 AM,"MONTGOMERY, JOHN MICHAEL",Sold (The Grundy County ...),1995,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:12 AM,"CHESNEY, KENNY",Get Along,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
@@ -3360,7 +3360,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/27/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:50 PM,"CHESNEY, KENNY/UNCLE KRACKER",When The Sun Goes Down,2004,G,c-,collab,men,white,Austin,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:53 PM,"BROOKS, GARTH",Ain't Going Down (Til The...),1993,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:58 PM,"COMBS, LUKE",She Got The Best Of Me,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-6/13/22,"Monday, Pearce",OVN,iHeartMedia,KVET-FM,12:00 AM,BROOKS & DUNN,Boot Scootin' Boogie,1992,G,c-,duo,men,white,Austin,X,B2BCombMen
+6/13/22,"Monday, Pearce",OVN,iHeartMedia,KVET-FM,12:00 AM,BROOKS & DUNN,Boot Scootin' Boogie,1992,G,c-,duo,men,white,Austin,X,X
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,KVET-FM,12:04 AM,"ALLAN, GARY",Every Storm (Runs Out Of Rain),2012,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,KVET-FM,12:07 AM,"STRAIT, GEORGE",The Best Day,1999,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,KVET-FM,12:11 AM,LONESTAR,What About Now,1999,G,c-,group,men,white,Austin,B2Bmen,B2BCombMen
@@ -3976,7 +3976,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:51 PM,DIAMOND RIO,Meet In The Middle,1991,G,c-,group,men,white,Austin,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:54 PM,"BAND PERRY, THE",If I Die Young,2010,G,c-,trio,male-female,white,Austin,X,X
 6/24/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:58 PM,"KEITH, TOBY",I Love This Bar,2003,G,c-,solo,men,white,Austin,X,X
-7/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:00 AM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Austin,X,B2BCombMen
+7/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:00 AM,"COMBS, LUKE",Forever After All,2020,R,c-,solo,men,white,Austin,X,X
 7/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:04 AM,"BRYAN, LUKE",Do I,2009,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:08 AM,MIDLAND,Drinkin' Problem,2016,G,c-,trio,men,white,Austin,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:12 AM,"STRAIT, GEORGE",Here For A Good Time,2011,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
@@ -4293,7 +4293,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 7/29/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:51 PM,"TWAIN, SHANIA",You're Still The One,1997,G,c-,solo,women,white,Austin,X,X
 7/29/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:54 PM,"COMBS, LUKE",When It Rains It Pours,2017,G,c-,solo,men,white,Austin,X,X
 7/29/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:58 PM,"KEITH, TOBY",He Ain't Worth Missing,1993,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-8/26/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,"ROGERS, RANDY BAND",Kiss Me In The Dark,2006,G,c-,group,men,white,Austin,X,B2BCombMen
+8/26/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,"ROGERS, RANDY BAND",Kiss Me In The Dark,2006,G,c-,group,men,white,Austin,X,X
 8/26/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"ZAC BROWN BAND/BUFFETT, JIMMY",Knee Deep,2010,G,c-,collab,men,white,Austin,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:09 AM,"STRAIT, GEORGE",Baby Blue,1988,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:13 AM,"YOAKAM, DWIGHT",A Thousand Miles From Nowhere,1993,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
@@ -4599,7 +4599,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:45 PM,"ALDEAN, JASON/KELLY CLARKSON",Don't You Wanna Stay,2010,G,c-,collab,male-female,white,Austin,X,X
 8/26/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:56 PM,ZAC BROWN BAND,Whatever It Is,2008,G,c-,group,men,white,Austin,X,X
 8/26/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:59 PM,"MONTGOMERY, JOHN MICHAEL",Sold (The Grundy County ...),1995,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-9/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,"DIFFIE, JOE",Prop Me Up Beside The...(If..),1993,G,c-,solo,men,white,Austin,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,"DIFFIE, JOE",Prop Me Up Beside The...(If..),1993,G,c-,solo,men,white,Austin,X,X
 9/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"STRAIT, GEORGE",Run,2001,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:10 AM,"CORBIN, EASTON",Baby Be My Love Song,2014,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:13 AM,"CURRINGTON, BILLY",Good Directions,2005,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
@@ -4903,7 +4903,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 9/30/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:49 PM,LITTLE TEXAS,God Blessed Texas,1993,G,c-,group,men,white,Austin,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:53 PM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:57 PM,"PAISLEY, BRAD",He Didn't Have To Be,2000,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
-10/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:03 AM,"BROOKS, GARTH","Two Of A Kind, Working On ...",1991,G,c-,solo,men,white,Austin,X,B2BCombMen
+10/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:03 AM,"BROOKS, GARTH","Two Of A Kind, Working On ...",1991,G,c-,solo,men,white,Austin,X,X
 10/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:05 AM,"STRAIT, GEORGE",Check Yes Or No,1995,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:08 AM,THOMPSON SQUARE,Are You Gonna Kiss Me Or Not,2010,G,c-,duo,male-female,white,Austin,X,X
 10/28/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:12 AM,"SHELTON, BLAKE",Ol' Red,2001,G,c-,solo,men,white,Austin,X,X
@@ -5528,7 +5528,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:52 PM,"MCCOLLUM, PARKER",To Be Loved By You,2020,R,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:56 PM,"SHELTON, BLAKE",Ol' Red,2001,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,iHeartMedia,KVET-FM,11:59 PM,RASCAL FLATTS,What Hurts The Most,2005,G,c-,trio,men,white,Austin,B2Bmen,B2BCombMen
-12/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,BROOKS & DUNN,Ain't Nothing 'Bout You,2001,G,c-,duo,men,white,Austin,X,B2BCombMen
+12/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:02 AM,BROOKS & DUNN,Ain't Nothing 'Bout You,2001,G,c-,duo,men,white,Austin,X,X
 12/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:06 AM,"STRAIT, GEORGE",Write This Down,1999,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:09 AM,"STELL, MATT",Prayed For You,2018,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,iHeartMedia,KVET-FM,12:13 AM,"PARNELL, LEE ROY",What Kind Of Fool Do You ...,1992,G,c-,solo,men,white,Austin,B2Bmen,B2BCombMen

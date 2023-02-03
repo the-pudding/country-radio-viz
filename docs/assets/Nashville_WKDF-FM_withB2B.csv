@@ -633,7 +633,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,Cumulus,WKDF-FM,11:48 PM,"ALDEAN, JASON",Blame It On You,2019,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Cumulus,WKDF-FM,11:52 PM,"CHURCH, ERIC",Heart On Fire,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 1/24/22,"Monday, Block",EVE,Cumulus,WKDF-FM,11:56 PM,"COMBS, LUKE",One Number Away,2017,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Nashville,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Nashville,X,X
 1/28/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:03 AM,"BALLERINI, KELSEA/CHESNEY, KENNY",Half of My Hometown,2020,R,c-,collab,male-female,white,Nashville,X,X
 1/28/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:07 AM,"JOHNSON, CODY",Til You Can't,2021,R,c-,solo,men,white,Nashville,X,X
 1/28/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:17 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
@@ -1562,7 +1562,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:50 PM,"ERNEST/WALLEN, MORGAN",Flower Shops,2022,R,c-,collab,men,white,Nashville,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:53 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:56 PM,ELI YOUNG BAND,Even If It Breaks Your Heart,2011,G,c-,group,men,white,Nashville,B2Bmen,B2BCombMen
-3/18/22,"Friday, Underwood",OVN,Cumulus,WKDF-FM,12:00 AM,"SHELTON, BLAKE",Austin,2001,G,c-,solo,men,white,Nashville,X,B2BCombMen
+3/18/22,"Friday, Underwood",OVN,Cumulus,WKDF-FM,12:00 AM,"SHELTON, BLAKE",Austin,2001,G,c-,solo,men,white,Nashville,X,X
 3/18/22,"Friday, Underwood",OVN,Cumulus,WKDF-FM,12:03 AM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",OVN,Cumulus,WKDF-FM,12:06 AM,"ARTS, TENILLE","Back Then, Right Now",2021,R,c-,solo,women,white,Nashville,X,X
 3/18/22,"Friday, Underwood",OVN,Cumulus,WKDF-FM,12:13 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Nashville,X,X
@@ -1871,7 +1871,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/18/22,"Friday, Underwood",EVE,Cumulus,WKDF-FM,11:50 PM,"YOUNG, BRETT",Lady,2020,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,Cumulus,WKDF-FM,11:53 PM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 3/18/22,"Friday, Underwood",EVE,Cumulus,WKDF-FM,11:56 PM,"BRYAN, LUKE",Most People Are Good,2017,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
-3/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"OWEN, JAKE",Made For You,2018,R,c-,solo,men,white,Nashville,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"OWEN, JAKE",Made For You,2018,R,c-,solo,men,white,Nashville,X,X
 3/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:03 AM,"URBAN, KEITH",Wild Hearts,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:06 AM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Nashville,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:12 AM,"BENTLEY, DIERKS",Black,2016,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
@@ -2492,7 +2492,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/8/22,"Friday, Ballerini",EVE,Cumulus,WKDF-FM,11:50 PM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",EVE,Cumulus,WKDF-FM,11:52 PM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",EVE,Cumulus,WKDF-FM,11:56 PM,BROTHERS OSBORNE,It Ain't My Fault,2016,G,c-,duo,men,white,Nashville,B2Bmen,B2BCombMen
-4/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Nashville,X,B2BCombMen
+4/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Nashville,X,X
 4/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:02 AM,UNCLE KRACKER,Smile,2009,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:06 AM,"BRICE, LEE",Soul,2020,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:11 AM,"HOUSER, RANDY",Note To Self,2022,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
@@ -2803,7 +2803,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:50 PM,"BRICE, LEE",Memory I Don't Mess With,2020,R,c-,solo,men,white,Nashville,X,X
 4/29/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:53 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:56 PM,"GILBERT, BRANTLEY",One Hell Of An Amen,2014,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,Cumulus,WKDF-FM,12:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Nashville,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,Cumulus,WKDF-FM,12:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Nashville,X,X
 5/20/22,"Friday, Wilson",OVN,Cumulus,WKDF-FM,12:02 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Cumulus,WKDF-FM,12:05 AM,"LYNCH, DUSTIN",Party Mode,2022,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",OVN,Cumulus,WKDF-FM,12:11 AM,"CORBIN, EASTON",I Can't Decide,2022,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
@@ -3117,7 +3117,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,Cumulus,WKDF-FM,11:50 PM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,Cumulus,WKDF-FM,11:53 PM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,Nashville,X,X
 5/20/22,"Friday, Wilson",EVE,Cumulus,WKDF-FM,11:56 PM,"URBAN, KEITH","John Cougar, John Deere...",2015,G,c-,solo,men,white,Nashville,X,X
-5/27/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"SCOTT, DYLAN",Hooked,2017,G,c-,solo,men,white,Nashville,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"SCOTT, DYLAN",Hooked,2017,G,c-,solo,men,white,Nashville,X,X
 5/27/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:02 AM,"YOUNG, CHRIS/TENPENNY, MITCHELL",At The End Of A Bar,2021,R,c-,collab,men,white,Nashville,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:05 AM,"UNDERWOOD, CARRIE",Ghost Story,2022,R,c-,solo,women,white,Nashville,X,X
 5/27/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:15 AM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Nashville,X,X
@@ -4067,7 +4067,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:49 PM,"SWINDELL, COLE",Single Saturday Night,2020,R,c-,solo,men,white,Nashville,X,X
 6/24/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:52 PM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:56 PM,"ALDEAN, JASON",She's Country,2008,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
-7/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Nashville,X,B2BCombMen
+7/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,FLORIDA GEORGIA LINE,This Is How We Roll,2013,G,c-,duo,men,white,Nashville,X,X
 7/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:03 AM,"DEAN, JACKSON",Don't Come Lookin',2021,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:06 AM,"BARRETT, GABBY",Pick Me Up,2021,C,c-,solo,women,white,Nashville,X,X
 7/29/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:16 AM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Nashville,X,X
@@ -4703,7 +4703,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:50 PM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:53 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:56 PM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
-9/30/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"BRYAN, LUKE",Do I,2009,G,c-,solo,men,white,Nashville,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"BRYAN, LUKE",Do I,2009,G,c-,solo,men,white,Nashville,X,X
 9/30/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:03 AM,JELLY ROLL,Son Of A Sinner,2021,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:07 AM,"NICHOLS, JOE",Good Day For Living,2022,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:17 AM,"SWINDELL, COLE",She Had Me At Heads Carolina,2022,R,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
@@ -5321,7 +5321,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:50 PM,"UNDERWOOD, CARRIE",Undo It,2009,G,c-,solo,women,white,Nashville,X,X
 10/28/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:53 PM,"DAVIS, JORDAN",What My World Spins Around,2022,C,c-,solo,men,white,Nashville,X,X
 10/28/22,"Friday, regular",EVE,Cumulus,WKDF-FM,11:56 PM,"GILBERT, BRANTLEY",One Hell Of An Amen,2014,G,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
-11/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"ALLAN, GARY",Watching Airplanes,2007,G,c-,solo,men,white,Nashville,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:00 AM,"ALLAN, GARY",Watching Airplanes,2007,G,c-,solo,men,white,Nashville,X,X
 11/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:03 AM,ZAC BROWN BAND,Out In The Middle,2021,C,c-,group,men,white,Nashville,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:06 AM,"WALLEN, MORGAN",Thought You Should Know,2022,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,Cumulus,WKDF-FM,12:17 AM,"BRYAN, LUKE",Country On,2022,C,c-,solo,men,white,Nashville,B2Bmen,B2BCombMen

@@ -334,7 +334,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/7/22,"Friday, Morris",EVE,iHeartMedia,WKKT-FM,11:51:00 PM,"BRYAN, LUKE",Down To One,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 1/7/22,"Friday, Morris",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 1/7/22,"Friday, Morris",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"ALDEAN, JASON",When She Says Baby,2012,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-1/24/22,"Monday, Block",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"ALDEAN, JASON",Crazy Town,2009,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+1/24/22,"Monday, Block",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"ALDEAN, JASON",Crazy Town,2009,G,c-,solo,men,white,Charlotte,X,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Charlotte,X,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,"SHELTON, BLAKE",God's Country,2019,G,c-,solo,men,white,Charlotte,X,X
 1/24/22,"Monday, Block",OVN,iHeartMedia,WKKT-FM,12:10:00 AM,HARDY,Give Heaven Some Hell,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -657,7 +657,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/24/22,"Monday, Block",EVE,iHeartMedia,WKKT-FM,11:51:00 PM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Charlotte,X,X
 1/24/22,"Monday, Block",EVE,iHeartMedia,WKKT-FM,11:54:00 PM,"DICKERSON, RUSSELL",Blue Tacoma,2016,G,c-,solo,men,white,Charlotte,X,X
 1/24/22,"Monday, Block",EVE,iHeartMedia,WKKT-FM,11:57:00 PM,"BRYAN, LUKE",Up,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-1/28/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+1/28/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 1/28/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"ALDEAN, JASON",Got What I Got,2019,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"MOON, NIKO",Good Time,2019,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 1/28/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"JANSON, CHRIS",Good Vibes,2019,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -972,7 +972,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 1/28/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"HURD, RYAN/MORRIS, MAREN",Chasing After You,2021,R,c-,collab,male-female,white,Charlotte,X,X
 1/28/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,"RHETT, THOMAS",What's Your Country Song,2020,R,c-,solo,men,white,Charlotte,X,X
 1/28/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"MCCOLLUM, PARKER",To Be Loved By You,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-2/7/22,"Monday, Barrett",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"HOUSER, RANDY",How Country Feels,2012,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+2/7/22,"Monday, Barrett",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"HOUSER, RANDY",How Country Feels,2012,G,c-,solo,men,white,Charlotte,X,X
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"LAMBERT, MIRANDA",If I Was A Cowboy,2021,R,c-,solo,women,white,Charlotte,X,X
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,"COMBS, LUKE",Cold As You,2020,R,c-,solo,men,white,Charlotte,X,X
 2/7/22,"Monday, Barrett",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"MCGRAW, TIM",7500 OBO,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -1288,7 +1288,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/7/22,"Monday, Barrett",EVE,iHeartMedia,WKKT-FM,11:43:00 PM,"ALLEN, JIMMIE/PAISLEY, BRAD",Freedom Was A Highway,2020,R,c-,collab,men,multiethnic,Charlotte,B2Bmen,B2BCombMen
 2/7/22,"Monday, Barrett",EVE,iHeartMedia,WKKT-FM,11:54:00 PM,"HURD, RYAN/MORRIS, MAREN",Chasing After You,2021,R,c-,collab,male-female,white,Charlotte,X,X
 2/7/22,"Monday, Barrett",EVE,iHeartMedia,WKKT-FM,11:57:00 PM,"BRYAN, LUKE",Down To One,2020,R,c-,solo,men,white,Charlotte,X,X
-2/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+2/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 2/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,"JANSON, CHRIS",Good Vibes,2019,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"HAYES, WALKER",Fancy Like,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -1617,7 +1617,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 2/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:50:00 PM,"DICKERSON, RUSSELL",Blue Tacoma,2016,G,c-,solo,men,white,Charlotte,X,X
 2/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:53:00 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 2/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:56:00 PM,"COMBS, LUKE",When It Rains It Pours,2017,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-3/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+3/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 3/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"BARRETT, GABBY",The Good Ones,2019,R,c-,solo,women,white,Charlotte,X,X
 3/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,"BRYAN, LUKE",Knockin' Boots,2019,G,c-,solo,men,white,Charlotte,X,X
 3/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:10:00 AM,"KING, ELLE/LAMBERT, MIRANDA",Drunk (And I Don't Wanna Go..),2021,R,c-,collab,women,white,Charlotte,X,X
@@ -1941,7 +1941,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,"COMBS, LUKE",She Got The Best Of Me,2018,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 3/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-3/28/22,"Friday, Underwood",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+3/28/22,"Friday, Underwood",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 3/28/22,"Friday, Underwood",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 3/28/22,"Friday, Underwood",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 3/28/22,"Friday, Underwood",OVN,iHeartMedia,WKKT-FM,12:10:00 AM,"COMBS, LUKE",Lovin' On You,2019,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -2248,7 +2248,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 3/28/22,"Friday, Underwood",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"RHETT, THOMAS",Sixteen,2017,G,c-,solo,men,white,Charlotte,X,X
 3/28/22,"Friday, Underwood",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,"BRYAN, LUKE",Up,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 3/28/22,"Friday, Underwood",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"GILBERT, BRANTLEY",Bottoms Up,2013,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-4/8/22,"Friday, Ballerini",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+4/8/22,"Friday, Ballerini",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 4/8/22,"Friday, Ballerini",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"PEARCE, CARLY/MCBRYDE, ASHLEY",Never Wanted To Be That Girl,2021,R,c-,collab,women,white,Charlotte,X,X
 4/8/22,"Friday, Ballerini",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,FLORIDA GEORGIA LINE,Long Live,2020,R,c-,duo,men,white,Charlotte,X,X
 4/8/22,"Friday, Ballerini",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -2571,7 +2571,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,WKKT-FM,11:53:00 PM,"BRYAN, LUKE","Sunrise, Sunburn, Sunset",2017,G,c-,solo,men,white,Charlotte,X,X
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,WKKT-FM,11:56:00 PM,PARMALEE,Take My Name,2021,R,c-,group,men,white,Charlotte,B2Bmen,B2BCombMen
 4/8/22,"Friday, Ballerini",EVE,iHeartMedia,WKKT-FM,11:59:00 PM,"RHETT, THOMAS",It Goes Like This,2013,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-4/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+4/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 4/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"CHESNEY, KENNY",I Go Back,2004,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,"STAPLETON, CHRIS",You Should Probably Leave,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:10:00 AM,"DAN + SHAY/BIEBER, JUSTIN","10,000 Hours",2019,G,c-,collab,men,multiethnic,Charlotte,B2Bmen,B2BCombMen
@@ -2891,7 +2891,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 4/29/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:51:00 PM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Charlotte,X,X
 4/29/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:54:00 PM,"COMBS, LUKE",Even Though I'm Leaving,2019,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 4/29/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-5/20/22,"Friday, Wilson",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+5/20/22,"Friday, Wilson",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"SWINDELL, COLE/WILSON, LAINEY",Never Say Never,2021,R,c-,collab,male-female,white,Charlotte,X,X
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"HUNT, SAM",23,2021,R,c-,solo,men,white,Charlotte,X,X
 5/20/22,"Friday, Wilson",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"MCCREERY, SCOTTY",Damn Strait,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -3218,7 +3218,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,WKKT-FM,11:50:00 PM,"YOUNG, CHRIS",Hangin' On,2017,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,WKKT-FM,11:53:00 PM,"RHETT, THOMAS",Slow Down Summer,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 5/20/22,"Friday, Wilson",EVE,iHeartMedia,WKKT-FM,11:57:00 PM,"CHURCH, ERIC",Drink In My Hand,2011,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-5/27/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+5/27/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 5/27/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"ELDREDGE, BRETT",Lose My Mind,2015,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"HAYES, WALKER",AA,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"SHELTON, BLAKE/STEFANI, GWEN",Nobody But You,2019,G,c-,collab,male-female,white,Charlotte,X,X
@@ -3538,7 +3538,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 5/27/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:50:00 PM,"LANE, CHRIS",I Don't Know About You,2018,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:54:00 PM,"CHESNEY, KENNY",Everyone She Knows,2020,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 5/27/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:57:00 PM,"COMBS, LUKE",Hurricane,2015,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-6/13/22,"Monday, Pearce",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"BRYAN, LUKE",I See You,2013,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+6/13/22,"Monday, Pearce",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"BRYAN, LUKE",I See You,2013,G,c-,solo,men,white,Charlotte,X,X
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"WALLEN, MORGAN",Wasted On You,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,ZAC BROWN BAND,Same Boat,2021,R,c-,group,men,white,Charlotte,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"LYNCH, DUSTIN",Party Mode,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -3859,7 +3859,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/13/22,"Monday, Pearce",EVE,iHeartMedia,WKKT-FM,11:49:00 PM,"WALLEN, MORGAN",Sand In My Boots,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"BENTLEY, DIERKS",Living,2018,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 6/13/22,"Monday, Pearce",EVE,iHeartMedia,WKKT-FM,11:56:00 PM,"MARLOWE, KAMERON",Giving You Up,2019,C,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-6/24/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+6/24/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 6/24/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"MOORE, KIP",Somethin' 'Bout A Truck,2011,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"SCOTT, DYLAN",New Truck,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"ALDEAN, JASON/UNDERWOOD, CARRIE",If I Didn't Love You,2021,R,c-,collab,male-female,white,Charlotte,X,X
@@ -4166,7 +4166,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 6/24/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,"RUCKER, DARIUS",If I Told You,2016,G,c-,solo,men,black,Charlotte,B2Bmen,B2BCombMen
 6/24/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-7/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+7/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 7/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"OWEN, JAKE",Best Thing Since Backroads,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"LYNCH, DUSTIN/PORTER, MACKENZIE",Thinking 'Bout You,2020,R,c-,collab,male-female,white,Charlotte,X,X
 7/29/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"COMBS, LUKE",The Kind Of Love We Make,2022,R,c-,solo,men,white,Charlotte,X,X
@@ -4489,7 +4489,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 7/29/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"ALDEAN, JASON",Girl Like You,2018,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 7/29/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"YOUNG, BRETT",Like I Loved You,2016,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-8/26/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+8/26/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 8/26/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"MOORE, JUSTIN",With A Woman You Love,2021,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"DAN + SHAY/BIEBER, JUSTIN","10,000 Hours",2019,G,c-,collab,men,multiethnic,Charlotte,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:08:00 AM,"ALLEN, JIMMIE",down home,2022,C,c-,solo,men,black,Charlotte,B2Bmen,B2BCombMen
@@ -4818,7 +4818,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 8/26/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:51:00 PM,"HUBBARD, TYLER",5 Foot 9,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:54:00 PM,"ALDEAN, JASON",Tattoos On This Town,2010,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 8/26/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"PARDI, JON",Last Night Lonely,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-9/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+9/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 9/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"CURRINGTON, BILLY",Good Directions,2005,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:07:00 AM,"HUNT, SAM",Water Under The Bridge,2022,C,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 9/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"ALDEAN, JASON",Trouble With A Heartbreak,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -5461,7 +5461,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 10/28/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:52:00 PM,"COMBS, LUKE",Beautiful Crazy,2017,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:55:00 PM,ZAC BROWN BAND,Out In The Middle,2021,C,c-,group,men,white,Charlotte,B2Bmen,B2BCombMen
 10/28/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:58:00 PM,"BRYAN, LUKE",I Don't Want This Night To End,2011,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-11/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+11/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 11/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"BENTLEY, DIERKS",Somewhere On A Beach,2016,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"ALLEN, JIMMIE",down home,2022,C,c-,solo,men,black,Charlotte,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:10:00 AM,"AUTRY, GENE",Here Comes Santa Claus,1948,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
@@ -5791,7 +5791,7 @@ date,weekday,dayparts,owner,station,time,artist,title,release,grc,genre,ensemble
 11/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:50:00 PM,"OWEN, JAKE",Anywhere With You,2011,G,c-,solo,men,white,Charlotte,X,X
 11/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:53:00 PM,"BRYAN, LUKE",Country On,2022,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 11/25/22,"Friday, regular",EVE,iHeartMedia,WKKT-FM,11:57:00 PM,"ADKINS, TRACE",You're Gonna Miss This,2007,G,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
-12/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,B2BCombMen
+12/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:01:00 AM,"JONES, GEORGE",Finally Friday,1993,G,c-,solo,men,white,Charlotte,X,X
 12/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:03:00 AM,"CHESNEY, KENNY/OLD DOMINION",Beer With My…,2022,C,c-,collab,men,white,Charlotte,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:06:00 AM,"SMITH, NATE",Whiskey On You,2022,C,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen
 12/30/22,"Friday, regular",OVN,iHeartMedia,WKKT-FM,12:09:00 AM,"MOON, NIKO",Good Time,2019,R,c-,solo,men,white,Charlotte,B2Bmen,B2BCombMen

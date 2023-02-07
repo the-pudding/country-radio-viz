@@ -18,7 +18,6 @@
 	$: isTop = legendPosition === "top";
 
 	function handleBtnClick(value) {
-		console.log("click", value)
 
 		if (value == "Gender Only") {
 			d3.selectAll(".song").attr("background", "#dfdfdf").style("background:hover", "#black")

@@ -135,6 +135,7 @@
         flex-direction: column;
         width: 100%;
         max-width: 2.5rem;
+        margin: 0 3px;
     }
 
     .song-block {

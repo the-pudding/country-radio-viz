@@ -12,7 +12,6 @@
 	];
 
 	let value;
-	$: console.log(value)
 </script>
 
 <div id="tooltip">

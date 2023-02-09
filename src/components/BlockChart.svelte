@@ -44,8 +44,12 @@
     }
 
     function handleMouseLeave() {
-        
         const tt = d3.select("#tooltip").style("opacity", 0);
+    }
+
+    function formatDate(date) {
+        const yearRemoved = date.split("/", 2).join("/");
+        return yearRemoved;
     }
 	
 </script>
@@ -72,7 +76,7 @@
     <div class="all">
         {#each groupedData as dateBlock}
             <div class="date-block">
-                <p class="date">{dateBlock[0]}</p>
+                <p class="date">{formatDate(dateBlock[0])}</p>
                 <div class="song-block">
                     {#each dateBlock[1] as song}
                         <div 
@@ -110,6 +114,7 @@
         font-family: var(--sans);
         font-size: var(--18px);
         font-weight: 700;
+        margin: 0 auto;
     }
 
     .details p:last-of-type {
@@ -119,32 +124,36 @@
 
     .all {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+
     }
 
     .date-block {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        width: 100%;
+        max-width: 2.5rem;
     }
 
     .song-block {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .date {
-        margin: 0 1rem 0 0;
+        margin: 0 0 0 0;
         font-family: var(--sans);
         padding: 0;
         font-size: var(--12px);
-        width: 5rem;
-        text-align: right;
+        text-align: center;
     }
 
     .song {
-        height: 1.5rem;
-        width: 2px;
-        margin: 0 1px 0 0;
+        height: 2px;
+        width: 100%;
+        margin: 0 0 1px 0;
     }
 
     .stats {

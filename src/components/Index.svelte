@@ -2,8 +2,18 @@
 	import { getContext } from "svelte";
 	import ButtonSet from "$components/helpers/ButtonSet.svelte";
 	import BlockChart from "$components/BlockChart.svelte";
+	import SXSWChart from "$components/SXSWChart.svelte";
 
 	const data = getContext("data");
+	const SXSWStations = ["KASE-FM", "KVET-FM"]
+	const chartVars = [
+		{var: "b2b_gender", title: "Back-to-back women-only songs"},
+		{var: "b2b_collabGender", title: "Back-to-back women + women/men collab songs"},
+		{var: "b2b_combinedGender", title: "Back-to-back women + all mixed-gender songs"},
+		{var: "b2b_race", title: "Back-to-back POC songs"},
+		{var: "b2b_raceGender", title: "Back-to-back women of color songs"},
+		{var: "b2b_lgbtq", title: "Back-to-back LGBTQ+ songs"}
+	];
 
 	const options = [
 		{ value: "B2B Gender" },
@@ -14,23 +24,36 @@
 	let value;
 </script>
 
-<div id="tooltip">
+<!-- <div id="tooltip">
 	<p id="tt-station">Station</p>
 	<p id="tt-date">Date</p>
 	<p id="tt-time">Time</p>
 	<p id="tt-artist">Artist</p>
 	<p id="tt-title">Title</p>
-</div>
+</div> -->
 
-<nav>
+<!-- <nav>
 	<ButtonSet legend={"Color songs by"} {options} bind:value />
-</nav>
-{#each data as stationName}
-	<BlockChart stationName={stationName} value={value}/>
+</nav> -->
+{#each SXSWStations as station}
+	<div class="SXSW-charts">
+		<h3>{station}</h3>
+		{#each chartVars as chart}
+			<SXSWChart variable={chart.var} title={chart.title} station={station} />
+		{/each}
+	</div>
 {/each}
+<!-- {#each data as stationName}
+	<BlockChart stationName={stationName} value={value}/>
+{/each} -->
 <!-- <Footer /> -->
 
 <style>
+	.SXSW-charts {
+		width: 100%;
+		max-width: 80rem;
+		margin: 0 auto;
+	}
 	#tooltip {
 		position: fixed;
 		top: 0;

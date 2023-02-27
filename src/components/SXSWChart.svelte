@@ -40,35 +40,106 @@
             return `song-${song.b2b_collabGender}`
         } else if (variable == "b2b_combinedGender") {
             return `song-${song.b2b_combinedGender}`
+        } else if (variable == "b2b_race") {
+            return `song-${song.b2b_race}`
+        } else if (variable == "b2b_raceGender") {
+            return `song-${song.b2b_raceGender}`
+        } else if (variable == "b2b_lgbtq") {
+            return `song-${song.b2b_lgbtq}`
         }
+    }
+
+    function handleMouseEnter(song) {
+        const tt = d3.select("#tooltip").style("opacity", 1);
+        const ttStation = d3.select("#tt-station");
+        const ttDate = d3.select("#tt-date");
+        const ttTime = d3.select("#tt-time");
+        const ttArtist = d3.select("#tt-artist");
+        const ttTitle = d3.select("#tt-title");
+
+
+        ttDate.text(song.date)
+        ttStation.text(song.station)
+        ttTime.text(song.time)
+        ttArtist.text(song.artist)
+        ttTitle.text(song.title)
+    }
+
+    function handleMouseLeave() {
+        const tt = d3.select("#tooltip").style("opacity", 0);
     }
 </script>
 
 <section id={variable}>
     <div class="chart">
         <div class="details">
-            <p>{title}</p>
+            <div class="title">
+                <p><strong>Austin</strong> {station}</p>
+                <p>{title}</p>
+            </div>
             <div class="stats">
                 {#if variable == "b2b_gender"}
-                    <p>Women B2B: {Math.round(stationSumData[0].b2bWomenSongs_PERCENT * 100)/100}%</p>
-                    <p>Men B2B: {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
-                    <p>Mixed-gender B2B: {Math.round(stationSumData[0].b2bMixedGenderSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Women B2B:</strong> {Math.round(stationSumData[0].b2bWomenSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Mixed-gender B2B:</strong> {Math.round(stationSumData[0].b2bMixedGenderSongs_PERCENT * 100)/100}%</p>
                 {:else if variable == "b2b_collabGender"}
-                    <p>Women + collab B2B: {Math.round(stationSumData[0].b2bCollabGenderSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Women + collab B2B:</strong> {Math.round(stationSumData[0].b2bCollabGenderSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
                 {:else if variable == "b2b_combinedGender"}
-                <p>Women + all mixed-gender B2B: {Math.round(stationSumData[0].b2bCombinedGenderSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Women + all mixed-gender B2B:</strong> {Math.round(stationSumData[0].b2bCombinedGenderSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                {:else if variable == "b2b_race"}
+                    <p><strong>POC B2B:</strong> {Math.round(stationSumData[0].b2bPOCSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>White B2B:</strong> XXX</p>
+                {:else if variable == "b2b_raceGender"}
+                    <p><strong>Women of color B2B:</strong> {Math.round(stationSumData[0].b2bPOCWomenSongs_PERCENT * 100)/100}%</p>
+                    <p><strong>White women B2B:</strong> XXX</p>
+                {:else if variable == "b2b_lgbtq"}
+                    <p><strong>LGBTQ B2B:</strong> {Math.round(stationSumData[0].b2bLGBTQSongs_PERCENT * 100)/100}%</p>
                 {/if}
             </div>
         </div>
         {#each groupedData as dateBlock}
             <div class="date-block">
                 <p class="date">{formatDate(dateBlock[0])}</p>
-                <div class="song-block">
+                <svg>
+                    <g class="song-block">
+                        {#each dateBlock[1] as song, i}
+                        <rect class:hover={song.hover}
+                            on:mouseenter={() => {
+                                (song.hover = true)
+                                handleMouseEnter(song)
+                                }
+                            }
+                            on:mouseleave={() => {
+                                (song.hover = false)
+                                handleMouseLeave()
+                                }
+                            } 
+                            class="song {setClass(variable, song)}"
+                            x="{i*3}"
+                            y="0"
+                            width="2"
+                            heigth="16"></rect>
+                    {/each} 
+                    </g>
+                </svg>
+                <!-- <div class="song-block">
                     {#each dateBlock[1] as song}
-                        <div 
+                        <div class:hover={song.hover}
+                            on:mouseenter={() => {
+                                (song.hover = true)
+                                handleMouseEnter(song)
+                                }
+                            }
+                            on:mouseleave={() => {
+                                (song.hover = false)
+                                handleMouseLeave()
+                                }
+                            } 
                             class="song {setClass(variable, song)}"></div>
                     {/each}
-                </div>
+                </div> -->
             </div>
         {/each}
     </div>
@@ -77,22 +148,46 @@
 <style>
     .chart {
         width: 100%;
+        border-top: 1px solid var(--color-gray-300);
+        padding: 1rem 0 0 0;
+        margin: 0 0 8rem 0;
     }
     .details {
         width: 100;
         display: flex;
         flex-direction: column;
+        font-family: var(--sans);
+    }
+    svg {
+        width : 100%;
+        height: 2rem;
+    }
+    rect {
+        fill: var(--color-gray-300);
+    }
+    .title {
+        display: flex;
+        flex-direction: row;
+        font-size: 24px;
+    }
+    .title p {
+        margin: 0 2rem 0 0;
+    }
+    .title p:last-of-type {
+        font-style: italic;
     }
     .stats {
         display: flex;
         flex-direction: row;
     }
-
+    .stats p {
+        margin: 1rem 2rem 1rem 0;
+    }
     .date-block {
         display: flex;
         flex-direction: row;
         width: 100%;
-        margin: 0 0 0.5rem 0;
+        margin: 0 0 0.25rem 0;
         align-items: center;
     }
     .date {
@@ -101,12 +196,12 @@
         padding: 0;
         font-size: var(--12px);
         text-align: right;
-        width: 4rem;
+        width: 2.5rem;
     }
     .song-block {
         display: flex; 
         flex-direction: row;
-        width: calc(100% - 4rem);
+        width: calc(100% - 2.5rem);
         justify-content: flex-start;
         flex-wrap: nowrap;
 
@@ -114,19 +209,26 @@
     .song {
         background-color: var(--color-gray-300);
         width: 2px;
-        height: 2rem;
+        height: 1.75rem;
         margin: 0 1px 0 0;
     }
 
-    .song-B2Bwomen, .song-B2BCollabWomen, .song-B2BCombinedWomen {
-        background: magenta;
+    .song:hover {
+        fill: black;
     }
 
-    .song-B2Bmen, .song-B2BCollabMen, .song-B2BCombinedMen {
+    .song-B2Bwomen, .song-B2BCollabWomen, .song-B2BCombWomen, .song-B2BPOC {
+        background: magenta;
+        fill: magenta;
+    }
+
+    .song-B2Bmen, .song-B2BCollabMen, .song-B2BCombMen, .song-B2Bwhite {
         background: #1fc3aa;
+        fill: #1fc3aa
     }
 
     .song-B2Bmixed {
         background: yellow;
+        fill: yellow;
     }
 </style>

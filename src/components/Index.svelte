@@ -24,20 +24,19 @@
 	let value;
 </script>
 
-<!-- <div id="tooltip">
+<div id="tooltip">
 	<p id="tt-station">Station</p>
 	<p id="tt-date">Date</p>
 	<p id="tt-time">Time</p>
 	<p id="tt-artist">Artist</p>
 	<p id="tt-title">Title</p>
-</div> -->
+</div>
 
 <!-- <nav>
 	<ButtonSet legend={"Color songs by"} {options} bind:value />
 </nav> -->
 {#each SXSWStations as station}
 	<div class="SXSW-charts">
-		<h3>{station}</h3>
 		{#each chartVars as chart}
 			<SXSWChart variable={chart.var} title={chart.title} station={station} />
 		{/each}
@@ -53,6 +52,7 @@
 		width: 100%;
 		max-width: 80rem;
 		margin: 0 auto;
+		padding: 2rem;
 	}
 	#tooltip {
 		position: fixed;

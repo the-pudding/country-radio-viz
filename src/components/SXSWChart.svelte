@@ -99,11 +99,12 @@
                 {/if}
             </div>
         </div>
-        {#each groupedData as dateBlock}
-            <div class="date-block">
-                <p class="date">{formatDate(dateBlock[0])}</p>
-                <svg>
-                    <g class="song-block">
+        <svg>
+        {#each groupedData as dateBlock, i}
+            <g class="date-block" transform="translate(0, {i*32})">
+                <g>
+                    <g class="date" transform="translate(35, 16)"><text text-anchor="end">{formatDate(dateBlock[0])}</text></g>
+                    <g class="song-block" transform="translate(40, 0)">
                         {#each dateBlock[1] as song, i}
                         <rect class:hover={song.hover}
                             on:mouseenter={() => {
@@ -123,7 +124,7 @@
                             heigth="16"></rect>
                     {/each} 
                     </g>
-                </svg>
+                </g>
                 <!-- <div class="song-block">
                     {#each dateBlock[1] as song}
                         <div class:hover={song.hover}
@@ -140,8 +141,9 @@
                             class="song {setClass(variable, song)}"></div>
                     {/each}
                 </div> -->
-            </div>
+            </g>
         {/each}
+        </svg>
     </div>
 </section>
 
@@ -160,7 +162,7 @@
     }
     svg {
         width : 100%;
-        height: 2rem;
+        height: 700px;
     }
     rect {
         fill: var(--color-gray-300);

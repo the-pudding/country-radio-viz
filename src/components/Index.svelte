@@ -64,6 +64,7 @@
 		font-family: var(--sans);
 		font-size: var(--14px);
 		max-width: 30rem;
+		z-index: 1000;
 	}
 
 	#tooltip p {

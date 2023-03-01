@@ -84,9 +84,10 @@
             </div>
             <div class="stats">
                 {#if variable == "b2b_gender"}
-                    <p><strong>Women B2B:</strong> {Math.round(stationSumData[0].b2bWomenSongs_PERCENT * 100)/100}%</p>
-                    <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
-                    <p><strong>Mixed-gender B2B:</strong> {Math.round(stationSumData[0].b2bMixedGenderSongs_PERCENT * 100)/100}%</p>
+                    <div class="highlight-block"></div><p><strong>Women B2B:</strong> {Math.round(stationSumData[0].b2bWomenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent-block"></div><p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent2-block"></div><p><strong>Mixed-gender B2B:</strong> {Math.round(stationSumData[0].b2bMixedGenderSongs_PERCENT * 100)/100}%</p>
+                    <div class="no-block"></div><p>Not a back-to-back song</p>
                 {:else if variable == "b2b_collabGender"}
                     <p><strong>Women + collab B2B:</strong> {Math.round(stationSumData[0].b2bCollabGenderSongs_PERCENT * 100)/100}%</p>
                     <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
@@ -141,14 +142,14 @@
                                 width="2"
                                 heigth="16">
                             </rect>
-                            <rect
+                            <!-- <rect
                                 class="song"
                                 x="{i*3}"
                                 y="0"
                                 width="2"
                                 heigth="16"
                                 fill="url(#img1)">
-                            </rect>
+                            </rect> -->
                         </g>
                     {/each} 
                     </g>
@@ -200,7 +201,7 @@
         height: 640px;
     }
     .song-X {
-        fill: var(--color-country-tan);
+        fill: var(--color-gray-300);
     }
     .title {
         display: flex;
@@ -216,9 +217,34 @@
     .stats {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
     .stats p {
         margin: 1rem 2rem 1rem 0;
+    }
+    .highlight-block {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 0.25rem 0 0;
+        background-color: var(--color-country-highlight)
+    }
+    .accent-block {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 0.25rem 0 0;
+        background-color: var(--color-country-accent)
+    }
+    .accent2-block {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 0.25rem 0 0;
+        background-color: var(--color-country-accent-2)
+    }
+    .no-block {
+        width: 1rem;
+        height: 1rem;
+        margin: 0 0.25rem 0 0;
+        background-color: var(--color-gray-300)
     }
     .date-block {
         display: flex;

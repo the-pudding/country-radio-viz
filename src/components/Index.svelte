@@ -7,12 +7,11 @@
 	const data = getContext("data");
 	const SXSWStations = ["KASE-FM", "KVET-FM"]
 	const chartVars = [
-		{var: "b2b_gender", title: "Back-to-back women-only songs"},
-		{var: "b2b_collabGender", title: "Back-to-back women + women/men collab songs"},
-		{var: "b2b_combinedGender", title: "Back-to-back women + all mixed-gender songs"},
-		{var: "b2b_race", title: "Back-to-back POC songs"},
-		{var: "b2b_raceGender", title: "Back-to-back women of color songs"},
-		{var: "b2b_lgbtq", title: "Back-to-back LGBTQ+ songs"}
+		{var: "b2b_gender", title: "Back-to-back (B2B) songs by women artists"},
+		{var: "b2b_collabGender", title: "Back-to-back (B2B) songs by women artists + women/men collaborations"},
+		{var: "b2b_combinedGender", title: "Back-to-back (B2B) songs by women artists + all mixed-gender artists"},
+		{var: "b2b_raceGender", title: "Back-to-back (B2B) songs by artists of color"},
+		{var: "b2b_lgbtq", title: "Back-to-back (B2B) songs by out LGBTQ+ artists"}
 	];
 
 	const options = [

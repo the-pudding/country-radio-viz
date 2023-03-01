@@ -44,7 +44,7 @@
         } else if (variable == "b2b_raceGender") {
             return `song-${song.b2b_raceGender}`
         } else if (variable == "b2b_lgbtq") {
-            return `song-${song.b2b_lgbtq}`
+            return `song-lgbtq-${song.b2b_lgbtq}`
         }
     }
 
@@ -84,24 +84,28 @@
             </div>
             <div class="stats">
                 {#if variable == "b2b_gender"}
-                    <div class="highlight-block"></div><p><strong>Women B2B:</strong> {Math.round(stationSumData[0].b2bWomenSongs_PERCENT * 100)/100}%</p>
-                    <div class="accent-block"></div><p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
-                    <div class="accent2-block"></div><p><strong>Mixed-gender B2B:</strong> {Math.round(stationSumData[0].b2bMixedGenderSongs_PERCENT * 100)/100}%</p>
-                    <div class="no-block"></div><p>Not a back-to-back song</p>
+                    <div class="highlight-block"></div><p><strong>Women:</strong> {Math.round(stationSumData[0].b2bWomenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent-block"></div><p><strong>Men:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent2-block"></div><p><strong>Mixed-gendered artists:</strong> {Math.round(stationSumData[0].b2bMixedGenderSongs_PERCENT * 100)/100}%</p>
+                    <div class="no-block"></div><p>Not B2B</p>
                 {:else if variable == "b2b_collabGender"}
-                    <p><strong>Women + collab B2B:</strong> {Math.round(stationSumData[0].b2bCollabGenderSongs_PERCENT * 100)/100}%</p>
-                    <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                    <div class="highlight-block"></div><p><strong>Women + mixed-gendered collabs:</strong> {Math.round(stationSumData[0].b2bCollabGenderSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent-block"></div><p><strong>Men:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent2-block"></div><p><strong>Mixed-gendered artists no collabs:</strong> {Math.round(stationSumData[0].b2bMixedNOCollabGenderSongs_PERCENT * 100)/100}%</p>
+                    <div class="no-block"></div><p>Not B2B</p>
                 {:else if variable == "b2b_combinedGender"}
-                    <p><strong>Women + all mixed-gender B2B:</strong> {Math.round(stationSumData[0].b2bCombinedGenderSongs_PERCENT * 100)/100}%</p>
-                    <p><strong>Men B2B:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
-                {:else if variable == "b2b_race"}
-                    <p><strong>POC B2B:</strong> {Math.round(stationSumData[0].b2bPOCSongs_PERCENT * 100)/100}%</p>
-                    <p><strong>White B2B:</strong> XXX</p>
+                    <div class="highlight-block"></div><p><strong>Women + all mixed-gendered artists:</strong> {Math.round(stationSumData[0].b2bCombinedGenderSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent-block"></div><p><strong>Men:</strong> {Math.round(stationSumData[0].b2bMenSongs_PERCENT * 100)/100}%</p>
+                    <div class="no-block"></div><p>Not B2B</p>
                 {:else if variable == "b2b_raceGender"}
-                    <p><strong>Women of color B2B:</strong> {Math.round(stationSumData[0].b2bPOCWomenSongs_PERCENT * 100)/100}%</p>
-                    <p><strong>White women B2B:</strong> XXX</p>
+                    <div class="highlight-block"></div><p><strong>Women artists of color:</strong> {Math.round(stationSumData[0].b2bPOCWomenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent2-block"></div><p><strong>Men artists of color: {Math.round(stationSumData[0].b2bPOCMenSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent3-block"></div><p><strong>Mixed-gendered artists of color: {Math.round(stationSumData[0].b2bPOCMixedSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent-block"></div><p><strong>White artists:</strong> XXX</p>
+                    <div class="no-block"></div><p>Not B2B</p>
                 {:else if variable == "b2b_lgbtq"}
-                    <p><strong>LGBTQ B2B:</strong> {Math.round(stationSumData[0].b2bLGBTQSongs_PERCENT * 100)/100}%</p>
+                    <div class="highlight-block"></div><p><strong>LGBTQ B2B:</strong> {Math.round(stationSumData[0].b2bLGBTQSongs_PERCENT * 100)/100}%</p>
+                    <div class="accent-block"></div><p><strong>Straight artists:</strong> XXX</p>
                 {/if}
             </div>
         </div>
@@ -284,12 +288,26 @@
         fill: var(--color-country-highlight);
     }
 
+    .song-B2BPOCMixed {
+        fill: blue;
+    }
+
     .song-B2Bmen, .song-B2BCollabMen, .song-B2BCombMen, .song-B2Bwhite {
         background: var(--color-country-accent);
         fill: var(--color-country-accent);
     }
 
-    .song-B2Bmixed {
+    .song-B2Bmixed, .song-B2BCollabMixed {
+        background: var(--color-country-accent-2);
+        fill: var(--color-country-accent-2);
+    }
+
+    .song-B2BwhiteMen, .song-B2BwhiteWomen, .song-B2BwhiteMixed, .song-lgbtq-FALSE {
+        background: var(--color-country-accent);
+        fill: var(--color-country-accent);
+    }
+
+    .song-B2BPOCMen {
         background: var(--color-country-accent-2);
         fill: var(--color-country-accent-2);
     }

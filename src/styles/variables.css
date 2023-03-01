@@ -29,6 +29,11 @@
   --color-green: #34a29e;
   --color-red: #ff533d;
   --color-yellow: #e5e338;
+  --color-country-highlight: rgb(255, 117, 3);
+  --color-country-accent: rgb(159, 193, 245);
+  --color-country-accent-2: yellow;
+  --color-country-tan: #e0d0c1;
+  --color-country-bg: #F6EFE9;
   --12px: 0.75rem;
   --14px: 0.875rem;
   --16px: 1rem;

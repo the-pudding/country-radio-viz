@@ -15,7 +15,6 @@
 
     let callLetters = station;
     let stationSumData = summaryData.filter(d => d.stationName == callLetters)
-    console.log(stationSumData)
 
     onMount(async () => {
         const response = await fetch(`./assets/Austin_${station}_withB2B.csv`);
@@ -68,6 +67,12 @@
     function handleMouseLeave() {
         const tt = d3.select("#tooltip").style("opacity", 0);
     }
+
+    function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1) + min); // The maximum is inclusive and the minimum is inclusive
+    }
 </script>
 
 <section id={variable}>
@@ -99,29 +104,52 @@
                 {/if}
             </div>
         </div>
+        <!-- <img src="./assets/images/letterpress-texture{getRandomIntInclusive(1, 3)}.png"> -->
         <svg>
+            <defs>
+                <pattern id="img1" patternUnits="userSpaceOnUse" width="20" height="20">
+                    <image href="./assets/images/letterpress-texture-small1.png" x="0" y="0" width="20" height="20" />
+                </pattern>
+                <pattern id="img2" patternUnits="userSpaceOnUse" width="20" height="20">
+                    <image href="./assets/images/letterpress-texture2.png" x="0" y="0" width="20" height="20" />
+                </pattern>
+                <pattern id="img3" patternUnits="userSpaceOnUse" width="20" height="20">
+                    <image href="./assets/images/letterpress-texture3.png" x="0" y="0" width="20" height="20" />
+                </pattern>
+            </defs>
         {#each groupedData as dateBlock, i}
             <g class="date-block" transform="translate(0, {i*32})">
                 <g>
                     <g class="date" transform="translate(35, 16)"><text text-anchor="end">{formatDate(dateBlock[0])}</text></g>
                     <g class="song-block" transform="translate(40, 0)">
                         {#each dateBlock[1] as song, i}
-                        <rect class:hover={song.hover}
-                            on:mouseenter={() => {
-                                (song.hover = true)
-                                handleMouseEnter(song)
+                        <g>
+                            <rect class:hover={song.hover}
+                                on:mouseenter={() => {
+                                    (song.hover = true)
+                                    handleMouseEnter(song)
+                                    }
                                 }
-                            }
-                            on:mouseleave={() => {
-                                (song.hover = false)
-                                handleMouseLeave()
-                                }
-                            } 
-                            class="song {setClass(variable, song)}"
-                            x="{i*3}"
-                            y="0"
-                            width="2"
-                            heigth="16"></rect>
+                                on:mouseleave={() => {
+                                    (song.hover = false)
+                                    handleMouseLeave()
+                                    }
+                                } 
+                                class="song {setClass(variable, song)}"
+                                x="{i*3}"
+                                y="0"
+                                width="2"
+                                heigth="16">
+                            </rect>
+                            <rect
+                                class="song"
+                                x="{i*3}"
+                                y="0"
+                                width="2"
+                                heigth="16"
+                                fill="url(#img1)">
+                            </rect>
+                        </g>
                     {/each} 
                     </g>
                 </g>
@@ -153,6 +181,13 @@
         border-top: 1px solid var(--color-gray-300);
         padding: 1rem 0 0 0;
         margin: 0 0 8rem 0;
+        position: relative;
+    }
+
+    .chart img {
+        position: absolute;
+        left: 2.5rem;
+        width: 100%;
     }
     .details {
         width: 100;
@@ -162,10 +197,10 @@
     }
     svg {
         width : 100%;
-        height: 700px;
+        height: 640px;
     }
-    rect {
-        fill: var(--color-gray-300);
+    .song-X {
+        fill: var(--color-country-tan);
     }
     .title {
         display: flex;
@@ -210,7 +245,6 @@
     }
     .song {
         background-color: var(--color-gray-300);
-        width: 2px;
         height: 1.75rem;
         margin: 0 1px 0 0;
     }
@@ -220,17 +254,17 @@
     }
 
     .song-B2Bwomen, .song-B2BCollabWomen, .song-B2BCombWomen, .song-B2BPOC {
-        background: magenta;
-        fill: magenta;
+        background: var(--color-country-highlight);
+        fill: var(--color-country-highlight);
     }
 
     .song-B2Bmen, .song-B2BCollabMen, .song-B2BCombMen, .song-B2Bwhite {
-        background: #1fc3aa;
-        fill: #1fc3aa
+        background: var(--color-country-accent);
+        fill: var(--color-country-accent);
     }
 
     .song-B2Bmixed {
-        background: yellow;
-        fill: yellow;
+        background: var(--color-country-accent-2);
+        fill: var(--color-country-accent-2);
     }
 </style>

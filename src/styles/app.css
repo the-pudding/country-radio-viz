@@ -66,6 +66,10 @@
 	}
 }
 
+body {
+	background: var(--color-country-bg);
+}
+
 h1 {
 	font-size: var(--48px, 48px);
 }

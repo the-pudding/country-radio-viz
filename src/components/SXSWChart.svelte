@@ -183,7 +183,7 @@
 <style>
     .chart {
         width: 100%;
-        border-top: 1px solid var(--color-gray-300);
+        border-top: 1px solid var(--color-gray-200);
         padding: 1rem 0 0 0;
         margin: 0 0 8rem 0;
         position: relative;
@@ -205,7 +205,7 @@
         height: 640px;
     }
     .song-X {
-        fill: var(--color-gray-300);
+        fill: var(--color-gray-200);
     }
     .title {
         display: flex;
@@ -248,7 +248,7 @@
         width: 1rem;
         height: 1rem;
         margin: 0 0.25rem 0 0;
-        background-color: var(--color-gray-300)
+        background-color: var(--color-gray-200)
     }
     .date-block {
         display: flex;
@@ -274,7 +274,7 @@
 
     }
     .song {
-        background-color: var(--color-gray-300);
+        background-color: var(--color-gray-200);
         height: 1.75rem;
         margin: 0 1px 0 0;
     }

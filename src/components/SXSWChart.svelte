@@ -146,14 +146,14 @@
                                 width="2"
                                 heigth="16">
                             </rect>
-                            <!-- <rect
+                            <rect
                                 class="song"
                                 x="{i*3}"
                                 y="0"
                                 width="2"
                                 heigth="16"
                                 fill="url(#img1)">
-                            </rect> -->
+                            </rect>
                         </g>
                     {/each} 
                     </g>
@@ -293,7 +293,7 @@
         fill: var(--color-country-accent);
     }
 
-    .song-B2Bmixed, .song-B2BCollabMixed, .song-B2BPOCMen {
+    .song-B2Bmixed, .song-B2BCollabMixed, .song-B2BPOCMen,.song-B2BPOCMen {
         background: var(--color-country-accent-2);
         fill: var(--color-country-accent-2);
     }

@@ -4,11 +4,16 @@
 	import BlockChart from "$components/BlockChart.svelte";
 	import SXSWChart from "$components/SXSWChart.svelte";
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
+	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
 	import Scrolly from "$components/helpers/Scrolly.svelte";
 
 	const data = getContext("data");
 	const copy = getContext("copy");
 	const startingStation = "SanAntonio_KCYY-FM";
+
+	const blockH = 3;
+	const spacingX = 2;
+	const spacingY = 1;
 	// const SXSWStations = ["KASE-FM", "KVET-FM"]
 	// const chartVars = [
 	// 	{var: "b2b_gender", title: "Back-to-back (B2B) songs by women artists"},
@@ -38,7 +43,8 @@
 <section id="scrolly">
 	<div class="sticky">
 		<h2>Scrolly <span>{value}</span></h2>
-		<SanAntoDivs startingStation={startingStation} value={value}/>
+		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 	</div>
 	<Scrolly bind:value>
 		{#each copy.prose as text, i}
@@ -69,6 +75,9 @@
 	.sticky {
 		position: sticky;
 		top: 0;
+	}
+	.sticky section {
+		position: absolute;
 	}
 	.step {
 		max-width: 500px;

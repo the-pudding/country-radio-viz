@@ -12,6 +12,9 @@
 
     export let startingStation;
     export let value;
+    export let blockH;
+    export let spacingX;
+    export let spacingY;
 
     onMount(async () => {
         const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
@@ -50,6 +53,12 @@
                 // .delay((d, i) => i * 50)
                 .duration(2000)
                 .style("opacity", 1);
+        } else if (value == 4) {
+            songBlocks = d3.selectAll(".song");
+            songBlocks.transition()
+                // .delay((d, i) => i * 50)
+                .duration(2000)
+                .style("opacity", 0);
         }
     }
 
@@ -62,9 +71,9 @@
     <div class="date-block">
         <p class="date">Jan. 7</p>
         <div class="song-block">
-            {#each firstDateData as song}
+            {#each firstDateData as song, i}
                 <div 
-                    class="song song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"></div>
+                    class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"></div>
             {/each}
         </div>
     </div>
@@ -77,6 +86,7 @@
     }
     .date-block {
         width: calc(100%/19);
+        padding-right: 2px;
     }
     .date {
         font-family: var(--sans);
@@ -92,7 +102,7 @@
         height: 2px;
         width: 100%;
         margin: 0 0 1px 0;
-        background-color: gray;
+        background-color: #c9c9c9;
         opacity: 0;
     }
     .song-B2Bwomen {
@@ -105,5 +115,10 @@
 
     .song-B2Bmixed {
         background-color: yellow;
+    }
+    .song-137 {
+        background: url("./assets/images/brooks-and-dunn.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
     }
 </style>

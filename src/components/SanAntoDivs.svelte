@@ -39,23 +39,29 @@
         if (value == 0) {
             songBlocks = d3.selectAll(".song").filter((d, i) => i == 137);
             songBlocks.transition()
-                .delay((d, i) => i * 25)
                 .duration(0)
-                .style("opacity", 1);
+                .style("left", `${w/2-100}px`)
+                .end()
+                .then(() => {
+                    songBlocks.transition()
+                        .delay(250)
+                        .duration(250)
+                        .style("bottom", "0px")
+                        .style("opacity", 1);
+                })
         } else if (value == 1) {
             const firstSong = d3.selectAll(".song").filter((d, i) => i == 137);
             firstSong.transition()
-                .duration(250)
+                .duration(500)
                 .style("height", "2px")
-                .style("background", "#917c73")
-                .style("border", "0px")
                 .end()
                 .then(() => {
                     firstSong.transition()
                     .delay(500)
                     .duration(250)
+                    .style("border", "0px")
+                    .style("background", "#917c73")
                     .style("transform", "translate(0px, 0px)")
-                    .style("position", "relative")
                     .style("width", "100%")
                     .style("left", "0px")
                     .style("top", "0px")
@@ -75,13 +81,11 @@
                 .style("opacity", 1)
                 .end()
                 .then(() => {
-                    // const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
-                    //     .transition()
-                    //     .duration(250)
-                    //     .style("height", "5px")
-                    //     .style("width", `${colW+10}px`)
-                    //     .style("position", "relative")
-                    //     .style("transform", "translate(-5px, 0)")
+                    const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
+                        .transition()
+                        .duration(250)
+                        .style("transform", "scale(1.25)")
+                        .style("height", "8px");
                 })
         } else if (value == 3) {
             songBlocks = d3.selectAll(".song");
@@ -89,13 +93,11 @@
                 // .delay((d, i) => i * 50)
                 .duration(2000)
                 .style("opacity", 1)
-            // const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
-            //     .transition()
-            //     .duration(250)
-            //     .style("height", "2px")
-            //     .style("width", "100%")
-            //     .style("position", "relative")
-            //     .style("transform", "translate(0, 0)")
+            const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
+                .transition()
+                .duration(250)
+                .style("transform", "scale(1)")
+                .style("height", "2px");
         } else if (value == 4) {
             songBlocks = d3.selectAll(".song");
             songBlocks.transition()
@@ -162,7 +164,7 @@
         opacity: 0;
     }
     .song-B2Bwomen {
-        background-color: var(--color-country-orange);
+        background-color: var(--color-country-blue);
     }
 
     .song-B2Bmen {
@@ -170,18 +172,18 @@
     }
 
     .song-B2Bmixed {
-        background-color: var(--color-country-blue);
+        background-color: var(--color-country-orange);
     }
     .song-137 {
         background: url("./assets/images/brooks-and-dunn-bw.jpg");
         background-size: cover;
         background-repeat: no-repeat;
-        position: absolute;
+        position: relative;
         height: 200px;
         width: 200px;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+        left: 0;
+        bottom: -2000px;
+        /* transform: translate(-50%, -50%); */
         border: 1px solid var(--color-country-tan);
         transition: all 0.5s;
     }

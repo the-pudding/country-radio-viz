@@ -51,7 +51,7 @@
 		{#each copy.prose as text, i}
 			{@const active = value === i}
 			<div class="step" class:active>
-				<p>{text.value}</p>
+				<p>{@html text.value}</p>
 			</div>
 		{/each}
 	</Scrolly>
@@ -97,12 +97,31 @@
 		line-height: 1.6;
 		font-family: var(--sans)
 	}
-	:global(.step p span) {
-		font-weight: 700;
-		font-family: sans-serif;
-		color: #10a2ee;
-	}
 	.spacer {
 		height: 75vh;
+	}
+
+	:global(.step .women-span) {
+		color: var(--color-white);
+		font-weight: 700;
+		background-color: var(--color-country-blue);
+		padding: 0.125rem 0.25rem;
+		white-space: nowrap;
+	}
+
+	:global(.step .men-span) {
+		color: var(--color-white);
+		font-weight: 700;
+		background-color: var(--color-country-brown);
+		padding: 0.125rem 0.25rem;
+		white-space: nowrap;
+	}
+
+	:global(.step .mixed-span) {
+		color: var(--color-white);
+		font-weight: 700;
+		background-color: var(--color-country-orange);
+		padding: 0.125rem 0.25rem;
+		white-space: nowrap;
 	}
 </style>

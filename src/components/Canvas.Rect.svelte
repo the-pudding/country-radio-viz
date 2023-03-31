@@ -9,8 +9,8 @@
 
     function setFill(fill) {
         if (fill == "B2Bmen") { return ("#917c73") }
-        else if (fill == "B2Bwomen") { return ("#fda922") }
-        else if (fill == "B2Bmixed") { return ("#5076e8") }
+        else if (fill == "B2Bwomen") { return ("#5076e8") }
+        else if (fill == "B2Bmixed") { return ("#fda922") }
         else { return ("#e1d4ca") }
     }
 	const { register, unregister } = getContext("canvas");

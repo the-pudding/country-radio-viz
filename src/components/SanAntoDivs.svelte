@@ -28,6 +28,13 @@
         }
     )
 
+    function formatDate(indivDate) {
+        const parseTime = d3.timeParse("%m/%e/%y")
+        const date = parseTime(indivDate)
+        const formatedDate = d3.timeFormat("%b %e")(date)
+        return formatedDate;
+    }
+
     function handleScroll(value) {
         if (value == 0) {
             songBlocks = d3.selectAll(".song").filter((d, i) => i == 137);
@@ -36,8 +43,27 @@
                 .duration(0)
                 .style("opacity", 1);
         } else if (value == 1) {
+            const firstSong = d3.selectAll(".song").filter((d, i) => i == 137);
+            firstSong.transition()
+                .duration(250)
+                .style("height", "2px")
+                .style("background", "#917c73")
+                .style("border", "0px")
+                .end()
+                .then(() => {
+                    firstSong.transition()
+                    .delay(500)
+                    .duration(250)
+                    .style("transform", "translate(0px, 0px)")
+                    .style("position", "relative")
+                    .style("width", "100%")
+                    .style("left", "0px")
+                    .style("top", "0px")
+                })
             songBlocks = d3.selectAll(".song").filter((d, i) => i >= 137 && i <= 184);
             songBlocks.transition()
+                .delay(1000)
+                .transition()
                 .delay((d, i) => i * 25)
                 .duration(0)
                 .style("opacity", 1);
@@ -46,19 +72,40 @@
             songBlocks.transition()
                 .delay((d, i) => i * 25)
                 .duration(0)
-                .style("opacity", 1);
+                .style("opacity", 1)
+                .end()
+                .then(() => {
+                    // const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
+                    //     .transition()
+                    //     .duration(250)
+                    //     .style("height", "5px")
+                    //     .style("width", `${colW+10}px`)
+                    //     .style("position", "relative")
+                    //     .style("transform", "translate(-5px, 0)")
+                })
         } else if (value == 3) {
             songBlocks = d3.selectAll(".song");
             songBlocks.transition()
                 // .delay((d, i) => i * 50)
                 .duration(2000)
-                .style("opacity", 1);
+                .style("opacity", 1)
+            // const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
+            //     .transition()
+            //     .duration(250)
+            //     .style("height", "2px")
+            //     .style("width", "100%")
+            //     .style("position", "relative")
+            //     .style("transform", "translate(0, 0)")
         } else if (value == 4) {
             songBlocks = d3.selectAll(".song");
             songBlocks.transition()
-                // .delay((d, i) => i * 50)
                 .duration(2000)
                 .style("opacity", 0);
+            const dates = d3.selectAll(".date")
+                .transition()
+                .delay((d, i) => i * 50)
+                .duration(2000)
+                .style("opacity", 1);
         }
     }
 
@@ -68,21 +115,27 @@
 <svelte:window bind:innerWidth={w}/>
 
 <section class="chart_Divs">
+    {#each groupedData as indivDate, i}
     <div class="date-block">
-        <p class="date">Jan. 7</p>
+        <p class="date">{formatDate(indivDate[0])}</p>
+        {#if i == 0}
         <div class="song-block">
             {#each firstDateData as song, i}
                 <div 
                     class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"></div>
             {/each}
         </div>
+        {/if}
     </div>
+    {/each}
 </section>
 
 <style>
     .chart_Divs {
         width: 100%;
         padding: 1rem;
+        display: flex;
+        flex-direction: row;
     }
     .date-block {
         width: calc(100%/19);
@@ -92,7 +145,10 @@
         font-family: var(--sans);
         text-align: center;
         line-height: 1.25;
+        color: var(--color-country-text);
         margin: 0;
+        opacity: 0;
+        font-size: var(--14px);
     }
     .song-block {
         display: flex;
@@ -102,23 +158,37 @@
         height: 2px;
         width: 100%;
         margin: 0 0 1px 0;
-        background-color: #c9c9c9;
+        background-color: var(--color-country-tan);
         opacity: 0;
     }
     .song-B2Bwomen {
-        background-color: magenta;
+        background-color: var(--color-country-orange);
     }
 
     .song-B2Bmen {
-        background-color: #1fc3aa;
+        background-color: var(--color-country-brown);
     }
 
     .song-B2Bmixed {
-        background-color: yellow;
+        background-color: var(--color-country-blue);
     }
     .song-137 {
-        background: url("./assets/images/brooks-and-dunn.jpg");
+        background: url("./assets/images/brooks-and-dunn-bw.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        position: absolute;
+        height: 200px;
+        width: 200px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px solid var(--color-country-tan);
+        transition: all 0.5s;
+    }
+    .first-song {
+        background: var(--color-country-brown);
+        width: 100%;
+        height: 2px;
+        position: relative;
     }
 </style>

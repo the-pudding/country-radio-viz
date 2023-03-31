@@ -29,9 +29,12 @@
   --color-green: #34a29e;
   --color-red: #ff533d;
   --color-yellow: #e5e338;
-  --color-country-highlight: #c955f7;
-  --color-country-accent: #a8a8a8;
-  --color-country-accent-2: #fdd50c;
+  --color-country-bg: #F6EFE9;
+  --color-country-text: #2d2724;
+  --color-country-orange: #fda922;
+  --color-country-brown: #917c73;
+  --color-country-blue: #5076e8;
+  --color-country-tan: #e1d4ca;
   --12px: 0.75rem;
   --14px: 0.875rem;
   --16px: 1rem;

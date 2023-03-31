@@ -11,6 +11,7 @@
     let firstDateData = [];
     let groupedData = [];
     let colW;
+    let padding = 32;
     let visible = false;
 
     export let startingStation;
@@ -27,9 +28,7 @@
         groupedData = d3.groups(data, d => d.date);
         firstDateData = groupedData[0];
         firstDateData = firstDateData[1]
-        colW = innerWidth/19;
-
-        console.log(innerWidth, innerHeight)
+        colW = (innerWidth - padding)/19;
         }
     )
 
@@ -37,6 +36,10 @@
         if (value >= 4) {
             visible = true;
         }
+    }
+
+    function handleMouseOver(e) {
+        console.log("working")
     }
 
     $: value, changeVisibility(value);
@@ -63,8 +66,8 @@
 <style>
     section {
         position: absolute;
-        height: min(100vh, 100vw);
-        width: min(100vh, 100vw);
+        height: 100vh;
+        width: 100%;
         margin: 1.25rem 0 0 0;
         padding: 1rem;
     }

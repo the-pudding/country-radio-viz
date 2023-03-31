@@ -8,10 +8,10 @@
 
 
     function setFill(fill) {
-        if (fill == "B2Bmen") { return ("#1fc3aa") }
-        else if (fill == "B2Bwomen") { return ("magenta") }
-        else if (fill == "B2Bmixed") { return ("yellow") }
-        else { return ("#c9c9c9") }
+        if (fill == "B2Bmen") { return ("#917c73") }
+        else if (fill == "B2Bwomen") { return ("#fda922") }
+        else if (fill == "B2Bmixed") { return ("#5076e8") }
+        else { return ("#e1d4ca") }
     }
 	const { register, unregister } = getContext("canvas");
 	onMount(() => {

@@ -1,8 +1,9 @@
 <script>
 	import { getContext } from "svelte";
-	import ButtonSet from "$components/helpers/ButtonSet.svelte";
-	import BlockChart from "$components/BlockChart.svelte";
-	import SXSWChart from "$components/SXSWChart.svelte";
+	// import ButtonSet from "$components/helpers/ButtonSet.svelte";
+	// import BlockChart from "$components/BlockChart.svelte";
+	// import SXSWChart from "$components/SXSWChart.svelte";
+	import Intro from "$components/Intro.svelte";
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
 	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
 	import Scrolly from "$components/helpers/Scrolly.svelte";
@@ -40,9 +41,9 @@
 	<p id="tt-title">Title</p>
 </div> -->
 
+<Intro />
 <section id="scrolly">
 	<div class="sticky">
-		<h2>Scrolly <span>{value}</span></h2>
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 	</div>
@@ -85,6 +86,7 @@
 		text-align: center;
 		background: white;
 		color: var(--color-fg);
+		z-index: 1000;
 	}
 	.step:first-of-type {
 		margin-top: 0;
@@ -93,6 +95,7 @@
 		padding: 2rem;
 		text-align: left;
 		line-height: 1.6;
+		font-family: var(--sans)
 	}
 	:global(.step p span) {
 		font-weight: 700;

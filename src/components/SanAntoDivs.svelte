@@ -102,12 +102,12 @@
             songBlocks = d3.selectAll(".song");
             songBlocks.transition()
                 .duration(2000)
-                .style("opacity", 0);
+                .style("opacity", 1);
             const dates = d3.selectAll(".date")
                 .transition()
                 .delay((d, i) => i * 50)
                 .duration(2000)
-                .style("opacity", 1);
+                .style("opacity", 0);
         }
     }
 
@@ -116,7 +116,7 @@
 
 <svelte:window bind:innerWidth={w}/>
 
-<section class="chart_Divs">
+<section id="div-chart">
     {#each groupedData as indivDate, i}
     <div class="date-block">
         <p class="date">{formatDate(indivDate[0])}</p>
@@ -133,7 +133,7 @@
 </section>
 
 <style>
-    .chart_Divs {
+    #div-chart {
         width: 100%;
         padding: 1rem;
         display: flex;
@@ -155,6 +155,7 @@
     .song-block {
         display: flex;
         flex-direction: column;
+        margin-top: 3px
     }
     .song {
         height: 2px;

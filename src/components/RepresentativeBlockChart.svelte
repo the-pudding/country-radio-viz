@@ -21,13 +21,15 @@
     export let spacingY;
 
     onMount(async () => {
-        const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
+        const response = await fetch(`./assets/${startingStation}_1_7_22.csv`);
         const text = await response.text();
         const parsed = d3.csvParse(text)
         data = parsed;
-        groupedData = d3.groups(data, d => d.date);
-        firstDateData = groupedData[0];
-        firstDateData = firstDateData[1]
+        console.log(data)
+        groupedData = d3.groups(data, d => d.version);
+        console.log(groupedData)
+        // firstDateData = groupedData[0];
+        // firstDateData = firstDateData[1]
         colW = (innerWidth - padding)/19;
         }
     )
@@ -42,30 +44,26 @@
         } else {
             visible = false;
         }
-        // if (value >= 4 && value <= 6) {
-        //     visible = true;
-        // }
-        // console.log(visible)
     }
 
-    function handleMouseOver(e) {
-        console.log("working")
-    }
+    // function handleMouseOver(e) {
+    //     console.log("working")
+    // }
 
     $: value, changeVisibility(value);
 </script>
 
-<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart">
+<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight}>
     {#if innerHeight && innerWidth}
         {#if visible}
         <div class="canvas-container" transition:fade>
             <Canvas height={innerHeight} width={innerWidth}>
                 {#each groupedData as indivDate, i}
-                    {@const groupPos = i}
+                {@const groupPos = i}
                     {#each indivDate[1] as song, i}
-                        {@const fill = value <= 4 ? song.b2b_gender : song.b2b_combinedGender}
-                            <Rect x1={groupPos*colW} y1={i*blockH} x2={colW-spacingX} y2={blockH-spacingY} {fill} value={value}/>
-                        {/each}
+                        {@const fill = song.value}
+                            <Rect x1={groupPos*colW+colW} y1={i*blockH} x2={colW-spacingX} y2={blockH-spacingY} {fill} value={value}/>
+                    {/each}
                 {/each}
             </Canvas>
         </div>

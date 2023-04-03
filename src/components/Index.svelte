@@ -6,6 +6,8 @@
 	import Intro from "$components/Intro.svelte";
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
 	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
+	import RepresentativeBlockChart from "$components/RepresentativeBlockChart.svelte";
+	import BarChart from "$components/BarChart.svelte";
 	import Scrolly from "$components/helpers/Scrolly.svelte";
 
 	const data = getContext("data");
@@ -44,7 +46,10 @@
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
+		<p>{value}</p>
+		<!-- <BarChart /> -->
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+		<!-- <RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/> -->
 		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 	</div>
 	<Scrolly bind:value>

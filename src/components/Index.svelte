@@ -9,6 +9,7 @@
 	import RepresentativeBlockChart from "$components/RepresentativeBlockChart.svelte";
 	import BarChart from "$components/BarChart.svelte";
 	import Scrolly from "$components/helpers/Scrolly.svelte";
+	import Dashboard from "$components/Dashboard.svelte";
 
 	const data = getContext("data");
 	const copy = getContext("copy");
@@ -24,12 +25,6 @@
 	// 	{var: "b2b_combinedGender", title: "Back-to-back (B2B) songs by women artists + all mixed-gender artists"},
 	// 	{var: "b2b_raceGender", title: "Back-to-back (B2B) songs by artists of color"},
 	// 	{var: "b2b_lgbtq", title: "Back-to-back (B2B) songs by out LGBTQ+ artists"}
-	// ];
-
-	// const options = [
-	// 	{ value: "B2B Gender" },
-	// 	{ value: "B2B Gender Women+Mixed"},
-	// 	{ value: "Gender Only" }
 	// ];
 
 	let value;
@@ -62,6 +57,7 @@
 	</Scrolly>
 	<div class="spacer" />
 </section>
+<Dashboard />
 <!-- <nav>
 	<ButtonSet legend={"Color songs by"} {options} bind:value />
 </nav> -->

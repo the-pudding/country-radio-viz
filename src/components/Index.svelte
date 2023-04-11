@@ -7,8 +7,8 @@
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
 	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
 	import RepresentativeBlockChart from "$components/RepresentativeBlockChart.svelte";
-	import BarChart from "$components/BarChart.svelte";
 	import Scrolly from "$components/helpers/Scrolly.svelte";
+	import PostScrolly from "$components/PostScrolly.svelte";
 	import Dashboard from "$components/Dashboard.svelte";
 
 	const data = getContext("data");
@@ -30,25 +30,26 @@
 	let value;
 </script>
 
-<!-- <div id="tooltip">
+<div id="tooltip">
 	<p id="tt-station">Station</p>
 	<p id="tt-date">Date</p>
 	<p id="tt-time">Time</p>
 	<p id="tt-artist">Artist</p>
 	<p id="tt-title">Title</p>
-</div> -->
+</div>
 
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
 		<p>{value}</p>
 		<!-- <BarChart /> -->
-		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
-		<!-- <RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/> -->
 		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+		<PostScrolly />
 	</div>
 	<Scrolly bind:value>
-		{#each copy.prose as text, i}
+		{#each copy.scrolly as text, i}
 			{@const active = value === i}
 			<div class="step" class:active>
 				<p>{@html text.value}</p>
@@ -88,6 +89,8 @@
 		background: white;
 		color: var(--color-fg);
 		z-index: 1000;
+		pointer-events: none;
+
 	}
 	.step:first-of-type {
 		margin-top: 0;
@@ -100,6 +103,14 @@
 	}
 	.spacer {
 		height: 75vh;
+	}
+
+	#tooltip {
+		position: sticky;
+		top: 3rem;
+		bottom: 0;
+		z-index: 1000;
+		display: none;
 	}
 
 	:global(.step .women-span) {

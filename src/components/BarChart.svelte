@@ -21,18 +21,17 @@
 
 <style>
     #bar-chart {
-        padding: 1rem;
+        padding: 3rem 1rem;
         color: var(--color-country-text);
-        position: absolute;
-        height: 100vh;
         width: 100%;
     }
     .row {
         display: flex;
         flex-direction: row;
         width: 100%;
-        padding: 0.5rem 0;
+        padding: 0.25rem 0;
         justify-content: flex-start;
+        border-bottom: 1px solid var(--color-country-tan);
     }
     .city-label, .value-label {
         font-family: var(--sans);
@@ -42,7 +41,7 @@
 
     .city-label {
         text-align: right;
-        width: 10rem;
+        width: 7rem;
         margin: 0 0.5rem 0 0;
     }
 

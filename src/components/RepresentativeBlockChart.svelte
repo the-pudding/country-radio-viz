@@ -11,8 +11,10 @@
     let firstDateData = [];
     let groupedData = [];
     let colW;
+    let colWCSS;
     let padding = 32;
     let visible = false;
+    const cols = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
 
     export let startingStation;
     export let value;
@@ -25,12 +27,11 @@
         const text = await response.text();
         const parsed = d3.csvParse(text)
         data = parsed;
-        console.log(data)
         groupedData = d3.groups(data, d => d.version);
-        console.log(groupedData)
         // firstDateData = groupedData[0];
         // firstDateData = firstDateData[1]
-        colW = (innerWidth - padding)/19;
+        colW = Math.floor((innerWidth - padding)/19);
+        colWCSS = `${colW}px`
         }
     )
 
@@ -53,8 +54,13 @@
     $: value, changeVisibility(value);
 </script>
 
-<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight}>
+<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="representative-chart">
     {#if innerHeight && innerWidth}
+    <!-- <div class="screen-container">
+        {#each cols as col, i}
+        <div class="screen-block" style="width:{colW}px"></div>
+        {/each}
+    </div> -->
         {#if visible}
         <div class="canvas-container" transition:fade>
             <Canvas height={innerHeight} width={innerWidth}>
@@ -74,13 +80,29 @@
 <style>
     section {
         position: absolute;
+        top: 2.45rem;
         height: 100vh;
         width: 100%;
         margin: 1.25rem 0 0 0;
         padding: 1rem;
     }
 
+    .screen-container {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 1000;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .screen-block {
+        padding-right: 2px;
+        background: var(--color-country-bg);
+    }
+
     .canvas-container {
+        position: absolute;
         width: 100%;
         height: 100%;
     }

@@ -68,7 +68,7 @@
                 {@const groupPos = i}
                     {#each indivDate[1] as song, i}
                         {@const fill = song.value}
-                            <Rect x1={groupPos*colW+colW} y1={i*blockH} x2={colW-spacingX} y2={blockH-spacingY} {fill} value={value}/>
+                            <Rect x1={groupPos*colW+colW+colW} y1={i*blockH} x2={colW-spacingX} y2={blockH-spacingY} {fill} value={value}/>
                     {/each}
                 {/each}
             </Canvas>

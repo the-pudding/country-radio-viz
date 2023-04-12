@@ -55,7 +55,7 @@
                 {#each groupedData as indivDate, i}
                     {@const groupPos = i}
                     {#each indivDate[1] as song, i}
-                        {@const fill = value <= 4 ? song.b2b_gender : song.b2b_combinedGender}
+                        {@const fill = value < 9 ? song.b2b_gender : song.b2b_combinedGender}
                             <Rect x1={groupPos*colW} y1={i*blockH} x2={colW-spacingX} y2={blockH-spacingY} {fill} value={value}/>
                         {/each}
                 {/each}

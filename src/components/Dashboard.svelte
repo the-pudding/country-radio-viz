@@ -5,12 +5,18 @@
     import Select from "$components/helpers/Select.svelte";
     import usMap from "$svg/us-map.svg";
     import ButtonSet from "$components/helpers/ButtonSet.svelte";
+    import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
 
     const stations = summaryData.map(d => `${d.stationName}`)
 
-    let value;
     let searchStation;
     let currData;
+    let value;
+
+    export let startingStation;
+    export let blockH;
+    export let spacingX;
+    export let spacingY;
 
     const options = [
 		{ value: "Gender" },
@@ -103,6 +109,9 @@
         <p>Show data by</p>
         <ButtonSet options={options}/>
     </div>
+    <div class="chart-container">
+        <CanvasBlockChart startingStation={startingStation} value={7} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+    </div>
 </section>
 
 <style>
@@ -189,6 +198,10 @@
     .table-mixed {
         background: var(--color-country-orange);
         font-weight: 700;
+    }
+
+    .chart-container {
+        position:relative;
     }
 
     :global(.right svg) {

@@ -18,14 +18,6 @@
 	const blockH = 3;
 	const spacingX = 2;
 	const spacingY = 1;
-	// const SXSWStations = ["KASE-FM", "KVET-FM"]
-	// const chartVars = [
-	// 	{var: "b2b_gender", title: "Back-to-back (B2B) songs by women artists"},
-	// 	{var: "b2b_collabGender", title: "Back-to-back (B2B) songs by women artists + women/men collaborations"},
-	// 	{var: "b2b_combinedGender", title: "Back-to-back (B2B) songs by women artists + all mixed-gender artists"},
-	// 	{var: "b2b_raceGender", title: "Back-to-back (B2B) songs by artists of color"},
-	// 	{var: "b2b_lgbtq", title: "Back-to-back (B2B) songs by out LGBTQ+ artists"}
-	// ];
 
 	let value;
 </script>
@@ -42,13 +34,11 @@
 <section id="scrolly">
 	<div class="sticky">
 		<p>{value}</p>
-		<!-- <BarChart /> -->
 		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
-		<PostScrolly />
 	</div>
-	<Scrolly bind:value>
+	<Scrolly bind:value top={0}>
 		{#each copy.scrolly as text, i}
 			{@const active = value === i}
 			<div class="step" class:active>
@@ -58,7 +48,8 @@
 	</Scrolly>
 	<div class="spacer" />
 </section>
-<Dashboard />
+<PostScrolly />
+<Dashboard startingStation={startingStation} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 <!-- <nav>
 	<ButtonSet legend={"Color songs by"} {options} bind:value />
 </nav> -->
@@ -93,7 +84,10 @@
 
 	}
 	.step:first-of-type {
-		margin-top: 0;
+		margin: 0 auto 80vh auto;
+	}
+	.step:last-of-type {
+		margin: 80vh auto 0 auto;
 	}
 	.step p {
 		padding: 2rem;
@@ -133,6 +127,14 @@
 		color: var(--color-white);
 		font-weight: 700;
 		background-color: var(--color-country-orange);
+		padding: 0.125rem 0.25rem;
+		white-space: nowrap;
+	}
+
+	:global(.step .song-span) {
+		color: var(--color-country-text);
+		font-weight: 700;
+		background-color: var(--color-country-tan);
 		padding: 0.125rem 0.25rem;
 		white-space: nowrap;
 	}

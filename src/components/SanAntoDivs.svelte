@@ -2,23 +2,76 @@
     import * as d3 from "d3";
     import { onMount } from "svelte";
 
+    // data
     let data = [];
     let firstDateData = [];
     let groupedData = [];
+    let releaseDateArray = [0, 1, 3, 5, 7, 9, 11];
+
+    // dimensions
     let w;
     let colW;
     let padding = 32;
+
+    // elements
+    let allSongBlocks;
+    let firstSong;
+    let b2bWomen;
+    let b2bMen;
+    let b2bMixed;
+    let highlightWomenSong;
+    let songCurtains;
+    let repChart;
+    let firstSongBlock;
+    let dates;
+    let firstDate;
+    let simLabel;
+    let stickyScroll;
+
     let songBlocks;
     let b2bBlocks;
     let startingSong;
 
+    // mounted
+    let mountCheck = false;
+
+    // exports
     export let startingStation;
     export let value;
     export let blockH;
     export let spacingX;
     export let spacingY;
 
-    onMount(async () => {
+    onMount(() => {
+        // data
+        loadData();
+
+        // dimensions
+        colW = Math.floor((w - padding)/19);
+
+        setTimeout(() => {
+             // elements
+            allSongBlocks = d3.selectAll(".song");
+            firstSong = allSongBlocks.filter((d, i) => i == 136);
+            b2bWomen = d3.selectAll(".song-B2Bwomen");
+            b2bMen = d3.selectAll(".song-B2Bmen");
+            b2bMixed = d3.selectAll(".song-B2Bmixed");
+            highlightWomenSong = allSongBlocks.filter((d, i) => i == 273);
+            repChart = d3.selectAll("#representative-chart");
+            firstSongBlock = d3.selectAll(".song-block").filter((d, i) => i == 0);
+            dates = d3.selectAll(".date");
+            firstDate = d3.selectAll(".date").filter((d,i) => i == 0);
+            songCurtains = d3.selectAll(".song-block");
+            simLabel = d3.selectAll(".sim-label");
+            stickyScroll = d3.select(".sticky")
+
+            // mounted
+            mountCheck = true;
+        }, 100)
+        }
+    )
+
+    async function loadData() {
         const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
         const text = await response.text();
         const parsed = d3.csvParse(text)
@@ -26,9 +79,7 @@
         groupedData = d3.groups(data, d => d.date);
         firstDateData = groupedData[0];
         firstDateData = firstDateData[1]
-        colW = Math.floor((w - padding)/19);
-        }
-    )
+    }
 
     function formatDate(indivDate) {
         const parseTime = d3.timeParse("%m/%e/%y")
@@ -37,154 +88,149 @@
         return formatedDate;
     }
 
-    function handleMouseEnter(song) {
-        console.log("checking")
-        const tt = d3.select("#tooltip").style("opacity", 1);
-        const ttStation = d3.select("#tt-station");
-        const ttDate = d3.select("#tt-date");
-        const ttTime = d3.select("#tt-time");
-        const ttArtist = d3.select("#tt-artist");
-        const ttTitle = d3.select("#tt-title");
-
-
-        ttDate.text(song.date)
-        ttStation.text(song.station)
-        ttTime.text(song.time)
-        ttArtist.text(song.artist)
-        ttTitle.text(song.title)
-    }
-
-    function handleMouseLeave() {
-        const tt = d3.select("#tooltip").style("opacity", 0);
-    }
-
     function handleScroll(value) {
-        if (value == 0) {
-            songBlocks = d3.selectAll(".song").filter((d, i) => i == 136);
-            songBlocks.transition()
-                .duration(0)
-                .style("left", `${w/2-100}px`)
-                .end()
-                .then(() => {
-                    songBlocks.transition()
-                        .delay(250)
-                        .duration(250)
-                        .style("bottom", "0px")
-                        .style("opacity", 1);
-                })
-        } else if (value == 1) {
-            const firstSong = d3.selectAll(".song").filter((d, i) => i == 136);
-            firstSong.transition()
-                .duration(500)
-                .style("height", "2px")
-                .end()
-                .then(() => {
-                    firstSong.transition()
+        if (mountCheck) {
+            if (value == 0) {
+                firstSong.transition()
+                    .duration(0)
+                    .style("left", `${w/2-100}px`)
+                    .end()
+                    .then(() => {
+                        firstSong.transition()
+                            .delay(250)
+                            .duration(250)
+                            .style("bottom", "0px")
+                            .style("opacity", 1);
+                    })
+            } else if (value == 1) {
+                firstSong.transition()
+                    .duration(500)
+                    .style("height", "2px")
+                    .end()
+                    .then(() => {
+                        firstSong.transition()
+                            .delay(500)
+                            .duration(250)
+                            .style("border", "0px")
+                            .style("background", "#e1d4ca")
+                            .style("transform", "translate(0px, 0px)")
+                            .style("width", "100%")
+                            .style("left", "0px")
+                            .style("top", "0px")
+                    })
+                allSongBlocks.filter((d, i) => i >= 173 && i <= 184).filter(".song-B2Bmen").transition()
+                    .duration(0)
+                    .style("background-color", "#917c73")
+                allSongBlocks.filter((d, i) => i >= 136 && i <= 184).transition()
+                    .delay(1000)
+                    .transition()
+                    .delay((d, i) => i * 25)
+                    .duration(0)
+                    .style("opacity", 1);
+            } else if (value == 2) {
+                b2bMen.transition()
+                    .duration(1000)
+                    .style("background-color", "#917c73")
+            } else if (value == 3) {
+                allSongBlocks.filter((d, i) => i >= 136 && i <= 273).transition()
+                    .delay((d, i) => i * 25)
+                    .duration(0)
+                    .style("opacity", 1)
+                    .end()
+                    .then(() => {
+                        highlightWomenSong.transition()
+                            .duration(100)
+                            .style("transform", "scale(1.25)")
+                            .style("height", "8px");
+                    })
+            } else if (value == 4) {
+                allSongBlocks.transition()
                     .delay(500)
-                    .duration(250)
-                    .style("border", "0px")
-                    .style("background", "#e1d4ca")
-                    .style("transform", "translate(0px, 0px)")
-                    .style("width", "100%")
-                    .style("left", "0px")
-                    .style("top", "0px")
-                })
-            b2bBlocks = d3.selectAll(".song").filter((d, i) => i >= 173 && i <= 184).filter(".song-B2Bmen");
-            b2bBlocks.transition()
-                .duration(0)
-                .style("background-color", "#917c73")
-            songBlocks = d3.selectAll(".song").filter((d, i) => i >= 136 && i <= 184);
-            songBlocks.transition()
-                .delay(1000)
-                .transition()
-                .delay((d, i) => i * 25)
-                .duration(0)
-                .style("opacity", 1);
-        } else if (value == 2) {
-            songBlocks = d3.selectAll(".song-B2Bmen");
-            songBlocks.transition()
-                .duration(1000)
-                .style("background-color", "#917c73")
-        } else if (value == 3) {
-            songBlocks = d3.selectAll(".song").filter((d, i) => i >= 136 && i <= 273);
-            songBlocks.transition()
-                .delay((d, i) => i * 25)
-                .duration(0)
-                .style("opacity", 1)
-                .end()
-                .then(() => {
-                    const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
-                        .transition()
-                        .duration(250)
-                        .style("transform", "scale(1.25)")
-                        .style("height", "8px");
-                })
-        } else if (value == 4) {
-            songBlocks = d3.selectAll(".song");
-            songBlocks.transition()
-                // .delay((d, i) => i * 50)
-                .duration(2000)
-                .style("opacity", 1)
-            const lastSong = d3.selectAll(".song").filter((d, i) => i == 273)
-                .transition()
-                .duration(250)
-                .style("transform", "scale(1)")
-                .style("height", "2px");
-        } else if (value == 5) {
-
-            songBlocks = d3.selectAll(".song");
-            songBlocks.transition()
-                .duration(2000)
-                .style("opacity", 1);
-
-            b2bBlocks = d3.selectAll(".song-B2Bmen")
-            b2bBlocks.transition()
-                .duration(1000)
-                .style("background-color", "#e1d4ca")
-
-            const dateBlocks = d3.selectAll(".date-block").filter((d,i) => i !== 0)
-                .transition()
-                .delay((d, i) => i * 200)
-                .duration(50)
-                .style("opacity", 0);
-        } else if (value == 6) {
-            const repChart = d3.selectAll("#representative-chart")
-                .transition()
-                .duration(1000)
-                .style("opacity", 0);
-            
-            const firstDate = d3.selectAll(".date").filter((d,i) => i == 0)
-                .transition()
-                .duration(1000)
-                .style("opacity", 1);
-
-            b2bBlocks = d3.selectAll(".song-B2Bmen")
-            b2bBlocks.transition()
-                .duration(1000)
-                .style("background-color", "#917c73")
-            
-            const dateBlocks = d3.selectAll(".date-block").filter((d,i) => i !== 0)
-                .transition()
-                .delay(1000)
-                .duration(0)
-                .style("opacity", 1);
-        } else if (value == 7) {
-            const dates = d3.selectAll(".date")
-                .transition()
-                .delay((d, i) => i * 200)
-                .duration(50)
-                .style("opacity", 1);
-
-            const dateBlocks = d3.selectAll(".date-block")
-                .transition()
-                .delay((d, i) => i * 200)
-                .duration(50)
-                .style("opacity", 0);
-            
-            b2bBlocks = d3.selectAll(".song-B2Bmixed")
-            b2bBlocks.transition()
-                .duration(0)
-                .style("background-color", "#fda922")
+                    .duration(2000)
+                    .style("opacity", 1)
+                highlightWomenSong.transition()
+                    .duration(750)
+                    .style("transform", "scale(1)")
+                    .style("height", "2px");
+            } else if (value == 5) {
+                allSongBlocks.transition()
+                    .duration(2000)
+                    .style("opacity", 1);
+                b2bMen.transition()
+                    .duration(1000)
+                    .style("background-color", "#e1d4ca")
+                songCurtains.filter((d,i) => i !== 0).transition()
+                    .delay(1000)
+                    .transition()
+                    .delay((d, i) => i * 200)
+                    .duration(50)
+                    .style("opacity", 0);
+                simLabel.transition()
+                    .delay(3000)
+                    .duration(1000)
+                    .style("opacity", 1);
+            } else if (value == 6) {
+                repChart.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
+                firstDate.transition()
+                    .delay(500)
+                    .duration(1000)
+                    .style("opacity", 1);
+                b2bMen.transition()
+                    .duration(1000)
+                    .style("background-color", "#917c73")
+                songCurtains.filter((d,i) => i !== 0).transition()
+                    .delay(1000)
+                    .duration(0)
+                    .style("opacity", 1);
+                simLabel.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
+            } else if (value == 7) {
+                dates.transition()
+                    .delay(1000)
+                    .transition()
+                    .delay((d, i) => i * 200)
+                    .duration(50)
+                    .style("opacity", 1);
+                // songCurtains.filter((d,i) => i == 0).transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
+                songCurtains.transition()
+                    .delay(1000)
+                    .transition()
+                    .delay((d, i) => i * 200)
+                    .duration(50)
+                    .style("opacity", 0);
+            } else if (value == 8) {
+                const unmatchedCurtains = songCurtains.filter((d, i) => !releaseDateArray.includes(i));
+                const unmatchedDates = dates.filter((d, i) => !releaseDateArray.includes(i));
+                const matchedDates = dates.filter((d, i) => releaseDateArray.includes(i))
+                unmatchedCurtains.transition()
+                    .duration(1000)
+                    .style("opacity", 0.75);
+                unmatchedDates.transition()
+                    .duration(1000)
+                    .style("opacity", 0.5);
+                matchedDates.transition()
+                    .duration(1000)
+                    .style("font-weight", "700");
+            } else if (value == 9) {
+                songCurtains.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
+                dates.transition()
+                    .duration(0)
+                    .style("font-weight", "500")
+                    .transition()
+                    .duration(1000)
+                    .style("opacity", 1);
+            } else if (value == 10) {
+                stickyScroll.transition()
+                    .duration(2000)
+                    .style("opacity", 0)
+            }
         }
     }
 
@@ -194,21 +240,18 @@
 <svelte:window bind:innerWidth={w}/>
 
 <section id="day-chart">
+    <div class="sim-label" style="margin-left: {colW*2}px; width: calc({colW*10}px);"><p>Simulations</p></div>
     {#each groupedData as indivDate, i}
     <div class="date-block" style="width:{colW}px">
         <p class="date">{formatDate(indivDate[0])}</p>
-        {#if i == 0}
         <div class="song-block">
+            {#if i == 0 || i == undefined}
             {#each firstDateData as song, i}
                 <div 
-                    class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"
-                    on:mouseenter={() => {
-                        handleMouseEnter(song)
-                        }
-                    } ></div>
+                    class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"></div>
             {/each}
+            {/if}
         </div>
-        {/if}
     </div>
     {/each}
 </section>
@@ -222,9 +265,26 @@
         z-index: 1000;
         position: relative;
     }
-    .date-block {
-        padding-right: 2px;
-        background: var(--color-country-bg)
+    .sim-label {
+        position: absolute;
+        top: 0.75rem;
+        border-top: 1px solid var(--color-country-text);
+        border-left: 1px solid var(--color-country-text);
+        border-right: 1px solid var(--color-country-text);
+        height: 1rem;
+        opacity: 0;
+    }
+    .sim-label p {
+        background-color: var(--color-country-bg);
+        font-family: var(--sans);
+        text-align: center;
+        padding: 0 0.5rem;
+        margin: 0;
+        position: absolute;
+        top: -0.75rem;
+        transform: translate(-50%, 0);
+        left: 50%;
+        font-size: var(--14px);
     }
     .date {
         font-family: var(--sans);
@@ -234,11 +294,17 @@
         margin: 0;
         opacity: 0;
         font-size: var(--14px);
+        text-overflow: clip;
+        overflow: hidden;
+        white-space: nowrap;    
     }
     .song-block {
         display: flex;
         flex-direction: column;
-        margin-top: 3px
+        margin-top: 3px;
+        background-color: var(--color-country-bg);
+        height: 100%;
+        padding: 0 1px;
     }
     .song {
         height: 2px;

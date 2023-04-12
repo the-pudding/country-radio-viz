@@ -27,4 +27,10 @@
         padding: 0 1rem;
         font-family: var(--sans);
     }
+
+    :global(.pullquote) {
+        font-weight: 700;
+        font-size: var(--24px);
+        background-color: white;
+    }
 </style>

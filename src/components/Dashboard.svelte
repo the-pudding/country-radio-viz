@@ -28,6 +28,10 @@
         updateData(value)
     })
 
+    function calculateBG(percent) {
+        console.log(percent)
+    }
+
     function updateData(value) {
         currData = summaryData.filter(d => d.stationName == value);
     }
@@ -51,55 +55,96 @@
     </div>
     <div class="table-container">
         <div class="data-table">
-            <p>Gender</p>
+            <div class="table-labels">
+                <p>Straight</p>
+                <p>LGBTQ+</p>
+            </div>
             {#if currData}
             <table>
                 <tr>
                     <th></th>
-                    <th>All</th>
-                    <th>B2B</th>
+                    <!-- Straight -->
+                    <th>All songs</th>
+                    <th>B2B songs</th>
+                    <!-- LGBTQ+ -->
+                    <th>All songs</th>
+                    <th>B2B songs</th>
                 </tr>
                 <tr>
-                    <td>Women</td>
+                    <td class="table-border">Women</td>
+                    <!-- Straight -->
                     <td>{Math.round(currData[0].onlyWomenSongs_PERCENT*100)/100}%</td>
                     <td class="table-women">{Math.round(currData[0].b2bWomenSongs_PERCENT*100)/100}%</td>
+                    <!-- LGBTQ+ -->
+                    <td>0%</td>
+                    <td class="table-women"
+                        style="background-color: rgba(145, 124, 115,{0}">
+                        0%</td>
                 </tr>
                 <tr>
-                    <td>Men</td>
+                    <td class="table-border">Men</td>
+                    <!-- Straight -->
                     <td>{Math.round(currData[0].onlyMenSongs_PERCENT*100)/100}%</td>
                     <td class="table-men">{Math.round(currData[0].b2bMenSongs_PERCENT*100)/100}%</td>
+                    <!-- LGBTQ+ -->
+                    <td>{Math.round(currData[0].onlyLGBTQSongs_PERCENT*100)/100}%</td>
+                    <td class="table-men">{Math.round(currData[0].b2bLGBTQSongs_PERCENT*100)/100}%</td>
                 </tr>
                 <tr>
-                    <td>Mixed</td>
+                    <td class="table-border">Mixed</td>
+                    <!-- Straight -->
                     <td>{Math.round(currData[0].onlyMixedGenderSongs_PERCENT*100)/100}%</td>
                     <td class="table-mixed">{Math.round(currData[0].b2bMixedGenderSongs_PERCENT*100)/100}%</td>
-                </tr>
-                <tr>
-                    <td>Trans/non-binary</td>
+                    <!-- LGBTQ+ -->
                     <td>0%</td>
-                    <td class="table-nb">0%</td>
+                    <td class="table-mixed">0%</td>
                 </tr>
             </table>
             {/if}
         </div>
         <div class="data-table">
-            <p>Race/Ethnicity</p>
+            <div class="table-labels">
+                <p>White</p>
+                <p>POC</p>
+            </div>
             {#if currData}
             <table>
                 <tr>
                     <th></th>
-                    <th>All</th>
-                    <th>B2B</th>
+                    <!-- White -->
+                    <th>All songs</th>
+                    <th>B2B songs</th>
+                    <!-- POC -->
+                    <th>All songs</th>
+                    <th>B2B songs</th>
                 </tr>
                 <tr>
-                    <td>White</td>
-                    <td>XX%</td>
-                    <td class="table-white">XX%</td>
+                    <td class="table-border">Women</td>
+                    <!-- White -->
+                    <td>{Math.round(currData[0].onlyWhiteWomenSongs_PERCENT*100)/100}%</td>
+                    <td class="table-women">{Math.round(currData[0].b2bWhiteWomenSongs_PERCENT*100)/100}%
+                    </td>
+                    <!-- POC -->
+                    <td>{Math.round(currData[0].onlyPOCWomenSongs_PERCENT*100)/100}%</td>
+                    <td class="table-women">{Math.round(currData[0].b2bPOCWomenSongs_PERCENT*100)/100}%</td>
                 </tr>
                 <tr>
-                    <td>POC</td>
-                    <td>XX%</td>
-                    <td class="table-poc">XX%</td>
+                    <td class="table-border">Men</td>
+                    <!-- White -->
+                    <td>{Math.round(currData[0].onlyWhiteMenSongs_PERCENT*100)/100}%</td>
+                    <td class="table-men">{Math.round(currData[0].b2bWhiteMenSongs_PERCENT*100)/100}%</td>
+                    <!-- POC -->
+                    <td>{Math.round(currData[0].onlyPOCMenSongs_PERCENT*100)/100}%</td>
+                    <td class="table-men">{Math.round(currData[0].b2bPOCMenSongs_PERCENT*100)/100}%</td>
+                </tr>
+                <tr>
+                    <td class="table-border">Mixed</td>
+                    <!-- White -->
+                    <td>{Math.round(currData[0].onlyWhiteMixedGenderSongs_PERCENT*100)/100}%</td>
+                    <td class="table-mixed">{Math.round(currData[0].b2bWhiteMixedGenderSongs_PERCENT*100)/100}%</td>
+                    <!-- POC -->
+                    <td>{Math.round(currData[0].onlyPOCMixedSongs_PERCENT*100)/100}%</td>
+                    <td class="table-mixed">{Math.round(currData[0].b2bPOCMixedSongs_PERCENT*100)/100}%</td>
                 </tr>
             </table>
             {/if}
@@ -159,17 +204,22 @@
         display: flex;
         flex-direction: row;
     }
-
+    .table-labels {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin: 0 0 0 20%;
+    }
+    .table-labels p {
+        width: 40%;
+        text-align: center;
+        font-weight: 700;
+        font-size: var(--22px);
+        margin: 0;
+    }
     .data-table {
         width: 50%;
-        margin: 2rem 0;
-    }
-
-    .data-table:first-of-type {
-        padding: 0 0.5rem 0 0;
-    }
-    .data-table:last-of-type {
-        padding: 0 0 0 0.5rem;
+        margin: 0 0 2rem 0;
     }
     .data-table table {
         width: 100%;
@@ -182,22 +232,29 @@
 
     td, th {
         border-bottom: 1px solid var(--color-country-text);
-        padding: 0.5rem 0.25rem;
+        padding: 0.5rem;
     }
 
     .table-women {
-        background: var(--color-country-blue);
+        /* background: var(--color-country-blue); */
         font-weight: 700;
+        border-right: 1px solid var(--color-country-text);
     }
 
     .table-men {
-        background: var(--color-country-tan);
+        /* background: var(--color-country-tan); */
         font-weight: 700;
+        border-right: 1px solid var(--color-country-text);
     }
 
     .table-mixed {
-        background: var(--color-country-orange);
+        /* background: var(--color-country-orange); */
         font-weight: 700;
+        border-right: 1px solid var(--color-country-text);
+    }
+
+    .table-border {
+        border-right: 1px solid var(--color-country-text);
     }
 
     .chart-container {

@@ -117,6 +117,10 @@
 		margin: 1em auto;
 	}
 
+	:global(.about .wordmark svg path) {
+		fill: var(--color-white);
+	}
+
 	.about {
 		margin: 3rem auto;
 		margin-top: 0;

@@ -47,10 +47,6 @@
         }
     }
 
-    // function handleMouseOver(e) {
-    //     console.log("working")
-    // }
-
     $: value, changeVisibility(value);
 </script>
 
@@ -80,10 +76,9 @@
 <style>
     section {
         position: absolute;
-        top: 2.45rem;
+        top: 2.275rem;
         height: 100vh;
         width: 100%;
-        margin: 1.25rem 0 0 0;
         padding: 1rem;
     }
 
@@ -103,6 +98,7 @@
 
     .canvas-container {
         position: absolute;
+        top: 0;
         width: 100%;
         height: 100%;
     }

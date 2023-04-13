@@ -120,7 +120,7 @@
                     })
                 allSongBlocks.filter((d, i) => i >= 173 && i <= 184).filter(".song-B2Bmen").transition()
                     .duration(0)
-                    .style("background-color", "#917c73")
+                    .style("background", "#917c73")
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 184).transition()
                     .delay(1000)
                     .transition()
@@ -129,8 +129,8 @@
                     .style("opacity", 1);
             } else if (value == 2) {
                 b2bMen.transition()
-                    .duration(1000)
-                    .style("background-color", "#917c73")
+                    .duration(2000)
+                    .style("background", "#917c73")
             } else if (value == 3) {
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 273).transition()
                     .delay((d, i) => i * 25)
@@ -158,7 +158,10 @@
                     .style("opacity", 1);
                 b2bMen.transition()
                     .duration(1000)
-                    .style("background-color", "#e1d4ca")
+                    .style("background", "#e1d4ca")
+                firstSong.transition()
+                    .duration(500)
+                    .style("background", "#e1d4ca")
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .transition()
@@ -179,7 +182,7 @@
                     .style("opacity", 1);
                 b2bMen.transition()
                     .duration(1000)
-                    .style("background-color", "#917c73")
+                    .style("background", "#917c73")
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .duration(0)
@@ -275,7 +278,7 @@
         opacity: 0;
     }
     .sim-label p {
-        background-color: var(--color-country-bg);
+        background: var(--color-country-bg);
         font-family: var(--sans);
         text-align: center;
         padding: 0 0.5rem;
@@ -302,7 +305,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 3px;
-        background-color: var(--color-country-bg);
+        background: var(--color-country-bg);
         height: 100%;
         padding: 0 1px;
     }
@@ -310,26 +313,28 @@
         height: 2px;
         width: 100%;
         margin: 0 0 1px 0;
-        background-color: var(--color-country-tan);
+        background: var(--color-country-tan);
         opacity: 0;
     }
 
     .song:hover {
-        background-color: red;
+        background: red;
     }
     .song-B2Bwomen {
-        background-color: var(--color-country-blue);
+        background: var(--color-country-blue);
     }
 
     .song-B2Bmen {
-        background-color: var(--color-country-tan);
+        background: var(--color-country-tan);
     }
 
     .song-B2Bmixed {
-        background-color: var(--color-country-orange);
+        background: var(--color-country-orange);
     }
     .song-136 {
-        background: url("./assets/images/brooks-and-dunn-bw.jpg");
+        background: "#e1d4ca";
+        /* background: url("./assets/images/brooks-and-dunn-bw.jpg"); */
+        background: url("https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;

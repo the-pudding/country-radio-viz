@@ -12,6 +12,7 @@
     let searchStation;
     let currData;
     let value;
+    let innerHeight;
 
     export let startingStation;
     export let blockH;
@@ -26,6 +27,8 @@
 
     onMount(() => {
         updateData(value)
+
+        console.log(innerHeight)
     })
 
     function calculateBG(percent) {
@@ -259,6 +262,7 @@
 
     .chart-container {
         position:relative;
+        min-height: 100vh;
     }
 
     :global(.right svg) {

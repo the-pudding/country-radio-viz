@@ -10,9 +10,9 @@
 <section id="bar-chart">
     {#each summaryData as city, i}
         <div class="row row-{city.stationName}" bind:clientWidth={innerWidth}>
-            <div class="city-label">{city.cityName}</div>
+            <div class="city-label">{city.cityName} {city.stationName}</div>
             {#if innerWidth}
-                <div class="bar" style="width: {innerWidth*city.b2bWomenSongs_PERCENT/2}px"></div>
+                <div class="bar" style="width: {innerWidth*city.b2bWomenSongs_PERCENT/2.5}px"></div>
             {/if}
             <div class="value-label">{Math.round(city.b2bWomenSongs_PERCENT*100)/100}%</div>
         </div>
@@ -41,7 +41,7 @@
 
     .city-label {
         text-align: right;
-        width: 7rem;
+        width: 12rem;
         margin: 0 0.5rem 0 0;
     }
 

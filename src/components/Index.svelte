@@ -1,8 +1,5 @@
 <script>
 	import { getContext } from "svelte";
-	// import ButtonSet from "$components/helpers/ButtonSet.svelte";
-	// import BlockChart from "$components/BlockChart.svelte";
-	// import SXSWChart from "$components/SXSWChart.svelte";
 	import Intro from "$components/Intro.svelte";
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
 	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
@@ -10,6 +7,8 @@
 	import Scrolly from "$components/helpers/Scrolly.svelte";
 	import PostScrolly from "$components/PostScrolly.svelte";
 	import Dashboard from "$components/Dashboard.svelte";
+	import Methods from "$components/Methods.svelte";
+	import Footer from "$components/Footer.svelte";
 
 	const data = getContext("data");
 	const copy = getContext("copy");
@@ -33,7 +32,6 @@
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
-		<p>{value}</p>
 		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
@@ -50,20 +48,8 @@
 </section>
 <PostScrolly />
 <Dashboard startingStation={startingStation} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
-<!-- <nav>
-	<ButtonSet legend={"Color songs by"} {options} bind:value />
-</nav> -->
-<!-- {#each SXSWStations as station}
-	<div class="SXSW-charts">
-		{#each chartVars as chart}
-			<SXSWChart variable={chart.var} title={chart.title} station={station} />
-		{/each}
-	</div>
-{/each} -->
-<!-- {#each data as stationName}
-	<BlockChart stationName={stationName} value={value}/>
-{/each} -->
-<!-- <Footer /> -->
+<Methods />
+<Footer />
 
 <style>
 	.sticky {
@@ -93,7 +79,9 @@
 		padding: 2rem;
 		text-align: left;
 		line-height: 1.6;
-		font-family: var(--sans)
+		font-family: var(--sans);
+		font-size: var(--18px);
+		line-height: 1.65;
 	}
 	.spacer {
 		height: 75vh;
@@ -137,5 +125,15 @@
 		background-color: var(--color-country-tan);
 		padding: 0.125rem 0.25rem;
 		white-space: nowrap;
+	}
+
+	:global(.prose) {
+		color: var(--color-country-text);
+		font-size: var(--18px);
+		line-height: 1.65;
+	}
+
+	:global(.prose p) {
+		padding: 0.5rem 0;
 	}
 </style>

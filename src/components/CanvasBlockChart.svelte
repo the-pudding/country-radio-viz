@@ -32,10 +32,6 @@
         }
     )
 
-    function checkBetween(x, min, max) {
-        return x >= min && x <= max;
-    }
-
     function changeVisibility(value) {
         if (value > 6) {
             visible = true;
@@ -68,10 +64,9 @@
 <style>
     section {
         position: absolute;
-        top: 2.45rem;
+        top: 1.25rem;
         height: 100vh;
         width: 100%;
-        margin: 1.25rem 0 0 0;
         padding: 1rem;
     }
 

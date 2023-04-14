@@ -13,12 +13,14 @@
     let colW;
     let padding = 32;
     let visible = false;
+    let top;
 
     export let startingStation;
     export let value;
     export let blockH;
     export let spacingX;
     export let spacingY;
+    export let posType;
 
     onMount(async () => {
         const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
@@ -32,6 +34,9 @@
         }
     )
 
+    if (posType == "absolute") { top = "2.275rem" } 
+        else { top = "0" }
+
     function changeVisibility(value) {
         if (value > 6) {
             visible = true;
@@ -43,7 +48,7 @@
     $: value, changeVisibility(value);
 </script>
 
-<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart">
+<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart" style="position: {posType}; top: {top}">
     {#if innerHeight && innerWidth}
         {#if visible}
         <div class="canvas-container" transition:fade>
@@ -63,15 +68,16 @@
 
 <style>
     section {
-        position: absolute;
-        top: 1.25rem;
         height: 100vh;
         width: 100%;
-        padding: 1rem;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: row;
     }
 
     .canvas-container {
-        width: 100%;
+        width: calc(100% - 1.25rem);
+        margin-left: 1.25rem;
         height: 100%;
     }
 </style>

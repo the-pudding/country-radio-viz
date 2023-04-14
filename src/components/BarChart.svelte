@@ -5,12 +5,20 @@
 
     let sortedData = summaryData.sort((a, b) => d3.descending(a.b2bWomenSongs_PERCENT, b.b2bWomenSongs_PERCENT));
     let innerWidth;
+
+    function formatCityName(cityName) {
+        if (cityName == "SanAntonio") { return "San Antonio"}
+        else if (cityName == "KansasCity") { return "Kansas City"}
+        else if (cityName == "WashingtonDC") { return "Washington DC"}
+        else { return cityName}
+    }
 </script>
 
 <section id="bar-chart">
+    <h4>Percentage of back-to-back women plays by station</h4>
     {#each summaryData as city, i}
         <div class="row row-{city.stationName}" bind:clientWidth={innerWidth}>
-            <div class="city-label">{city.cityName} {city.stationName}</div>
+            <div class="city-label">{formatCityName(city.cityName)} ({city.stationName})</div>
             {#if innerWidth}
                 <div class="bar" style="width: {innerWidth*city.b2bWomenSongs_PERCENT/2.5}px"></div>
             {/if}
@@ -21,9 +29,16 @@
 
 <style>
     #bar-chart {
-        padding: 3rem 1rem;
+        padding: 3rem 0;
         color: var(--color-country-text);
         width: 100%;
+    }
+    h4 {
+        font-weight: 700;
+        font-size: var(--20px);
+        color: var(--color-country-text);
+        margin: 0 0 2rem 0;
+        padding: 0;
     }
     .row {
         display: flex;
@@ -41,7 +56,7 @@
 
     .city-label {
         text-align: right;
-        width: 12rem;
+        width: 12.5rem;
         margin: 0 0.5rem 0 0;
     }
 

@@ -1,17 +1,22 @@
 <script>
 	import SortTable from "$components/helpers/SortTable.svelte";
 
-	const columns = [
-		{ label: "Coin", prop: "name", sort: true, type: "text" },
-		{ label: "Cents", prop: "value", sort: true, type: "number" }
-	];
+	export let rows;
+	export let columns;
 
-	const rows = [
-		{ name: "penny", value: 1 },
-		{ name: "nickel", value: 5 },
-		{ name: "dime", value: 10, style: "background: var(--color-mark);" },
-		{ name: "quarter", value: 25 }
-	];
+	console.log(rows)
+
+	// const columns = [
+	// 	{ label: "Coin", prop: "name", sort: true, type: "text" },
+	// 	{ label: "Cents", prop: "value", sort: true, type: "number" }
+	// ];
+
+	// const rows = [
+	// 	{ name: "penny", value: 1 },
+	// 	{ name: "nickel", value: 5 },
+	// 	{ name: "dime", value: 10, style: "background: var(--color-mark);" },
+	// 	{ name: "quarter", value: 25 }
+	// ];
 </script>
 
 <section id="demo-table">

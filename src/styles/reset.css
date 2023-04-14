@@ -26,9 +26,13 @@ mark {
 }
 
 a {
-	color: var(--color-link, blue);
+	color: var(--color-country-text, blue);
 	text-decoration: none;
 	border-bottom: 1px solid currentColor;
+}
+
+a:hover {
+	color: var(--color-country-brown);
 }
 
 

@@ -90,6 +90,7 @@
 		width: 100%;
 		margin: 0 auto;
 		table-layout: auto;
+		color: var(--color-country-text);
 	}
 
 	th.is-number,
@@ -102,10 +103,34 @@
 		vertical-align: bottom;
 		line-height: 1.2;
 		font-weight: normal;
+		padding: 0.75rem 0 0.75rem 1rem;
+	}
+
+	th {
+		font-weight: 700;
+	}
+	th:nth-of-type(3), th:nth-of-type(5), th:nth-of-type(7), td:nth-of-type(3), td:nth-of-type(5), td:nth-of-type(7) {
+		border-right: 1px solid var(--color-country-text);
+	}
+
+	tr:nth-of-type(1) td:nth-of-type(3), tr:nth-of-type(1) td:nth-of-type(5), tr:nth-of-type(1) td:nth-of-type(7), tr:nth-of-type(1) td:nth-of-type(9) {
+		background: var(--color-country-blue);
+		font-weight: 700;
+	}
+	tr:nth-of-type(2) td:nth-of-type(3), tr:nth-of-type(2) td:nth-of-type(5), tr:nth-of-type(2) td:nth-of-type(7), tr:nth-of-type(2) td:nth-of-type(9) {
+		background: var(--color-country-brown);
+		font-weight: 700;
+	}
+	tr:nth-of-type(3) td:nth-of-type(3), tr:nth-of-type(3) td:nth-of-type(5), tr:nth-of-type(3) td:nth-of-type(7), tr:nth-of-type(3) td:nth-of-type(9) {
+		background: var(--color-country-orange);
+		font-weight: 700;
+	}
+	tr:nth-of-type(1) td:nth-of-type(1), tr:nth-of-type(2) td:nth-of-type(1), tr:nth-of-type(3) td:nth-of-type(1) {
+		width: 5rem;
 	}
 
 	td {
-		border-top: 1px solid currentColor;
+		border-top: 1px solid var(--color-country-text);
 	}
 
 	th button {
@@ -139,6 +164,6 @@
 	}
 
 	tr {
-		cursor: pointer;
+		cursor: auto;
 	}
 </style>

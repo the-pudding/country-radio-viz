@@ -24,7 +24,7 @@
 	--color-fg: var(--color-gray-900);
 	--color-primary: var(--color-black);
 	--color-link: var(--color-black);
-	--color-focus: var(--color-red);
+	--color-focus: #fda922;
 	--color-mark: var(--color-yellow);
 	--color-selection: var(--color-gray-300);
 	--color-border: var(--color-gray-300);
@@ -40,7 +40,7 @@
 }
 
 /* dark theme */
-@media screen and (prefers-color-scheme:dark) {
+/* @media screen and (prefers-color-scheme:dark) {
 	:root {
 		--color-bg: var(--color-gray-900);
 		--color-fg: var(--color-gray-100);
@@ -58,7 +58,7 @@
 		--color-placeholder: var(--color-gray-400);
 		--color-text-outline: var(--color-bg);
 	}
-}
+} */
 
 @media screen and (prefers-reduced-motion: no-preference) {
 	:root {

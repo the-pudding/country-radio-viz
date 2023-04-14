@@ -27,5 +27,6 @@
 
 	:global(.wordmark svg path) {
 		fill: var(--color-country-text);
+		stroke: none;
 	}
 </style>

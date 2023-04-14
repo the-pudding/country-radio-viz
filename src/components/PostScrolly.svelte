@@ -13,6 +13,7 @@
         {/each}
     </div>
     <BarChart />
+    <h3>{copy.proseHead2}</h3>
     <div class="prose">
         {#each copy.prose2 as text, i}
             <p>{@html text.value}</p>
@@ -27,7 +28,10 @@
         padding: 0 1rem;
         font-family: var(--sans);
     }
-
+    h3 {
+        font-weight: 700;
+        color: var(--color-country-text);
+    }
     :global(.pullquote) {
         font-weight: 700;
         font-size: var(--24px);

@@ -66,8 +66,6 @@
 		background: white;
 		color: var(--color-fg);
 		z-index: 1000;
-		pointer-events: none;
-
 	}
 	.step:first-of-type {
 		margin: 0 auto 80vh auto;
@@ -100,7 +98,6 @@
 		font-weight: 700;
 		background-color: var(--color-country-blue);
 		padding: 0.125rem 0.25rem;
-		white-space: nowrap;
 	}
 
 	:global(.step .men-span) {
@@ -108,7 +105,6 @@
 		font-weight: 700;
 		background-color: var(--color-country-brown);
 		padding: 0.125rem 0.25rem;
-		white-space: nowrap;
 	}
 
 	:global(.step .mixed-span) {
@@ -116,7 +112,6 @@
 		font-weight: 700;
 		background-color: var(--color-country-orange);
 		padding: 0.125rem 0.25rem;
-		white-space: nowrap;
 	}
 
 	:global(.step .song-span) {
@@ -124,7 +119,6 @@
 		font-weight: 700;
 		background-color: var(--color-country-tan);
 		padding: 0.125rem 0.25rem;
-		white-space: nowrap;
 	}
 
 	:global(.prose) {

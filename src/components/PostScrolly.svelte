@@ -12,10 +12,32 @@
             <p>{@html text.value}</p>
         {/each}
     </div>
-    <BarChart />
-    <h3>{copy.proseHead2}</h3>
+    <div class="pullquote">
+        {#each copy.quote1 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
     <div class="prose">
         {#each copy.prose2 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
+    <h3>{copy.proseHead3}</h3>
+    <div class="prose">
+        {#each copy.prose3 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
+    <h3>{copy.proseHead4}</h3>
+    <div class="prose">
+        {#each copy.prose4 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
+    <BarChart />
+    <h3>{copy.proseHead5}</h3>
+    <div class="prose">
+        {#each copy.prose5 as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
@@ -31,10 +53,14 @@
     h3 {
         font-weight: 700;
         color: var(--color-country-text);
+        margin: 3rem 0 -1rem 0;
     }
-    :global(.pullquote) {
-        font-weight: 700;
-        font-size: var(--24px);
-        background-color: white;
+    .pullquote {
+        padding: 1rem 2rem;
+        background: var(--color-white);
+        font-size: var(--20px);
+        font-style: italic;
+        line-height: 1.65;
+        position: relative;
     }
 </style>

@@ -178,7 +178,7 @@
                 //     .style("transform", "scaleX(1)")
                 //     .style("margin-left", "0")
                 timeLabel.transition()
-                    .duration(1000)
+                    .duration(1500)
                     .style("opacity", 1);
                 b2bWomen.transition()
                     .delay(2000)
@@ -230,7 +230,7 @@
                     .style("background", "#917c73")
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
-                    .duration(0)
+                    .duration(50)
                     .style("opacity", 1);
                 simLabel.transition()
                     .duration(1000)
@@ -245,11 +245,15 @@
                 // songCurtains.filter((d,i) => i == 0).transition()
                 //     .duration(500)
                 //     .style("opacity", 0);
-                songCurtains.transition()
+                songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .transition()
                     .delay((d, i) => i * 200)
                     .duration(50)
+                    .style("opacity", 0);
+                songCurtains.filter((d,i) => i == 0).transition()
+                    .delay(2000)
+                    .duration(1000)
                     .style("opacity", 0);
             } else if (value == 8) {
                 const unmatchedCurtains = songCurtains.filter((d, i) => !releaseDateArray.includes(i));

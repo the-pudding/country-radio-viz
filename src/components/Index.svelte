@@ -21,13 +21,13 @@
 	let value;
 </script>
 
-<div id="tooltip">
+<!-- <div id="tooltip">
 	<p id="tt-station">Station</p>
 	<p id="tt-date">Date</p>
 	<p id="tt-time">Time</p>
 	<p id="tt-artist">Artist</p>
 	<p id="tt-title">Title</p>
-</div>
+</div> -->
 
 <Intro />
 <section id="scrolly">

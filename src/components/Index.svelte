@@ -36,7 +36,7 @@
 		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
 	</div>
-	<Scrolly bind:value top={0}>
+	<Scrolly bind:value top={-200}>
 		{#each copy.scrolly as text, i}
 			{@const active = value === i}
 			<div class="step" class:active>
@@ -47,7 +47,7 @@
 	<div class="spacer" />
 </section>
 <PostScrolly />
-<Dashboard startingStation={startingStation} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+<Dashboard blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
 <Methods />
 <Footer />
 

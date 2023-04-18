@@ -22,7 +22,13 @@
     export let spacingY;
     export let posType;
 
-    onMount(async () => {
+    onMount(() => {
+        fetchData()
+        colW = Math.floor((innerWidth - padding)/19);
+        }
+    )
+
+    async function fetchData() {
         const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
         const text = await response.text();
         const parsed = d3.csvParse(text)
@@ -30,9 +36,7 @@
         groupedData = d3.groups(data, d => d.date);
         firstDateData = groupedData[0];
         firstDateData = firstDateData[1]
-        colW = Math.floor((innerWidth - padding)/19);
-        }
-    )
+    }
 
     if (posType == "absolute") { top = "2.275rem" } 
         else { top = "0" }
@@ -43,6 +47,10 @@
         } else {
             visible = false;
         }
+    }
+    $: if (startingStation) {
+        console.log(startingStation)
+        fetchData(startingStation);
     }
 
     $: value, changeVisibility(value);

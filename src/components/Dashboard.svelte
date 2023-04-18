@@ -51,8 +51,8 @@
     let innerHeight;
     let colW;
     let padding = 32;
-
-    export let startingStation;
+    let startingStation;
+    
     export let blockH;
     export let spacingX;
     export let spacingY;
@@ -64,13 +64,15 @@
 	];
 
     onMount(() => {
-        updateData(value);
+        updateTableData(value);
 
         colW = Math.floor((innerWidth - padding)/19);
     })
 
-    function updateData(value) {
+    function updateTableData(value) {
         currData = summaryData.filter(d => d.stationName == value);
+
+        startingStation = `${currData[0].cityName}_${currData[0].stationName}`
 
         womenStraightALL = `${Math.round(currData[0].onlyWomenSongs_PERCENT*100)/100}%`;
         womenStraightB2B = `${Math.round(currData[0].b2bWomenSongs_PERCENT*100)/100}%`;
@@ -121,13 +123,13 @@
             { label: "B2B songs", prop: "value8", sort: false, type: "text" }
         ];
     }
-    if (value) {
-        $: updateData(value);
+    $: if (value) {
+        updateTableData(value);
     }
 </script>
 
 <section id="dashboard" bind:clientWidth={innerWidth}>
-    <h4>Explore the song play demographics from each of the 29 radio stations</h4>
+    <h4>Explore the back-to-back song demographics from each of the 29 radio stations</h4>
     <div class="details">
         <div class="station-container">
             <div class="left">
@@ -176,7 +178,9 @@
             {/each}
         </div>
         <div class="time-label-top"><p>Midnight →</p></div>
-        <CanvasBlockChart startingStation={startingStation} value={7} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
+        {#if startingStation}
+            <CanvasBlockChart startingStation={startingStation} value={7} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
+        {/if}
     </div>
 </section>
 

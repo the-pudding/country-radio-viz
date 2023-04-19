@@ -14,6 +14,7 @@
     let padding = 32;
     let visible = false;
     let top;
+    let map;
 
     export let startingStation;
     export let value;
@@ -22,14 +23,19 @@
     export let spacingY;
     export let posType;
 
-    onMount(() => {
-        fetchData()
+    onMount(async () => {
+        const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
+        const text = await response.text();
+        const parsed = d3.csvParse(text)
+        data = parsed;
+        groupedData = d3.groups(data, d => d.date);
+        firstDateData = groupedData[0];
+        firstDateData = firstDateData[1]
         colW = Math.floor((innerWidth - padding)/19);
-        }
-    )
+    })
 
     async function fetchData() {
-        const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
+        const response = await self.fetch(`./assets/${startingStation}_withB2B.csv`);
         const text = await response.text();
         const parsed = d3.csvParse(text)
         data = parsed;
@@ -48,8 +54,17 @@
             visible = false;
         }
     }
+
+    function changeMap(startingStation) {
+        map = d3.select('#map-container');
+        let cityName = startingStation.split("_")[0];
+        let allDots = map.selectAll(`g path`).filter((d,i) => i !== 0).style("fill", "#917c73");
+        let mapOutline = map.selectAll(`#Layer_1 path`).style("fill", "#F6EFE9")  
+        let cityDot = map.selectAll(`#${cityName} path`).style("fill", "#5076e8");
+    }
+
     $: if (startingStation) {
-        console.log(startingStation)
+        changeMap(startingStation)
         fetchData(startingStation);
     }
 

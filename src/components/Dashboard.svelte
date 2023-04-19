@@ -76,7 +76,7 @@
 
         womenStraightALL = `${Math.round(currData[0].onlyWomenSongs_PERCENT*100)/100}%`;
         womenStraightB2B = `${Math.round(currData[0].b2bWomenSongs_PERCENT*100)/100}%`;
-        menStraightALL = `${Math.round(currData[0].onlyMenSongs_PERCENT*100)/100 - Math.round(currData[0].onlyLGBTQSongs_PERCENT*100)/100}%`;
+        menStraightALL = `${Math.round(currData[0].onlyMenSongs_PERCENT*100 - currData[0].onlyLGBTQSongs_PERCENT*100)/100}%`;
         menStraightB2B = `${Math.round(currData[0].b2bMenSongs_PERCENT*100)/100}%`;
         mixedStraightALL = `${Math.round(currData[0].onlyMixedGenderSongs_PERCENT*100)/100}%`;
         mixedStraightB2B = `${Math.round(currData[0].b2bMixedGenderSongs_PERCENT*100)/100}%`;
@@ -139,7 +139,7 @@
                     <p class="owner-label">{currData[0].ownerName}</p>
                 {/if}
             </div>
-            <div class="right">
+            <div class="right" id="map-container">
                 {@html usMap}
             </div>
         </div>
@@ -231,19 +231,6 @@
     .right {
         max-width: 14rem;
     }
-
-    .chart-type {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .chart-type p {
-        margin: 0 0.5rem 0 0;
-        padding: 0 1rem;
-    }
-
     .table-container {
         width: calc(100% - 20rem);
         display: flex;

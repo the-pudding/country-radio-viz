@@ -32,7 +32,7 @@
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
-		<SanAntoDivs startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+		<SanAntoDivs startingStation={startingStation} value={value} />
 		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
 	</div>
@@ -55,9 +55,6 @@
 	.sticky {
 		position: sticky;
 		top: 0;
-	}
-	.sticky section {
-		position: absolute;
 	}
 	.step {
 		max-width: 500px;
@@ -85,13 +82,13 @@
 		height: 75vh;
 	}
 
-	#tooltip {
+	/* #tooltip {
 		position: sticky;
 		top: 3rem;
 		bottom: 0;
 		z-index: 1000;
 		display: none;
-	}
+	} */
 
 	:global(.step .women-span) {
 		color: var(--color-white);

@@ -82,21 +82,6 @@
         padding: 1rem;
         margin-left: 1.25rem;
     }
-
-    .screen-container {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        z-index: 1000;
-        display: flex;
-        flex-direction: row;
-    }
-
-    .screen-block {
-        padding-right: 2px;
-        background: var(--color-country-bg);
-    }
-
     .canvas-container {
         position: absolute;
         top: 0;

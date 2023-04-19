@@ -42,9 +42,6 @@
     // exports
     export let startingStation;
     export let value;
-    export let blockH;
-    export let spacingX;
-    export let spacingY;
 
     onMount(() => {
         // data

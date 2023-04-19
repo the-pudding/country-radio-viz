@@ -4,6 +4,7 @@
     import { fade } from 'svelte/transition';
     import { onMount } from "svelte";
     import * as d3 from "d3";
+    import { browser } from "$app/environment";
 
     let innerWidth;
 	let innerHeight;
@@ -24,18 +25,11 @@
     export let posType;
 
     onMount(async () => {
-        const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
-        const text = await response.text();
-        const parsed = d3.csvParse(text)
-        data = parsed;
-        groupedData = d3.groups(data, d => d.date);
-        firstDateData = groupedData[0];
-        firstDateData = firstDateData[1]
         colW = Math.floor((innerWidth - padding)/19);
     })
 
     async function fetchData() {
-        const response = await self.fetch(`./assets/${startingStation}_withB2B.csv`);
+        const response = await fetch(`assets/${startingStation}_withB2B.csv`);
         const text = await response.text();
         const parsed = d3.csvParse(text)
         data = parsed;
@@ -55,7 +49,7 @@
         }
     }
 
-    function changeMap(startingStation) {
+    function changeMap() {
         map = d3.select('#map-container');
         let cityName = startingStation.split("_")[0];
         let allDots = map.selectAll(`g path`).filter((d,i) => i !== 0).style("fill", "#917c73");
@@ -63,10 +57,9 @@
         let cityDot = map.selectAll(`#${cityName} path`).style("fill", "#5076e8");
     }
 
-    $: if (startingStation) {
-        changeMap(startingStation)
-        fetchData(startingStation);
-    }
+    $: if (browser) changeMap(startingStation);
+
+    $: if (browser) fetchData(startingStation);
 
     $: value, changeVisibility(value);
 </script>

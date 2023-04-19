@@ -1,4 +1,6 @@
 <script>
+	import summaryData from "$data/summary.csv";
+
 	export let options = [];
 	export let label = "";
 	export let disabled = false;

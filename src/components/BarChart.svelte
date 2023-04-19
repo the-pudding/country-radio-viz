@@ -8,6 +8,7 @@
 
     function formatCityName(cityName) {
         if (cityName == "SanAntonio") { return "San Antonio"}
+        else if (cityName == "LosAngeles") { return "Los Angeles"}
         else if (cityName == "KansasCity") { return "Kansas City"}
         else if (cityName == "WashingtonDC") { return "Washington DC"}
         else { return cityName}

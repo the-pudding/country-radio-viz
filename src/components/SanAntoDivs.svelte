@@ -1,6 +1,7 @@
 <script>
     import * as d3 from "d3";
-    import { onMount } from "svelte";
+    import { onMount, tick } from "svelte";
+    import { browser } from "$app/environment";
 
     // data
     let data = [];
@@ -43,38 +44,19 @@
     export let startingStation;
     export let value;
 
-    onMount(() => {
+    onMount(async () => {
         // data
-        loadData();
+        await loadData();
 
         // dimensions
         colW = Math.floor((w - padding)/19);
+        await tick();
 
-        setTimeout(() => {
-             // elements
-            allSongBlocks = d3.selectAll(".song");
-            firstSong = allSongBlocks.filter((d, i) => i == 136);
-            b2bWomen = d3.selectAll(".song-B2Bwomen");
-            b2bMen = d3.selectAll(".song-B2Bmen");
-            b2bMixed = d3.selectAll(".song-B2Bmixed");
-            highlightWomenSong = allSongBlocks.filter((d, i) => i == 273);
-            repChart = d3.selectAll("#representative-chart");
-            firstSongBlock = d3.selectAll(".song-block").filter((d, i) => i == 0);
-            dates = d3.selectAll(".date");
-            firstDate = d3.selectAll(".date").filter((d,i) => i == 0);
-            songCurtains = d3.selectAll(".song-block");
-            simLabel = d3.selectAll(".sim-label");
-            stickyScroll = d3.select(".sticky");
-            songLineLabel = d3.select(".song-line-label");
-            b2bLabel = d3.select(".b2b-label");
-            timeLabel = d3.select(".time-label-top");
-            afterLabels = d3.selectAll(".song-4", ".song-73", ".song-272")
-
-            // mounted
-            mountCheck = true;
-        }, 100)
-        }
-    )
+        setSelectors();
+        
+        // mounted
+        mountCheck = true;
+    });
 
     async function loadData() {
         const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
@@ -83,7 +65,27 @@
         data = parsed;
         groupedData = d3.groups(data, d => d.date);
         firstDateData = groupedData[0];
-        firstDateData = firstDateData[1]
+        firstDateData = firstDateData[1];
+    }
+
+    function setSelectors() {
+        allSongBlocks = d3.selectAll(".song");
+        firstSong = allSongBlocks.filter((d, i) => i == 136);
+        b2bWomen = d3.selectAll(".song-B2Bwomen");
+        b2bMen = d3.selectAll(".song-B2Bmen");
+        b2bMixed = d3.selectAll(".song-B2Bmixed");
+        highlightWomenSong = allSongBlocks.filter((d, i) => i == 273);
+        repChart = d3.selectAll("#representative-chart");
+        firstSongBlock = d3.selectAll(".song-block").filter((d, i) => i == 0);
+        dates = d3.selectAll(".date");
+        firstDate = d3.selectAll(".date").filter((d,i) => i == 0);
+        songCurtains = d3.selectAll(".song-block");
+        simLabel = d3.selectAll(".sim-label");
+        stickyScroll = d3.select(".sticky");
+        songLineLabel = d3.select(".song-line-label");
+        b2bLabel = d3.select(".b2b-label");
+        timeLabel = d3.select(".time-label-top");
+        afterLabels = d3.selectAll(".song-4", ".song-73", ".song-272")
     }
 
     function formatDate(indivDate) {
@@ -282,8 +284,8 @@
             }
         }
     }
-
-    $: handleScroll(value);
+    $: if (browser) { handleScroll(value) };
+    // $: handleScroll(value);
 </script>
 
 <svelte:window bind:innerWidth={w}/>

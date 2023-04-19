@@ -69,6 +69,14 @@
         colW = Math.floor((innerWidth - padding)/19);
     })
 
+    function formatCityName(cityName) {
+        if (cityName == "SanAntonio") { return "San Antonio"}
+        else if (cityName == "LosAngeles") { return "Los Angeles"}
+        else if (cityName == "KansasCity") { return "Kansas City"}
+        else if (cityName == "WashingtonDC") { return "Washington DC"}
+        else { return cityName}
+    }
+
     function updateTableData(value) {
         currData = summaryData.filter(d => d.stationName == value);
 
@@ -135,8 +143,8 @@
             <div class="left">
                 <Select options={stations} bind:value/>
                 {#if currData}
-                    <p class="city-label">{currData[0].cityName}</p>
-                    <p class="owner-label">{currData[0].ownerName}</p>
+                    <p class="city-label">{formatCityName(currData[0].cityName)}</p>
+                    <p class="owner-label">Owner: {currData[0].ownerName}</p>
                 {/if}
             </div>
             <div class="right" id="map-container">

@@ -38,8 +38,13 @@
 			cancelAnimationFrame(frameId);
 		};
 	});
+
+	function handleMouseMove(e) {
+
+		console.log(e.x, e.y);
+	}
 </script>
 
-<canvas bind:this={canvas} />
+<canvas bind:this={canvas} on:mousemove={handleMouseMove}/>
 
 <slot />

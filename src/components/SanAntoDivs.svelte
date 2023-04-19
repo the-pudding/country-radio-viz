@@ -106,9 +106,19 @@
                         firstSong.transition()
                             .delay(250)
                             .duration(250)
+                            .style("border", "1px solid #e1d4ca")
                             .style("bottom", "0px")
+                            .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg') cover")
+                            .style("width", "200px")
+                            .style("height", "200px")
                             .style("opacity", 1);
                     })
+                allSongBlocks.filter((d, i) => i !== 136).transition()
+                    .duration(100)
+                    .style("opacity", 0);
+                songLineLabel.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 1) {
                 firstSong.transition()
                     .duration(500)
@@ -127,7 +137,11 @@
                     })
                 allSongBlocks.filter((d, i) => i >= 173 && i <= 184).filter(".song-B2Bmen").transition()
                     .duration(0)
-                    .style("background", "#917c73")
+                    .style("background", "#917c73");
+                allSongBlocks.filter((d, i) => i >= 137 && i <= 173).filter(".song-B2Bmen").transition()
+                    .delay(500)
+                    .duration(250)
+                    .style("background", "#e1d4ca");
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 184).transition()
                     .delay(1000)
                     .transition()
@@ -137,7 +151,13 @@
                 songLineLabel.transition()
                     .delay(2000)
                     .duration(1000)
-                    .style("opacity", 1);
+                    .style("opacity", 1)
+                    .style("margin-top", `${3*134+1}px`)
+                    .end()
+                    .then(() => {
+                        songLineLabel.select("p").transition()
+                            .text("Each line is a song")
+                    })
             } else if (value == 2) {
                 b2bMen.transition()
                     .duration(1000)
@@ -145,15 +165,36 @@
                 songLineLabel.transition()
                     .duration(1000)
                     .style("margin-top", `${3*148+1}px`)
+                    .style("opacity", 1)
                     .end()
                     .then(() => {
                         songLineLabel.select("p").transition()
                             .text("We're only counting the second song in a pair by same-gender artists as a back-to-back play")
                     })
+                allSongBlocks.filter((d, i) => i >= 184 && i <= 273).transition()
+                    .duration(1000)
+                    .style("opacity", 0)
             } else if (value == 3) {
                 songLineLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
+                allSongBlocks.filter((d, i) => i >= 0 && i <= 135).transition()
+                    .delay(500)
+                    .duration(2000)
+                    .style("opacity", 0);
+                allSongBlocks.filter((d, i) => i >= 274 && i <= 400).transition()
+                    .delay(500)
+                    .duration(2000)
+                    .style("opacity", 0)
+                    .end()
+                    .then(() => {
+                        b2bWomen.filter((d,i) => i !== 2).transition()
+                            .duration(0)
+                            .style("transform", "scaleX(1)")
+                            .style("margin-left", "0")
+                        d3.select(".song-4").classed("show-label", false);
+                        d3.select(".song-73").classed("show-label", false);
+                    });
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 273).transition()
                     .delay((d, i) => i * 25)
                     .duration(0)

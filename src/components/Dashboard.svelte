@@ -108,15 +108,15 @@
         mixedPOCB2B = `${(Math.round(currData[0].b2bPOCMixedSongs_PERCENT*100)/100).toFixed(1)}%`;
 
         rowsOrientation = [
-            {name: "Women", value1: womenStraightALL, value2: womenStraightB2B, value3: womenLGBTQALL, value4: womenLGBTQB2B, value5: womenWhiteALL, value6: womenWhiteB2B, value7: womenPOCALL, value8: womenPOCB2B},
-            {name: "Men", value1: menStraightALL, value2: menStraightB2B, value3: menLGBTQALL, value4: menLGBTQB2B, value5: menWhiteALL, value6: menWhiteB2B, value7: menPOCALL, value8: menPOCB2B},
-            {name: "Mixed", value1: mixedStraightALL, value2: mixedStraightB2B, value3: mixedLGBTQALL, value4: mixedLGBTQB2B, value5: mixedWhiteALL, value6: mixedWhiteB2B, value7: mixedPOCALL, value8: mixedPOCB2B},
+            {name: "Women", value1: womenStraightALL, value2: womenStraightB2B, value3: womenLGBTQALL, value4: womenLGBTQB2B},
+            {name: "Men", value1: menStraightALL, value2: menStraightB2B, value3: menLGBTQALL, value4: menLGBTQB2B},
+            {name: "Mixed", value1: mixedStraightALL, value2: mixedStraightB2B, value3: mixedLGBTQALL, value4: mixedLGBTQB2B}
         ]
 
         rowsRace = [
             {name: "Women", value1: womenWhiteALL, value2: womenWhiteB2B, value3: womenPOCALL, value4: womenPOCB2B},
             {name: "Men", value1: menWhiteALL, value2: menWhiteB2B, value3: menPOCALL, value4: menPOCB2B},
-            {name: "Mixed", value1: mixedWhiteALL, value2: mixedWhiteB2B, value3: mixedPOCALL, value4: mixedPOCB2B},
+            {name: "Mixed", value1: mixedWhiteALL, value2: mixedWhiteB2B, value3: mixedPOCALL, value4: mixedPOCB2B}
         ]
 
         columns = [
@@ -124,11 +124,7 @@
             { label: "All songs", prop: "value1", sort: false, type: "text" },
             { label: "B2B songs", prop: "value2", sort: false, type: "text" },
             { label: "All songs", prop: "value3", sort: false, type: "text" },
-            { label: "B2B songs", prop: "value4", sort: false, type: "text" },
-            { label: "All songs", prop: "value5", sort: false, type: "text" },
-            { label: "B2B songs", prop: "value6", sort: false, type: "text" },
-            { label: "All songs", prop: "value7", sort: false, type: "text" },
-            { label: "B2B songs", prop: "value8", sort: false, type: "text" }
+            { label: "B2B songs", prop: "value4", sort: false, type: "text" }
         ];
     }
     $: if (value) {
@@ -152,27 +148,27 @@
             </div>
         </div>
         <div class="table-container">
-            <div class="table-block">
-                <div class="extra-labels">
-                    <p>Straight</p>
-                    <p>LGBTQ+</p>
-                    <p>White</p>
-                    <p>POC</p>
+            <div class="table-wrapper">
+                <div class="table-block">
+                    <div class="extra-labels">
+                        <p>Straight</p>
+                        <p>LGBTQ+</p>
+                    </div>
+                    {#if rowsOrientation}
+                        <SortTable  rows={rowsOrientation} columns={columns}/>
+                    {/if}
                 </div>
-                {#if rowsOrientation}
-                    <SortTable  rows={rowsOrientation} columns={columns}/>
-                {/if}
+                <div class="table-block">
+                    <div class="extra-labels">
+                        <p>White</p>
+                        <p>POC</p>
+                    </div>
+                    {#if rowsRace}
+                        <SortTable  rows={rowsRace} columns={columns}/>
+                    {/if}
+                </div>
             </div>
             <p class="note">{@html copy.methodsNote[0].text}</p>
-            <!-- <div class="table-block">
-                <div class="extra-labels">
-                    <p>White</p>
-                    <p>POC</p>
-                </div>
-                {#if rowsRace}
-                    <SortTable  rows={rowsRace} columns={columns}/>
-                {/if}
-            </div> -->
         </div>
     </div>
     <!-- <div class="chart-type">
@@ -245,12 +241,23 @@
         flex-direction: column;
         padding: 0 1rem;
     }
+    .table-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
     .note {
         font-size: var(--14px);
         font-style: italic;
     }
     .table-block {
-        width: 100%;
+        width: 50%;
+    }
+    .table-block:first-of-type {
+        padding-right: 1rem;
+    }
+    .table-block:last-of-type {
+        padding-left: 1rem;
     }
     .extra-labels {
         width: 100%;

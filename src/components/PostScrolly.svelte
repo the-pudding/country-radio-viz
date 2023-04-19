@@ -4,6 +4,8 @@
 	const copy = getContext("copy");
 
     import BarChart from "$components/BarChart.svelte";
+    import Wall from "$components/Wall.svelte";
+    import InlineBarChart from "$components/InlineBarChart.svelte";
 </script>
 
 <section id="post-scroll">
@@ -28,55 +30,34 @@
             <p>{@html text.value}</p>
         {/each}
     </div>
-    <h3>{copy.proseHead4}</h3>
+    <Wall />
     <div class="prose">
         {#each copy.prose4 as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
-    <BarChart />
     <h3>{copy.proseHead5}</h3>
     <div class="prose">
         {#each copy.prose5 as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
-    <div class="hours-chart">
-        <h4>{copy.hoursChartTitle}</h4>
-        {#each copy.hoursChart as text, i}
-            <div class="row">
-                <div class="label-container">
-                    <p>{text.long} ({text.type})</p>
-                    <p>{text.hours}</p>
-                </div>
-                <div class="bar-container">
-                    <div class="bar"></div>
-                    <div class="color-bar color-bar-{text.type}" style="width: {text.percent}%"><p>{text.percent}%</p></div>
-                </div>
-            </div>
-        {/each}
-    </div>
+    <BarChart />
+    <h3>{copy.proseHead6}</h3>
     <div class="prose">
         {#each copy.prose6 as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
-    <div class="gold-chart">
-        <h4>{copy.goldChartTitle}</h4>
-        {#each copy.goldChart as text, i}
-            <div class="row">
-                <div class="label-container">
-                    <p>{text.type}</p>
-                </div>
-                <div class="bar-container">
-                    <div class="bar"></div>
-                    <div class="color-bar color-bar-{text.type}" style="width: {text.percent}%"><p>{text.percent}%</p></div>
-                </div>
-            </div>
-        {/each}
-    </div>
+    <InlineBarChart title={copy.hoursChartTitle} data={copy.hoursChart} />
     <div class="prose">
         {#each copy.prose7 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
+    <InlineBarChart title={copy.goldChartTitle} data={copy.goldChart} />
+    <div class="prose">
+        {#each copy.prose8 as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
@@ -84,8 +65,7 @@
 
 <style>
     #post-scroll {
-        max-width: 40rem;
-        margin: 0 auto;
+        width: 100%;
         padding: 0 1rem;
         font-family: var(--sans);
     }
@@ -93,6 +73,12 @@
         font-weight: 700;
         color: var(--color-country-text);
         margin: 3rem 0 -1rem 0;
+        max-width: 40rem;
+        margin: 3rem auto 0 auto;
+    }
+    .prose {
+        max-width: 40rem;
+        margin: 0 auto;
     }
     .pullquote {
         padding: 1rem 2rem;
@@ -101,6 +87,8 @@
         font-style: italic;
         line-height: 1.65;
         position: relative;
+        max-width: 40rem;
+        margin: 2rem auto;
     }
 
     .hours-chart, .gold-chart {

@@ -25,6 +25,28 @@
         {#each copy.methods2 as text, i}
             <p>{@html text.value}</p>
         {/each}
+        <h4>Organizations & communities</h4>
+        <ul>
+            {#each copy.methodsListOrgs as text, i}
+                <li><a href={text.link}><strong>{@html text.name}:</strong></a> {@html text.description}</li>
+            {/each}
+        </ul>
+        <h4>Media & publications</h4>
+        <ul>
+            {#each copy.methodsListPubs as text, i}
+                <li><a href={text.link}><strong>{@html text.name}:</strong></a> {@html text.description}</li>
+            {/each}
+        </ul>
+        <h4>Support the artists</h4>
+        <ul>
+            {#each copy.methodsListSupport as text, i}
+                <li><a href={text.link}><strong>{@html text.name}:</strong></a> {@html text.description}</li>
+            {/each}
+        </ul>
+        <h4>About the authors</h4>
+        {#each copy.methodsAbout as text, i}
+            <p>{@html text.value}</p>
+        {/each}
     </div>
 </section>
 
@@ -37,11 +59,20 @@
         color: var(--color-country-text);
     }
 
-    #methods .prose {
+    .prose {
         font-size: var(--14px);
+        color: var(--color-country-text);
     }
-    #methods .note {
+    .note {
         font-size: var(--14px);
         font-style: italic;
+        color: var(--color-country-text);
+    }
+
+    h4 {
+        font-weight: 700;
+        font-size: var(--18px);
+        color: var(--color-country-text);
+        margin: 2rem 0 0 0;
     }
 </style>

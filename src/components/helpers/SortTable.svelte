@@ -103,13 +103,13 @@
 		vertical-align: bottom;
 		line-height: 1.2;
 		font-weight: normal;
-		padding: 0.75rem 0 0.75rem 1rem;
+		padding: 0.75rem 0 0.75rem 0.75rem;
 	}
 
 	th {
 		font-weight: 700;
 	}
-	th:nth-of-type(3), th:nth-of-type(5), th:nth-of-type(7), td:nth-of-type(3), td:nth-of-type(5), td:nth-of-type(7) {
+	th:nth-of-type(1), th:nth-of-type(3), td:nth-of-type(1), td:nth-of-type(3) {
 		border-right: 1px solid var(--color-country-text);
 	}
 

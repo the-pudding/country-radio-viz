@@ -54,7 +54,7 @@
 <style>
 	.sticky {
 		position: sticky;
-		top: 0;
+		top: 1rem;
 	}
 	.step {
 		max-width: 500px;
@@ -95,6 +95,7 @@
 		font-weight: 700;
 		background-color: var(--color-country-blue);
 		padding: 0.125rem 0.25rem;
+		box-decoration-break:clone;
 	}
 
 	:global(.step .men-span) {
@@ -102,6 +103,7 @@
 		font-weight: 700;
 		background-color: var(--color-country-brown);
 		padding: 0.125rem 0.25rem;
+		box-decoration-break:clone;
 	}
 
 	:global(.step .mixed-span) {
@@ -109,6 +111,7 @@
 		font-weight: 700;
 		background-color: var(--color-country-orange);
 		padding: 0.125rem 0.25rem;
+		box-decoration-break:clone;
 	}
 
 	:global(.step .song-span) {
@@ -116,6 +119,7 @@
 		font-weight: 700;
 		background-color: var(--color-country-tan);
 		padding: 0.125rem 0.25rem;
+		box-decoration-break:clone;
 	}
 
 	:global(.prose) {

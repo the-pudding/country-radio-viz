@@ -30,9 +30,11 @@
 
 <style>
     #bar-chart {
-        padding: 3rem 0;
+        padding: 0;
         color: var(--color-country-text);
         width: 100%;
+        margin: 5rem auto;
+        max-width: 40rem;
     }
     h4 {
         font-weight: 700;

@@ -93,6 +93,10 @@
 		color: var(--color-country-text);
 	}
 
+	thead:first-of-type {
+		border-bottom: 1px solid var(--color-country-text);
+	}
+
 	th.is-number,
 	td.is-number {
 		text-align: right;

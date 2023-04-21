@@ -2,10 +2,34 @@
     import { getContext } from "svelte";
     const data = getContext("data");
 	const copy = getContext("copy");
+    let rowsTopW;
+    let rowsTopM;
+    let columnsTop;
 
     import BarChart from "$components/BarChart.svelte";
     import Wall from "$components/Wall.svelte";
     import InlineBarChart from "$components/InlineBarChart.svelte";
+    import SortTable from "$components/helpers/SortTable.svelte";
+
+
+    rowsTopW = [
+        {name: copy.top3Chart[0].rank1Name, percent: `${copy.top3Chart[0].rank1Percent}%`},
+        {name: copy.top3Chart[0].rank2Name, percent: `${copy.top3Chart[0].rank2Percent}%`},
+        {name: copy.top3Chart[0].rank3Name, percent: `${copy.top3Chart[0].rank3Percent}%`},
+        {name: "Total", percent: `${copy.top3Chart[0].total}%`},
+    ]
+
+    rowsTopM = [
+        {name: copy.top3Chart[1].rank1Name, percent: `${copy.top3Chart[1].rank1Percent}%`},
+        {name: copy.top3Chart[1].rank2Name, percent: `${copy.top3Chart[1].rank2Percent}%`},
+        {name: copy.top3Chart[1].rank3Name, percent: `${copy.top3Chart[1].rank3Percent}%`},
+        {name: "Total", percent: `${copy.top3Chart[1].total}%`},
+    ]
+
+    columnsTop = [
+        { label: "Artist", prop: "name", sort: false, type: "text" },
+        { label: "Percentage", prop: "percent", sort: false, type: "text" },
+    ];
 </script>
 
 <section id="post-scroll">
@@ -61,6 +85,25 @@
             <p>{@html text.value}</p>
         {/each}
     </div>
+    <div class="table-container">
+        <div class="table-wrapper">
+            {#if rowsTopW}
+                <h4>Percentage of plays for top current women artists</h4>
+                <SortTable  rows={rowsTopW} columns={columnsTop}/>
+            {/if} 
+        </div>
+        <div class="table-wrapper">
+            <h4>Percentage of plays for top current men artists</h4>
+            {#if rowsTopM}
+                <SortTable  rows={rowsTopM} columns={columnsTop}/>
+            {/if} 
+        </div>
+    </div>
+    <div class="prose">
+        {#each copy.prose9 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
 </section>
 
 <style>
@@ -79,6 +122,34 @@
     .prose {
         max-width: 40rem;
         margin: 0 auto;
+    }
+    .table-container {
+        max-width: 40rem;
+        margin: 3rem auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .table-wrapper {
+        width: 50%;
+    }
+    .table-wrapper:first-of-type {
+        margin-right: 1rem;
+    }
+    .table-wrapper:last-of-type {
+        margin-left: 1rem;
+    }
+    :global(#post-scroll .table-container td, #post-scroll .table-container th) {
+        background: var(--color-coutnry-bg);
+        border-right: none;
+    }
+    :global(#post-scroll .table-container td) {
+        width: 100%;
+    }
+    :global(#post-scroll .table-container td:nth-of-type(2), #post-scroll .table-container tr:nth-of-type(4) td:nth-of-type(1)) {
+        font-weight: 700;
+    }
+    :global(#post-scroll .table-container tr:nth-of-type(4) td) {
+        background: var(--color-country-tan);
     }
     .pullquote {
         padding: 1rem 2rem;

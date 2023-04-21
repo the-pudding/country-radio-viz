@@ -8,6 +8,7 @@
 
 <section class="inline-bar">
     <h4>{title}</h4>
+    <p class="mline">Back-to-back men percentage</p>
     {#each data as bar, i}
         <div class="row">
             {#if bar.long}
@@ -18,6 +19,7 @@
                 <div class="bar-container" style="width: calc(100% - 12rem)">
                     <div class="bar"></div>
                     <div class="color-bar color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
+                    <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {:else}
                 <div class="label-container" style="width: 6rem">
@@ -26,6 +28,7 @@
                 <div class="bar-container" style="width: calc(100% - 6rem)">
                     <div class="bar"></div>
                     <div class="color-bar color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
+                    <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {/if}
         </div>
@@ -37,6 +40,21 @@
         max-width: 40rem;
         margin: 0 auto;
         padding: 3rem 0;
+    }
+    .mline {
+        position: relative;
+        margin: 0 0 2rem 0;
+        padding: 0;
+    }
+    .mline::before {
+        content:'';
+        position: relative;
+        top: 0.25rem;
+        display: inline-block;
+        height: 20px;
+        width: 2px;
+        background: var(--color-country-text);
+        margin-right: 0.5rem
     }
     .row {
         width: 100%;
@@ -93,12 +111,18 @@
         margin-right: -3.5rem;
         width: 3rem;
     }
+    .m-bar {
+        width: 2px;
+        background: var(--color-country-text);
+        position: absolute;
+        height: 2rem;
+    }
 
     h4 {
         font-weight: 700;
         font-size: var(--20px);
         color: var(--color-country-text);
-        margin: 0 0 2rem 0;
+        margin: 0 0 0 0;
         padding: 0;
     }
 </style>

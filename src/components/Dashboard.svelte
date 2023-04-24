@@ -12,7 +12,8 @@
     const data = getContext("data");
 	const copy = getContext("copy");
 
-    const stations = summaryData.map(d => `${d.stationName}`);
+    const stations = summaryData.map(d => `${d.cityName} (${d.stationName})`).sort();
+
     const dates = ["Jan 7", "Jan 24", "Jan28", "Feb 7", "Feb 25", "Mar 18",
                     "Mar 25", "Apr 8", "Apr 29", "May 20", "May 27", "Jun 13",
                     "June 24", "Jul 29", "Aug 26", "Sep 30", "Oct 28", "Nov 25", "Dec 30"]
@@ -66,7 +67,7 @@
     onMount(() => {
         updateTableData(value);
 
-        colW = Math.floor((innerWidth - padding)/19);
+        colW = Math.floor((innerWidth - padding*1.5)/19);
     })
 
     function formatCityName(cityName) {
@@ -77,8 +78,10 @@
         else { return cityName}
     }
 
-    function updateTableData(value) {
-        currData = summaryData.filter(d => d.stationName == value);
+    function updateTableData(value) {  
+        let stationName = value.split("(")[1];
+        stationName = stationName.split(")")[0];
+        currData = summaryData.filter(d => d.stationName == stationName);
 
         startingStation = `${currData[0].cityName}_${currData[0].stationName}`
 

@@ -25,7 +25,7 @@
     export let posType;
 
     onMount(async () => {
-        colW = Math.floor((innerWidth - padding)/19);
+        colW = Math.floor((innerWidth - padding*1.5)/19);
     })
 
     async function fetchData() {

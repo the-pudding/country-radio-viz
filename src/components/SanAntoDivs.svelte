@@ -49,7 +49,7 @@
         await loadData();
 
         // dimensions
-        colW = Math.floor((w - padding)/19);
+        colW = Math.floor((w - padding*1.5)/19);
         await tick();
 
         setSelectors();
@@ -230,6 +230,12 @@
                         d3.select(".song-4").classed("show-label", true);
                         d3.select(".song-73").classed("show-label", true);
                     })
+                songCurtains.filter((d,i) => i !== 0).transition()
+                    .duration(1000)
+                    .style("opacity", 1);
+                simLabel.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 5) {
                 allSongBlocks.transition()
                     .duration(2000)
@@ -247,6 +253,9 @@
                 d3.select(".song-4").classed("show-label", false);
                 d3.select(".song-73").classed("show-label", false);
                 d3.select(".song-272").classed("show-label", false);
+                repChart.transition()
+                    .duration(1000)
+                    .style("opacity", 1);
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .transition()
@@ -272,7 +281,13 @@
                     .delay(1000)
                     .duration(50)
                     .style("opacity", 1);
+                songCurtains.filter((d,i) => i == 0).transition()
+                    .duration(1000)
+                    .style("opacity", 1);
                 simLabel.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
+                dates.filter((d,i) => i !== 0).transition()
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 7) {
@@ -281,10 +296,8 @@
                     .transition()
                     .delay((d, i) => i * 200)
                     .duration(50)
-                    .style("opacity", 1);
-                // songCurtains.filter((d,i) => i == 0).transition()
-                //     .duration(500)
-                //     .style("opacity", 0);
+                    .style("opacity", 1)
+                    .style("font-weight", "500");
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .transition()
@@ -318,6 +331,9 @@
                     .transition()
                     .duration(1000)
                     .style("opacity", 1);
+                stickyScroll.transition()
+                    .duration(2000)
+                    .style("opacity", 1)
             } else if (value == 10) {
                 stickyScroll.transition()
                     .duration(2000)

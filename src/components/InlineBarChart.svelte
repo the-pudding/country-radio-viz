@@ -105,7 +105,7 @@
     }
     .bar-0::before, .bar-4::before, .color-bar-0::before, .color-bar-4::before {
         content: "";
-        background-image: url("/assets/images/letterpress-texture1.png");
+        background-image: url("assets/images/letterpress-texture1.png");
         position: absolute;
         top: 0px;
         right: 0px;
@@ -115,7 +115,7 @@
     }
     .bar-1::before, .bar-3::before, .color-bar-1::before, .color-bar-3::before {
         content: "";
-        background-image: url("/assets/images/letterpress-texture2.png");
+        background-image: url("assets/images/letterpress-texture2.png");
         position: absolute;
         top: 0px;
         right: 0px;
@@ -125,7 +125,7 @@
     }
     .bar-2::before, .color-bar-2::before {
         content: "";
-        background-image: url("/assets/images/letterpress-texture3.png");
+        background-image: url("assets/images/letterpress-texture3.png");
         position: absolute;
         top: 0px;
         right: 0px;

@@ -32,7 +32,7 @@
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
-		<img class="overlay" src="/assets/images/letterpress-texture2.png">
+		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />

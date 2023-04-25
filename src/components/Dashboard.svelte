@@ -147,7 +147,7 @@
                 {/if}
             </div>
             <div class="right" id="map-container">
-                <img class="overlay" style="max-width:14rem; max-height:14rem; opacity:0.25" src="assets/images/letterpress-texture1.png">
+                <img class="overlay" alt="letterpress texture" style="max-width:14rem; max-height:14rem; opacity:0.25" src="assets/images/letterpress-texture1.png">
                 {@html usMap}
             </div>
         </div>
@@ -186,7 +186,7 @@
             {/each}
         </div>
         <div class="time-label-top"><p>Midnight →</p></div>
-        <img class="overlay" src="assets/images/letterpress-texture2.png">
+        <img class="overlay" alt="letterpress texture" src="assets/images/letterpress-texture2.png">
         {#if startingStation}
             <CanvasBlockChart startingStation={startingStation} value={7} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
         {/if}

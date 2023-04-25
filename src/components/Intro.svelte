@@ -12,7 +12,7 @@
 <section id="intro">
     <div class="title-wrapper" style="height: {w*0.9}px">
         <Header />
-        <img src="assets/images/hero-bg.jpg" />
+        <img alt="letterpress sunburst texture" src="assets/images/hero-bg.jpg" />
         <div class="svg-container">
             {@html title}
         </div>
@@ -23,7 +23,7 @@
         <h1>{copy.hed}</h1>
         <div class="img-wrapper">
             <p>Scroll</p>
-            <img class="pointer" src="assets/images/pointer.png" />
+            <img class="pointer" alt="letterpress pointer hand" src="assets/images/pointer.png" />
         </div>
     </div>
 </section>

@@ -150,6 +150,17 @@
     }
     :global(#post-scroll .table-container tr:nth-of-type(4) td) {
         background: var(--color-country-tan);
+        position: relative;
+    }
+    :global(#post-scroll .table-container tr:nth-of-type(4) td::before) {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture3.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
     }
     .pullquote {
         padding: 1rem 2rem;

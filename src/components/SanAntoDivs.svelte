@@ -123,6 +123,7 @@
                 firstSong.transition()
                     .duration(500)
                     .style("height", "2px")
+                    .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg') cover")
                     .end()
                     .then(() => {
                         firstSong.transition()
@@ -229,6 +230,7 @@
                     .then(() => {
                         d3.select(".song-4").classed("show-label", true);
                         d3.select(".song-73").classed("show-label", true);
+                        d3.select(".song-272").classed("show-label", true);
                     })
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .duration(1000)
@@ -374,6 +376,7 @@
         z-index: 1000;
         position: relative;
         margin-left: 1.25rem;
+        z-index: 999;
     }
     .sim-label {
         position: absolute;

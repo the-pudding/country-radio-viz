@@ -147,6 +147,7 @@
                 {/if}
             </div>
             <div class="right" id="map-container">
+                <img class="overlay" style="max-width:14rem; max-height:14rem; opacity:0.25" src="assets/images/letterpress-texture1.png">
                 {@html usMap}
             </div>
         </div>
@@ -185,6 +186,7 @@
             {/each}
         </div>
         <div class="time-label-top"><p>Midnight →</p></div>
+        <img class="overlay" src="assets/images/letterpress-texture2.png">
         {#if startingStation}
             <CanvasBlockChart startingStation={startingStation} value={7} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
         {/if}
@@ -199,7 +201,13 @@
         padding: 0;
         margin: 5rem 0;
     }
-
+    .overlay {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		z-index: 1000;
+		opacity: 0.25;
+	}
     h4 {
         margin: 1rem;
         border-bottom: 1px solid var(--color-country-tan);

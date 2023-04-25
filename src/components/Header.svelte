@@ -9,6 +9,12 @@
 </header>
 
 <style>
+	header {
+		z-index: 1000;
+		position: absolute;
+		width: 100%;
+		padding-top: 1rem;
+	}
 	.wordmark {
 		max-width: 10em;
 		margin: 0 auto;

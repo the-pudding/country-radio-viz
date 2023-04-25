@@ -120,14 +120,50 @@
 	tr:nth-of-type(1) td:nth-of-type(3), tr:nth-of-type(1) td:nth-of-type(5), tr:nth-of-type(1) td:nth-of-type(7), tr:nth-of-type(1) td:nth-of-type(9) {
 		background: var(--color-country-blue);
 		font-weight: 700;
+		position: relative;
+		border-radius: 0.125rem;
+	} 
+	tr:nth-of-type(1) td:nth-of-type(3)::before, tr:nth-of-type(1) td:nth-of-type(5)::before, tr:nth-of-type(1) td:nth-of-type(7)::before, tr:nth-of-type(1) td:nth-of-type(9)::before {
+		content: "";
+        background-image: url("/assets/images/letterpress-texture1.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.125;
 	}
 	tr:nth-of-type(2) td:nth-of-type(3), tr:nth-of-type(2) td:nth-of-type(5), tr:nth-of-type(2) td:nth-of-type(7), tr:nth-of-type(2) td:nth-of-type(9) {
 		background: var(--color-country-brown);
 		font-weight: 700;
+		position: relative;
+		border-radius: 0.125rem;
+	}
+	tr:nth-of-type(2) td:nth-of-type(3)::before, tr:nth-of-type(2) td:nth-of-type(5)::before, tr:nth-of-type(2) td:nth-of-type(7)::before, tr:nth-of-type(2) td:nth-of-type(9)::before {
+		content: "";
+        background-image: url("/assets/images/letterpress-texture2.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.125;
 	}
 	tr:nth-of-type(3) td:nth-of-type(3), tr:nth-of-type(3) td:nth-of-type(5), tr:nth-of-type(3) td:nth-of-type(7), tr:nth-of-type(3) td:nth-of-type(9) {
 		background: var(--color-country-orange);
 		font-weight: 700;
+		position: relative;
+		border-radius: 0.125rem;
+	}
+	tr:nth-of-type(3) td:nth-of-type(3)::before, tr:nth-of-type(3) td:nth-of-type(5)::before, tr:nth-of-type(3) td:nth-of-type(7)::before, tr:nth-of-type(3) td:nth-of-type(9)::before {
+		content: "";
+        background-image: url("/assets/images/letterpress-texture3.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.125;
 	}
 	tr:nth-of-type(1) td:nth-of-type(1), tr:nth-of-type(2) td:nth-of-type(1), tr:nth-of-type(3) td:nth-of-type(1) {
 		width: 5rem;

@@ -11,7 +11,7 @@
             <div class="indiv-container">
                 <p class="year">{indiv.year}</p>
                 {#if indiv.image}
-                <div class="img-wrapper" bind:clientWidth={imgW}>
+                <div class="img-wrapper img-wrapper-{i}" bind:clientWidth={imgW}>
                     <img src="assets/images/{indiv.image}" alt="A album cover from {indiv.name}"/>
                 </div>
                 {:else}
@@ -49,8 +49,38 @@
         width: 100%;
         max-width: 300px;
         border: 1px solid var(--color-country-tan);
+        border-radius: 0.125rem;
     }
-
+    .img-wrapper-0::before, .img-wrapper-2::before {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture1.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
+    }
+    .img-wrapper-1::before {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture2.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
+    }
+    .img-wrapper-3::before {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture3.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
+    }
     .year {
         color: var(--color-country-brown);
         margin: 0 0 0.5rem 0;

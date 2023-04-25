@@ -32,6 +32,7 @@
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
+		<img class="overlay" src="/assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
 		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
@@ -80,6 +81,13 @@
 	}
 	.spacer {
 		height: 75vh;
+	}
+	.overlay {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		z-index: 1000;
+		opacity: 0.25;
 	}
 
 	/* #tooltip {

@@ -17,8 +17,8 @@
                     <p>{bar.hours}</p>
                 </div>
                 <div class="bar-container" style="width: calc(100% - 12rem)">
-                    <div class="bar"></div>
-                    <div class="color-bar color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
+                    <div class="bar bar-{i}"></div>
+                    <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
                     <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {:else}
@@ -26,8 +26,8 @@
                     <p>{bar.type}</p>
                 </div>
                 <div class="bar-container" style="width: calc(100% - 6rem)">
-                    <div class="bar"></div>
-                    <div class="color-bar color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
+                    <div class="bar bar-{i}"></div>
+                    <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
                     <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {/if}
@@ -90,8 +90,9 @@
         width: 100%;
         height: 2rem;
         position: absolute;
+        border-radius: 0.125rem;
     }
-
+    
     .color-bar {
         background: var(--color-country-brown);
         height: 2rem;
@@ -100,8 +101,38 @@
         align-items: center;
         justify-content: end;
         text-align: left;
+        border-radius: 0.125rem;
     }
-
+    .bar-0::before, .bar-4::before, .color-bar-0::before, .color-bar-4::before {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture1.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
+    }
+    .bar-1::before, .bar-3::before, .color-bar-1::before, .color-bar-3::before {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture2.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
+    }
+    .bar-2::before, .color-bar-2::before {
+        content: "";
+        background-image: url("/assets/images/letterpress-texture3.png");
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.25;
+    }
     .color-bar-OVN, .color-bar-EVE, .color-bar-Current {
         background: var(--color-country-blue);
     }

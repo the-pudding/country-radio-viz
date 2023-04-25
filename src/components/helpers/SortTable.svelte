@@ -125,7 +125,7 @@
 	} 
 	tr:nth-of-type(1) td:nth-of-type(3)::before, tr:nth-of-type(1) td:nth-of-type(5)::before, tr:nth-of-type(1) td:nth-of-type(7)::before, tr:nth-of-type(1) td:nth-of-type(9)::before {
 		content: "";
-        background-image: url("assets/images/letterpress-texture1.png");
+        background-image: url("/assets/images/letterpress-texture1.png");
         position: absolute;
         top: 0px;
         right: 0px;
@@ -141,7 +141,7 @@
 	}
 	tr:nth-of-type(2) td:nth-of-type(3)::before, tr:nth-of-type(2) td:nth-of-type(5)::before, tr:nth-of-type(2) td:nth-of-type(7)::before, tr:nth-of-type(2) td:nth-of-type(9)::before {
 		content: "";
-        background-image: url("assets/images/letterpress-texture2.png");
+        background-image: url("/assets/images/letterpress-texture2.png");
         position: absolute;
         top: 0px;
         right: 0px;
@@ -157,7 +157,7 @@
 	}
 	tr:nth-of-type(3) td:nth-of-type(3)::before, tr:nth-of-type(3) td:nth-of-type(5)::before, tr:nth-of-type(3) td:nth-of-type(7)::before, tr:nth-of-type(3) td:nth-of-type(9)::before {
 		content: "";
-        background-image: url("assets/images/letterpress-texture3.png");
+        background-image: url("/assets/images/letterpress-texture3.png");
         position: absolute;
         top: 0px;
         right: 0px;

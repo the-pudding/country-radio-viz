@@ -1,8 +1,8 @@
 <script>
-	export let title = "Title TK";
-	export let description = "Description TK";
-	export let url = "https://pudding.cool";
-	export let keywords = "";
+	export let title = "They Won't Play a Lady-O on Country Radio: Examining Back-to-Back Plays by Gender, Race, & Sexual Orientation";
+	export let description = "We looked at 29 radio stations across the US to see how often they played back-to-back songs by women.";
+	export let url = "https://pudding.cool/2023/05/country-radio";
+	export let keywords = "country, music, radio, back-to-back, song, gender, race, sexual orientation";
 	export let preloadFont = [];
 </script>
 

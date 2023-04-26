@@ -5,7 +5,6 @@
     import summaryData from "$data/summary.csv";
     import Select from "$components/helpers/Select.svelte";
     import usMap from "$svg/us-map.svg";
-    import ButtonSet from "$components/helpers/ButtonSet.svelte";
     import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
     import SortTable from "$components/helpers/SortTable.svelte";
 
@@ -57,12 +56,6 @@
     export let blockH;
     export let spacingX;
     export let spacingY;
-
-    const options = [
-		{ value: "Gender" },
-		{ value: "Race"},
-		{ value: "Sexual Orientation" }
-	];
 
     onMount(() => {
         updateTableData(value);
@@ -232,12 +225,10 @@
         padding: 0 2rem 0 1rem;
         
     }
-
-    .city-label {
+    /* .city-label {
         font-size: var(--24px);
         margin: 1rem 0 0 0;
-    }
-
+    } */
     .owner-label {
         color: var(--color-country-brown);
         margin: 1rem 0 0 0;

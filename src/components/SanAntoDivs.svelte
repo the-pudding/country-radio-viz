@@ -141,12 +141,12 @@
                             .style("left", "0px")
                             .style("top", "0px")
                     })
-                allSongBlocks.filter((d, i) => i >= 173 && i <= 184).filter(".song-B2Bmen").transition()
+                allSongBlocks.filter((d, i) => i >= 172 && i <= 184).filter(".song-B2Bmen").transition()
                     .duration(0)
                     .style("background", "#917c73");
-                allSongBlocks.filter((d, i) => i >= 137 && i <= 173).filter(".song-B2Bmen").transition()
+                allSongBlocks.filter((d, i) => i >= 136 && i <= 172).filter(".song-B2Bmen").transition()
                     .delay(500)
-                    .duration(250)
+                    .duration(0)
                     .style("background", "#e1d4ca");
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 184).transition()
                     .delay(1000)

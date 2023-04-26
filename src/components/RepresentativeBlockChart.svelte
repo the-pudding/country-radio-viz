@@ -76,7 +76,7 @@
 <style>
     section {
         position: absolute;
-        top: 2.275rem;
+        top: 3.5rem;
         height: 100vh;
         width: 100%;
         padding: 1rem;

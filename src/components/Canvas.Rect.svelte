@@ -11,16 +11,16 @@
     function setFill(fill) {
 		if (!isNaN(fill)) {
 			if (fill == 0) { return ("#e1d4ca") }
-			else { return ("#5076e8") }
+			else { return ("#3460E5") }
 		} else {
 			if (value < 9) {
-				if (fill == "B2Bmen") { return ("#917c73") }
-				else if (fill == "B2Bwomen") { return ("#5076e8") }
+				if (fill == "B2Bmen") { return ("#78695E") }
+				else if (fill == "B2Bwomen") { return ("#3460E5") }
 				else if (fill == "B2Bmixed") { return ("#fda922") }
 				else { return ("#e1d4ca") }
 			} else {
-				if (fill == "B2BCombMen") { return ("#917c73") }
-				else if (fill == "B2BCombWomen") { return ("#5076e8") }
+				if (fill == "B2BCombMen") { return ("#78695E") }
+				else if (fill == "B2BCombWomen") { return ("#3460E5") }
 				else { return ("#e1d4ca") }
 			}
 		}

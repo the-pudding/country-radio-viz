@@ -107,9 +107,12 @@
 		vertical-align: bottom;
 		line-height: 1.2;
 		font-weight: normal;
-		padding: 0.75rem 0 0.75rem 0.75rem;
+		padding: 0.75rem;
+		text-align: right;
 	}
-
+	tr th, td:first-of-type {
+		text-align: left;
+	}
 	th {
 		font-weight: 700;
 	}
@@ -119,6 +122,7 @@
 
 	tr:nth-of-type(1) td:nth-of-type(3), tr:nth-of-type(1) td:nth-of-type(5), tr:nth-of-type(1) td:nth-of-type(7), tr:nth-of-type(1) td:nth-of-type(9) {
 		background: var(--color-country-blue);
+		color: var(--color-country-bg);
 		font-weight: 700;
 		position: relative;
 		border-radius: 0.125rem;
@@ -135,6 +139,7 @@
 	}
 	tr:nth-of-type(2) td:nth-of-type(3), tr:nth-of-type(2) td:nth-of-type(5), tr:nth-of-type(2) td:nth-of-type(7), tr:nth-of-type(2) td:nth-of-type(9) {
 		background: var(--color-country-brown);
+		color: var(--color-country-bg);
 		font-weight: 700;
 		position: relative;
 		border-radius: 0.125rem;
@@ -205,5 +210,15 @@
 
 	tr {
 		cursor: auto;
+	}
+	@media only screen and (max-width: 700px) {
+		td, th, tr {
+			font-size: var(--14px);
+		}
+	}
+	@media only screen and (max-width: 500px) {
+		td, th, tr {
+			font-size: var(--12px);
+		}
 	}
 </style>

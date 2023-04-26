@@ -43,7 +43,7 @@
     }
     .mline {
         position: relative;
-        margin: 0 0 2rem 0;
+        margin: 0 0 1rem 0;
         padding: 0;
     }
     .mline::before {
@@ -155,5 +155,16 @@
         color: var(--color-country-text);
         margin: 0 0 0 0;
         padding: 0;
+    }
+
+    @media only screen and (max-width: 700px) {
+        .color-bar p, .label-container p {
+            font-size: var(--14px);
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .color-bar p, .label-container p {
+            font-size: var(--12px);
+        }
     }
 </style>

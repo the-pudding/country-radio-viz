@@ -49,7 +49,7 @@
         await loadData();
 
         // dimensions
-        colW = Math.floor((w - padding*1.5)/19);
+        calcW(w);
         await tick();
 
         setSelectors();
@@ -88,10 +88,15 @@
         afterLabels = d3.selectAll(".song-4", ".song-73", ".song-272")
     }
 
+    function calcW(w) {
+        colW = Math.floor((w - padding*1.5)/19);
+    }
+
     function formatDate(indivDate) {
         const parseTime = d3.timeParse("%m/%e/%y")
         const date = parseTime(indivDate)
-        const formatedDate = d3.timeFormat("%b %e")(date)
+        let formatedDate = d3.timeFormat("%b%d")(date)
+        formatedDate = `${formatedDate.match(/.{1,3}/g)[0]}<br>${formatedDate.match(/.{1,3}/g)[1]}`
         return formatedDate;
     }
 
@@ -153,37 +158,38 @@
                     .delay(2000)
                     .duration(1000)
                     .style("opacity", 1)
-                    .style("margin-top", `${3*134+1}px`)
+                    .style("margin-top", `${3*134+20}px`)
                     .end()
                     .then(() => {
                         songLineLabel.select("p").transition()
                             .text("Each line is a song")
-                    })
+                    });
             } else if (value == 2) {
+                firstSong.transition()
+                    .duration(0)
+                    .style("height", "2px")
+                    .style("border", "0px")
+                    .style("transform", "translate(0px, 0px)")
+                    .style("width", "100%")
+                    .style("left", "0px")
+                    .style("top", "0px")
+                    .style("bottom", "0px")
+                    .style("background", "#78695E")
                 b2bMen.transition()
                     .duration(1000)
-                    .style("background", "#917c73")
-                songLineLabel.transition()
-                    .duration(1000)
-                    .style("margin-top", `${3*148+1}px`)
-                    .style("opacity", 1)
-                    .end()
-                    .then(() => {
-                        songLineLabel.select("p").transition()
-                            .text("We're only counting the second song in a pair by same-gender artists as a back-to-back play")
-                    })
-                allSongBlocks.filter((d, i) => i >= 184 && i <= 273).transition()
-                    .duration(1000)
-                    .style("opacity", 0)
-            } else if (value == 3) {
+                    .style("background", "#78695E")
                 songLineLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
+                allSongBlocks.filter((d, i) => i >= 185 && i <= 275).transition()
+                    .duration(1000)
+                    .style("opacity", 0)
+            } else if (value == 3) {
                 allSongBlocks.filter((d, i) => i >= 0 && i <= 135).transition()
                     .delay(500)
                     .duration(2000)
                     .style("opacity", 0);
-                allSongBlocks.filter((d, i) => i >= 274 && i <= 400).transition()
+                allSongBlocks.filter((d, i) => i >= 275 && i <= 400).transition()
                     .delay(500)
                     .duration(2000)
                     .style("opacity", 0)
@@ -214,10 +220,6 @@
                     .delay(500)
                     .duration(2000)
                     .style("opacity", 1);
-                // highlightWomenSong.transition()
-                //     .duration(750)
-                //     .style("transform", "scaleX(1)")
-                //     .style("margin-left", "0")
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 1);
@@ -278,7 +280,7 @@
                     .style("opacity", 1);
                 b2bMen.transition()
                     .duration(1000)
-                    .style("background", "#917c73")
+                    .style("background","#78695E")
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .duration(50)
@@ -344,18 +346,18 @@
         }
     }
     $: if (browser) { handleScroll(value) };
-    // $: handleScroll(value);
+    $: w, calcW(w);
 </script>
 
 <svelte:window bind:innerWidth={w}/>
 
 <section id="day-chart">
-    <div class="sim-label" style="margin-left: {colW*2}px; width: calc({colW*10}px);"><p>Simulations</p></div>
-    <div class="song-line-label" style="margin-left: {colW}px; margin-top: {3*134+1}px"><p>Each line is a song</p></div>
+    <div class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10+9}px;"><p>Simulations</p></div>
+    <div class="song-line-label" style="margin-left: {colW}px; margin-top: {3*134+20}px"><p>Each line is a song</p></div>
     <div class="time-label-top"><p>Midnight →</p></div>
     {#each groupedData as indivDate, i}
     <div class="date-block" style="width:{colW}px">
-        <p class="date">{formatDate(indivDate[0])}</p>
+        <p class="date">{@html formatDate(indivDate[0])}</p>
         <div class="song-block">
             {#if i == 0 || i == undefined}
             {#each firstDateData as song, i}
@@ -380,7 +382,7 @@
     }
     .sim-label {
         position: absolute;
-        top: 0.75rem;
+        top: 1.75rem;
         border-top: 1px solid var(--color-country-text);
         border-left: 1px solid var(--color-country-text);
         border-right: 1px solid var(--color-country-text);
@@ -432,7 +434,7 @@
         font-size: var(--14px);
         position: absolute;
         left: -2rem;
-        top: 3rem;
+        top: 4.125rem;
     }
     .date {
         font-family: var(--sans);
@@ -441,10 +443,10 @@
         color: var(--color-country-text);
         margin: 0;
         opacity: 0;
-        font-size: var(--14px);
-        text-overflow: clip;
+        font-size: var(--14px);  
+        height: 2.25rem;
         overflow: hidden;
-        white-space: nowrap;    
+        overflow-wrap: break-word; 
     }
     .song-block {
         display: flex;
@@ -467,6 +469,7 @@
     .song-4::after {
         position: absolute;
         width: 30rem;
+        max-width: 30rem;
         top: 0.25rem;
         left: calc(100% + 0.25rem);
         content: '12:16am: Miranda Lambert "If I Was A Cowboy"';
@@ -479,6 +482,7 @@
     .song-73::after {
         position: absolute;
         width: 30rem;
+        max-width: 30rem;
         top: 0.25rem;
         left: calc(100% + 0.25rem);
         content: '4:18am: Carly Pearce & Ashley McBryde "Never Wanted To Be That Girl"';
@@ -491,6 +495,7 @@
     .song-272::after {
         position: absolute;
         width: 30rem;
+        max-width: 30rem;
         top: 0.25rem;
         left: calc(100% + 0.25rem);
         content: '5:51pm: Priscilla Block "Just About Over You"';
@@ -532,5 +537,24 @@
         width: 100%;
         height: 2px;
         position: relative;
+    }
+
+    @media only screen and (max-width: 800px) {
+        .song-4::after, .song-73::after, .song-272::after {
+            max-width: 20rem;
+            font-size: var(--12px);
+        }
+        .time-label-top p {
+          left: -1.75rem;  
+          top: 2.75rem;
+          font-size: var(--12px);
+        }
+        .sim-label p {
+            font-size: var(--12px);
+            top: -0.5rem;
+        }
+        .date {
+            font-size: var(--12px);
+        }
     }
 </style>

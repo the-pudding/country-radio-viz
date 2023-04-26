@@ -90,14 +90,6 @@
 		opacity: 0.25;
 	}
 
-	/* #tooltip {
-		position: sticky;
-		top: 3rem;
-		bottom: 0;
-		z-index: 1000;
-		display: none;
-	} */
-
 	:global(.step .women-span) {
 		color: var(--color-white);
 		font-weight: 700;
@@ -139,4 +131,11 @@
 	:global(.prose p) {
 		padding: 0.5rem 0;
 	}
+
+	@media only screen and (max-width: 700px) {
+		.step p {
+			font-size: var(--16px);
+		}
+	}
+
 </style>

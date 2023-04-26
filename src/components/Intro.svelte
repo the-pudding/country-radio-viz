@@ -2,30 +2,45 @@
     import { getContext } from "svelte";
     import title from "$svg/title_hero-bg.svg";
     import Header from "$components/Header.svelte";
-    const copy = getContext("copy");
+    import { onMount } from "svelte";
+    import * as d3 from "d3";
 
+    const copy = getContext("copy");
     let w;
+    let h;
+    let minDim;
+    let svgH;
+
+    function calcDims(w, h) { minDim = d3.min([w, h]); }
+
+    onMount(() => {
+        calcDims(w, h);
+    })
+
+    $: calcDims(w, h);
 </script>
 
-<svelte:window bind:innerWidth={w}/>
+<svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
 
 <section id="intro">
-    <div class="title-wrapper" style="height: {w*0.9}px">
-        <Header />
-        <img alt="letterpress sunburst texture" src="assets/images/hero-bg.jpg" />
-        <div class="svg-container">
-            {@html title}
+    {#if minDim}
+        <div class="title-wrapper" style="height: {minDim*0.8}px; width: {minDim*0.9}px">
+            <Header />
+            <img alt="letterpress sunburst texture" src="assets/images/hero-bg.jpg" />
+            <div class="svg-container" bind:clientHeight={svgH}>
+                {@html title}
+            </div>
+            <div class="subhed-wrapper">
+                <h2>{copy.subhed}</h2>
+                <p class="byline">By {@html copy.byline}</p>
+            </div>
+            <h1>{copy.hed}</h1>
+            <div class="img-wrapper">
+                <p>Scroll</p>
+                <img class="pointer" alt="letterpress pointer hand" src="assets/images/pointer.png" />
+            </div>
         </div>
-        <div class="subhed-wrapper">
-            <h2>{copy.subhed}</h2>
-            <p class="byline">By {@html copy.byline}</p>
-        </div>
-        <h1>{copy.hed}</h1>
-        <div class="img-wrapper">
-            <p>Scroll</p>
-            <img class="pointer" alt="letterpress pointer hand" src="assets/images/pointer.png" />
-        </div>
-    </div>
+    {/if}
 </section>
 
 
@@ -33,12 +48,14 @@
     section {
         width: 100%;
         z-index: 999;
-        /* margin-bottom: -50vh; */
+        height: auto;
+        font-family: var(--sans);
     }
     .title-wrapper {
         width: 100%;
         position: relative;
         z-index: 999;
+        margin: 0 auto;
     }
     .title-wrapper img {
         width: 100%;
@@ -54,11 +71,12 @@
     }
     .img-wrapper {
         position: absolute;
-        right: 1rem;
-        bottom: -2rem;
+        right: -1rem;
+        bottom: -4rem;
         display: flex;
         flex-direction: row;
         align-items: center;
+        z-index: 1000;
     }
     .img-wrapper .pointer {
         width: 4rem;
@@ -66,13 +84,11 @@
         animation: bounceUp 1s infinite;
     }
     .img-wrapper p {
-        font-family: var(--sans);
-        font-weight: 700;
         font-size: var(--14px);
         text-transform: uppercase;
         color: var(--color-country-text);
         padding: 0;
-        margin: 1.75rem -1rem 0 0;
+        margin: 0.25rem -1rem 0 0;
     }
     .subhed-wrapper {
         width: 100%;
@@ -90,7 +106,6 @@
         text-align: center;
         color: var(--color-country-bg);
         padding: 0.25rem 1rem;
-        font-family: var(--sans);
         text-transform: uppercase;
         border-radius: 0.125rem;
         height: 2.5rem;
@@ -101,14 +116,12 @@
         font-size: var(--20px);
         height: 3rem;
         line-height: 1.75;
-        bottom: 6rem;
         clip-path: polygon(0 0, 99.5% 0, 100% 3rem, 0.5% 100%);
     }
     .byline {
         font-size: var(--14px);
         height: 2.25rem;
         line-height: 1.75;
-        bottom: 3rem;
         clip-path: polygon(0.5% 0, 99.5% 0, 100% 2.25rem, 0 100%);
     }
     :global(.byline a) {
@@ -128,4 +141,55 @@
         100%     { bottom:0; }
     }
 
+    @media only screen and (max-width: 900px) {
+        .subhed-wrapper {
+            bottom: 1rem;
+        }
+        h2 {
+            font-size: var(--16px); 
+            height: 2.5rem;
+            clip-path: polygon(0 0, 99.5% 0, 100% 2.5rem, 0.5% 100%);
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .svg-container {
+            top: 0; 
+        }
+        .subhed-wrapper {
+            bottom: -1.5rem;
+        }
+        h2 {
+            font-size: var(--16px); 
+            max-width: 80%;
+            line-height: 1.25;
+            height: 3.25rem;
+            clip-path: polygon(0 0, 99.5% 0, 100% 3.25rem, 0.5% 100%);
+        }
+        .byline {
+            font-size: var(--12px);
+            height: 2rem;
+            line-height: 1.75;
+            clip-path: polygon(0.5% 0, 99.5% 0, 100% 2rem, 0 100%);
+        }
+        .img-wrapper .pointer {
+            width: 3rem;
+        }
+        .img-wrapper p {
+            font-size: var(--12px);
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .subhed-wrapper {
+            bottom: -5rem;
+        }
+
+        h2 {
+            font-size: var(--16px); 
+            max-width: 70%;
+            line-height: 1.25;
+            height: 4.25rem;
+            clip-path: polygon(0 0, 99.5% 0, 100% 4.25rem, 0.5% 100%);
+        }
+    }
 </style>

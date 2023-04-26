@@ -13,7 +13,6 @@
 		z-index: 1000;
 		position: absolute;
 		width: 100%;
-		padding-top: 1rem;
 	}
 	.wordmark {
 		max-width: 10em;
@@ -35,4 +34,10 @@
 		fill: var(--color-country-text);
 		stroke: none;
 	}
+
+	@media only screen and (max-width: 500px) {
+        .wordmark {
+			max-width: 8em;
+		}
+    }
 </style>

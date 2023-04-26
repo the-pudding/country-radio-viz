@@ -75,4 +75,10 @@
         color: var(--color-country-text);
         margin: 2rem 0 0 0;
     }
+
+    @media only screen and (max-width: 700px) {
+        #methods {
+            max-width: 100%;
+        }
+    }
 </style>

@@ -83,5 +83,6 @@
 	div {
 		z-index: 1000;
 		position: relative;
+		padding: 0 1rem;
 	}
 </style>

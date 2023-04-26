@@ -118,6 +118,20 @@
         margin: 3rem 0 -1rem 0;
         max-width: 40rem;
         margin: 3rem auto 0 auto;
+        position: relative;
+    }
+    h3::before {
+        content: "";
+        background-image: url("/assets/images/pointer.png");
+        background-repeat: no-repeat;
+        background-size: 5rem;
+        width: 5rem;
+        height: 15rem;
+        position: absolute;
+        top: -6rem;
+        left: -2.5rem;
+        opacity: 1;
+        transform: rotate(-90deg);
     }
     .prose {
         max-width: 40rem;
@@ -125,12 +139,14 @@
     }
     .table-container {
         max-width: 40rem;
-        margin: 3rem auto;
+        margin: 0 auto;
+        padding: 3rem 0;
         display: flex;
         flex-direction: row;
     }
     .table-wrapper {
         width: 50%;
+        margin: 0;
     }
     .table-wrapper:first-of-type {
         margin-right: 1rem;
@@ -144,9 +160,13 @@
     }
     :global(#post-scroll .table-container td) {
         width: 100%;
+        padding: 0.75rem;
     }
     :global(#post-scroll .table-container td:nth-of-type(2), #post-scroll .table-container tr:nth-of-type(4) td:nth-of-type(1)) {
         font-weight: 700;
+    }
+    :global(#post-scroll .table-container td:nth-of-type(2)) {
+        text-align: right;
     }
     :global(#post-scroll .table-container tr:nth-of-type(4) td) {
         background: var(--color-country-tan);
@@ -172,12 +192,22 @@
         max-width: 40rem;
         margin: 2rem auto;
     }
-
+    .pullquote::before {
+        content: "";
+        background-image: url("/assets/images/quote.png");
+        background-repeat: no-repeat;
+        background-size: 5rem;
+        width: 5rem;
+        height: 5rem;
+        position: absolute;
+        top: -2.25rem;
+        left: -2.5rem;
+        opacity: 0.95;
+    }
     .hours-chart, .gold-chart {
         width: 100%;
         padding: 3rem 0;
     }
-
     .row {
         width: 100%;
         display: flex;
@@ -248,7 +278,39 @@
         font-weight: 700;
         font-size: var(--20px);
         color: var(--color-country-text);
-        margin: 0 0 2rem 0;
+        margin: 0 0 1rem 0;
         padding: 0;
+    }
+    @media only screen and (max-width: 700px) {
+        .prose p {
+            font-size: var(--16px);
+        }
+        .pullquote {
+            font-size: var(--18px);
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        :global(#post-scroll .table-container th) {
+            font-size: var(--14px);
+        }
+        :global(#post-scroll .table-container td) {
+            font-size: var(--14px);
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .table-container {
+            flex-direction: column;
+        }
+        .table-wrapper {
+            width: 100%;
+        }
+        .table-wrapper:first-of-type {
+            margin-right: 0;
+            margin: 0 0 3rem 0;
+        }
+        .table-wrapper:last-of-type {
+            margin-left: 0;
+        }
     }
 </style>

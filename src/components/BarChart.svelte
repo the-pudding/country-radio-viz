@@ -1,6 +1,5 @@
 <script>
     import * as d3 from "d3";
-    import { onMount } from "svelte";
     import summaryData from "$data/summary.csv";
 
     let sortedData = summaryData.sort((a, b) => d3.descending(a.b2bWomenSongs_PERCENT, b.b2bWomenSongs_PERCENT));
@@ -21,7 +20,7 @@
         <div class="row row-{city.stationName}" bind:clientWidth={innerWidth}>
             <div class="city-label">{formatCityName(city.cityName)} ({city.stationName})</div>
             {#if innerWidth}
-                <div class="bar bar-{i}" style="width: {innerWidth*city.b2bWomenSongs_PERCENT/2.5}px"></div>
+                <div class="bar bar-{i}" style="width: {innerWidth*city.b2bWomenSongs_PERCENT/3.25}px"></div>
             {/if}
             <div class="value-label">{Math.round(city.b2bWomenSongs_PERCENT*100)/100}%</div>
         </div>
@@ -30,17 +29,17 @@
 
 <style>
     #bar-chart {
-        padding: 0;
+        padding: 3rem 0;
         color: var(--color-country-text);
         width: 100%;
-        margin: 5rem auto;
+        margin: 0 auto;
         max-width: 40rem;
     }
     h4 {
         font-weight: 700;
         font-size: var(--20px);
         color: var(--color-country-text);
-        margin: 0 0 2rem 0;
+        margin: 0 0 1rem 0;
         padding: 0;
     }
     .row {
@@ -108,5 +107,23 @@
     }
     .row-KCYY-FM .bar {
         background: var(--color-country-blue); 
+    }
+
+    @media only screen and (max-width: 700px) {
+        .city-label {
+            width: 11rem;
+        }
+        .city-label, .value-label {
+            font-size: var(--14px);
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .city-label {
+            width: 9.5rem;
+        }
+        .city-label, .value-label {
+            font-size: var(--12px);
+        }
     }
 </style>

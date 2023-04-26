@@ -142,7 +142,7 @@
             <div class="left">
                 <Select options={stations} bind:value/>
                 {#if currData}
-                    <p class="city-label">{formatCityName(currData[0].cityName)}</p>
+                    <!-- <p class="city-label">{formatCityName(currData[0].cityName)}</p> -->
                     <p class="owner-label">Owner: {currData[0].ownerName}</p>
                 {/if}
             </div>
@@ -227,9 +227,9 @@
     .station-container {
         display: flex;
         flex-direction: column;
-        width: 20rem;
+        width: 18rem;
         justify-content: space-between;
-        padding: 0 3rem 0 1rem;
+        padding: 0 2rem 0 1rem;
         
     }
 
@@ -240,14 +240,14 @@
 
     .owner-label {
         color: var(--color-country-brown);
-        margin: 0;
+        margin: 1rem 0 0 0;
     }
 
     .right {
         max-width: 14rem;
     }
     .table-container {
-        width: calc(100% - 20rem);
+        width: calc(100% - 18rem);
         display: flex;
         flex-direction: column;
         padding: 0 1rem;
@@ -281,7 +281,7 @@
         text-align: center;
         font-size: var(--16px);
         text-transform: uppercase;
-        margin: 0.5rem;
+        margin: 0 0.5rem;
         color: var(--color-country-brown);
     }
     .date-row {
@@ -324,5 +324,54 @@
 
     :global(.right svg #SanAntonio path) {
         fill: var(--color-country-blue);
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .station-container {
+            justify-content: start;
+        }
+        .table-wrapper {
+            flex-direction: column;
+        }
+        .table-block {
+            width: 100%;
+            padding: 0;
+        }
+        .table-block:last-of-type, .table-block:first-of-type {
+           padding: 0;
+        }
+        .table-block:first-of-type {
+            padding: 0 0 2rem 0;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .details {
+            flex-direction: column;
+        }
+        .station-container {
+            width: 100%;
+            flex-direction: row;
+        }
+        .left {
+            width: calc(100% - 14rem);
+            padding: 0 2rem 0 0;
+        }
+        .right {
+            margin: -1rem 0 0 0;
+        }
+        .table-container {
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .extra-labels p, .owner-label {
+            font-size: var(--14px);
+        }
+        .left {
+            width: calc(100% - 10rem);
+        }
+        .right {
+            width: 10rem;
+        }
     }
 </style>

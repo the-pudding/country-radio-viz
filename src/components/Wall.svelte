@@ -32,9 +32,12 @@
         max-width: 65rem;
         margin: 3rem auto;
         color: var(--color-country-text);
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .indiv-container {
         width: 20%;
+        max-width: 15rem;
         padding: 0 1rem;
         text-align: center;
     }
@@ -95,5 +98,11 @@
     }
     .details {
         font-style: italic;
+    }
+
+    @media only screen and (max-width: 900px) {
+        .indiv-container {
+            width: 50%;
+        }
     }
 </style>

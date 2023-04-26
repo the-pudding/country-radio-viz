@@ -25,7 +25,7 @@
     export let posType;
 
     onMount(async () => {
-        colW = Math.floor((innerWidth - padding*1.5)/19);
+        calcW(innerWidth);
     })
 
     async function fetchData() {
@@ -38,9 +38,12 @@
         firstDateData = firstDateData[1]
     }
 
-    if (posType == "absolute") { top = "2.275rem" } 
+    if (posType == "absolute") { top = "3.5rem" } 
         else { top = "0" }
 
+    function calcW(innerWidth) {
+        colW = Math.floor((innerWidth - padding*1.5)/19);
+    }
     function changeVisibility(value) {
         if (value > 6) {
             visible = true;
@@ -52,9 +55,9 @@
     function changeMap() {
         map = d3.select('#map-container');
         let cityName = startingStation.split("_")[0];
-        let allDots = map.selectAll(`g path`).filter((d,i) => i !== 0).style("fill", "#917c73");
+        let allDots = map.selectAll(`g path`).filter((d,i) => i !== 0).style("fill", "#78695E");
         let mapOutline = map.selectAll(`#Layer_1 path`).style("fill", "#F6EFE9")  
-        let cityDot = map.selectAll(`#${cityName} path`).style("fill", "#5076e8");
+        let cityDot = map.selectAll(`#${cityName} path`).style("fill", "#3460E5");
     }
 
     $: if (browser) changeMap(startingStation);
@@ -62,6 +65,7 @@
     $: if (browser) fetchData(startingStation);
 
     $: value, changeVisibility(value);
+    $: innerWidth, calcW(innerWidth);
 </script>
 
 <section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart" style="position: {posType}; top: {top}">

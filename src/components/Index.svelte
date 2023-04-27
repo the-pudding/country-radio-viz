@@ -1,5 +1,5 @@
 <script>
-	import { getContext } from "svelte";
+	import { getContext, onMount } from "svelte";
 	import Intro from "$components/Intro.svelte";
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
 	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
@@ -14,11 +14,16 @@
 	const copy = getContext("copy");
 	const startingStation = "SanAntonio_KCYY-FM";
 
-	const blockH = 3;
 	const spacingX = 2;
 	const spacingY = 1;
 
 	let value;
+	let blockH;
+	let w;
+	let h;
+	onMount(() => {
+		blockH = h > 1000 ? 3 : 2;
+	})
 </script>
 
 <!-- <div id="tooltip">
@@ -29,13 +34,17 @@
 	<p id="tt-title">Title</p>
 </div> -->
 
+<svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
+
 <Intro />
 <section id="scrolly">
 	<div class="sticky">
 		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
-		<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
-		<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
+		{#if blockH}
+			<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
+			<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
+		{/if}
 	</div>
 	<Scrolly bind:value top={-200}>
 		{#each copy.scrolly as text, i}
@@ -48,14 +57,16 @@
 	<div class="spacer" />
 </section>
 <PostScrolly />
-<Dashboard blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+{#if blockH}
+	<Dashboard blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+{/if}
 <Methods />
 <Footer />
 
 <style>
 	.sticky {
 		position: sticky;
-		top: 1rem;
+		top: 0.25rem;
 	}
 	.step {
 		max-width: 500px;

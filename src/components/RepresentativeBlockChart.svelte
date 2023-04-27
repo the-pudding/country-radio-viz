@@ -30,10 +30,18 @@
         groupedData = d3.groups(data, d => d.version);
         // firstDateData = groupedData[0];
         // firstDateData = firstDateData[1]
-        colW = Math.floor((innerWidth - padding)/19);
+        calcW(innerWidth);
+        calcH(innerHeight);
         colWCSS = `${colW}px`
         }
     )
+
+    function calcW(innerWidth) {
+        colW = Math.floor((innerWidth - padding*1.5)/19);
+    }
+    function calcH(innerHeight) {
+        blockH = innerHeight > 1000 ? 3 : 2;
+    }
 
     function checkBetween(x, min, max) {
         return x >= min && x <= max;
@@ -48,6 +56,8 @@
     }
 
     $: value, changeVisibility(value);
+    $: innerWidth, calcW(innerWidth);
+    $: innerHeight, calcH(innerHeight);
 </script>
 
 <section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="representative-chart">

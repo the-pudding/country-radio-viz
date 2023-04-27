@@ -26,6 +26,7 @@
 
     onMount(async () => {
         calcW(innerWidth);
+        calcH(innerHeight);
     })
 
     async function fetchData() {
@@ -43,6 +44,9 @@
 
     function calcW(innerWidth) {
         colW = Math.floor((innerWidth - padding*1.5)/19);
+    }
+    function calcH(innerHeight) {
+        blockH = innerHeight > 1000 ? 3 : 2;
     }
     function changeVisibility(value) {
         if (value > 6) {
@@ -66,6 +70,7 @@
 
     $: value, changeVisibility(value);
     $: innerWidth, calcW(innerWidth);
+    $: innerHeight, calcH(innerHeight);
 </script>
 
 <section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart" style="position: {posType}; top: {top}">

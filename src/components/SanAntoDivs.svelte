@@ -11,7 +11,9 @@
 
     // dimensions
     let w;
+    let h;
     let colW;
+    let blockH;
     let padding = 32;
 
     // elements
@@ -50,6 +52,7 @@
 
         // dimensions
         calcW(w);
+        blockH = h > 1000 ? 2 : 1;
         await tick();
 
         setSelectors();
@@ -91,6 +94,9 @@
     function calcW(w) {
         colW = Math.floor((w - padding*1.5)/19);
     }
+    function calcH(h) {
+        blockH = h > 1000 ? 2 : 1;
+    }
 
     function formatDate(indivDate) {
         const parseTime = d3.timeParse("%m/%e/%y")
@@ -103,6 +109,9 @@
     function handleScroll(value) {
         if (mountCheck) {
             if (value == 0) {
+                timeLabel.transition()
+                    .duration(1500)
+                    .style("opacity", 0);
                 firstSong.transition()
                     .duration(0)
                     .style("left", `${w/2-100-32}px`)
@@ -125,9 +134,12 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 1) {
+                timeLabel.transition()
+                    .duration(1500)
+                    .style("opacity", 0);
                 firstSong.transition()
                     .duration(500)
-                    .style("height", "2px")
+                    .style("height", `${blockH}px`)
                     .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg') cover")
                     .end()
                     .then(() => {
@@ -158,16 +170,19 @@
                     .delay(2000)
                     .duration(1000)
                     .style("opacity", 1)
-                    .style("margin-top", `${3*134+20}px`)
+                    .style("margin-top", `${(blockH+1)*134+(blockH+1)*7}px`)
                     .end()
                     .then(() => {
                         songLineLabel.select("p").transition()
                             .text("Each line is a song")
                     });
             } else if (value == 2) {
+                timeLabel.transition()
+                    .duration(1500)
+                    .style("opacity", 0);
                 firstSong.transition()
                     .duration(0)
-                    .style("height", "2px")
+                    .style("height", `${blockH}px`)
                     .style("border", "0px")
                     .style("transform", "translate(0px, 0px)")
                     .style("width", "100%")
@@ -185,11 +200,14 @@
                     .duration(1000)
                     .style("opacity", 0)
             } else if (value == 3) {
+                timeLabel.transition()
+                    .duration(1500)
+                    .style("opacity", 0);
                 allSongBlocks.filter((d, i) => i >= 0 && i <= 135).transition()
                     .delay(500)
                     .duration(2000)
                     .style("opacity", 0);
-                allSongBlocks.filter((d, i) => i >= 275 && i <= 400).transition()
+                allSongBlocks.filter((d, i) => i >= 274 && i <= 400).transition()
                     .delay(500)
                     .duration(2000)
                     .style("opacity", 0)
@@ -347,13 +365,14 @@
     }
     $: if (browser) { handleScroll(value) };
     $: w, calcW(w);
+    $: h, calcH(h);
 </script>
 
-<svelte:window bind:innerWidth={w}/>
+<svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
 
 <section id="day-chart">
-    <div class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10+9}px;"><p>Simulations</p></div>
-    <div class="song-line-label" style="margin-left: {colW}px; margin-top: {3*134+20}px"><p>Each line is a song</p></div>
+    <div class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10-3}px;"><p>Simulations</p></div>
+    <div class="song-line-label" style="margin-left: {colW}px; margin-top: {(blockH+1)*134+(blockH+1)*7}px"><p>Each line is a song</p></div>
     <div class="time-label-top"><p>Midnight →</p></div>
     {#each groupedData as indivDate, i}
     <div class="date-block" style="width:{colW}px">
@@ -361,7 +380,9 @@
         <div class="song-block">
             {#if i == 0 || i == undefined}
             {#each firstDateData as song, i}
-                <div class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}"></div>
+                {#if blockH}
+                    <div class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}" style="height: {blockH}px"></div>
+                {/if}
             {/each}
             {/if}
         </div>
@@ -457,7 +478,7 @@
         padding: 0 1px;
     }
     .song {
-        height: 2px;
+        /* height: 2px; */
         width: 100%;
         margin: 0 0 1px 0;
         background: var(--color-country-tan);

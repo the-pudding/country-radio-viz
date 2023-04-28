@@ -16,7 +16,7 @@
 
     const dates = ["Jan<br>7", "Jan<br>24", "Jan<br>28", "Feb<br>7", "Feb<br>25", "Mar<br>18",
                     "Mar<br>25", "Apr<br>8", "Apr<br>29", "May<br>20", "May<br>27", "Jun<br>13",
-                    "June<br>24", "Jul<br>29", "Aug<br>26", "Sep<br>30", "Oct<br>28", "Nov<br>25", "Dec<br>30"];
+                    "Jun<br>24", "Jul<br>29", "Aug<br>26", "Sep<br>30", "Oct<br>28", "Nov<br>25", "Dec<br>30"];
 
     const options = [
 		{ value: "Gender" },

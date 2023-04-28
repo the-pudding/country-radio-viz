@@ -109,7 +109,7 @@
     }
 
     function handleScroll(value) {
-        console.log(value)
+        // console.log(value)
         if (mountCheck) {
             if (value == 0) {
                 intro.transition()
@@ -143,7 +143,13 @@
                 songLineLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 2) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -186,7 +192,13 @@
                         songLineLabel.select("p").transition()
                             .text("Each line is a song")
                     });
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 3) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -209,7 +221,13 @@
                 allSongBlocks.filter((d, i) => i >= 185 && i <= 275).transition()
                     .duration(1000)
                     .style("opacity", 0)
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 4) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -243,7 +261,13 @@
                         
                         d3.select(".song-272").classed("show-label", true);
                     })
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 5) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 allSongBlocks.transition()
                     .delay(500)
                     .duration(2000)
@@ -268,7 +292,13 @@
                 simLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 6) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 allSongBlocks.transition()
                     .duration(2000)
                     .style("opacity", 1);
@@ -298,7 +328,13 @@
                     .delay(3000)
                     .duration(1000)
                     .style("opacity", 1);
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
             } else if (value == 7) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 repChart.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -323,6 +359,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 8) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 dates.transition()
                     .delay(1000)
                     .transition()
@@ -341,6 +380,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 9) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 const unmatchedCurtains = songCurtains.filter((d, i) => !releaseDateArray.includes(i));
                 const unmatchedDates = dates.filter((d, i) => !releaseDateArray.includes(i));
                 const matchedDates = dates.filter((d, i) => releaseDateArray.includes(i))
@@ -354,6 +396,9 @@
                     .duration(1000)
                     .style("font-weight", "700");
             } else if (value == 10) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 songCurtains.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -367,6 +412,9 @@
                     .duration(2000)
                     .style("opacity", 1)
             } else if (value == 11) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 stickyScroll.transition()
                     .duration(2000)
                     .style("opacity", 0)
@@ -586,6 +634,11 @@
         }
         .date {
             font-size: var(--12px);
+        }
+    }
+    @media only screen and (max-width: 500px) {
+        .date {
+            font-size: 10px;
         }
     }
 </style>

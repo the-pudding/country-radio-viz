@@ -124,12 +124,12 @@
         content: "";
         background-image: url("/assets/images/pointer.png");
         background-repeat: no-repeat;
-        background-size: 5rem;
-        width: 5rem;
+        background-size: 3.5rem;
+        width: 3.5rem;
         height: 15rem;
         position: absolute;
         top: -6rem;
-        left: -2.5rem;
+        left: 0.5rem;
         opacity: 1;
         transform: rotate(-90deg);
     }
@@ -211,6 +211,15 @@
         margin: 0 0 1rem 0;
         padding: 0;
     }
+    @media only screen and (max-width: 800px) {
+        h3 {
+            padding-left: 4rem;
+        }
+        h3::before {
+            left: 4.5rem;
+        }
+    }
+
     @media only screen and (max-width: 700px) {
         .prose p {
             font-size: var(--16px);
@@ -218,9 +227,6 @@
         .pullquote {
             font-size: var(--18px);
         }
-    }
-
-    @media only screen and (max-width: 700px) {
         :global(#post-scroll .table-container th) {
             font-size: var(--14px);
         }

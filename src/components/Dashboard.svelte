@@ -7,15 +7,23 @@
     import usMap from "$svg/us-map.svg";
     import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
     import SortTable from "$components/helpers/SortTable.svelte";
+    import ButtonSet from "$components/helpers/ButtonSet.svelte";
 
     const data = getContext("data");
 	const copy = getContext("copy");
 
     const stations = summaryData.map(d => `${d.cityName} (${d.stationName})`).sort();
 
-    const dates = ["Jan 7", "Jan 24", "Jan28", "Feb 7", "Feb 25", "Mar 18",
-                    "Mar 25", "Apr 8", "Apr 29", "May 20", "May 27", "Jun 13",
-                    "June 24", "Jul 29", "Aug 26", "Sep 30", "Oct 28", "Nov 25", "Dec 30"]
+    const dates = ["Jan<br>7", "Jan<br>24", "Jan<br>28", "Feb<br>7", "Feb<br>25", "Mar<br>18",
+                    "Mar<br>25", "Apr<br>8", "Apr<br>29", "May<br>20", "May<br>27", "Jun<br>13",
+                    "June<br>24", "Jul<br>29", "Aug<br>26", "Sep<br>30", "Oct<br>28", "Nov<br>25", "Dec<br>30"];
+
+    const options = [
+		{ value: "Gender" },
+		{ value: "Race"},
+		{ value: "Sexual Orientation" }
+	];
+
 
     let searchStation;
     let currData;
@@ -47,6 +55,7 @@
     let rowsRace;
     let columns;
     let value;
+    let buttonVal;
     let innerWidth;
     let innerHeight;
     let colW;
@@ -84,12 +93,12 @@
         menStraightB2B = `${(Math.round(currData[0].b2bMenSongs_PERCENT*100)/100).toFixed(1)}%`;
         mixedStraightALL = `${(Math.round(currData[0].onlyMixedGenderSongs_PERCENT*100)/100).toFixed(1)}%`;
         mixedStraightB2B = `${(Math.round(currData[0].b2bMixedGenderSongs_PERCENT*100)/100).toFixed(1)}%`;
-        womenLGBTQALL = `${0}%`;
-        womenLGBTQB2B = `${0}%`;
+        womenLGBTQALL = `0.0%`;
+        womenLGBTQB2B = `0.0%`;
         menLGBTQALL = `${(Math.round(currData[0].onlyLGBTQSongs_PERCENT*100)/100).toFixed(1)}%`;
         menLGBTQB2B = `${(Math.round(currData[0].b2bLGBTQSongs_PERCENT*100)/100).toFixed(1)}%`;
-        mixedLGBTQALL = `${0}%`;
-        mixedLGBTQB2B = `${0}%`;
+        mixedLGBTQALL = `0.0%`;
+        mixedLGBTQB2B = `0.0%`;
         womenWhiteALL = `${(Math.round(currData[0].onlyWhiteWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
         womenWhiteB2B = `${(Math.round(currData[0].b2bWhiteWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
         menWhiteALL = `${(Math.round(currData[0].onlyWhiteMenSongs_PERCENT*100)/100).toFixed(1)}%`;
@@ -123,25 +132,52 @@
             { label: "B2B songs", prop: "value4", sort: false, type: "text" }
         ];
     }
-    $: if (value) {
-        updateTableData(value);
-    }
+    $: if (value) { updateTableData(value); }
+    $: buttonVal, console.log(buttonVal)
 </script>
 
 <section id="dashboard" bind:clientWidth={innerWidth}>
     <h4>Explore the back-to-back song demographics from each of the 29 radio stations</h4>
     <div class="details">
         <div class="station-container">
-            <div class="left">
-                <Select options={stations} bind:value/>
-                {#if currData}
-                    <!-- <p class="city-label">{formatCityName(currData[0].cityName)}</p> -->
-                    <p class="owner-label">Owner: {currData[0].ownerName}</p>
-                {/if}
+            <div class='map-dropdown-wrapper'>
+                <div class="left">
+                    <Select options={stations} bind:value/>
+                    {#if currData}
+                        <!-- <p class="city-label">{formatCityName(currData[0].cityName)}</p> -->
+                        <p class="owner-label">Owner: {currData[0].ownerName}</p>
+                    {/if}
+                </div>
+                <div class="right" id="map-container">
+                    <img class="overlay" alt="letterpress texture" style="opacity:0.25" src="assets/images/letterpress-texture1.png">
+                    {@html usMap}
+                </div>
             </div>
-            <div class="right" id="map-container">
-                <img class="overlay" alt="letterpress texture" style="max-width:14rem; max-height:14rem; opacity:0.25" src="assets/images/letterpress-texture1.png">
-                {@html usMap}
+            <div class="chart-type">
+                <div class="button-wrapper">
+                    <p class="label">Show data by</p>
+                    <ButtonSet {options} bind:buttonVal/>
+                </div>
+                {#if buttonVal == "Gender"}
+                    <div class="key">
+                        <p class="blue-line">Women back-to-back</p>
+                        <p class="brown-line">Men back-to-back</p>
+                        <p class="orange-line">Mixed-gender back-to-back</p>
+                        <p class="tan-line">Not a back-to-back</p>
+                    </div>
+                {:else if buttonVal =="Race"}
+                    <div class="key">
+                        <p class="blue-line">POC back-to-back</p>
+                        <p class="brown-line">White back-to-back</p>
+                        <p class="tan-line">Not a back-to-back</p>
+                    </div>
+                {:else}
+                    <div class="key">
+                        <p class="blue-line">LGBTQ+ back-to-back</p>
+                        <p class="brown-line">Straight back-to-back</p>
+                        <p class="tan-line">Not a back-to-back</p>
+                    </div>
+                {/if}
             </div>
         </div>
         <div class="table-container">
@@ -165,23 +201,19 @@
                     {/if}
                 </div>
             </div>
-            <p class="note">{@html copy.methodsNote[0].text}</p>
+            <p class="note">{@html copy.dashNote[0].text}</p>
         </div>
     </div>
-    <!-- <div class="chart-type">
-        <p>Show data by</p>
-        <ButtonSet options={options}/>
-    </div> -->
     <div class="chart-container">
         <div class="date-row">
             {#each dates as day, i}
-                <p style="width: {colW}px">{day}</p>
+                <p style="width: {colW}px">{@html day}</p>
             {/each}
         </div>
         <div class="time-label-top"><p>Midnight →</p></div>
         <img class="overlay" alt="letterpress texture" src="assets/images/letterpress-texture2.png">
-        {#if startingStation}
-            <CanvasBlockChart startingStation={startingStation} value={8} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
+        {#if startingStation && buttonVal}
+            <CanvasBlockChart startingStation={startingStation} value={buttonVal} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
         {/if}
     </div>
 </section>
@@ -214,26 +246,72 @@
     .details {
         display: flex;
         flex-direction: row;
-        margin: 2rem 0;
+        margin: 2rem auto;
+        max-width: 80rem;
     }
 
     .station-container {
         display: flex;
         flex-direction: column;
         width: 18rem;
-        justify-content: space-between;
-        padding: 0 2rem 0 1rem;
-        
+        justify-content: start;
+        padding: 0 2rem 0 1rem; 
     }
-    /* .city-label {
-        font-size: var(--24px);
-        margin: 1rem 0 0 0;
-    } */
+    .map-dropdown-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
     .owner-label {
         color: var(--color-country-brown);
         margin: 1rem 0 0 0;
     }
-
+    .chart-type .label {
+        color: var(--color-country-brown);
+        font-size: var(--14px);
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    .blue-line, .orange-line, .brown-line, .tan-line {
+        position: relative;
+        margin: 0 0 0 1.75rem;
+        font-size: var(--14px);
+    }
+    .blue-line::before {
+        content: "";
+        width: 1.5rem;
+        height: 0.25rem;
+        background: var(--color-country-blue);
+        position: absolute;
+        left: -1.75rem;
+        top: 0.5rem;
+    }
+    .orange-line::before {
+        content: "";
+        width: 1.5rem;
+        height: 0.25rem;
+        background: var(--color-country-orange);
+        position: absolute;
+        left: -1.75rem;
+        top: 0.5rem;
+    }
+    .brown-line::before {
+        content: "";
+        width: 1.5rem;
+        height: 0.25rem;
+        background: var(--color-country-brown);
+        position: absolute;
+        left: -1.75rem;
+        top: 0.5rem;
+    }
+    .tan-line::before {
+        content: "";
+        width: 1.5rem;
+        height: 0.25rem;
+        background: var(--color-country-tan);
+        position: absolute;
+        left: -1.75rem;
+        top: 0.5rem;
+    }
     .right {
         max-width: 14rem;
     }
@@ -246,20 +324,17 @@
     .table-wrapper {
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .note {
         font-size: var(--14px);
         font-style: italic;
     }
     .table-block {
-        width: 50%;
+        width: 100%;
     }
     .table-block:first-of-type {
-        padding-right: 1rem;
-    }
-    .table-block:last-of-type {
-        padding-left: 1rem;
+        padding: 0 0 2rem 0;
     }
     .extra-labels {
         width: 100%;
@@ -272,7 +347,7 @@
         text-align: center;
         font-size: var(--16px);
         text-transform: uppercase;
-        margin: 0 0.5rem;
+        margin: 0 0.5rem 0.5rem 0.5rem;
         color: var(--color-country-brown);
     }
     .date-row {
@@ -311,58 +386,100 @@
     :global(.right svg) {
         width: 100%;
         height: 100%;
+        margin: 0;
     }
 
     :global(.right svg #SanAntonio path) {
         fill: var(--color-country-blue);
     }
-
-    @media only screen and (max-width: 1100px) {
-        .station-container {
-            justify-content: start;
-        }
-        .table-wrapper {
-            flex-direction: column;
-        }
-        .table-block {
-            width: 100%;
-            padding: 0;
-        }
-        .table-block:last-of-type, .table-block:first-of-type {
-           padding: 0;
-        }
-        .table-block:first-of-type {
-            padding: 0 0 2rem 0;
-        }
+    .right .overlay {
+        width: 100%;
+        max-height: 10rem;
     }
     @media only screen and (max-width: 700px) {
+        .date-row p {
+            font-size: var(--12px);
+        }
         .details {
             flex-direction: column;
         }
         .station-container {
             width: 100%;
+            flex-direction: column;
+            margin: 0 0 2rem 0;
+            padding: 0 1rem;
+        }
+        .map-dropdown-wrapper {
             flex-direction: row;
+            padding: 0;
+            justify-content: space-between;
         }
         .left {
-            width: calc(100% - 14rem);
-            padding: 0 2rem 0 0;
+            width: 50%;
+            padding: 0 1rem 0 0;
         }
         .right {
-            margin: -1rem 0 0 0;
+            width: 50%;
+            max-width: none;
+        }
+        .right .overlay {
+            width: 100%;
+            max-height: 12rem;
         }
         .table-container {
             width: 100%;
         }
+        :global(.right svg) {
+            margin: -1rem 0 0 0;
+        }
+        .chart-type {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: -4.5rem 0 0 0;
+        }
+        .chart-type .label {
+            margin: 0 0 0.5rem 0;
+            width: 5.5rem;
+            padding: 0.125rem 0 0 0;
+        }
+        .button-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .key {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .key p {
+            width: calc(50% - 2rem);
+        }
+        :global(.button-set) {
+            max-width: 15rem;
+        }
     }
     @media only screen and (max-width: 500px) {
+        .date-row p {
+            font-size: 10px;
+        }
         .extra-labels p, .owner-label {
             font-size: var(--14px);
         }
-        .left {
-            width: calc(100% - 10rem);
+        .chart-type {
+            margin: -2rem 0 0 0;
         }
-        .right {
-            width: 10rem;
+        .chart-type .label { 
+            font-size: var(--12px);
+        }
+        .key {
+            flex-direction: column;
+        }
+        .key p {
+            width: 100%;
+            font-size: var(--12px);
         }
     }
 </style>

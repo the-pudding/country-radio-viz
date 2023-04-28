@@ -107,27 +107,33 @@
 		vertical-align: bottom;
 		line-height: 1.2;
 		font-weight: normal;
-		padding: 0.75rem;
+		padding: 0.5rem 0.75rem;
 		text-align: right;
-	}
-	tr th, td:first-of-type {
-		text-align: left;
 	}
 	th {
 		font-weight: 700;
 	}
-	th:nth-of-type(1), th:nth-of-type(3), td:nth-of-type(1), td:nth-of-type(3) {
+	th, td {
 		border-right: 1px solid var(--color-country-text);
 	}
 
+	th:last-of-type, td:last-of-type {
+		border-right: none;
+	}
+
+	td:first-of-type, th:first-of-type {
+		font-weight: 700;
+		text-align: left;
+	}
+
 	tr:nth-of-type(1) td:nth-of-type(3), tr:nth-of-type(1) td:nth-of-type(5), tr:nth-of-type(1) td:nth-of-type(7), tr:nth-of-type(1) td:nth-of-type(9) {
-		background: var(--color-country-blue);
-		color: var(--color-country-bg);
+		/* background: var(--color-country-blue); */
+		color: var(--color-country-text);
 		font-weight: 700;
 		position: relative;
 		border-radius: 0.125rem;
 	} 
-	tr:nth-of-type(1) td:nth-of-type(3)::before, tr:nth-of-type(1) td:nth-of-type(5)::before, tr:nth-of-type(1) td:nth-of-type(7)::before, tr:nth-of-type(1) td:nth-of-type(9)::before {
+	/* tr:nth-of-type(1) td:nth-of-type(3)::before, tr:nth-of-type(1) td:nth-of-type(5)::before, tr:nth-of-type(1) td:nth-of-type(7)::before, tr:nth-of-type(1) td:nth-of-type(9)::before {
 		content: "";
         background-image: url("/assets/images/letterpress-texture1.png");
         position: absolute;
@@ -136,15 +142,15 @@
         bottom: 0px;
         left: 0px;
         opacity: 0.125;
-	}
+	} */
 	tr:nth-of-type(2) td:nth-of-type(3), tr:nth-of-type(2) td:nth-of-type(5), tr:nth-of-type(2) td:nth-of-type(7), tr:nth-of-type(2) td:nth-of-type(9) {
-		background: var(--color-country-brown);
-		color: var(--color-country-bg);
+		/* background: var(--color-country-brown); */
+		color: var(--color-country-text);
 		font-weight: 700;
 		position: relative;
 		border-radius: 0.125rem;
 	}
-	tr:nth-of-type(2) td:nth-of-type(3)::before, tr:nth-of-type(2) td:nth-of-type(5)::before, tr:nth-of-type(2) td:nth-of-type(7)::before, tr:nth-of-type(2) td:nth-of-type(9)::before {
+	/* tr:nth-of-type(2) td:nth-of-type(3)::before, tr:nth-of-type(2) td:nth-of-type(5)::before, tr:nth-of-type(2) td:nth-of-type(7)::before, tr:nth-of-type(2) td:nth-of-type(9)::before {
 		content: "";
         background-image: url("/assets/images/letterpress-texture2.png");
         position: absolute;
@@ -153,14 +159,14 @@
         bottom: 0px;
         left: 0px;
         opacity: 0.125;
-	}
+	} */
 	tr:nth-of-type(3) td:nth-of-type(3), tr:nth-of-type(3) td:nth-of-type(5), tr:nth-of-type(3) td:nth-of-type(7), tr:nth-of-type(3) td:nth-of-type(9) {
-		background: var(--color-country-orange);
+		/* background: var(--color-country-orange); */
 		font-weight: 700;
 		position: relative;
 		border-radius: 0.125rem;
 	}
-	tr:nth-of-type(3) td:nth-of-type(3)::before, tr:nth-of-type(3) td:nth-of-type(5)::before, tr:nth-of-type(3) td:nth-of-type(7)::before, tr:nth-of-type(3) td:nth-of-type(9)::before {
+	/* tr:nth-of-type(3) td:nth-of-type(3)::before, tr:nth-of-type(3) td:nth-of-type(5)::before, tr:nth-of-type(3) td:nth-of-type(7)::before, tr:nth-of-type(3) td:nth-of-type(9)::before {
 		content: "";
         background-image: url("/assets/images/letterpress-texture3.png");
         position: absolute;
@@ -169,7 +175,7 @@
         bottom: 0px;
         left: 0px;
         opacity: 0.125;
-	}
+	} */
 	tr:nth-of-type(1) td:nth-of-type(1), tr:nth-of-type(2) td:nth-of-type(1), tr:nth-of-type(3) td:nth-of-type(1) {
 		width: 5rem;
 	}

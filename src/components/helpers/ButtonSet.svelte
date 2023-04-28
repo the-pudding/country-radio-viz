@@ -5,7 +5,7 @@
 	export let legendPosition = "top";
 	export let labelClass = "";
 	export let disabled = false;
-	export let value = options.length ? options[0].value : "";
+	export let buttonVal = options.length ? options[0].value : "";
 
 	const id = `legend-${Math.floor(Math.random() * 1000000)}`;
 	const makeSlug = (str = "") => `${str}`.toLowerCase().replace(/\W/g, "");
@@ -18,26 +18,7 @@
 	$: isTop = legendPosition === "top";
 
 	function handleBtnClick(value) {
-
-		if (value == "Gender Only") {
-			d3.selectAll(".song").attr("background", "#dfdfdf").style("background:hover", "#black")
-			d3.selectAll(".song-women").style("background", "magenta").style("background:hover", "#black")
-			d3.selectAll(".song-men").style("background", "#1fc3aa").style("background:hover", "#black")
-			d3.selectAll(".song-male-female").style("background", "yellow").style("background:hover", "#black")
-		}
-
-		if (value == "B2B Gender") {
-			d3.selectAll(".song").style("background", "#dfdfdf")
-			d3.selectAll(".song-B2Bwomen").style("background", "magenta")
-			d3.selectAll(".song-B2Bmen").style("background", "#1fc3aa")
-			d3.selectAll(".song-B2Bmixed").style("background", "yellow")
-		}
-
-		if (value == "B2B Gender Women+Mixed") {
-			d3.selectAll(".song").style("background", "#dfdfdf")
-			d3.selectAll(".song-B2BCombWomen").style("background", "magenta")
-			d3.selectAll(".song-B2BCombMen").style("background", "#1fc3aa")
-		}
+		console.log(value)
 	}
 </script>
 
@@ -61,7 +42,7 @@
 						class="sr-only"
 						value={option.value}
 						{disabled}
-						bind:group={value}
+						bind:group={buttonVal}
 					/>
 					<label class="option {labelClass}" for={`${id}-${option.slug}`}>
 						{option.label || option.value}
@@ -77,11 +58,13 @@
 		display: inline-block;
 		margin-bottom: 4px;
 		font-family: var(--sans);
+		width: 100%;
+		flex-grow: 1;
 	}
 
 	.group {
 		display: flex;
-		align-items: center;
+		flex-grow: 1;
 	}
 
 	.group.is-top {
@@ -100,52 +83,40 @@
 
 	.options {
 		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		/* flex-direction: column; */
 	}
 
 	label {
 		appearance: none;
 		user-select: none;
 		line-height: 1;
-		margin: 0;
+		margin: 0 0.25rem 0.5rem 0;
 		padding: 0.5em;
-		border-radius: 0;
-		border: 2px solid var(--color-gray-900);
+		border-radius: 4px;
+		border: 2px solid var(--color-country-text);
 		outline: none;
 		cursor: pointer;
 		font-family: inherit;
-		font-size: 1em;
+		font-size: var(--12px);
 		display: inline-block;
-	}
-
-	.option + .option label {
-		border-left-width: 0;
-	}
-
-	.option:first-of-type label {
-		border-radius: 4px 0 0 4px;
-	}
-
-	.option:last-of-type label {
-		border-radius: 0 4px 4px 0;
-	}
-
-	.option + .option > label {
-		border-left-width: 0;
 	}
 
 	input[type="radio"] + label {
 		background: var(--color-white);
-		color: var(--color-gray-900);
+		color: var(--color-country-text);
 	}
 
 	input[type="radio"]:checked + label,
 	input[type="radio"]:checked:hover + label {
-		background: var(--color-gray-900);
+		background: var(--color-country-text);
 		color: var(--color-white);
 	}
 
 	input[type="radio"]:hover + label {
-		background: var(--color-gray-100);
+		background: var(--color-country-text);
+		color: var(--color-white);
 	}
 
 	input[type="radio"]:focus + label {
@@ -153,8 +124,8 @@
 	}
 
 	input[type="radio"]:disabled + label {
-		color: var(--color-gray-700);
-		background: var(--color-gray-500);
+		color: var(--color-country-brown);
+		background: var(--color-country-tan);
 		cursor: not-allowed;
 	}
 </style>

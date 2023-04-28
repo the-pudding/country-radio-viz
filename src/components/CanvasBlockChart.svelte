@@ -49,7 +49,7 @@
         blockH = innerHeight > 1000 ? 3 : 2;
     }
     function changeVisibility(value) {
-        if (value > 7) {
+        if (value > 7 || value == "Gender" || value == "Race" || value == "Sexual Orientation") {
             visible = true;
         } else {
             visible = false;
@@ -68,6 +68,21 @@
             .attr("r", 10.5);
     }
 
+    function returnFillClasses(value, song) {
+        let fillColor;
+        if (value < 10 || value == "Gender") { 
+            fillColor = song.b2b_gender;
+            return fillColor;
+        }
+        else if (value >= 10) { 
+            fillColor = song.b2b_combinedGender; 
+            return fillColor;
+        }
+        else if (value == "Race") { return song.b2b_raceGender }
+        else if (value == "Sexual Orientation") { return song.b2b_lgbtq  }
+        else { return song.b2b_gender }
+    }
+
     $: if (browser) changeMap(startingStation);
 
     $: if (browser) fetchData(startingStation);
@@ -79,13 +94,13 @@
 
 <section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart" style="position: {posType}; top: {top}">
     {#if innerHeight && innerWidth}
-        {#if visible}
+        {#if visible && value}
         <div class="canvas-container" transition:fade>
             <Canvas height={innerHeight} width={innerWidth}>
                 {#each groupedData as indivDate, i}
                     {@const groupPos = i}
                     {#each indivDate[1] as song, i}
-                        {@const fill = value < 10 ? song.b2b_gender : song.b2b_combinedGender}
+                        {@const fill = returnFillClasses(value, song)}
                             <Rect x1={groupPos*colW} y1={i*blockH} x2={colW-spacingX} y2={blockH-spacingY} {fill} value={value}/>
                         {/each}
                 {/each}

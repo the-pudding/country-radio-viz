@@ -36,9 +36,9 @@
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
 
-<Intro />
 <section id="scrolly">
 	<div class="sticky">
+		<Intro />
 		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		{#if blockH}
@@ -46,7 +46,7 @@
 			<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
 		{/if}
 	</div>
-	<Scrolly bind:value top={-200}>
+	<Scrolly bind:value>
 		{#each copy.scrolly as text, i}
 			{@const active = value === i}
 			<div class="step" class:active>
@@ -78,10 +78,12 @@
 	}
 	.step:first-of-type {
 		margin: 0 auto 80vh auto;
+		pointer-events: none;
+		opacity: 0;
 	}
 	.step:last-of-type {
 		margin: 80vh auto 0 auto;
-	}
+	} 
 	.step p {
 		padding: 2rem;
 		text-align: left;
@@ -97,7 +99,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100vh;
-		z-index: 1000;
+		z-index: 999;
 		opacity: 0.25;
 	}
 

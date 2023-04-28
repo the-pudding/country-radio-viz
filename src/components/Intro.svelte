@@ -23,9 +23,9 @@
 <svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
 
 <section id="intro">
+    <Header />
     {#if minDim}
         <div class="title-wrapper" style="height: {minDim*0.8}px; width: {minDim*0.9}px">
-            <Header />
             <img alt="letterpress sunburst texture" src="assets/images/hero-bg.jpg" />
             <div class="svg-container" bind:clientHeight={svgH}>
                 {@html title}
@@ -35,10 +35,10 @@
                 <p class="byline">By {@html copy.byline}</p>
             </div>
             <h1>{copy.hed}</h1>
-            <div class="img-wrapper">
-                <p>Scroll</p>
-                <img class="pointer" alt="letterpress pointer hand" src="assets/images/pointer.png" />
-            </div>
+        </div>
+        <div class="img-wrapper">
+            <p>Scroll</p>
+            <img class="pointer" alt="letterpress pointer hand" src="assets/images/pointer.png" />
         </div>
     {/if}
 </section>
@@ -50,10 +50,17 @@
         z-index: 999;
         height: auto;
         font-family: var(--sans);
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 1000;
     }
     .title-wrapper {
-        width: 100%;
-        position: relative;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
         z-index: 999;
         margin: 0 auto;
     }
@@ -71,8 +78,8 @@
     }
     .img-wrapper {
         position: absolute;
-        right: -1rem;
-        bottom: -4rem;
+        right: 0;
+        bottom: 0;
         display: flex;
         flex-direction: row;
         align-items: center;

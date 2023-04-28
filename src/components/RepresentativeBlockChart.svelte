@@ -48,7 +48,7 @@
     }
 
     function changeVisibility(value) {
-        if (checkBetween(value, 4, 6)) {
+        if (checkBetween(value, 5, 7)) {
             visible = true;
         } else {
             visible = false;

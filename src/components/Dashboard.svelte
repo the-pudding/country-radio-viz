@@ -181,7 +181,7 @@
         <div class="time-label-top"><p>Midnight →</p></div>
         <img class="overlay" alt="letterpress texture" src="assets/images/letterpress-texture2.png">
         {#if startingStation}
-            <CanvasBlockChart startingStation={startingStation} value={7} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
+            <CanvasBlockChart startingStation={startingStation} value={8} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="relative"/>
         {/if}
     </div>
 </section>

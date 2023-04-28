@@ -34,6 +34,7 @@
     let b2bLabel;
     let timeLabel;
     let afterLabels;
+    let intro;
 
     let songBlocks;
     let b2bBlocks;
@@ -89,6 +90,7 @@
         b2bLabel = d3.select(".b2b-label");
         timeLabel = d3.select(".time-label-top");
         afterLabels = d3.selectAll(".song-4", ".song-73", ".song-272")
+        intro = d3.select("#intro");
     }
 
     function calcW(w) {
@@ -107,8 +109,16 @@
     }
 
     function handleScroll(value) {
+        console.log(value)
         if (mountCheck) {
             if (value == 0) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 1);
+            } else if (value == 1) {
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -133,7 +143,7 @@
                 songLineLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 1) {
+            } else if (value == 2) {
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -176,7 +186,7 @@
                         songLineLabel.select("p").transition()
                             .text("Each line is a song")
                     });
-            } else if (value == 2) {
+            } else if (value == 3) {
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -199,7 +209,7 @@
                 allSongBlocks.filter((d, i) => i >= 185 && i <= 275).transition()
                     .duration(1000)
                     .style("opacity", 0)
-            } else if (value == 3) {
+            } else if (value == 4) {
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -233,7 +243,7 @@
                         
                         d3.select(".song-272").classed("show-label", true);
                     })
-            } else if (value == 4) {
+            } else if (value == 5) {
                 allSongBlocks.transition()
                     .delay(500)
                     .duration(2000)
@@ -258,7 +268,7 @@
                 simLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 5) {
+            } else if (value == 6) {
                 allSongBlocks.transition()
                     .duration(2000)
                     .style("opacity", 1);
@@ -288,7 +298,7 @@
                     .delay(3000)
                     .duration(1000)
                     .style("opacity", 1);
-            } else if (value == 6) {
+            } else if (value == 7) {
                 repChart.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -312,7 +322,7 @@
                 dates.filter((d,i) => i !== 0).transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 7) {
+            } else if (value == 8) {
                 dates.transition()
                     .delay(1000)
                     .transition()
@@ -330,7 +340,7 @@
                     .delay(2000)
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 8) {
+            } else if (value == 9) {
                 const unmatchedCurtains = songCurtains.filter((d, i) => !releaseDateArray.includes(i));
                 const unmatchedDates = dates.filter((d, i) => !releaseDateArray.includes(i));
                 const matchedDates = dates.filter((d, i) => releaseDateArray.includes(i))
@@ -343,7 +353,7 @@
                 matchedDates.transition()
                     .duration(1000)
                     .style("font-weight", "700");
-            } else if (value == 9) {
+            } else if (value == 10) {
                 songCurtains.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -356,7 +366,7 @@
                 stickyScroll.transition()
                     .duration(2000)
                     .style("opacity", 1)
-            } else if (value == 10) {
+            } else if (value == 11) {
                 stickyScroll.transition()
                     .duration(2000)
                     .style("opacity", 0)
@@ -399,7 +409,7 @@
         z-index: 1000;
         position: relative;
         margin-left: 1.25rem;
-        z-index: 999;
+        z-index: 998;
     }
     .sim-label {
         position: absolute;

@@ -13,7 +13,7 @@
 			if (fill == 0) { return ("#e1d4ca") }
 			else { return ("#3460E5") }
 		} else {
-			if (value < 9) {
+			if (value < 10) {
 				if (fill == "B2Bmen") { return ("#78695E") }
 				else if (fill == "B2Bwomen") { return ("#3460E5") }
 				else if (fill == "B2Bmixed") { return ("#fda922") }

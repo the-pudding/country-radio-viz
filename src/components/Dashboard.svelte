@@ -235,6 +235,7 @@
 	}
     h4 {
         margin: 1rem;
+        font-family: var(--sans-narrow);
         border-bottom: 1px solid var(--color-country-tan);
         font-size: var(--20px);
         color: var(--color-country-text);
@@ -264,9 +265,11 @@
     }
     .owner-label {
         color: var(--color-country-brown);
+        font-family: var(--sans-narrow);
         margin: 1rem 0 0 0;
     }
     .chart-type .label {
+        font-family: var(--sans-narrow);
         color: var(--color-country-brown);
         font-size: var(--14px);
         margin: 0.5rem 0 0.5rem 0;
@@ -275,6 +278,7 @@
         position: relative;
         margin: 0 0 0 1.75rem;
         font-size: var(--14px);
+        font-family: var(--sans-narrow);
     }
     .blue-line::before {
         content: "";
@@ -329,6 +333,7 @@
     .note {
         font-size: var(--14px);
         font-style: italic;
+        font-family: var(--sans-narrow);
     }
     .table-block {
         width: 100%;
@@ -349,6 +354,7 @@
         text-transform: uppercase;
         margin: 0 0.5rem 0.5rem 0.5rem;
         color: var(--color-country-brown);
+        font-family: var(--sans-narrow);
     }
     .date-row {
         width: 100%;
@@ -362,6 +368,7 @@
     }
     .date-row p {
         margin: 0;
+        font-family: var(--sans-narrow);
     }
     .chart-container {
         position: relative;
@@ -376,12 +383,12 @@
     }
     .time-label-top p {
         transform: rotate(-90deg);
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         color: var(--color-country-text);
         font-size: var(--14px);
         position: absolute;
         left: -1rem;
-        top: 2rem;
+        top: 3rem;
     }
     :global(.right svg) {
         width: 100%;
@@ -453,9 +460,11 @@
             flex-direction: row;
             width: 100%;
             flex-wrap: wrap;
+            font-family: var(--sans-narrow);
         }
         .key p {
             width: calc(50% - 2rem);
+            font-family: var(--sans-narrow);
         }
         :global(.button-set) {
             max-width: 15rem;

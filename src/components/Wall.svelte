@@ -34,6 +34,7 @@
         color: var(--color-country-text);
         flex-wrap: wrap;
         justify-content: center;
+        font-family: var(--sans-narrow);
     }
     .indiv-container {
         width: 20%;
@@ -89,6 +90,7 @@
         margin: 0 0 0.5rem 0;
     }
     .name {
+        font-family: var(--sans-narrow);
         font-weight: 700;
         font-size: var(--20px);
         margin: 0.5rem 0 0 0;

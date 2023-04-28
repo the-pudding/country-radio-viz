@@ -96,6 +96,7 @@
         color: var(--color-country-text);
         padding: 0;
         margin: 0.25rem -1rem 0 0;
+        font-family: var(--sans-narrow);
     }
     .subhed-wrapper {
         width: 100%;
@@ -118,6 +119,7 @@
         height: 2.5rem;
         line-height: 1.75;
         margin: 0.5rem 0;
+        font-family: var(--sans-narrow);
     }
     h2 {
         font-size: var(--20px);

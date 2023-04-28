@@ -37,6 +37,7 @@
     }
     h4 {
         font-weight: 700;
+        font-family: var(--sans-narrow);
         font-size: var(--20px);
         color: var(--color-country-text);
         margin: 0 0 1rem 0;
@@ -51,7 +52,7 @@
         border-bottom: 1px solid var(--color-country-tan);
     }
     .city-label, .value-label {
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         margin: 0;
         padding: 0;
     }

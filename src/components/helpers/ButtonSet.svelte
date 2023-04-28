@@ -60,6 +60,7 @@
 		font-family: var(--sans);
 		width: 100%;
 		flex-grow: 1;
+		font-family: var(--sans-narrow);
 	}
 
 	.group {
@@ -93,7 +94,7 @@
 		user-select: none;
 		line-height: 1;
 		margin: 0 0.25rem 0.5rem 0;
-		padding: 0.5em;
+		padding: 0.5em 0.75rem;
 		border-radius: 4px;
 		border: 2px solid var(--color-country-text);
 		outline: none;

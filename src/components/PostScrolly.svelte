@@ -114,6 +114,7 @@
     }
     h3 {
         font-weight: 700;
+        font-family: var(--sans-narrow);
         color: var(--color-country-text);
         margin: 3rem 0 -1rem 0;
         max-width: 40rem;
@@ -157,10 +158,12 @@
     :global(#post-scroll .table-container td, #post-scroll .table-container th) {
         background: var(--color-coutnry-bg);
         border-right: none;
+        font-family: var(--sans-narrow);
     }
     :global(#post-scroll .table-container td) {
         width: 100%;
         padding: 0.75rem;
+        font-weight: 500;
     }
     :global(#post-scroll .table-container td:nth-of-type(2), #post-scroll .table-container tr:nth-of-type(4) td:nth-of-type(1)) {
         font-weight: 700;
@@ -206,6 +209,7 @@
     }
     h4 {
         font-weight: 700;
+        font-family: var(--sans-narrow);
         font-size: var(--20px);
         color: var(--color-country-text);
         margin: 0 0 1rem 0;

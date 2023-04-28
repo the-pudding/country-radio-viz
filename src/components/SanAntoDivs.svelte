@@ -469,13 +469,13 @@
         opacity: 0;
     } 
     .sim-label p, .song-line-label p {
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         font-size: var(--14px);
         max-width: 14rem;
     }
     .sim-label p {
         background: var(--color-country-bg);
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         text-align: center;
         padding: 0 0.5rem;
         margin: 0;
@@ -508,7 +508,7 @@
     }
     .time-label-top p {
         transform: rotate(-90deg);
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         color: var(--color-country-text);
         font-size: var(--14px);
         position: absolute;
@@ -516,7 +516,7 @@
         top: 4.125rem;
     }
     .date {
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         text-align: center;
         line-height: 1.25;
         color: var(--color-country-text);
@@ -552,7 +552,7 @@
         top: 0.25rem;
         left: calc(100% + 0.25rem);
         content: '12:16am: Miranda Lambert "If I Was A Cowboy"';
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         color: var(--color-country-blue);
         font-weight: 700;
         font-size: var(--14px);
@@ -565,7 +565,7 @@
         top: 0.25rem;
         left: calc(100% + 0.25rem);
         content: '4:18am: Carly Pearce & Ashley McBryde "Never Wanted To Be That Girl"';
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         color: var(--color-country-blue);
         font-weight: 700;
         font-size: var(--14px);
@@ -578,7 +578,7 @@
         top: 0.25rem;
         left: calc(100% + 0.25rem);
         content: '5:51pm: Priscilla Block "Just About Over You"';
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         color: var(--color-country-blue);
         font-weight: 700;
         font-size: var(--14px);

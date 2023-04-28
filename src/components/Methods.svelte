@@ -55,7 +55,7 @@
         max-width: 40rem;
         margin: 0 auto 5rem auto;
         padding: 0 1rem;
-        font-family: var(--sans);
+        font-family: var(--sans-narrow);
         color: var(--color-country-text);
     }
 

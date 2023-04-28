@@ -42,6 +42,7 @@
         padding: 3rem 0;
     }
     .mline {
+        font-family: var(--sans-narrow);
         position: relative;
         margin: 0 0 1rem 0;
         padding: 0;
@@ -72,6 +73,7 @@
     }
 
     .label-container p {
+        font-family: var(--sans-narrow);
         margin: 0;
         padding: 0;
     }
@@ -141,6 +143,7 @@
         font-weight: 700;
         margin-right: -3.5rem;
         width: 3rem;
+        font-family: var(--sans-narrow);
     }
     .m-bar {
         width: 2px;
@@ -151,6 +154,7 @@
 
     h4 {
         font-weight: 700;
+        font-family: var(--sans-narrow);
         font-size: var(--20px);
         color: var(--color-country-text);
         margin: 0 0 0 0;

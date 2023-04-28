@@ -91,6 +91,7 @@
 		margin: 0 auto;
 		table-layout: auto;
 		color: var(--color-country-text);
+		font-family: var(--sans-narrow);
 	}
 
 	thead:first-of-type {

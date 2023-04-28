@@ -199,12 +199,12 @@
         content: "";
         background-image: url("/assets/images/quote.png");
         background-repeat: no-repeat;
-        background-size: 5rem;
-        width: 5rem;
-        height: 5rem;
+        background-size: 3.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
         position: absolute;
-        top: -2.25rem;
-        left: -2.5rem;
+        top: -1.25rem;
+        left: -1.25rem;
         opacity: 0.95;
     }
     h4 {
@@ -236,6 +236,10 @@
         }
         :global(#post-scroll .table-container td) {
             font-size: var(--14px);
+        }
+        .pullquote::before {
+            top: -1.25rem;
+            left: -0.5rem;
         }
     }
     @media only screen and (max-width: 600px) {

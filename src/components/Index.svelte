@@ -35,7 +35,6 @@
 </div> -->
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
-
 <section id="scrolly">
 	<div class="sticky">
 		<Intro />

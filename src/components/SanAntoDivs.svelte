@@ -12,6 +12,7 @@
     // dimensions
     let w;
     let h;
+    let scrollY;
     let colW;
     let blockH;
     let padding = 32;
@@ -109,9 +110,9 @@
     }
 
     function handleScroll(value) {
-        // console.log(value)
+        console.log(value)
         if (mountCheck) {
-            if (value == 0) {
+            if (value == 0 || value == "undefined" && scrollY == 0) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 1);
@@ -426,7 +427,7 @@
     $: h, calcH(h);
 </script>
 
-<svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
+<svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
 <section id="day-chart">
     <div class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10-3}px;"><p>Simulations</p></div>

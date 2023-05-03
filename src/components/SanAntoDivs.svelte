@@ -13,6 +13,8 @@
     let w;
     let h;
     let scrollY;
+    let scrollDir;
+    let lastY = 0;
     let colW;
     let blockH;
     let padding = 32;
@@ -109,7 +111,15 @@
         return formatedDate;
     }
 
+    function checkScrollY(scrollY) {
+        if (scrollY) {
+            scrollDir = scrollY > lastY ? "down" : "up"
+            lastY = scrollY;
+        }
+    }
+
     function handleScroll(value) {
+        checkScrollY(scrollY)
         console.log(value)
         if (mountCheck) {
             if (value == 0 || value == "undefined" && scrollY == 0) {
@@ -117,13 +127,20 @@
                     .duration(500)
                     .style("opacity", 1);
             } else if (value == 1) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
-                timeLabel.transition()
-                    .duration(1500)
-                    .style("opacity", 0);
-                firstSong.transition()
+                if (scrollDir == "up") {
+                    console.log("up")
+                    firstSong.transition()
+                            .duration(250)
+                            .style("left", `${w/2-100-32}px`)
+                            .style("border", "1px solid #e1d4ca")
+                            .style("bottom", "0px")
+                            .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg')")
+                            .style("background-size", "cover")
+                            .style("width", "200px")
+                            .style("height", "200px")
+                            .style("opacity", 1);
+                } else {
+                    firstSong.transition()
                     .duration(0)
                     .style("left", `${w/2-100-32}px`)
                     .end()
@@ -133,11 +150,18 @@
                             .duration(250)
                             .style("border", "1px solid #e1d4ca")
                             .style("bottom", "0px")
-                            .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg') cover")
+                            .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg'), cover")
                             .style("width", "200px")
                             .style("height", "200px")
                             .style("opacity", 1);
                     })
+                }
+                intro.transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                timeLabel.transition()
+                    .duration(1500)
+                    .style("opacity", 0);
                 allSongBlocks.filter((d, i) => i !== 136).transition()
                     .duration(100)
                     .style("opacity", 0);
@@ -157,12 +181,11 @@
                 firstSong.transition()
                     .duration(500)
                     .style("height", `${blockH}px`)
-                    .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg') cover")
                     .end()
                     .then(() => {
                         firstSong.transition()
                             .delay(500)
-                            .duration(250)
+                            .duration(500)
                             .style("border", "0px")
                             .style("background", "#e1d4ca")
                             .style("transform", "translate(0px, 0px)")
@@ -176,7 +199,8 @@
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 172).filter(".song-B2Bmen").transition()
                     .delay(500)
                     .duration(0)
-                    .style("background", "#e1d4ca");
+                    .style("background", "#e1d4ca")
+                    .style("opacity", 1);
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 184).transition()
                     .delay(1000)
                     .transition()
@@ -275,6 +299,11 @@
                     .style("opacity", 1);
                 timeLabel.transition()
                     .duration(1500)
+                    .style("opacity", 1);
+                b2bMen.transition()
+                    .delay(1000)
+                    .duration(1000)
+                    .style("background", "#78695E")
                     .style("opacity", 1);
                 b2bWomen.transition()
                     .delay(2000)

@@ -137,7 +137,7 @@
 </script>
 
 <section id="dashboard" bind:clientWidth={innerWidth}>
-    <h4>Explore the back-to-back song demographics from each of the 29 radio stations</h4>
+    <h4>Explore the back-to-back song demographics for each of the 29 radio stations</h4>
     <div class="details">
         <div class="station-container">
             <div class='map-dropdown-wrapper'>

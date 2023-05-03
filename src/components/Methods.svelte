@@ -2,6 +2,7 @@
     import { getContext } from "svelte";
     const data = getContext("data");
 	const copy = getContext("copy");
+    import SimulationCharts from "$components/SimulationCharts.svelte";
 </script>
 
 <section id="methods">
@@ -25,6 +26,9 @@
         {#each copy.methods2 as text, i}
             <p>{@html text.value}</p>
         {/each}
+    </div>
+    <SimulationCharts />
+    <div class="prose">
         <h4>Organizations & communities</h4>
         <ul>
             {#each copy.methodsListOrgs as text, i}
@@ -52,28 +56,35 @@
 
 <style>
     #methods {
-        max-width: 40rem;
-        margin: 0 auto 5rem auto;
         padding: 0 1rem;
         font-family: var(--sans-narrow);
         color: var(--color-country-text);
+        margin: 0 0 5rem 0;
     }
 
     .prose {
         font-size: var(--14px);
         color: var(--color-country-text);
+        max-width: 40rem;
+        margin: 0 auto;
     }
     .note {
         font-size: var(--14px);
         font-style: italic;
         color: var(--color-country-text);
+        max-width: 40rem;
+        margin: 0 auto;
     }
-
+    h3 {
+        max-width: 40rem;
+        margin: 2rem auto 0rem auto; 
+    }
     h4 {
         font-weight: 700;
         font-size: var(--18px);
         color: var(--color-country-text);
-        margin: 2rem 0 0 0;
+        max-width: 40rem;
+        margin: 2rem auto 0rem auto;
     }
 
     @media only screen and (max-width: 700px) {

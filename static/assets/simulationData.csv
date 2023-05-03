@@ -1,0 +1,1335 @@
+city,station,obs,bin,count
+San Antonio,KAJA-FM,37,bin0,0
+San Antonio,KAJA-FM,37,bin5,0
+San Antonio,KAJA-FM,37,bin10,0
+San Antonio,KAJA-FM,37,bin15,0
+San Antonio,KAJA-FM,37,bin20,0
+San Antonio,KAJA-FM,37,bin25,2
+San Antonio,KAJA-FM,37,bin30,8
+San Antonio,KAJA-FM,37,bin35,37
+San Antonio,KAJA-FM,37,bin40,135
+San Antonio,KAJA-FM,37,bin45,233
+San Antonio,KAJA-FM,37,bin50,261
+San Antonio,KAJA-FM,37,bin55,188
+San Antonio,KAJA-FM,37,bin60,82
+San Antonio,KAJA-FM,37,bin65,39
+San Antonio,KAJA-FM,37,bin70,11
+San Antonio,KAJA-FM,37,bin75,3
+San Antonio,KAJA-FM,37,bin80,1
+San Antonio,KAJA-FM,37,bin85,0
+San Antonio,KAJA-FM,37,bin90,0
+San Antonio,KAJA-FM,37,bin95,0
+San Antonio,KAJA-FM,37,bin100,0
+San Antonio,KAJA-FM,37,bin105,0
+San Antonio,KAJA-FM,37,bin110,0
+San Antonio,KAJA-FM,37,bin115,0
+San Antonio,KAJA-FM,37,bin120,0
+San Antonio,KAJA-FM,37,bin125,0
+San Antonio,KAJA-FM,37,bin130,0
+San Antonio,KAJA-FM,37,bin135,0
+San Antonio,KAJA-FM,37,bin140,0
+San Antonio,KAJA-FM,37,bin145,0
+San Antonio,KAJA-FM,37,bin150,0
+San Antonio,KAJA-FM,37,bin155,0
+San Antonio,KAJA-FM,37,bin160,0
+San Antonio,KAJA-FM,37,bin165,0
+San Antonio,KAJA-FM,37,bin170,0
+San Antonio,KAJA-FM,37,bin175,0
+San Antonio,KAJA-FM,37,bin180,0
+San Antonio,KAJA-FM,37,bin185,0
+San Antonio,KAJA-FM,37,bin190,0
+San Antonio,KAJA-FM,37,bin195,0
+San Antonio,KAJA-FM,37,bin200,0
+San Antonio,KAJA-FM,37,bin205,0
+San Antonio,KAJA-FM,37,bin210,0
+San Antonio,KAJA-FM,37,bin215,0
+San Antonio,KAJA-FM,37,bin220,0
+San Antonio,KAJA-FM,37,bin225,0
+Austin,KASE-FM,49,bin0,0
+Austin,KASE-FM,49,bin5,0
+Austin,KASE-FM,49,bin10,0
+Austin,KASE-FM,49,bin15,0
+Austin,KASE-FM,49,bin20,0
+Austin,KASE-FM,49,bin25,1
+Austin,KASE-FM,49,bin30,0
+Austin,KASE-FM,49,bin35,2
+Austin,KASE-FM,49,bin40,11
+Austin,KASE-FM,49,bin45,40
+Austin,KASE-FM,49,bin50,146
+Austin,KASE-FM,49,bin55,212
+Austin,KASE-FM,49,bin60,240
+Austin,KASE-FM,49,bin65,188
+Austin,KASE-FM,49,bin70,99
+Austin,KASE-FM,49,bin75,39
+Austin,KASE-FM,49,bin80,15
+Austin,KASE-FM,49,bin85,7
+Austin,KASE-FM,49,bin90,0
+Austin,KASE-FM,49,bin95,0
+Austin,KASE-FM,49,bin100,0
+Austin,KASE-FM,49,bin105,0
+Austin,KASE-FM,49,bin110,0
+Austin,KASE-FM,49,bin115,0
+Austin,KASE-FM,49,bin120,0
+Austin,KASE-FM,49,bin125,0
+Austin,KASE-FM,49,bin130,0
+Austin,KASE-FM,49,bin135,0
+Austin,KASE-FM,49,bin140,0
+Austin,KASE-FM,49,bin145,0
+Austin,KASE-FM,49,bin150,0
+Austin,KASE-FM,49,bin155,0
+Austin,KASE-FM,49,bin160,0
+Austin,KASE-FM,49,bin165,0
+Austin,KASE-FM,49,bin170,0
+Austin,KASE-FM,49,bin175,0
+Austin,KASE-FM,49,bin180,0
+Austin,KASE-FM,49,bin185,0
+Austin,KASE-FM,49,bin190,0
+Austin,KASE-FM,49,bin195,0
+Austin,KASE-FM,49,bin200,0
+Austin,KASE-FM,49,bin205,0
+Austin,KASE-FM,49,bin210,0
+Austin,KASE-FM,49,bin215,0
+Austin,KASE-FM,49,bin220,0
+Austin,KASE-FM,49,bin225,0
+Kansas City,KBEQ-FM,24,bin0,0
+Kansas City,KBEQ-FM,24,bin5,0
+Kansas City,KBEQ-FM,24,bin10,0
+Kansas City,KBEQ-FM,24,bin15,0
+Kansas City,KBEQ-FM,24,bin20,0
+Kansas City,KBEQ-FM,24,bin25,0
+Kansas City,KBEQ-FM,24,bin30,0
+Kansas City,KBEQ-FM,24,bin35,0
+Kansas City,KBEQ-FM,24,bin40,0
+Kansas City,KBEQ-FM,24,bin45,1
+Kansas City,KBEQ-FM,24,bin50,4
+Kansas City,KBEQ-FM,24,bin55,14
+Kansas City,KBEQ-FM,24,bin60,80
+Kansas City,KBEQ-FM,24,bin65,124
+Kansas City,KBEQ-FM,24,bin70,192
+Kansas City,KBEQ-FM,24,bin75,223
+Kansas City,KBEQ-FM,24,bin80,161
+Kansas City,KBEQ-FM,24,bin85,118
+Kansas City,KBEQ-FM,24,bin90,56
+Kansas City,KBEQ-FM,24,bin95,18
+Kansas City,KBEQ-FM,24,bin100,6
+Kansas City,KBEQ-FM,24,bin105,3
+Kansas City,KBEQ-FM,24,bin110,0
+Kansas City,KBEQ-FM,24,bin115,0
+Kansas City,KBEQ-FM,24,bin120,0
+Kansas City,KBEQ-FM,24,bin125,0
+Kansas City,KBEQ-FM,24,bin130,0
+Kansas City,KBEQ-FM,24,bin135,0
+Kansas City,KBEQ-FM,24,bin140,0
+Kansas City,KBEQ-FM,24,bin145,0
+Kansas City,KBEQ-FM,24,bin150,0
+Kansas City,KBEQ-FM,24,bin155,0
+Kansas City,KBEQ-FM,24,bin160,0
+Kansas City,KBEQ-FM,24,bin165,0
+Kansas City,KBEQ-FM,24,bin170,0
+Kansas City,KBEQ-FM,24,bin175,0
+Kansas City,KBEQ-FM,24,bin180,0
+Kansas City,KBEQ-FM,24,bin185,0
+Kansas City,KBEQ-FM,24,bin190,0
+Kansas City,KBEQ-FM,24,bin195,0
+Kansas City,KBEQ-FM,24,bin200,0
+Kansas City,KBEQ-FM,24,bin205,0
+Kansas City,KBEQ-FM,24,bin210,0
+Kansas City,KBEQ-FM,24,bin215,0
+Kansas City,KBEQ-FM,24,bin220,0
+Kansas City,KBEQ-FM,24,bin225,0
+San Antonio,KCYY-FM,64,bin0,0
+San Antonio,KCYY-FM,64,bin5,0
+San Antonio,KCYY-FM,64,bin10,0
+San Antonio,KCYY-FM,64,bin15,0
+San Antonio,KCYY-FM,64,bin20,0
+San Antonio,KCYY-FM,64,bin25,0
+San Antonio,KCYY-FM,64,bin30,0
+San Antonio,KCYY-FM,64,bin35,0
+San Antonio,KCYY-FM,64,bin40,0
+San Antonio,KCYY-FM,64,bin45,0
+San Antonio,KCYY-FM,64,bin50,0
+San Antonio,KCYY-FM,64,bin55,0
+San Antonio,KCYY-FM,64,bin60,7
+San Antonio,KCYY-FM,64,bin65,15
+San Antonio,KCYY-FM,64,bin70,50
+San Antonio,KCYY-FM,64,bin75,112
+San Antonio,KCYY-FM,64,bin80,196
+San Antonio,KCYY-FM,64,bin85,169
+San Antonio,KCYY-FM,64,bin90,169
+San Antonio,KCYY-FM,64,bin95,119
+San Antonio,KCYY-FM,64,bin100,94
+San Antonio,KCYY-FM,64,bin105,40
+San Antonio,KCYY-FM,64,bin110,19
+San Antonio,KCYY-FM,64,bin115,6
+San Antonio,KCYY-FM,64,bin120,3
+San Antonio,KCYY-FM,64,bin125,1
+San Antonio,KCYY-FM,64,bin130,0
+San Antonio,KCYY-FM,64,bin135,0
+San Antonio,KCYY-FM,64,bin140,0
+San Antonio,KCYY-FM,64,bin145,0
+San Antonio,KCYY-FM,64,bin150,0
+San Antonio,KCYY-FM,64,bin155,0
+San Antonio,KCYY-FM,64,bin160,0
+San Antonio,KCYY-FM,64,bin165,0
+San Antonio,KCYY-FM,64,bin170,0
+San Antonio,KCYY-FM,64,bin175,0
+San Antonio,KCYY-FM,64,bin180,0
+San Antonio,KCYY-FM,64,bin185,0
+San Antonio,KCYY-FM,64,bin190,0
+San Antonio,KCYY-FM,64,bin195,0
+San Antonio,KCYY-FM,64,bin200,0
+San Antonio,KCYY-FM,64,bin205,0
+San Antonio,KCYY-FM,64,bin210,0
+San Antonio,KCYY-FM,64,bin215,0
+San Antonio,KCYY-FM,64,bin220,0
+San Antonio,KCYY-FM,64,bin225,0
+Kansas City,KFKF-FM,10,bin0,0
+Kansas City,KFKF-FM,10,bin5,0
+Kansas City,KFKF-FM,10,bin10,0
+Kansas City,KFKF-FM,10,bin15,0
+Kansas City,KFKF-FM,10,bin20,0
+Kansas City,KFKF-FM,10,bin25,0
+Kansas City,KFKF-FM,10,bin30,0
+Kansas City,KFKF-FM,10,bin35,18
+Kansas City,KFKF-FM,10,bin40,69
+Kansas City,KFKF-FM,10,bin45,164
+Kansas City,KFKF-FM,10,bin50,243
+Kansas City,KFKF-FM,10,bin55,236
+Kansas City,KFKF-FM,10,bin60,161
+Kansas City,KFKF-FM,10,bin65,76
+Kansas City,KFKF-FM,10,bin70,26
+Kansas City,KFKF-FM,10,bin75,3
+Kansas City,KFKF-FM,10,bin80,2
+Kansas City,KFKF-FM,10,bin85,2
+Kansas City,KFKF-FM,10,bin90,0
+Kansas City,KFKF-FM,10,bin95,0
+Kansas City,KFKF-FM,10,bin100,0
+Kansas City,KFKF-FM,10,bin105,0
+Kansas City,KFKF-FM,10,bin110,0
+Kansas City,KFKF-FM,10,bin115,0
+Kansas City,KFKF-FM,10,bin120,0
+Kansas City,KFKF-FM,10,bin125,0
+Kansas City,KFKF-FM,10,bin130,0
+Kansas City,KFKF-FM,10,bin135,0
+Kansas City,KFKF-FM,10,bin140,0
+Kansas City,KFKF-FM,10,bin145,0
+Kansas City,KFKF-FM,10,bin150,0
+Kansas City,KFKF-FM,10,bin155,0
+Kansas City,KFKF-FM,10,bin160,0
+Kansas City,KFKF-FM,10,bin165,0
+Kansas City,KFKF-FM,10,bin170,0
+Kansas City,KFKF-FM,10,bin175,0
+Kansas City,KFKF-FM,10,bin180,0
+Kansas City,KFKF-FM,10,bin185,0
+Kansas City,KFKF-FM,10,bin190,0
+Kansas City,KFKF-FM,10,bin195,0
+Kansas City,KFKF-FM,10,bin200,0
+Kansas City,KFKF-FM,10,bin205,0
+Kansas City,KFKF-FM,10,bin210,0
+Kansas City,KFKF-FM,10,bin215,0
+Kansas City,KFKF-FM,10,bin220,0
+Kansas City,KFKF-FM,10,bin225,0
+Houston,KILT-FM,21,bin0,0
+Houston,KILT-FM,21,bin5,0
+Houston,KILT-FM,21,bin10,0
+Houston,KILT-FM,21,bin15,0
+Houston,KILT-FM,21,bin20,0
+Houston,KILT-FM,21,bin25,0
+Houston,KILT-FM,21,bin30,4
+Houston,KILT-FM,21,bin35,3
+Houston,KILT-FM,21,bin40,35
+Houston,KILT-FM,21,bin45,106
+Houston,KILT-FM,21,bin50,202
+Houston,KILT-FM,21,bin55,235
+Houston,KILT-FM,21,bin60,216
+Houston,KILT-FM,21,bin65,125
+Houston,KILT-FM,21,bin70,55
+Houston,KILT-FM,21,bin75,12
+Houston,KILT-FM,21,bin80,4
+Houston,KILT-FM,21,bin85,3
+Houston,KILT-FM,21,bin90,0
+Houston,KILT-FM,21,bin95,0
+Houston,KILT-FM,21,bin100,0
+Houston,KILT-FM,21,bin105,0
+Houston,KILT-FM,21,bin110,0
+Houston,KILT-FM,21,bin115,0
+Houston,KILT-FM,21,bin120,0
+Houston,KILT-FM,21,bin125,0
+Houston,KILT-FM,21,bin130,0
+Houston,KILT-FM,21,bin135,0
+Houston,KILT-FM,21,bin140,0
+Houston,KILT-FM,21,bin145,0
+Houston,KILT-FM,21,bin150,0
+Houston,KILT-FM,21,bin155,0
+Houston,KILT-FM,21,bin160,0
+Houston,KILT-FM,21,bin165,0
+Houston,KILT-FM,21,bin170,0
+Houston,KILT-FM,21,bin175,0
+Houston,KILT-FM,21,bin180,0
+Houston,KILT-FM,21,bin185,0
+Houston,KILT-FM,21,bin190,0
+Houston,KILT-FM,21,bin195,0
+Houston,KILT-FM,21,bin200,0
+Houston,KILT-FM,21,bin205,0
+Houston,KILT-FM,21,bin210,0
+Houston,KILT-FM,21,bin215,0
+Houston,KILT-FM,21,bin220,0
+Houston,KILT-FM,21,bin225,0
+Houston,KKBQ-FM,46,bin0,0
+Houston,KKBQ-FM,46,bin5,0
+Houston,KKBQ-FM,46,bin10,0
+Houston,KKBQ-FM,46,bin15,0
+Houston,KKBQ-FM,46,bin20,0
+Houston,KKBQ-FM,46,bin25,0
+Houston,KKBQ-FM,46,bin30,0
+Houston,KKBQ-FM,46,bin35,0
+Houston,KKBQ-FM,46,bin40,1
+Houston,KKBQ-FM,46,bin45,9
+Houston,KKBQ-FM,46,bin50,29
+Houston,KKBQ-FM,46,bin55,92
+Houston,KKBQ-FM,46,bin60,195
+Houston,KKBQ-FM,46,bin65,226
+Houston,KKBQ-FM,46,bin70,194
+Houston,KKBQ-FM,46,bin75,137
+Houston,KKBQ-FM,46,bin80,65
+Houston,KKBQ-FM,46,bin85,38
+Houston,KKBQ-FM,46,bin90,9
+Houston,KKBQ-FM,46,bin95,3
+Houston,KKBQ-FM,46,bin100,2
+Houston,KKBQ-FM,46,bin105,0
+Houston,KKBQ-FM,46,bin110,0
+Houston,KKBQ-FM,46,bin115,0
+Houston,KKBQ-FM,46,bin120,0
+Houston,KKBQ-FM,46,bin125,0
+Houston,KKBQ-FM,46,bin130,0
+Houston,KKBQ-FM,46,bin135,0
+Houston,KKBQ-FM,46,bin140,0
+Houston,KKBQ-FM,46,bin145,0
+Houston,KKBQ-FM,46,bin150,0
+Houston,KKBQ-FM,46,bin155,0
+Houston,KKBQ-FM,46,bin160,0
+Houston,KKBQ-FM,46,bin165,0
+Houston,KKBQ-FM,46,bin170,0
+Houston,KKBQ-FM,46,bin175,0
+Houston,KKBQ-FM,46,bin180,0
+Houston,KKBQ-FM,46,bin185,0
+Houston,KKBQ-FM,46,bin190,0
+Houston,KKBQ-FM,46,bin195,0
+Houston,KKBQ-FM,46,bin200,0
+Houston,KKBQ-FM,46,bin205,0
+Houston,KKBQ-FM,46,bin210,0
+Houston,KKBQ-FM,46,bin215,0
+Houston,KKBQ-FM,46,bin220,0
+Houston,KKBQ-FM,46,bin225,0
+Los Angeles,KKGO-FMC,81,bin0,0
+Los Angeles,KKGO-FMC,81,bin5,0
+Los Angeles,KKGO-FMC,81,bin10,0
+Los Angeles,KKGO-FMC,81,bin15,0
+Los Angeles,KKGO-FMC,81,bin20,0
+Los Angeles,KKGO-FMC,81,bin25,0
+Los Angeles,KKGO-FMC,81,bin30,0
+Los Angeles,KKGO-FMC,81,bin35,0
+Los Angeles,KKGO-FMC,81,bin40,0
+Los Angeles,KKGO-FMC,81,bin45,0
+Los Angeles,KKGO-FMC,81,bin50,0
+Los Angeles,KKGO-FMC,81,bin55,0
+Los Angeles,KKGO-FMC,81,bin60,0
+Los Angeles,KKGO-FMC,81,bin65,0
+Los Angeles,KKGO-FMC,81,bin70,1
+Los Angeles,KKGO-FMC,81,bin75,1
+Los Angeles,KKGO-FMC,81,bin80,12
+Los Angeles,KKGO-FMC,81,bin85,27
+Los Angeles,KKGO-FMC,81,bin90,52
+Los Angeles,KKGO-FMC,81,bin95,103
+Los Angeles,KKGO-FMC,81,bin100,155
+Los Angeles,KKGO-FMC,81,bin105,159
+Los Angeles,KKGO-FMC,81,bin110,187
+Los Angeles,KKGO-FMC,81,bin115,129
+Los Angeles,KKGO-FMC,81,bin120,95
+Los Angeles,KKGO-FMC,81,bin125,38
+Los Angeles,KKGO-FMC,81,bin130,32
+Los Angeles,KKGO-FMC,81,bin135,5
+Los Angeles,KKGO-FMC,81,bin140,2
+Los Angeles,KKGO-FMC,81,bin145,2
+Los Angeles,KKGO-FMC,81,bin150,0
+Los Angeles,KKGO-FMC,81,bin155,0
+Los Angeles,KKGO-FMC,81,bin160,0
+Los Angeles,KKGO-FMC,81,bin165,0
+Los Angeles,KKGO-FMC,81,bin170,0
+Los Angeles,KKGO-FMC,81,bin175,0
+Los Angeles,KKGO-FMC,81,bin180,0
+Los Angeles,KKGO-FMC,81,bin185,0
+Los Angeles,KKGO-FMC,81,bin190,0
+Los Angeles,KKGO-FMC,81,bin195,0
+Los Angeles,KKGO-FMC,81,bin200,0
+Los Angeles,KKGO-FMC,81,bin205,0
+Los Angeles,KKGO-FMC,81,bin210,0
+Los Angeles,KKGO-FMC,81,bin215,0
+Los Angeles,KKGO-FMC,81,bin220,0
+Los Angeles,KKGO-FMC,81,bin225,0
+Dallas,KPLX-FM,15,bin0,0
+Dallas,KPLX-FM,15,bin5,0
+Dallas,KPLX-FM,15,bin10,0
+Dallas,KPLX-FM,15,bin15,0
+Dallas,KPLX-FM,15,bin20,0
+Dallas,KPLX-FM,15,bin25,0
+Dallas,KPLX-FM,15,bin30,0
+Dallas,KPLX-FM,15,bin35,0
+Dallas,KPLX-FM,15,bin40,0
+Dallas,KPLX-FM,15,bin45,0
+Dallas,KPLX-FM,15,bin50,0
+Dallas,KPLX-FM,15,bin55,2
+Dallas,KPLX-FM,15,bin60,11
+Dallas,KPLX-FM,15,bin65,32
+Dallas,KPLX-FM,15,bin70,101
+Dallas,KPLX-FM,15,bin75,145
+Dallas,KPLX-FM,15,bin80,219
+Dallas,KPLX-FM,15,bin85,197
+Dallas,KPLX-FM,15,bin90,134
+Dallas,KPLX-FM,15,bin95,87
+Dallas,KPLX-FM,15,bin100,41
+Dallas,KPLX-FM,15,bin105,18
+Dallas,KPLX-FM,15,bin110,8
+Dallas,KPLX-FM,15,bin115,5
+Dallas,KPLX-FM,15,bin120,0
+Dallas,KPLX-FM,15,bin125,0
+Dallas,KPLX-FM,15,bin130,0
+Dallas,KPLX-FM,15,bin135,0
+Dallas,KPLX-FM,15,bin140,0
+Dallas,KPLX-FM,15,bin145,0
+Dallas,KPLX-FM,15,bin150,0
+Dallas,KPLX-FM,15,bin155,0
+Dallas,KPLX-FM,15,bin160,0
+Dallas,KPLX-FM,15,bin165,0
+Dallas,KPLX-FM,15,bin170,0
+Dallas,KPLX-FM,15,bin175,0
+Dallas,KPLX-FM,15,bin180,0
+Dallas,KPLX-FM,15,bin185,0
+Dallas,KPLX-FM,15,bin190,0
+Dallas,KPLX-FM,15,bin195,0
+Dallas,KPLX-FM,15,bin200,0
+Dallas,KPLX-FM,15,bin205,0
+Dallas,KPLX-FM,15,bin210,0
+Dallas,KPLX-FM,15,bin215,0
+Dallas,KPLX-FM,15,bin220,0
+Dallas,KPLX-FM,15,bin225,0
+Dallas,KSCS-FM,13,bin0,0
+Dallas,KSCS-FM,13,bin5,0
+Dallas,KSCS-FM,13,bin10,0
+Dallas,KSCS-FM,13,bin15,0
+Dallas,KSCS-FM,13,bin20,1
+Dallas,KSCS-FM,13,bin25,5
+Dallas,KSCS-FM,13,bin30,50
+Dallas,KSCS-FM,13,bin35,158
+Dallas,KSCS-FM,13,bin40,245
+Dallas,KSCS-FM,13,bin45,266
+Dallas,KSCS-FM,13,bin50,184
+Dallas,KSCS-FM,13,bin55,65
+Dallas,KSCS-FM,13,bin60,21
+Dallas,KSCS-FM,13,bin65,5
+Dallas,KSCS-FM,13,bin70,0
+Dallas,KSCS-FM,13,bin75,0
+Dallas,KSCS-FM,13,bin80,0
+Dallas,KSCS-FM,13,bin85,0
+Dallas,KSCS-FM,13,bin90,0
+Dallas,KSCS-FM,13,bin95,0
+Dallas,KSCS-FM,13,bin100,0
+Dallas,KSCS-FM,13,bin105,0
+Dallas,KSCS-FM,13,bin110,0
+Dallas,KSCS-FM,13,bin115,0
+Dallas,KSCS-FM,13,bin120,0
+Dallas,KSCS-FM,13,bin125,0
+Dallas,KSCS-FM,13,bin130,0
+Dallas,KSCS-FM,13,bin135,0
+Dallas,KSCS-FM,13,bin140,0
+Dallas,KSCS-FM,13,bin145,0
+Dallas,KSCS-FM,13,bin150,0
+Dallas,KSCS-FM,13,bin155,0
+Dallas,KSCS-FM,13,bin160,0
+Dallas,KSCS-FM,13,bin165,0
+Dallas,KSCS-FM,13,bin170,0
+Dallas,KSCS-FM,13,bin175,0
+Dallas,KSCS-FM,13,bin180,0
+Dallas,KSCS-FM,13,bin185,0
+Dallas,KSCS-FM,13,bin190,0
+Dallas,KSCS-FM,13,bin195,0
+Dallas,KSCS-FM,13,bin200,0
+Dallas,KSCS-FM,13,bin205,0
+Dallas,KSCS-FM,13,bin210,0
+Dallas,KSCS-FM,13,bin215,0
+Dallas,KSCS-FM,13,bin220,0
+Dallas,KSCS-FM,13,bin225,0
+Austin,KVET-FM,5,bin0,0
+Austin,KVET-FM,5,bin5,0
+Austin,KVET-FM,5,bin10,0
+Austin,KVET-FM,5,bin15,0
+Austin,KVET-FM,5,bin20,0
+Austin,KVET-FM,5,bin25,0
+Austin,KVET-FM,5,bin30,0
+Austin,KVET-FM,5,bin35,0
+Austin,KVET-FM,5,bin40,0
+Austin,KVET-FM,5,bin45,0
+Austin,KVET-FM,5,bin50,0
+Austin,KVET-FM,5,bin55,0
+Austin,KVET-FM,5,bin60,0
+Austin,KVET-FM,5,bin65,1
+Austin,KVET-FM,5,bin70,8
+Austin,KVET-FM,5,bin75,16
+Austin,KVET-FM,5,bin80,49
+Austin,KVET-FM,5,bin85,116
+Austin,KVET-FM,5,bin90,164
+Austin,KVET-FM,5,bin95,178
+Austin,KVET-FM,5,bin100,158
+Austin,KVET-FM,5,bin105,142
+Austin,KVET-FM,5,bin110,82
+Austin,KVET-FM,5,bin115,54
+Austin,KVET-FM,5,bin120,20
+Austin,KVET-FM,5,bin125,9
+Austin,KVET-FM,5,bin130,2
+Austin,KVET-FM,5,bin135,1
+Austin,KVET-FM,5,bin140,0
+Austin,KVET-FM,5,bin145,0
+Austin,KVET-FM,5,bin150,0
+Austin,KVET-FM,5,bin155,0
+Austin,KVET-FM,5,bin160,0
+Austin,KVET-FM,5,bin165,0
+Austin,KVET-FM,5,bin170,0
+Austin,KVET-FM,5,bin175,0
+Austin,KVET-FM,5,bin180,0
+Austin,KVET-FM,5,bin185,0
+Austin,KVET-FM,5,bin190,0
+Austin,KVET-FM,5,bin195,0
+Austin,KVET-FM,5,bin200,0
+Austin,KVET-FM,5,bin205,0
+Austin,KVET-FM,5,bin210,0
+Austin,KVET-FM,5,bin215,0
+Austin,KVET-FM,5,bin220,0
+Austin,KVET-FM,5,bin225,0
+Columbus,WCOL-FM,11,bin0,0
+Columbus,WCOL-FM,11,bin5,0
+Columbus,WCOL-FM,11,bin10,0
+Columbus,WCOL-FM,11,bin15,0
+Columbus,WCOL-FM,11,bin20,1
+Columbus,WCOL-FM,11,bin25,42
+Columbus,WCOL-FM,11,bin30,146
+Columbus,WCOL-FM,11,bin35,281
+Columbus,WCOL-FM,11,bin40,295
+Columbus,WCOL-FM,11,bin45,158
+Columbus,WCOL-FM,11,bin50,63
+Columbus,WCOL-FM,11,bin55,12
+Columbus,WCOL-FM,11,bin60,1
+Columbus,WCOL-FM,11,bin65,1
+Columbus,WCOL-FM,11,bin70,0
+Columbus,WCOL-FM,11,bin75,0
+Columbus,WCOL-FM,11,bin80,0
+Columbus,WCOL-FM,11,bin85,0
+Columbus,WCOL-FM,11,bin90,0
+Columbus,WCOL-FM,11,bin95,0
+Columbus,WCOL-FM,11,bin100,0
+Columbus,WCOL-FM,11,bin105,0
+Columbus,WCOL-FM,11,bin110,0
+Columbus,WCOL-FM,11,bin115,0
+Columbus,WCOL-FM,11,bin120,0
+Columbus,WCOL-FM,11,bin125,0
+Columbus,WCOL-FM,11,bin130,0
+Columbus,WCOL-FM,11,bin135,0
+Columbus,WCOL-FM,11,bin140,0
+Columbus,WCOL-FM,11,bin145,0
+Columbus,WCOL-FM,11,bin150,0
+Columbus,WCOL-FM,11,bin155,0
+Columbus,WCOL-FM,11,bin160,0
+Columbus,WCOL-FM,11,bin165,0
+Columbus,WCOL-FM,11,bin170,0
+Columbus,WCOL-FM,11,bin175,0
+Columbus,WCOL-FM,11,bin180,0
+Columbus,WCOL-FM,11,bin185,0
+Columbus,WCOL-FM,11,bin190,0
+Columbus,WCOL-FM,11,bin195,0
+Columbus,WCOL-FM,11,bin200,0
+Columbus,WCOL-FM,11,bin205,0
+Columbus,WCOL-FM,11,bin210,0
+Columbus,WCOL-FM,11,bin215,0
+Columbus,WCOL-FM,11,bin220,0
+Columbus,WCOL-FM,11,bin225,0
+Kansas City,WDAF-FM,67,bin0,0
+Kansas City,WDAF-FM,67,bin5,0
+Kansas City,WDAF-FM,67,bin10,0
+Kansas City,WDAF-FM,67,bin15,0
+Kansas City,WDAF-FM,67,bin20,0
+Kansas City,WDAF-FM,67,bin25,0
+Kansas City,WDAF-FM,67,bin30,0
+Kansas City,WDAF-FM,67,bin35,0
+Kansas City,WDAF-FM,67,bin40,0
+Kansas City,WDAF-FM,67,bin45,0
+Kansas City,WDAF-FM,67,bin50,0
+Kansas City,WDAF-FM,67,bin55,0
+Kansas City,WDAF-FM,67,bin60,0
+Kansas City,WDAF-FM,67,bin65,0
+Kansas City,WDAF-FM,67,bin70,0
+Kansas City,WDAF-FM,67,bin75,7
+Kansas City,WDAF-FM,67,bin80,23
+Kansas City,WDAF-FM,67,bin85,61
+Kansas City,WDAF-FM,67,bin90,107
+Kansas City,WDAF-FM,67,bin95,154
+Kansas City,WDAF-FM,67,bin100,186
+Kansas City,WDAF-FM,67,bin105,159
+Kansas City,WDAF-FM,67,bin110,154
+Kansas City,WDAF-FM,67,bin115,81
+Kansas City,WDAF-FM,67,bin120,35
+Kansas City,WDAF-FM,67,bin125,21
+Kansas City,WDAF-FM,67,bin130,7
+Kansas City,WDAF-FM,67,bin135,4
+Kansas City,WDAF-FM,67,bin140,1
+Kansas City,WDAF-FM,67,bin145,0
+Kansas City,WDAF-FM,67,bin150,0
+Kansas City,WDAF-FM,67,bin155,0
+Kansas City,WDAF-FM,67,bin160,0
+Kansas City,WDAF-FM,67,bin165,0
+Kansas City,WDAF-FM,67,bin170,0
+Kansas City,WDAF-FM,67,bin175,0
+Kansas City,WDAF-FM,67,bin180,0
+Kansas City,WDAF-FM,67,bin185,0
+Kansas City,WDAF-FM,67,bin190,0
+Kansas City,WDAF-FM,67,bin195,0
+Kansas City,WDAF-FM,67,bin200,0
+Kansas City,WDAF-FM,67,bin205,0
+Kansas City,WDAF-FM,67,bin210,0
+Kansas City,WDAF-FM,67,bin215,0
+Kansas City,WDAF-FM,67,bin220,0
+Kansas City,WDAF-FM,67,bin225,0
+Indianapolis,WFMS-FM,14,bin0,0
+Indianapolis,WFMS-FM,14,bin5,0
+Indianapolis,WFMS-FM,14,bin10,0
+Indianapolis,WFMS-FM,14,bin15,0
+Indianapolis,WFMS-FM,14,bin20,10
+Indianapolis,WFMS-FM,14,bin25,71
+Indianapolis,WFMS-FM,14,bin30,248
+Indianapolis,WFMS-FM,14,bin35,316
+Indianapolis,WFMS-FM,14,bin40,245
+Indianapolis,WFMS-FM,14,bin45,90
+Indianapolis,WFMS-FM,14,bin50,14
+Indianapolis,WFMS-FM,14,bin55,5
+Indianapolis,WFMS-FM,14,bin60,1
+Indianapolis,WFMS-FM,14,bin65,0
+Indianapolis,WFMS-FM,14,bin70,0
+Indianapolis,WFMS-FM,14,bin75,0
+Indianapolis,WFMS-FM,14,bin80,0
+Indianapolis,WFMS-FM,14,bin85,0
+Indianapolis,WFMS-FM,14,bin90,0
+Indianapolis,WFMS-FM,14,bin95,0
+Indianapolis,WFMS-FM,14,bin100,0
+Indianapolis,WFMS-FM,14,bin105,0
+Indianapolis,WFMS-FM,14,bin110,0
+Indianapolis,WFMS-FM,14,bin115,0
+Indianapolis,WFMS-FM,14,bin120,0
+Indianapolis,WFMS-FM,14,bin125,0
+Indianapolis,WFMS-FM,14,bin130,0
+Indianapolis,WFMS-FM,14,bin135,0
+Indianapolis,WFMS-FM,14,bin140,0
+Indianapolis,WFMS-FM,14,bin145,0
+Indianapolis,WFMS-FM,14,bin150,0
+Indianapolis,WFMS-FM,14,bin155,0
+Indianapolis,WFMS-FM,14,bin160,0
+Indianapolis,WFMS-FM,14,bin165,0
+Indianapolis,WFMS-FM,14,bin170,0
+Indianapolis,WFMS-FM,14,bin175,0
+Indianapolis,WFMS-FM,14,bin180,0
+Indianapolis,WFMS-FM,14,bin185,0
+Indianapolis,WFMS-FM,14,bin190,0
+Indianapolis,WFMS-FM,14,bin195,0
+Indianapolis,WFMS-FM,14,bin200,0
+Indianapolis,WFMS-FM,14,bin205,0
+Indianapolis,WFMS-FM,14,bin210,0
+Indianapolis,WFMS-FM,14,bin215,0
+Indianapolis,WFMS-FM,14,bin220,0
+Indianapolis,WFMS-FM,14,bin225,0
+Tampa,WFUS-FM,20,bin0,0
+Tampa,WFUS-FM,20,bin5,0
+Tampa,WFUS-FM,20,bin10,0
+Tampa,WFUS-FM,20,bin15,0
+Tampa,WFUS-FM,20,bin20,0
+Tampa,WFUS-FM,20,bin25,4
+Tampa,WFUS-FM,20,bin30,43
+Tampa,WFUS-FM,20,bin35,158
+Tampa,WFUS-FM,20,bin40,257
+Tampa,WFUS-FM,20,bin45,257
+Tampa,WFUS-FM,20,bin50,179
+Tampa,WFUS-FM,20,bin55,78
+Tampa,WFUS-FM,20,bin60,19
+Tampa,WFUS-FM,20,bin65,5
+Tampa,WFUS-FM,20,bin70,0
+Tampa,WFUS-FM,20,bin75,0
+Tampa,WFUS-FM,20,bin80,0
+Tampa,WFUS-FM,20,bin85,0
+Tampa,WFUS-FM,20,bin90,0
+Tampa,WFUS-FM,20,bin95,0
+Tampa,WFUS-FM,20,bin100,0
+Tampa,WFUS-FM,20,bin105,0
+Tampa,WFUS-FM,20,bin110,0
+Tampa,WFUS-FM,20,bin115,0
+Tampa,WFUS-FM,20,bin120,0
+Tampa,WFUS-FM,20,bin125,0
+Tampa,WFUS-FM,20,bin130,0
+Tampa,WFUS-FM,20,bin135,0
+Tampa,WFUS-FM,20,bin140,0
+Tampa,WFUS-FM,20,bin145,0
+Tampa,WFUS-FM,20,bin150,0
+Tampa,WFUS-FM,20,bin155,0
+Tampa,WFUS-FM,20,bin160,0
+Tampa,WFUS-FM,20,bin165,0
+Tampa,WFUS-FM,20,bin170,0
+Tampa,WFUS-FM,20,bin175,0
+Tampa,WFUS-FM,20,bin180,0
+Tampa,WFUS-FM,20,bin185,0
+Tampa,WFUS-FM,20,bin190,0
+Tampa,WFUS-FM,20,bin195,0
+Tampa,WFUS-FM,20,bin200,0
+Tampa,WFUS-FM,20,bin205,0
+Tampa,WFUS-FM,20,bin210,0
+Tampa,WFUS-FM,20,bin215,0
+Tampa,WFUS-FM,20,bin220,0
+Tampa,WFUS-FM,20,bin225,0
+Nashville,WKDF-FM,39,bin0,0
+Nashville,WKDF-FM,39,bin5,0
+Nashville,WKDF-FM,39,bin10,0
+Nashville,WKDF-FM,39,bin15,0
+Nashville,WKDF-FM,39,bin20,0
+Nashville,WKDF-FM,39,bin25,0
+Nashville,WKDF-FM,39,bin30,0
+Nashville,WKDF-FM,39,bin35,0
+Nashville,WKDF-FM,39,bin40,0
+Nashville,WKDF-FM,39,bin45,4
+Nashville,WKDF-FM,39,bin50,29
+Nashville,WKDF-FM,39,bin55,69
+Nashville,WKDF-FM,39,bin60,144
+Nashville,WKDF-FM,39,bin65,236
+Nashville,WKDF-FM,39,bin70,209
+Nashville,WKDF-FM,39,bin75,156
+Nashville,WKDF-FM,39,bin80,98
+Nashville,WKDF-FM,39,bin85,40
+Nashville,WKDF-FM,39,bin90,15
+Nashville,WKDF-FM,39,bin95,0
+Nashville,WKDF-FM,39,bin100,0
+Nashville,WKDF-FM,39,bin105,0
+Nashville,WKDF-FM,39,bin110,0
+Nashville,WKDF-FM,39,bin115,0
+Nashville,WKDF-FM,39,bin120,0
+Nashville,WKDF-FM,39,bin125,0
+Nashville,WKDF-FM,39,bin130,0
+Nashville,WKDF-FM,39,bin135,0
+Nashville,WKDF-FM,39,bin140,0
+Nashville,WKDF-FM,39,bin145,0
+Nashville,WKDF-FM,39,bin150,0
+Nashville,WKDF-FM,39,bin155,0
+Nashville,WKDF-FM,39,bin160,0
+Nashville,WKDF-FM,39,bin165,0
+Nashville,WKDF-FM,39,bin170,0
+Nashville,WKDF-FM,39,bin175,0
+Nashville,WKDF-FM,39,bin180,0
+Nashville,WKDF-FM,39,bin185,0
+Nashville,WKDF-FM,39,bin190,0
+Nashville,WKDF-FM,39,bin195,0
+Nashville,WKDF-FM,39,bin200,0
+Nashville,WKDF-FM,39,bin205,0
+Nashville,WKDF-FM,39,bin210,0
+Nashville,WKDF-FM,39,bin215,0
+Nashville,WKDF-FM,39,bin220,0
+Nashville,WKDF-FM,39,bin225,0
+Charlotte,WKKT-FM,19,bin0,0
+Charlotte,WKKT-FM,19,bin5,0
+Charlotte,WKKT-FM,19,bin10,0
+Charlotte,WKKT-FM,19,bin15,1
+Charlotte,WKKT-FM,19,bin20,27
+Charlotte,WKKT-FM,19,bin25,122
+Charlotte,WKKT-FM,19,bin30,289
+Charlotte,WKKT-FM,19,bin35,296
+Charlotte,WKKT-FM,19,bin40,183
+Charlotte,WKKT-FM,19,bin45,60
+Charlotte,WKKT-FM,19,bin50,20
+Charlotte,WKKT-FM,19,bin55,2
+Charlotte,WKKT-FM,19,bin60,0
+Charlotte,WKKT-FM,19,bin65,0
+Charlotte,WKKT-FM,19,bin70,0
+Charlotte,WKKT-FM,19,bin75,0
+Charlotte,WKKT-FM,19,bin80,0
+Charlotte,WKKT-FM,19,bin85,0
+Charlotte,WKKT-FM,19,bin90,0
+Charlotte,WKKT-FM,19,bin95,0
+Charlotte,WKKT-FM,19,bin100,0
+Charlotte,WKKT-FM,19,bin105,0
+Charlotte,WKKT-FM,19,bin110,0
+Charlotte,WKKT-FM,19,bin115,0
+Charlotte,WKKT-FM,19,bin120,0
+Charlotte,WKKT-FM,19,bin125,0
+Charlotte,WKKT-FM,19,bin130,0
+Charlotte,WKKT-FM,19,bin135,0
+Charlotte,WKKT-FM,19,bin140,0
+Charlotte,WKKT-FM,19,bin145,0
+Charlotte,WKKT-FM,19,bin150,0
+Charlotte,WKKT-FM,19,bin155,0
+Charlotte,WKKT-FM,19,bin160,0
+Charlotte,WKKT-FM,19,bin165,0
+Charlotte,WKKT-FM,19,bin170,0
+Charlotte,WKKT-FM,19,bin175,0
+Charlotte,WKKT-FM,19,bin180,0
+Charlotte,WKKT-FM,19,bin185,0
+Charlotte,WKKT-FM,19,bin190,0
+Charlotte,WKKT-FM,19,bin195,0
+Charlotte,WKKT-FM,19,bin200,0
+Charlotte,WKKT-FM,19,bin205,0
+Charlotte,WKKT-FM,19,bin210,0
+Charlotte,WKKT-FM,19,bin215,0
+Charlotte,WKKT-FM,19,bin220,0
+Charlotte,WKKT-FM,19,bin225,0
+Indianapolis,WLHK-FM,34,bin0,0
+Indianapolis,WLHK-FM,34,bin5,0
+Indianapolis,WLHK-FM,34,bin10,0
+Indianapolis,WLHK-FM,34,bin15,0
+Indianapolis,WLHK-FM,34,bin20,0
+Indianapolis,WLHK-FM,34,bin25,1
+Indianapolis,WLHK-FM,34,bin30,6
+Indianapolis,WLHK-FM,34,bin35,35
+Indianapolis,WLHK-FM,34,bin40,106
+Indianapolis,WLHK-FM,34,bin45,232
+Indianapolis,WLHK-FM,34,bin50,259
+Indianapolis,WLHK-FM,34,bin55,184
+Indianapolis,WLHK-FM,34,bin60,133
+Indianapolis,WLHK-FM,34,bin65,35
+Indianapolis,WLHK-FM,34,bin70,9
+Indianapolis,WLHK-FM,34,bin75,0
+Indianapolis,WLHK-FM,34,bin80,0
+Indianapolis,WLHK-FM,34,bin85,0
+Indianapolis,WLHK-FM,34,bin90,0
+Indianapolis,WLHK-FM,34,bin95,0
+Indianapolis,WLHK-FM,34,bin100,0
+Indianapolis,WLHK-FM,34,bin105,0
+Indianapolis,WLHK-FM,34,bin110,0
+Indianapolis,WLHK-FM,34,bin115,0
+Indianapolis,WLHK-FM,34,bin120,0
+Indianapolis,WLHK-FM,34,bin125,0
+Indianapolis,WLHK-FM,34,bin130,0
+Indianapolis,WLHK-FM,34,bin135,0
+Indianapolis,WLHK-FM,34,bin140,0
+Indianapolis,WLHK-FM,34,bin145,0
+Indianapolis,WLHK-FM,34,bin150,0
+Indianapolis,WLHK-FM,34,bin155,0
+Indianapolis,WLHK-FM,34,bin160,0
+Indianapolis,WLHK-FM,34,bin165,0
+Indianapolis,WLHK-FM,34,bin170,0
+Indianapolis,WLHK-FM,34,bin175,0
+Indianapolis,WLHK-FM,34,bin180,0
+Indianapolis,WLHK-FM,34,bin185,0
+Indianapolis,WLHK-FM,34,bin190,0
+Indianapolis,WLHK-FM,34,bin195,0
+Indianapolis,WLHK-FM,34,bin200,0
+Indianapolis,WLHK-FM,34,bin205,0
+Indianapolis,WLHK-FM,34,bin210,0
+Indianapolis,WLHK-FM,34,bin215,0
+Indianapolis,WLHK-FM,34,bin220,0
+Indianapolis,WLHK-FM,34,bin225,0
+Washington DC,WMZQ-FM,22,bin0,0
+Washington DC,WMZQ-FM,22,bin5,0
+Washington DC,WMZQ-FM,22,bin10,0
+Washington DC,WMZQ-FM,22,bin15,0
+Washington DC,WMZQ-FM,22,bin20,0
+Washington DC,WMZQ-FM,22,bin25,0
+Washington DC,WMZQ-FM,22,bin30,4
+Washington DC,WMZQ-FM,22,bin35,31
+Washington DC,WMZQ-FM,22,bin40,92
+Washington DC,WMZQ-FM,22,bin45,203
+Washington DC,WMZQ-FM,22,bin50,265
+Washington DC,WMZQ-FM,22,bin55,225
+Washington DC,WMZQ-FM,22,bin60,122
+Washington DC,WMZQ-FM,22,bin65,44
+Washington DC,WMZQ-FM,22,bin70,12
+Washington DC,WMZQ-FM,22,bin75,2
+Washington DC,WMZQ-FM,22,bin80,0
+Washington DC,WMZQ-FM,22,bin85,0
+Washington DC,WMZQ-FM,22,bin90,0
+Washington DC,WMZQ-FM,22,bin95,0
+Washington DC,WMZQ-FM,22,bin100,0
+Washington DC,WMZQ-FM,22,bin105,0
+Washington DC,WMZQ-FM,22,bin110,0
+Washington DC,WMZQ-FM,22,bin115,0
+Washington DC,WMZQ-FM,22,bin120,0
+Washington DC,WMZQ-FM,22,bin125,0
+Washington DC,WMZQ-FM,22,bin130,0
+Washington DC,WMZQ-FM,22,bin135,0
+Washington DC,WMZQ-FM,22,bin140,0
+Washington DC,WMZQ-FM,22,bin145,0
+Washington DC,WMZQ-FM,22,bin150,0
+Washington DC,WMZQ-FM,22,bin155,0
+Washington DC,WMZQ-FM,22,bin160,0
+Washington DC,WMZQ-FM,22,bin165,0
+Washington DC,WMZQ-FM,22,bin170,0
+Washington DC,WMZQ-FM,22,bin175,0
+Washington DC,WMZQ-FM,22,bin180,0
+Washington DC,WMZQ-FM,22,bin185,0
+Washington DC,WMZQ-FM,22,bin190,0
+Washington DC,WMZQ-FM,22,bin195,0
+Washington DC,WMZQ-FM,22,bin200,0
+Washington DC,WMZQ-FM,22,bin205,0
+Washington DC,WMZQ-FM,22,bin210,0
+Washington DC,WMZQ-FM,22,bin215,0
+Washington DC,WMZQ-FM,22,bin220,0
+Washington DC,WMZQ-FM,22,bin225,0
+Cincinnati,WNNF-FM,14,bin0,0
+Cincinnati,WNNF-FM,14,bin5,0
+Cincinnati,WNNF-FM,14,bin10,0
+Cincinnati,WNNF-FM,14,bin15,0
+Cincinnati,WNNF-FM,14,bin20,0
+Cincinnati,WNNF-FM,14,bin25,0
+Cincinnati,WNNF-FM,14,bin30,0
+Cincinnati,WNNF-FM,14,bin35,0
+Cincinnati,WNNF-FM,14,bin40,1
+Cincinnati,WNNF-FM,14,bin45,13
+Cincinnati,WNNF-FM,14,bin50,47
+Cincinnati,WNNF-FM,14,bin55,108
+Cincinnati,WNNF-FM,14,bin60,195
+Cincinnati,WNNF-FM,14,bin65,243
+Cincinnati,WNNF-FM,14,bin70,202
+Cincinnati,WNNF-FM,14,bin75,113
+Cincinnati,WNNF-FM,14,bin80,47
+Cincinnati,WNNF-FM,14,bin85,24
+Cincinnati,WNNF-FM,14,bin90,7
+Cincinnati,WNNF-FM,14,bin95,0
+Cincinnati,WNNF-FM,14,bin100,0
+Cincinnati,WNNF-FM,14,bin105,0
+Cincinnati,WNNF-FM,14,bin110,0
+Cincinnati,WNNF-FM,14,bin115,0
+Cincinnati,WNNF-FM,14,bin120,0
+Cincinnati,WNNF-FM,14,bin125,0
+Cincinnati,WNNF-FM,14,bin130,0
+Cincinnati,WNNF-FM,14,bin135,0
+Cincinnati,WNNF-FM,14,bin140,0
+Cincinnati,WNNF-FM,14,bin145,0
+Cincinnati,WNNF-FM,14,bin150,0
+Cincinnati,WNNF-FM,14,bin155,0
+Cincinnati,WNNF-FM,14,bin160,0
+Cincinnati,WNNF-FM,14,bin165,0
+Cincinnati,WNNF-FM,14,bin170,0
+Cincinnati,WNNF-FM,14,bin175,0
+Cincinnati,WNNF-FM,14,bin180,0
+Cincinnati,WNNF-FM,14,bin185,0
+Cincinnati,WNNF-FM,14,bin190,0
+Cincinnati,WNNF-FM,14,bin195,0
+Cincinnati,WNNF-FM,14,bin200,0
+Cincinnati,WNNF-FM,14,bin205,0
+Cincinnati,WNNF-FM,14,bin210,0
+Cincinnati,WNNF-FM,14,bin215,0
+Cincinnati,WNNF-FM,14,bin220,0
+Cincinnati,WNNF-FM,14,bin225,0
+Greensboro,WPAW-FM,41,bin0,0
+Greensboro,WPAW-FM,41,bin5,0
+Greensboro,WPAW-FM,41,bin10,0
+Greensboro,WPAW-FM,41,bin15,0
+Greensboro,WPAW-FM,41,bin20,0
+Greensboro,WPAW-FM,41,bin25,0
+Greensboro,WPAW-FM,41,bin30,0
+Greensboro,WPAW-FM,41,bin35,0
+Greensboro,WPAW-FM,41,bin40,2
+Greensboro,WPAW-FM,41,bin45,2
+Greensboro,WPAW-FM,41,bin50,21
+Greensboro,WPAW-FM,41,bin55,81
+Greensboro,WPAW-FM,41,bin60,134
+Greensboro,WPAW-FM,41,bin65,232
+Greensboro,WPAW-FM,41,bin70,220
+Greensboro,WPAW-FM,41,bin75,142
+Greensboro,WPAW-FM,41,bin80,98
+Greensboro,WPAW-FM,41,bin85,51
+Greensboro,WPAW-FM,41,bin90,11
+Greensboro,WPAW-FM,41,bin95,3
+Greensboro,WPAW-FM,41,bin100,2
+Greensboro,WPAW-FM,41,bin105,1
+Greensboro,WPAW-FM,41,bin110,0
+Greensboro,WPAW-FM,41,bin115,0
+Greensboro,WPAW-FM,41,bin120,0
+Greensboro,WPAW-FM,41,bin125,0
+Greensboro,WPAW-FM,41,bin130,0
+Greensboro,WPAW-FM,41,bin135,0
+Greensboro,WPAW-FM,41,bin140,0
+Greensboro,WPAW-FM,41,bin145,0
+Greensboro,WPAW-FM,41,bin150,0
+Greensboro,WPAW-FM,41,bin155,0
+Greensboro,WPAW-FM,41,bin160,0
+Greensboro,WPAW-FM,41,bin165,0
+Greensboro,WPAW-FM,41,bin170,0
+Greensboro,WPAW-FM,41,bin175,0
+Greensboro,WPAW-FM,41,bin180,0
+Greensboro,WPAW-FM,41,bin185,0
+Greensboro,WPAW-FM,41,bin190,0
+Greensboro,WPAW-FM,41,bin195,0
+Greensboro,WPAW-FM,41,bin200,0
+Greensboro,WPAW-FM,41,bin205,0
+Greensboro,WPAW-FM,41,bin210,0
+Greensboro,WPAW-FM,41,bin215,0
+Greensboro,WPAW-FM,41,bin220,0
+Greensboro,WPAW-FM,41,bin225,0
+Tampa,WQYK-FM,39,bin0,0
+Tampa,WQYK-FM,39,bin5,0
+Tampa,WQYK-FM,39,bin10,0
+Tampa,WQYK-FM,39,bin15,0
+Tampa,WQYK-FM,39,bin20,0
+Tampa,WQYK-FM,39,bin25,0
+Tampa,WQYK-FM,39,bin30,1
+Tampa,WQYK-FM,39,bin35,2
+Tampa,WQYK-FM,39,bin40,4
+Tampa,WQYK-FM,39,bin45,36
+Tampa,WQYK-FM,39,bin50,108
+Tampa,WQYK-FM,39,bin55,216
+Tampa,WQYK-FM,39,bin60,250
+Tampa,WQYK-FM,39,bin65,179
+Tampa,WQYK-FM,39,bin70,119
+Tampa,WQYK-FM,39,bin75,55
+Tampa,WQYK-FM,39,bin80,20
+Tampa,WQYK-FM,39,bin85,9
+Tampa,WQYK-FM,39,bin90,0
+Tampa,WQYK-FM,39,bin95,1
+Tampa,WQYK-FM,39,bin100,0
+Tampa,WQYK-FM,39,bin105,0
+Tampa,WQYK-FM,39,bin110,0
+Tampa,WQYK-FM,39,bin115,0
+Tampa,WQYK-FM,39,bin120,0
+Tampa,WQYK-FM,39,bin125,0
+Tampa,WQYK-FM,39,bin130,0
+Tampa,WQYK-FM,39,bin135,0
+Tampa,WQYK-FM,39,bin140,0
+Tampa,WQYK-FM,39,bin145,0
+Tampa,WQYK-FM,39,bin150,0
+Tampa,WQYK-FM,39,bin155,0
+Tampa,WQYK-FM,39,bin160,0
+Tampa,WQYK-FM,39,bin165,0
+Tampa,WQYK-FM,39,bin170,0
+Tampa,WQYK-FM,39,bin175,0
+Tampa,WQYK-FM,39,bin180,0
+Tampa,WQYK-FM,39,bin185,0
+Tampa,WQYK-FM,39,bin190,0
+Tampa,WQYK-FM,39,bin195,0
+Tampa,WQYK-FM,39,bin200,0
+Tampa,WQYK-FM,39,bin205,0
+Tampa,WQYK-FM,39,bin210,0
+Tampa,WQYK-FM,39,bin215,0
+Tampa,WQYK-FM,39,bin220,0
+Tampa,WQYK-FM,39,bin225,0
+Nashville,WSM-FM,40,bin0,0
+Nashville,WSM-FM,40,bin5,0
+Nashville,WSM-FM,40,bin10,0
+Nashville,WSM-FM,40,bin15,0
+Nashville,WSM-FM,40,bin20,0
+Nashville,WSM-FM,40,bin25,0
+Nashville,WSM-FM,40,bin30,0
+Nashville,WSM-FM,40,bin35,0
+Nashville,WSM-FM,40,bin40,0
+Nashville,WSM-FM,40,bin45,0
+Nashville,WSM-FM,40,bin50,0
+Nashville,WSM-FM,40,bin55,0
+Nashville,WSM-FM,40,bin60,0
+Nashville,WSM-FM,40,bin65,0
+Nashville,WSM-FM,40,bin70,0
+Nashville,WSM-FM,40,bin75,0
+Nashville,WSM-FM,40,bin80,0
+Nashville,WSM-FM,40,bin85,0
+Nashville,WSM-FM,40,bin90,0
+Nashville,WSM-FM,40,bin95,0
+Nashville,WSM-FM,40,bin100,0
+Nashville,WSM-FM,40,bin105,0
+Nashville,WSM-FM,40,bin110,1
+Nashville,WSM-FM,40,bin115,0
+Nashville,WSM-FM,40,bin120,2
+Nashville,WSM-FM,40,bin125,1
+Nashville,WSM-FM,40,bin130,13
+Nashville,WSM-FM,40,bin135,15
+Nashville,WSM-FM,40,bin140,27
+Nashville,WSM-FM,40,bin145,64
+Nashville,WSM-FM,40,bin150,90
+Nashville,WSM-FM,40,bin155,107
+Nashville,WSM-FM,40,bin160,141
+Nashville,WSM-FM,40,bin165,130
+Nashville,WSM-FM,40,bin170,135
+Nashville,WSM-FM,40,bin175,86
+Nashville,WSM-FM,40,bin180,83
+Nashville,WSM-FM,40,bin185,54
+Nashville,WSM-FM,40,bin190,26
+Nashville,WSM-FM,40,bin195,12
+Nashville,WSM-FM,40,bin200,11
+Nashville,WSM-FM,40,bin205,1
+Nashville,WSM-FM,40,bin210,0
+Nashville,WSM-FM,40,bin215,0
+Nashville,WSM-FM,40,bin220,0
+Nashville,WSM-FM,40,bin225,1
+Charlotte,WSOC-FM,25,bin0,0
+Charlotte,WSOC-FM,25,bin5,0
+Charlotte,WSOC-FM,25,bin10,0
+Charlotte,WSOC-FM,25,bin15,0
+Charlotte,WSOC-FM,25,bin20,0
+Charlotte,WSOC-FM,25,bin25,0
+Charlotte,WSOC-FM,25,bin30,8
+Charlotte,WSOC-FM,25,bin35,34
+Charlotte,WSOC-FM,25,bin40,106
+Charlotte,WSOC-FM,25,bin45,224
+Charlotte,WSOC-FM,25,bin50,261
+Charlotte,WSOC-FM,25,bin55,226
+Charlotte,WSOC-FM,25,bin60,94
+Charlotte,WSOC-FM,25,bin65,31
+Charlotte,WSOC-FM,25,bin70,14
+Charlotte,WSOC-FM,25,bin75,2
+Charlotte,WSOC-FM,25,bin80,0
+Charlotte,WSOC-FM,25,bin85,0
+Charlotte,WSOC-FM,25,bin90,0
+Charlotte,WSOC-FM,25,bin95,0
+Charlotte,WSOC-FM,25,bin100,0
+Charlotte,WSOC-FM,25,bin105,0
+Charlotte,WSOC-FM,25,bin110,0
+Charlotte,WSOC-FM,25,bin115,0
+Charlotte,WSOC-FM,25,bin120,0
+Charlotte,WSOC-FM,25,bin125,0
+Charlotte,WSOC-FM,25,bin130,0
+Charlotte,WSOC-FM,25,bin135,0
+Charlotte,WSOC-FM,25,bin140,0
+Charlotte,WSOC-FM,25,bin145,0
+Charlotte,WSOC-FM,25,bin150,0
+Charlotte,WSOC-FM,25,bin155,0
+Charlotte,WSOC-FM,25,bin160,0
+Charlotte,WSOC-FM,25,bin165,0
+Charlotte,WSOC-FM,25,bin170,0
+Charlotte,WSOC-FM,25,bin175,0
+Charlotte,WSOC-FM,25,bin180,0
+Charlotte,WSOC-FM,25,bin185,0
+Charlotte,WSOC-FM,25,bin190,0
+Charlotte,WSOC-FM,25,bin195,0
+Charlotte,WSOC-FM,25,bin200,0
+Charlotte,WSOC-FM,25,bin205,0
+Charlotte,WSOC-FM,25,bin210,0
+Charlotte,WSOC-FM,25,bin215,0
+Charlotte,WSOC-FM,25,bin220,0
+Charlotte,WSOC-FM,25,bin225,0
+Greensboro,WTQR-FM,26,bin0,0
+Greensboro,WTQR-FM,26,bin5,0
+Greensboro,WTQR-FM,26,bin10,0
+Greensboro,WTQR-FM,26,bin15,0
+Greensboro,WTQR-FM,26,bin20,47
+Greensboro,WTQR-FM,26,bin25,159
+Greensboro,WTQR-FM,26,bin30,308
+Greensboro,WTQR-FM,26,bin35,294
+Greensboro,WTQR-FM,26,bin40,144
+Greensboro,WTQR-FM,26,bin45,39
+Greensboro,WTQR-FM,26,bin50,8
+Greensboro,WTQR-FM,26,bin55,1
+Greensboro,WTQR-FM,26,bin60,0
+Greensboro,WTQR-FM,26,bin65,0
+Greensboro,WTQR-FM,26,bin70,0
+Greensboro,WTQR-FM,26,bin75,0
+Greensboro,WTQR-FM,26,bin80,0
+Greensboro,WTQR-FM,26,bin85,0
+Greensboro,WTQR-FM,26,bin90,0
+Greensboro,WTQR-FM,26,bin95,0
+Greensboro,WTQR-FM,26,bin100,0
+Greensboro,WTQR-FM,26,bin105,0
+Greensboro,WTQR-FM,26,bin110,0
+Greensboro,WTQR-FM,26,bin115,0
+Greensboro,WTQR-FM,26,bin120,0
+Greensboro,WTQR-FM,26,bin125,0
+Greensboro,WTQR-FM,26,bin130,0
+Greensboro,WTQR-FM,26,bin135,0
+Greensboro,WTQR-FM,26,bin140,0
+Greensboro,WTQR-FM,26,bin145,0
+Greensboro,WTQR-FM,26,bin150,0
+Greensboro,WTQR-FM,26,bin155,0
+Greensboro,WTQR-FM,26,bin160,0
+Greensboro,WTQR-FM,26,bin165,0
+Greensboro,WTQR-FM,26,bin170,0
+Greensboro,WTQR-FM,26,bin175,0
+Greensboro,WTQR-FM,26,bin180,0
+Greensboro,WTQR-FM,26,bin185,0
+Greensboro,WTQR-FM,26,bin190,0
+Greensboro,WTQR-FM,26,bin195,0
+Greensboro,WTQR-FM,26,bin200,0
+Greensboro,WTQR-FM,26,bin205,0
+Greensboro,WTQR-FM,26,bin210,0
+Greensboro,WTQR-FM,26,bin215,0
+Greensboro,WTQR-FM,26,bin220,0
+Greensboro,WTQR-FM,26,bin225,0
+Cincinnati,WUBE-FM,2,bin0,0
+Cincinnati,WUBE-FM,2,bin5,0
+Cincinnati,WUBE-FM,2,bin10,0
+Cincinnati,WUBE-FM,2,bin15,0
+Cincinnati,WUBE-FM,2,bin20,0
+Cincinnati,WUBE-FM,2,bin25,0
+Cincinnati,WUBE-FM,2,bin30,0
+Cincinnati,WUBE-FM,2,bin35,0
+Cincinnati,WUBE-FM,2,bin40,3
+Cincinnati,WUBE-FM,2,bin45,3
+Cincinnati,WUBE-FM,2,bin50,15
+Cincinnati,WUBE-FM,2,bin55,56
+Cincinnati,WUBE-FM,2,bin60,124
+Cincinnati,WUBE-FM,2,bin65,198
+Cincinnati,WUBE-FM,2,bin70,239
+Cincinnati,WUBE-FM,2,bin75,178
+Cincinnati,WUBE-FM,2,bin80,119
+Cincinnati,WUBE-FM,2,bin85,44
+Cincinnati,WUBE-FM,2,bin90,12
+Cincinnati,WUBE-FM,2,bin95,6
+Cincinnati,WUBE-FM,2,bin100,3
+Cincinnati,WUBE-FM,2,bin105,0
+Cincinnati,WUBE-FM,2,bin110,0
+Cincinnati,WUBE-FM,2,bin115,0
+Cincinnati,WUBE-FM,2,bin120,0
+Cincinnati,WUBE-FM,2,bin125,0
+Cincinnati,WUBE-FM,2,bin130,0
+Cincinnati,WUBE-FM,2,bin135,0
+Cincinnati,WUBE-FM,2,bin140,0
+Cincinnati,WUBE-FM,2,bin145,0
+Cincinnati,WUBE-FM,2,bin150,0
+Cincinnati,WUBE-FM,2,bin155,0
+Cincinnati,WUBE-FM,2,bin160,0
+Cincinnati,WUBE-FM,2,bin165,0
+Cincinnati,WUBE-FM,2,bin170,0
+Cincinnati,WUBE-FM,2,bin175,0
+Cincinnati,WUBE-FM,2,bin180,0
+Cincinnati,WUBE-FM,2,bin185,0
+Cincinnati,WUBE-FM,2,bin190,0
+Cincinnati,WUBE-FM,2,bin195,0
+Cincinnati,WUBE-FM,2,bin200,0
+Cincinnati,WUBE-FM,2,bin205,0
+Cincinnati,WUBE-FM,2,bin210,0
+Cincinnati,WUBE-FM,2,bin215,0
+Cincinnati,WUBE-FM,2,bin220,0
+Cincinnati,WUBE-FM,2,bin225,0
+Chicago,WUSN-FM,79,bin0,0
+Chicago,WUSN-FM,79,bin5,0
+Chicago,WUSN-FM,79,bin10,0
+Chicago,WUSN-FM,79,bin15,0
+Chicago,WUSN-FM,79,bin20,0
+Chicago,WUSN-FM,79,bin25,0
+Chicago,WUSN-FM,79,bin30,0
+Chicago,WUSN-FM,79,bin35,0
+Chicago,WUSN-FM,79,bin40,0
+Chicago,WUSN-FM,79,bin45,0
+Chicago,WUSN-FM,79,bin50,0
+Chicago,WUSN-FM,79,bin55,0
+Chicago,WUSN-FM,79,bin60,0
+Chicago,WUSN-FM,79,bin65,1
+Chicago,WUSN-FM,79,bin70,10
+Chicago,WUSN-FM,79,bin75,28
+Chicago,WUSN-FM,79,bin80,65
+Chicago,WUSN-FM,79,bin85,127
+Chicago,WUSN-FM,79,bin90,187
+Chicago,WUSN-FM,79,bin95,178
+Chicago,WUSN-FM,79,bin100,154
+Chicago,WUSN-FM,79,bin105,128
+Chicago,WUSN-FM,79,bin110,63
+Chicago,WUSN-FM,79,bin115,36
+Chicago,WUSN-FM,79,bin120,16
+Chicago,WUSN-FM,79,bin125,5
+Chicago,WUSN-FM,79,bin130,1
+Chicago,WUSN-FM,79,bin135,1
+Chicago,WUSN-FM,79,bin140,0
+Chicago,WUSN-FM,79,bin145,0
+Chicago,WUSN-FM,79,bin150,0
+Chicago,WUSN-FM,79,bin155,0
+Chicago,WUSN-FM,79,bin160,0
+Chicago,WUSN-FM,79,bin165,0
+Chicago,WUSN-FM,79,bin170,0
+Chicago,WUSN-FM,79,bin175,0
+Chicago,WUSN-FM,79,bin180,0
+Chicago,WUSN-FM,79,bin185,0
+Chicago,WUSN-FM,79,bin190,0
+Chicago,WUSN-FM,79,bin195,0
+Chicago,WUSN-FM,79,bin200,0
+Chicago,WUSN-FM,79,bin205,0
+Chicago,WUSN-FM,79,bin210,0
+Chicago,WUSN-FM,79,bin215,0
+Chicago,WUSN-FM,79,bin220,0
+Chicago,WUSN-FM,79,bin225,0
+Philadelphia,WXTU-FM,58,bin0,0
+Philadelphia,WXTU-FM,58,bin5,0
+Philadelphia,WXTU-FM,58,bin10,0
+Philadelphia,WXTU-FM,58,bin15,0
+Philadelphia,WXTU-FM,58,bin20,0
+Philadelphia,WXTU-FM,58,bin25,0
+Philadelphia,WXTU-FM,58,bin30,0
+Philadelphia,WXTU-FM,58,bin35,0
+Philadelphia,WXTU-FM,58,bin40,0
+Philadelphia,WXTU-FM,58,bin45,0
+Philadelphia,WXTU-FM,58,bin50,0
+Philadelphia,WXTU-FM,58,bin55,0
+Philadelphia,WXTU-FM,58,bin60,1
+Philadelphia,WXTU-FM,58,bin65,4
+Philadelphia,WXTU-FM,58,bin70,29
+Philadelphia,WXTU-FM,58,bin75,51
+Philadelphia,WXTU-FM,58,bin80,105
+Philadelphia,WXTU-FM,58,bin85,171
+Philadelphia,WXTU-FM,58,bin90,190
+Philadelphia,WXTU-FM,58,bin95,168
+Philadelphia,WXTU-FM,58,bin100,131
+Philadelphia,WXTU-FM,58,bin105,86
+Philadelphia,WXTU-FM,58,bin110,45
+Philadelphia,WXTU-FM,58,bin115,11
+Philadelphia,WXTU-FM,58,bin120,4
+Philadelphia,WXTU-FM,58,bin125,3
+Philadelphia,WXTU-FM,58,bin130,1
+Philadelphia,WXTU-FM,58,bin135,0
+Philadelphia,WXTU-FM,58,bin140,0
+Philadelphia,WXTU-FM,58,bin145,0
+Philadelphia,WXTU-FM,58,bin150,0
+Philadelphia,WXTU-FM,58,bin155,0
+Philadelphia,WXTU-FM,58,bin160,0
+Philadelphia,WXTU-FM,58,bin165,0
+Philadelphia,WXTU-FM,58,bin170,0
+Philadelphia,WXTU-FM,58,bin175,0
+Philadelphia,WXTU-FM,58,bin180,0
+Philadelphia,WXTU-FM,58,bin185,0
+Philadelphia,WXTU-FM,58,bin190,0
+Philadelphia,WXTU-FM,58,bin195,0
+Philadelphia,WXTU-FM,58,bin200,0
+Philadelphia,WXTU-FM,58,bin205,0
+Philadelphia,WXTU-FM,58,bin210,0
+Philadelphia,WXTU-FM,58,bin215,0
+Philadelphia,WXTU-FM,58,bin220,0
+Philadelphia,WXTU-FM,58,bin225,0
+Cincinnati,WYGY-FM,13,bin0,0
+Cincinnati,WYGY-FM,13,bin5,0
+Cincinnati,WYGY-FM,13,bin10,0
+Cincinnati,WYGY-FM,13,bin15,0
+Cincinnati,WYGY-FM,13,bin20,0
+Cincinnati,WYGY-FM,13,bin25,0
+Cincinnati,WYGY-FM,13,bin30,0
+Cincinnati,WYGY-FM,13,bin35,0
+Cincinnati,WYGY-FM,13,bin40,0
+Cincinnati,WYGY-FM,13,bin45,0
+Cincinnati,WYGY-FM,13,bin50,0
+Cincinnati,WYGY-FM,13,bin55,2
+Cincinnati,WYGY-FM,13,bin60,3
+Cincinnati,WYGY-FM,13,bin65,17
+Cincinnati,WYGY-FM,13,bin70,52
+Cincinnati,WYGY-FM,13,bin75,133
+Cincinnati,WYGY-FM,13,bin80,161
+Cincinnati,WYGY-FM,13,bin85,204
+Cincinnati,WYGY-FM,13,bin90,172
+Cincinnati,WYGY-FM,13,bin95,135
+Cincinnati,WYGY-FM,13,bin100,82
+Cincinnati,WYGY-FM,13,bin105,23
+Cincinnati,WYGY-FM,13,bin110,10
+Cincinnati,WYGY-FM,13,bin115,5
+Cincinnati,WYGY-FM,13,bin120,1
+Cincinnati,WYGY-FM,13,bin125,0
+Cincinnati,WYGY-FM,13,bin130,0
+Cincinnati,WYGY-FM,13,bin135,0
+Cincinnati,WYGY-FM,13,bin140,0
+Cincinnati,WYGY-FM,13,bin145,0
+Cincinnati,WYGY-FM,13,bin150,0
+Cincinnati,WYGY-FM,13,bin155,0
+Cincinnati,WYGY-FM,13,bin160,0
+Cincinnati,WYGY-FM,13,bin165,0
+Cincinnati,WYGY-FM,13,bin170,0
+Cincinnati,WYGY-FM,13,bin175,0
+Cincinnati,WYGY-FM,13,bin180,0
+Cincinnati,WYGY-FM,13,bin185,0
+Cincinnati,WYGY-FM,13,bin190,0
+Cincinnati,WYGY-FM,13,bin195,0
+Cincinnati,WYGY-FM,13,bin200,0
+Cincinnati,WYGY-FM,13,bin205,0
+Cincinnati,WYGY-FM,13,bin210,0
+Cincinnati,WYGY-FM,13,bin215,0
+Cincinnati,WYGY-FM,13,bin220,0
+Cincinnati,WYGY-FM,13,bin225,0

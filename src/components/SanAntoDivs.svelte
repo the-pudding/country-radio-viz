@@ -120,7 +120,6 @@
 
     function handleScroll(value) {
         checkScrollY(scrollY)
-        console.log(value)
         if (mountCheck) {
             if (value == 0 || value == "undefined" && scrollY == 0) {
                 intro.transition()

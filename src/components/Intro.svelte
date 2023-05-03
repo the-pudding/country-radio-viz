@@ -189,10 +189,16 @@
         }
     }
     @media only screen and (max-width: 500px) {
+        .title-wrapper {
+            top: 40%;
+        }
         .subhed-wrapper {
             bottom: -5rem;
         }
-
+        .img-wrapper {
+            /* right: 2rem; */
+            bottom: 1rem;
+        }
         h2 {
             font-size: var(--16px); 
             max-width: 70%;

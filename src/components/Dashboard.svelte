@@ -69,7 +69,8 @@
     onMount(() => {
         updateTableData(value);
 
-        colW = Math.floor((innerWidth - padding*1.5)/19);
+        calcW(innerWidth);
+        calcH(innerHeight);
     })
 
     function formatCityName(cityName) {
@@ -78,6 +79,13 @@
         else if (cityName == "KansasCity") { return "Kansas City"}
         else if (cityName == "WashingtonDC") { return "Washington DC"}
         else { return cityName}
+    }
+
+    function calcW(innerWidth) {
+        colW = Math.floor((innerWidth - padding*1.5)/19);
+    }
+    function calcH(innerHeight) {
+        blockH = innerHeight > 1000 ? 3 : 2;
     }
 
     function updateTableData(value) {  
@@ -133,10 +141,11 @@
         ];
     }
     $: if (value) { updateTableData(value); }
-    $: buttonVal, console.log(buttonVal)
+    $: innerWidth, calcW(innerWidth);
+    $: innerHeight, calcH(innerHeight);
 </script>
 
-<section id="dashboard" bind:clientWidth={innerWidth}>
+<section id="dashboard" bind:clientWidth={innerWidth} bind:clientHeight={innerHeight}>
     <h4>Explore the back-to-back song demographics for each of the 29 radio stations</h4>
     <div class="details">
         <div class="station-container">
@@ -388,7 +397,7 @@
         font-size: var(--14px);
         position: absolute;
         left: -1rem;
-        top: 3rem;
+        top: 2.25rem;
     }
     :global(.right svg) {
         width: 100%;
@@ -470,7 +479,7 @@
             max-width: 15rem;
         }
     }
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 600px) {
         .date-row p {
             font-size: 10px;
         }

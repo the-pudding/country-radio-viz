@@ -200,7 +200,6 @@
                     .delay(500)
                     .duration(0)
                     .style("background", "#e1d4ca")
-                    .style("opacity", 1);
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 184).transition()
                     .delay(1000)
                     .transition()
@@ -655,7 +654,7 @@
         }
         .time-label-top p {
           left: -1.75rem;  
-          top: 2.75rem;
+          top: 3.75rem;
           font-size: var(--12px);
         }
         .sim-label p {

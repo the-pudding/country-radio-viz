@@ -66,6 +66,16 @@
             <p>{@html text.value}</p>
         {/each}
     </div>
+    <div class="pullquote">
+        {#each copy.quote2 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
+    <div class="prose">
+        {#each copy.prose5a as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
     <BarChart />
     <h3>{copy.proseHead6}</h3>
     <div class="prose">

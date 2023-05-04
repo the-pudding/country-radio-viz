@@ -12,20 +12,20 @@
     {#each data as bar, i}
         <div class="row">
             {#if bar.long}
-                <div class="label-container" style="width: 12rem">
+                <div class="label-container" style="width: 10rem">
                     <p>{bar.long} ({bar.type})</p>
                     <p>{bar.hours}</p>
                 </div>
-                <div class="bar-container" style="width: calc(100% - 12rem)">
+                <div class="bar-container" style="width: calc(100% - 10rem)">
                     <div class="bar bar-{i}"></div>
                     <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
                     <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {:else}
-                <div class="label-container" style="width: 6rem">
+                <div class="label-container" style="width: 5rem">
                     <p>{bar.type}</p>
                 </div>
-                <div class="bar-container" style="width: calc(100% - 6rem)">
+                <div class="bar-container" style="width: calc(100% - 5rem)">
                     <div class="bar bar-{i}"></div>
                     <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
                     <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>

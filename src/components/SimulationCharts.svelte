@@ -3,19 +3,27 @@
     import simulationData from "$data/simulationData.csv";
     import { onMount, tick } from "svelte";
     
-    let groupedData = d3.groups(simulationData, d => d.station);
+    let groupedData = d3.groups(simulationData, d => d.station).sort((a, b) => d3.ascending(a[1][0].city, b[1][0].city));
     
     let innerWidth;
+    let histSection;
+    let gradient;
+    let button;
+    let hidden = true;
 
     onMount(async() => {
+        console.log(groupedData)
         await tick();
-        console.log(innerWidth)
+        histSection = d3.select("#histograms")
+        gradient = d3.select(".gradient")
     })
 
-    $: innerWidth, console.log(innerWidth);
+    function showCharts() {
+        hidden = !hidden;
+    }
 </script>
 
-<section id="histograms">
+<section id="histograms" style="height:{hidden ? '575px' : 'auto'}; overflow-y:{hidden ? 'hidden' : 'visble'}">
     {#each groupedData as station, i}
     <div class="station-histo">
         <div class="bar-wrapper">
@@ -27,14 +35,20 @@
                 </div>
                 {/each}
             </div>
-        <div class="obs" style="left: {station[1][0].obs/225*100}%">
+        <div class="obs" style="left: {station[1][0].obs/230*100}%">
             <p>{station[1][0].obs}</p>
         </div>
         <h5>{@html station[1][0].city} <br>({station[1][0].station})</h5>
     </div>
     {/each}
-    <div class="gradient"></div>
-    <button>Show more</button>
+    <div class="gradient" style="opacity:{hidden ? '1' : '0'}"></div>
+    <button on:click={showCharts}>
+        {#if hidden}
+            <p>Show more</p>
+        {:else}
+            <p>Show fewer</p>
+        {/if}
+    </button>
 </section>
 
 <style> 
@@ -44,21 +58,25 @@
         flex-direction: row;
         flex-wrap: wrap;
         max-width: 60rem;
-        margin: 0 auto;
-        max-height: 400px;
+        margin: 2rem auto 5rem auto;
+        height: 600px;
         overflow-y: hidden;
+        position: relative;
+        justify-content: center;
+        padding: 0 0 4rem 0;
     }
     .station-histo {
         display: flex;
         flex-direction: row;
-        width: calc(33% - 1rem);
+        width: calc(20% - 1rem);
         flex-wrap: wrap;
         margin: 0 0.5rem;
         position: relative;
+        min-width: 150px;
     }
     .bar-wrapper {
         width: 100%;
-        height: 200px;
+        height: 150px;
         display: flex;
         flex-direction: row;
         justify-content: end;
@@ -67,7 +85,7 @@
     }
     .obs {
         position: absolute;
-        height: 150px;
+        height: 100px;
         border-left: 2px solid var(--color-country-blue);
         top: 50px;
     }
@@ -99,5 +117,34 @@
         width: 100%;
         text-align: center;
         padding: 1rem 0 0 0;
+        font-size: var(--18px);
+    }
+    .gradient {
+        width: 100%;
+        height: 5rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        background-image: linear-gradient(180deg, rgba(246, 239, 233, 0), rgba(246, 239, 233, 1));
+    }
+    button {
+        position: absolute;
+        bottom: 0rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        z-index: 1000;
+        width: 8rem;
+        background: var(--color-country-tan);
+        border: 1px solid var(--color-country-text);
+    }
+    button:hover {
+        background: var(--color-country-orange);
+    }
+    button p {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+        font-size: var(--14px);
     }
 </style>

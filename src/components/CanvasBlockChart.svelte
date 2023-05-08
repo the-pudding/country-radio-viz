@@ -3,7 +3,7 @@
     import Rect from "$components/Canvas.Rect.svelte";
     import { fade } from 'svelte/transition';
     import { onMount } from "svelte";
-    import * as d3 from "d3";
+    import { csvParse, groups, select } from "d3";
     import { browser } from "$app/environment";
 
     let innerWidth;
@@ -32,9 +32,9 @@
     async function fetchData() {
         const response = await fetch(`assets/${startingStation}_withB2B.csv`);
         const text = await response.text();
-        const parsed = d3.csvParse(text)
+        const parsed = csvParse(text)
         data = parsed;
-        groupedData = d3.groups(data, d => d.date);
+        groupedData = groups(data, d => d.date);
         firstDateData = groupedData[0];
         firstDateData = firstDateData[1]
     }
@@ -57,7 +57,7 @@
     }
 
     function changeMap() {
-        map = d3.select('#map-container');
+        map = select('#map-container');
         let cityName = startingStation.split("_")[0];
         let allDots = map.selectAll(`#dots g circle`).filter((d,i) => i !== 0).style("fill", "#78695E").attr("r", 8.5);
         let cityDot = map.selectAll(`#${cityName}`);

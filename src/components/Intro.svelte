@@ -3,7 +3,7 @@
     import title from "$svg/title_hero-bg.svg";
     import Header from "$components/Header.svelte";
     import { onMount } from "svelte";
-    import * as d3 from "d3";
+    import { min } from "d3";
 
     const copy = getContext("copy");
     let w;
@@ -11,7 +11,7 @@
     let minDim;
     let svgH;
 
-    function calcDims(w, h) { minDim = d3.min([w, h]); }
+    function calcDims(w, h) { minDim = min([w, h]); }
 
     onMount(() => {
         calcDims(w, h);

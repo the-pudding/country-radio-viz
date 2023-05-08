@@ -13,8 +13,6 @@
     import AxisX from "$components/charts/AxisX.svg.svelte";
     import AxisY from "$components/charts/AxisY.svg.svelte";
     import Labels from "$components/charts/Labels.svelte";
-    import inView from "$actions/inView.js";
-    import "intersection-observer";
   
     import data from "$data/timeseries.csv";
     let w;

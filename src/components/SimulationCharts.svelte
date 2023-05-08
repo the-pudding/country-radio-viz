@@ -1,9 +1,10 @@
 <script>
     import * as d3 from "d3";
+    import { ascending, groups, select } from "d3";
     import simulationData from "$data/simulationData.csv";
     import { onMount, tick } from "svelte";
     
-    let groupedData = d3.groups(simulationData, d => d.station).sort((a, b) => d3.ascending(a[1][0].city, b[1][0].city));
+    let groupedData = groups(simulationData, d => d.station).sort((a, b) => ascending(a[1][0].city, b[1][0].city));
     
     let innerWidth;
     let histSection;
@@ -13,8 +14,8 @@
 
     onMount(async() => {
         await tick();
-        histSection = d3.select("#histograms")
-        gradient = d3.select(".gradient")
+        histSection = select("#histograms")
+        gradient = select(".gradient")
     })
 
     function showCharts() {

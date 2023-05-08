@@ -3,7 +3,7 @@
     import Rect from "$components/Canvas.Rect.svelte";
     import { fade } from 'svelte/transition';
     import { onMount } from "svelte";
-    import * as d3 from "d3";
+    import { csvParse, groups } from "d3";
 
     let innerWidth;
 	let innerHeight;
@@ -25,9 +25,9 @@
     onMount(async () => {
         const response = await fetch(`./assets/${startingStation}_1_7_22.csv`);
         const text = await response.text();
-        const parsed = d3.csvParse(text)
+        const parsed = csvParse(text)
         data = parsed;
-        groupedData = d3.groups(data, d => d.version);
+        groupedData = groups(data, d => d.version);
         // firstDateData = groupedData[0];
         // firstDateData = firstDateData[1]
         calcW(innerWidth);

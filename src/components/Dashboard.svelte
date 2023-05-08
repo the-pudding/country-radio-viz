@@ -1,7 +1,6 @@
 <script>
     import { getContext } from "svelte";
     import { onMount } from "svelte";
-    import * as d3 from "d3";
     import summaryData from "$data/summary.csv";
     import Select from "$components/helpers/Select.svelte";
     import usMap from "$svg/us-map.svg";

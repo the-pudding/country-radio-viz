@@ -3,7 +3,6 @@
 	export const directions = ["n", "ne", "e", "se", "s", "sw", "w", "nw"];
 
 	export let name;
-	export let direction = "n";
 	export let size = "1em"; // can be a number of a css value
 	export let color = undefined;
 	export let strokeWidth = undefined;

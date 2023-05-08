@@ -1,5 +1,5 @@
 <script>
-    import * as d3 from "d3";
+    import { csvParse, groups, select, selectAll, timeParse, timeFormat } from "d3";
     import { onMount, tick } from "svelte";
     import { browser } from "$app/environment";
 
@@ -68,32 +68,32 @@
     async function loadData() {
         const response = await fetch(`./assets/${startingStation}_withB2B.csv`);
         const text = await response.text();
-        const parsed = d3.csvParse(text)
+        const parsed = csvParse(text)
         data = parsed;
-        groupedData = d3.groups(data, d => d.date);
+        groupedData = groups(data, d => d.date);
         firstDateData = groupedData[0];
         firstDateData = firstDateData[1];
     }
 
     function setSelectors() {
-        allSongBlocks = d3.selectAll(".song");
+        allSongBlocks = selectAll(".song");
         firstSong = allSongBlocks.filter((d, i) => i == 136);
-        b2bWomen = d3.selectAll(".song-B2Bwomen");
-        b2bMen = d3.selectAll(".song-B2Bmen");
-        b2bMixed = d3.selectAll(".song-B2Bmixed");
+        b2bWomen = selectAll(".song-B2Bwomen");
+        b2bMen = selectAll(".song-B2Bmen");
+        b2bMixed = selectAll(".song-B2Bmixed");
         highlightWomenSong = allSongBlocks.filter((d, i) => i == 273);
-        repChart = d3.selectAll("#representative-chart");
-        firstSongBlock = d3.selectAll(".song-block").filter((d, i) => i == 0);
-        dates = d3.selectAll(".date");
-        firstDate = d3.selectAll(".date").filter((d,i) => i == 0);
-        songCurtains = d3.selectAll(".song-block");
-        simLabel = d3.selectAll(".sim-label");
-        stickyScroll = d3.select(".sticky");
-        songLineLabel = d3.select(".song-line-label");
-        b2bLabel = d3.select(".b2b-label");
-        timeLabel = d3.select(".time-label-top");
-        afterLabels = d3.selectAll(".song-4", ".song-73", ".song-272")
-        intro = d3.select("#intro");
+        repChart = selectAll("#representative-chart");
+        firstSongBlock = selectAll(".song-block").filter((d, i) => i == 0);
+        dates = selectAll(".date");
+        firstDate = selectAll(".date").filter((d,i) => i == 0);
+        songCurtains = selectAll(".song-block");
+        simLabel = selectAll(".sim-label");
+        stickyScroll = select(".sticky");
+        songLineLabel = select(".song-line-label");
+        b2bLabel = select(".b2b-label");
+        timeLabel = select(".time-label-top");
+        afterLabels = selectAll(".song-4", ".song-73", ".song-272")
+        intro = select("#intro");
     }
 
     function calcW(w) {
@@ -104,9 +104,9 @@
     }
 
     function formatDate(indivDate) {
-        const parseTime = d3.timeParse("%m/%e/%y")
+        const parseTime = timeParse("%m/%e/%y")
         const date = parseTime(indivDate)
-        let formatedDate = d3.timeFormat("%b%d")(date)
+        let formatedDate = timeFormat("%b%d")(date)
         formatedDate = `${formatedDate.match(/.{1,3}/g)[0]}<br>${formatedDate.match(/.{1,3}/g)[1]}`
         return formatedDate;
     }
@@ -268,8 +268,8 @@
                             .duration(0)
                             .style("transform", "scaleX(1)")
                             .style("margin-left", "0")
-                        d3.select(".song-4").classed("show-label", false);
-                        d3.select(".song-73").classed("show-label", false);
+                        select(".song-4").classed("show-label", false);
+                        select(".song-73").classed("show-label", false);
                     });
                 allSongBlocks.filter((d, i) => i >= 136 && i <= 273).transition()
                     .delay((d, i) => i * 25)
@@ -282,7 +282,7 @@
                             .style("transform", "scaleX(1.5)")
                             .style("margin-left", "25%")
                         
-                        d3.select(".song-272").classed("show-label", true);
+                        select(".song-272").classed("show-label", true);
                     })
                 firstDate.transition()
                     .duration(1000)
@@ -310,9 +310,9 @@
                     .style("margin-left", "25%")
                     .end()
                     .then(() => {
-                        d3.select(".song-4").classed("show-label", true);
-                        d3.select(".song-73").classed("show-label", true);
-                        d3.select(".song-272").classed("show-label", true);
+                        select(".song-4").classed("show-label", true);
+                        select(".song-73").classed("show-label", true);
+                        select(".song-272").classed("show-label", true);
                     })
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .duration(1000)
@@ -340,9 +340,9 @@
                 firstSong.transition()
                     .duration(500)
                     .style("background", "#e1d4ca")
-                d3.select(".song-4").classed("show-label", false);
-                d3.select(".song-73").classed("show-label", false);
-                d3.select(".song-272").classed("show-label", false);
+                select(".song-4").classed("show-label", false);
+                select(".song-73").classed("show-label", false);
+                select(".song-272").classed("show-label", false);
                 repChart.transition()
                     .duration(1000)
                     .style("opacity", 1);

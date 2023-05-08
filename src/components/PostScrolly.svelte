@@ -36,9 +36,9 @@
 
 <section id="post-scroll">
     <div class="dashTease">
-        <Icon name="star" width="1.5rem" height="1.5rem" rotation=-10/>
+        <Icon name="star" rotation=-10/>
         <p>{@html copy.dashTease}</p>
-        <Icon name="star" width="1.5rem" height="1.5rem" rotation=10/>
+        <Icon name="star" rotation=10/>
     </div>
     <div class="prose">
         {#each copy.prose1 as text, i}

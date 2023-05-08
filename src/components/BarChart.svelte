@@ -1,9 +1,9 @@
 <script>
-    import * as d3 from "d3";
     import summaryData from "$data/summary.csv";
+    import { sort, descending } from "d3";
 
-    let sortedData = summaryData.sort((a, b) => d3.descending(a.b2bWomenSongs_PERCENT, b.b2bWomenSongs_PERCENT));
     let innerWidth;
+    let sortedData = summaryData.sort((a, b) => descending(a.b2bWomenSongs_PERCENT, b.b2bWomenSongs_PERCENT));
 
     function formatCityName(cityName) {
         if (cityName == "SanAntonio") { return "San Antonio"}

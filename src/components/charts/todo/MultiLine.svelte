@@ -4,8 +4,12 @@
  -->
 <script>
 	import { getContext } from 'svelte';
+	import { draw } from 'svelte/transition';
+	import { quadOut } from 'svelte/easing';
+	import { selectAll } from "d3";
 
 	const { data, xGet, yGet, zGet } = getContext('LayerCake');
+	// export let drawIn
 
 	$: path = values => {
 		return 'M' + values
@@ -14,15 +18,25 @@
 			})
 			.join('L');
 	};
+
+	// function popStat() {
+	// 	const labels = selectAll("#line-chart .label")
+	// 	labels.transition()
+	// 		.delay(1000)
+	// 		.duration(500)
+	// 		.style("opacity", 1);
+	// }
 </script>
 
 <g class="line-group">
 	{#each $data as group}
+		<!-- {#if drawIn} -->
 		<path
 			class='path-line'
 			d='{path(group.values)}'
 			stroke="{$zGet(group)}"
 		></path>
+		<!-- {/if} -->
 	{/each}
 </g>
 

@@ -7,6 +7,7 @@
 	export let size = "1em"; // can be a number of a css value
 	export let color = undefined;
 	export let strokeWidth = undefined;
+	export let rotation;
 
 	let Component;
 
@@ -16,8 +17,6 @@
 		const sliced = camel.slice(1);
 		return `${upper}${sliced}`;
 	};
-
-	$: rotation = directions.indexOf(direction) * 45;
 
 	onMount(async () => {
 		const key = nameToComponent(name);

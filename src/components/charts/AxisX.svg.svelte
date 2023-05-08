@@ -60,18 +60,18 @@
 
 <style>
 	.tick {
-		font-size: 0.725em;
-		font-weight: 200;
+		font-size: var(--14px);
+		font-weight: 500;
 	}
 
 	line,
 	.tick line {
-		stroke: var(--color-gray-300);
-		stroke-dasharray: 2;
+		stroke: var(--color-country-tan);
 	}
 
 	.tick text {
-		fill: var(--color-gray-600);
+		fill: var(--color-country-brown);
+		font-family: var(--sans-narrow);
 	}
 
 	.tick .tick-mark,

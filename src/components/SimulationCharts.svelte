@@ -12,7 +12,6 @@
     let hidden = true;
 
     onMount(async() => {
-        console.log(groupedData)
         await tick();
         histSection = d3.select("#histograms")
         gradient = d3.select(".gradient")

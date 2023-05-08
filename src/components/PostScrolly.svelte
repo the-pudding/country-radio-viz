@@ -10,6 +10,8 @@
     import Wall from "$components/Wall.svelte";
     import InlineBarChart from "$components/InlineBarChart.svelte";
     import SortTable from "$components/helpers/SortTable.svelte";
+    import MultiLineContainer from "$components/MultiLineContainer.svelte";
+    import Icon from "$components/helpers/Icon.svelte"
 
 
     rowsTopW = [
@@ -33,6 +35,11 @@
 </script>
 
 <section id="post-scroll">
+    <div class="dashTease">
+        <Icon name="star" width="1.5rem" height="1.5rem" rotation=-10/>
+        <p>{@html copy.dashTease}</p>
+        <Icon name="star" width="1.5rem" height="1.5rem" rotation=10/>
+    </div>
     <div class="prose">
         {#each copy.prose1 as text, i}
             <p>{@html text.value}</p>
@@ -45,6 +52,12 @@
     </div>
     <div class="prose">
         {#each copy.prose2 as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
+    <MultiLineContainer />
+    <div class="prose">
+        {#each copy.prose2a as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
@@ -117,10 +130,29 @@
 </section>
 
 <style>
+    :global(.icon svg polygon) {
+        fill: var(--color-country-text);
+    }
+    :global(.icon) {
+        margin: 0.25rem 0.25rem 0 0.25rem;
+    }
     #post-scroll {
         width: 100%;
         padding: 0 1rem;
         font-family: var(--sans);
+        margin-top: 5rem;
+    }
+    .dashTease {
+        margin: 2rem auto;
+        max-width: 40rem;
+        font-weight: 700;
+        font-size: var(--14px);
+        text-align: center;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
     h3 {
         font-weight: 700;

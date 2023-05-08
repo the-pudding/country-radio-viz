@@ -7,6 +7,7 @@ specifiers:
   archieml: ^0.5.0
   autoprefixer: ^10.4.13
   d3: ^7.8.2
+  intersection-observer: ^0.12.2
   layercake: ^7.2.2
   lodash.debounce: ^4.0.8
   lucide-svelte: ^0.108.0
@@ -22,6 +23,9 @@ specifiers:
   svelte-preprocess: ^5.0.1
   vite: ^4.0.4
   vite-plugin-svgstring: ^1.0.0
+
+dependencies:
+  intersection-observer: 0.12.2
 
 devDependencies:
   '@rollup/plugin-dsv': 3.0.2_rollup@3.12.0
@@ -982,6 +986,10 @@ packages:
     resolution: {integrity: sha512-5Hh7Y1wQbvY5ooGgPbDaL5iYLAPzMTUrjMulskHLH6wnv/A+1q5rgEaiuqEjB+oxGXIVZs1FF+R/KPN3ZSQYYg==}
     engines: {node: '>=12'}
     dev: true
+
+  /intersection-observer/0.12.2:
+    resolution: {integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==}
+    dev: false
 
   /is-core-module/2.11.0:
     resolution: {integrity: sha512-RRjxlvLDkD1YJwDbroBHMb+cukurkDWNyHx7D3oNB5x9rb5ogcksMC5wHCadcXoo67gVr/+3GFySh3134zi6rw==}

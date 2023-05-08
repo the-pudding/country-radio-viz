@@ -56,9 +56,11 @@
 	<div class="spacer" />
 </section>
 <PostScrolly />
-{#if blockH}
-	<Dashboard blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
-{/if}
+<div id="dashboard-container">
+	{#if blockH}
+		<Dashboard blockH={blockH} spacingX={spacingX} spacingY={spacingY}/>
+	{/if}
+</div>
 <Methods />
 <Footer />
 

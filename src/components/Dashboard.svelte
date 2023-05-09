@@ -239,7 +239,7 @@
 		width: 100%;
 		height: 100vh;
 		z-index: 1000;
-		opacity: 0.25;
+		opacity: 0.15;
 	}
     h4 {
         margin: 1rem;
@@ -272,13 +272,13 @@
         flex-direction: column;
     }
     .owner-label {
-        color: var(--color-country-brown);
+        color: var(--color-country-dark-brown);
         font-family: var(--sans-narrow);
         margin: 1rem 0 0 0;
     }
     .chart-type .label {
         font-family: var(--sans-narrow);
-        color: var(--color-country-brown);
+        color: var(--color-country-dark-brown);
         font-size: var(--14px);
         margin: 0.5rem 0 0.5rem 0;
     }
@@ -361,7 +361,7 @@
         font-size: var(--16px);
         text-transform: uppercase;
         margin: 0 0.5rem 0.5rem 0.5rem;
-        color: var(--color-country-brown);
+        color: var(--color-country-dark-brown);
         font-family: var(--sans-narrow);
     }
     .date-row {
@@ -383,7 +383,7 @@
     }
     .time-label-top {
         position: absolute;
-        top: 0;
+        top: 0.75rem;
         left: 0;
         padding: 0;
         margin: 0;

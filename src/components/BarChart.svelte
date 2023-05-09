@@ -84,7 +84,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .bar-2::before, .bar-4::before, .bar-7::before, .bar-10::before, .bar-13::before, .bar-16::before, .bar-19::before, .bar-22::before, .bar-26::before, .bar-29::before {
         content: "";
@@ -94,7 +94,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .bar-0::before, .bar-3::before, .bar-6::before, .bar-9::before, .bar-11::before, .bar-14::before, .bar-18::before, .bar-21::before, .bar-24::before, .bar-27::before {
         content: "";
@@ -104,7 +104,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .row-KCYY-FM .bar {
         background: var(--color-country-blue); 

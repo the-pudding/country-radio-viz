@@ -98,10 +98,11 @@
 	}
 	.overlay {
 		position: absolute;
+		top: 3rem;
 		width: 100%;
 		height: 100vh;
 		z-index: 999;
-		opacity: 0.25;
+		opacity: 0.15;
 	}
 
 	:global(.step .women-span) {
@@ -115,7 +116,7 @@
 	:global(.step .men-span) {
 		color: var(--color-white);
 		font-weight: 700;
-		background-color: var(--color-country-brown);
+		background-color: var(--color-country-dark-brown);
 		padding: 0.125rem 0.25rem;
 		box-decoration-break:clone;
 	}

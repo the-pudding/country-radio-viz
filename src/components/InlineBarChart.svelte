@@ -113,7 +113,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .bar-1::before, .bar-3::before, .color-bar-1::before, .color-bar-3::before {
         content: "";
@@ -123,7 +123,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .bar-2::before, .color-bar-2::before {
         content: "";
@@ -133,7 +133,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .color-bar-OVN, .color-bar-EVE, .color-bar-Current {
         background: var(--color-country-blue);

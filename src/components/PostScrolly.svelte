@@ -225,7 +225,7 @@
         right: 0px;
         bottom: 0px;
         left: 0px;
-        opacity: 0.25;
+        opacity: 0.15;
     }
     .pullquote {
         padding: 1rem 2rem;

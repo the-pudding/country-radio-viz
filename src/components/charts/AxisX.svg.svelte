@@ -70,7 +70,7 @@
 	}
 
 	.tick text {
-		fill: var(--color-country-brown);
+		fill: var(--color-country-text);
 		font-family: var(--sans-narrow);
 	}
 

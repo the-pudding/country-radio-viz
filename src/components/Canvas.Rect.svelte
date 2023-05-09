@@ -14,20 +14,20 @@
 			else { return ("#3460E5") }
 		} else {
 			if (value < 10 || value == "Gender") {
-				if (fill == "B2Bmen") { return ("#78695E") }
+				if (fill == "B2Bmen") { return ("#A18D7E") }
 				else if (fill == "B2Bwomen") { return ("#3460E5") }
 				else if (fill == "B2Bmixed") { return ("#fda922") }
 				else { return ("#e1d4ca") }
 			} else if (value >= 10) {
-				if (fill == "B2BCombMen") { return ("#78695E") }
+				if (fill == "B2BCombMen") { return ("#A18D7E") }
 				else if (fill == "B2BCombWomen") { return ("#3460E5") }
 				else { return ("#e1d4ca") }
 			} else if (value == "Race") {
-				if (fill == "B2BwhiteMen" || fill == "B2BwhiteWomen") { return ("#78695E") }
+				if (fill == "B2BwhiteMen" || fill == "B2BwhiteWomen") { return ("#A18D7E") }
 				else if (fill == "B2BPOCMen" || fill == "B2BPOCWomen") { return ("#3460E5") }
 				else { return ("#e1d4ca") }
 			} else if (value == "Sexual Orientation") {
-				if (fill == "B2BStraight") { return ("#78695E") }
+				if (fill == "B2BStraight") { return ("#A18D7E") }
 				else if (fill == "B2BLGBTQ") { return ("#3460E5") }
 				else { return ("#e1d4ca") }
 			}

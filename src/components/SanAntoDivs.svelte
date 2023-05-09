@@ -234,10 +234,10 @@
                     .style("left", "0px")
                     .style("top", "0px")
                     .style("bottom", "0px")
-                    .style("background", "#78695E")
+                    .style("background", "#A18D7E")
                 b2bMen.transition()
                     .duration(1000)
-                    .style("background", "#78695E")
+                    .style("background", "#A18D7E")
                 songLineLabel.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -301,7 +301,7 @@
                 b2bMen.transition()
                     .delay(1000)
                     .duration(1000)
-                    .style("background", "#78695E")
+                    .style("background", "#A18D7E")
                     .style("opacity", 1);
                 b2bWomen.transition()
                     .delay(2000)
@@ -372,7 +372,7 @@
                     .style("opacity", 1);
                 b2bMen.transition()
                     .duration(1000)
-                    .style("background","#78695E")
+                    .style("background","#A18D7E")
                 songCurtains.filter((d,i) => i !== 0).transition()
                     .delay(1000)
                     .duration(50)

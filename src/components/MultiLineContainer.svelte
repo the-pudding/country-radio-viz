@@ -23,7 +23,7 @@
     const zKey = "gender";
   
     const seriesNames = Object.keys(data[0]).filter((d, i) => d !== xKey);
-    const seriesColors = ["#3460E5", "#78695E", "#fda922"];
+    const seriesColors = ["#3460E5", "#A18D7E", "#fda922"];
   
     const parseDate = timeParse("%Y");
     const formatTick = function(string) { return `${string}%`};

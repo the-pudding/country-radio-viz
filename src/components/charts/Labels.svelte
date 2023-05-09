@@ -44,7 +44,7 @@
     }
 
     .label:nth-of-type(2) {
-        color: var(--color-country-brown);
+        color: var(--color-country-dark-brown);
         transform: translate(-100%, -100%)translateX(80%)translateY(170%);
     }
 

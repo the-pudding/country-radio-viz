@@ -86,7 +86,7 @@
         opacity: 0.25;
     }
     .year {
-        color: var(--color-country-brown);
+        color: var(--color-country-dark-brown);
         margin: 0 0 0.5rem 0;
     }
     .name {

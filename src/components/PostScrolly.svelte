@@ -140,13 +140,13 @@
             {/if} 
         </div>
         <div class="table-wrapper">
-            <h4>Plays for top <span class="men-span">current men</span></h4>
+            <h4>Plays for top <span class="men-span">overall men</span></h4>
             {#if rowsTopOverallM}
                 <SortTable  rows={rowsTopOverallM} columns={columnsTop}/>
             {/if} 
         </div>
         <div class="table-wrapper">
-            <h4>Plays for top <span class="men-span">overall men</span></h4>
+            <h4>Plays for top <span class="men-span">current men</span></h4>
             {#if rowsTopCurrentM}
                 <SortTable  rows={rowsTopCurrentM} columns={columnsTop}/>
             {/if} 

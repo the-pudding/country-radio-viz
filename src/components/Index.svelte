@@ -110,7 +110,7 @@
 		opacity: 0.15;
 	}
 
-	:global(.step .women-span) {
+	:global(.women-span) {
 		color: var(--color-white);
 		font-weight: 700;
 		background-color: var(--color-country-blue);
@@ -118,7 +118,7 @@
 		box-decoration-break:clone;
 	}
 
-	:global(.step .men-span) {
+	:global(.men-span) {
 		color: var(--color-white);
 		font-weight: 700;
 		background-color: var(--color-country-dark-brown);
@@ -126,7 +126,7 @@
 		box-decoration-break:clone;
 	}
 
-	:global(.step .mixed-span) {
+	:global(.mixed-span) {
 		color: var(--color-white);
 		font-weight: 700;
 		background-color: var(--color-country-orange);
@@ -134,7 +134,7 @@
 		box-decoration-break:clone;
 	}
 
-	:global(.step .song-span) {
+	:global(.song-span) {
 		color: var(--color-country-text);
 		font-weight: 700;
 		background-color: var(--color-country-tan);

@@ -8,7 +8,6 @@
 
 <section class="inline-bar">
     <h4>{title}</h4>
-    <p class="mline">Back-to-back men percentage</p>
     {#each data as bar, i}
         <div class="row">
             {#if bar.long}
@@ -19,7 +18,6 @@
                 <div class="bar-container" style="width: calc(100% - 10rem)">
                     <div class="bar bar-{i}"></div>
                     <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
-                    <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {:else}
                 <div class="label-container" style="width: 5rem">
@@ -28,11 +26,11 @@
                 <div class="bar-container" style="width: calc(100% - 5rem)">
                     <div class="bar bar-{i}"></div>
                     <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
-                    <div class="m-bar" style="margin-left:{bar.mpercent}%"></div>
                 </div>
             {/if}
         </div>
     {/each}
+    <p class="note">Note: Keep in mind that these percentages are percentages of the tiny number (1.3% and below) of women's back-to-back plays.</p>
 </section>
 
 <style>
@@ -67,6 +65,13 @@
         border-bottom: 1px solid var(--color-country-tan);
     }
 
+    .note {
+        font-size: var(--14px);
+        font-style: italic;
+        font-family: var(--sans-narrow);
+        color: var(--color-country-dark-brown); 
+    }
+
     .label-container {
         color: var(--color-country-text);
         margin: 0;
@@ -96,7 +101,7 @@
     }
     
     .color-bar {
-        background: var(--color-country-brown);
+        background: var(--color-country-blue);
         height: 2rem;
         position: absolute;
         display: flex;
@@ -163,7 +168,7 @@
         font-family: var(--sans-narrow);
         font-size: var(--20px);
         color: var(--color-country-text);
-        margin: 0 0 0 0;
+        margin: 0 0 0.5rem 0;
         padding: 0;
     }
 

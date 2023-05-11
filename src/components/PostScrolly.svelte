@@ -2,8 +2,10 @@
     import { getContext } from "svelte";
     const data = getContext("data");
 	const copy = getContext("copy");
-    let rowsTopW;
-    let rowsTopM;
+    let rowsTopOverallW;
+    let rowsTopOverallM;
+    let rowsTopCurrentW;
+    let rowsTopCurrentM;
     let columnsTop;
 
     import BarChart from "$components/BarChart.svelte";
@@ -11,27 +13,43 @@
     import InlineBarChart from "$components/InlineBarChart.svelte";
     import SortTable from "$components/helpers/SortTable.svelte";
     import MultiLineContainer from "$components/MultiLineContainer.svelte";
-    import Icon from "$components/helpers/Icon.svelte"
+    import Icon from "$components/helpers/Icon.svelte";
 
 
-    rowsTopW = [
-        {name: copy.top3Chart[0].rank1Name, percent: `${copy.top3Chart[0].rank1Percent}%`},
-        {name: copy.top3Chart[0].rank2Name, percent: `${copy.top3Chart[0].rank2Percent}%`},
-        {name: copy.top3Chart[0].rank3Name, percent: `${copy.top3Chart[0].rank3Percent}%`},
-        {name: "Total", percent: `${copy.top3Chart[0].total}%`},
-    ]
-
-    rowsTopM = [
+    rowsTopCurrentW = [
         {name: copy.top3Chart[1].rank1Name, percent: `${copy.top3Chart[1].rank1Percent}%`},
         {name: copy.top3Chart[1].rank2Name, percent: `${copy.top3Chart[1].rank2Percent}%`},
         {name: copy.top3Chart[1].rank3Name, percent: `${copy.top3Chart[1].rank3Percent}%`},
         {name: "Total", percent: `${copy.top3Chart[1].total}%`},
     ]
 
+    rowsTopCurrentM = [
+        {name: copy.top3Chart[3].rank1Name, percent: `${copy.top3Chart[3].rank1Percent}%`},
+        {name: copy.top3Chart[3].rank2Name, percent: `${copy.top3Chart[3].rank2Percent}%`},
+        {name: copy.top3Chart[3].rank3Name, percent: `${copy.top3Chart[3].rank3Percent}%`},
+        {name: "Total", percent: `${copy.top3Chart[3].total}%`},
+    ]
+
+    rowsTopOverallW = [
+        {name: copy.top3Chart[0].rank1Name, percent: `${copy.top3Chart[0].rank1Percent}%`},
+        {name: copy.top3Chart[0].rank2Name, percent: `${copy.top3Chart[0].rank2Percent}%`},
+        {name: copy.top3Chart[0].rank3Name, percent: `${copy.top3Chart[0].rank3Percent}%`},
+        {name: "Total", percent: `${copy.top3Chart[0].total}%`},
+    ]
+
+    rowsTopOverallM = [
+        {name: copy.top3Chart[2].rank1Name, percent: `${copy.top3Chart[2].rank1Percent}%`},
+        {name: copy.top3Chart[2].rank2Name, percent: `${copy.top3Chart[2].rank2Percent}%`},
+        {name: copy.top3Chart[2].rank3Name, percent: `${copy.top3Chart[2].rank3Percent}%`},
+        {name: "Total", percent: `${copy.top3Chart[2].total}%`},
+    ]
+
     columnsTop = [
         { label: "Artist", prop: "name", sort: false, type: "text" },
-        { label: "Percentage", prop: "percent", sort: false, type: "text" },
+        { label: "%", prop: "percent", sort: false, type: "text" },
     ];
+
+    console.log(rowsTopOverallW, rowsTopCurrentW, rowsTopOverallM, rowsTopCurrentM)
 </script>
 
 <section id="post-scroll">
@@ -110,15 +128,27 @@
     </div>
     <div class="table-container">
         <div class="table-wrapper">
-            {#if rowsTopW}
-                <h4>Percentage of plays for top current women artists</h4>
-                <SortTable  rows={rowsTopW} columns={columnsTop}/>
+            {#if rowsTopOverallW}
+                <h4>Plays for top <span class="women-span">overall women</span></h4>
+                <SortTable  rows={rowsTopOverallW} columns={columnsTop}/>
             {/if} 
         </div>
         <div class="table-wrapper">
-            <h4>Percentage of plays for top current men artists</h4>
-            {#if rowsTopM}
-                <SortTable  rows={rowsTopM} columns={columnsTop}/>
+            {#if rowsTopCurrentW}
+                <h4>Plays for top <span class="women-span">current women</span></h4>
+                <SortTable  rows={rowsTopCurrentW} columns={columnsTop}/>
+            {/if} 
+        </div>
+        <div class="table-wrapper">
+            <h4>Plays for top <span class="men-span">current men</span></h4>
+            {#if rowsTopOverallM}
+                <SortTable  rows={rowsTopOverallM} columns={columnsTop}/>
+            {/if} 
+        </div>
+        <div class="table-wrapper">
+            <h4>Plays for top <span class="men-span">overall men</span></h4>
+            {#if rowsTopCurrentM}
+                <SortTable  rows={rowsTopCurrentM} columns={columnsTop}/>
             {/if} 
         </div>
     </div>
@@ -181,21 +211,18 @@
         margin: 0 auto;
     }
     .table-container {
-        max-width: 40rem;
+        max-width: 65rem;
         margin: 0 auto;
-        padding: 3rem 0;
+        padding: 1rem 0 2rem 0;
         display: flex;
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     .table-wrapper {
-        width: 50%;
+        width: calc(25% - 1rem);
         margin: 0;
-    }
-    .table-wrapper:first-of-type {
-        margin-right: 1rem;
-    }
-    .table-wrapper:last-of-type {
-        margin-left: 1rem;
+        margin: 0 0.5rem;
     }
     :global(#post-scroll .table-container td, #post-scroll .table-container th) {
         background: var(--color-coutnry-bg);
@@ -254,9 +281,22 @@
         font-family: var(--sans-narrow);
         font-size: var(--20px);
         color: var(--color-country-text);
-        margin: 0 0 1rem 0;
+        margin: 0 0 0.5rem 0;
         padding: 0;
     }
+
+    @media only screen and (max-width: 1100px) {
+        .table-container {
+            flex-wrap: wrap;
+        }
+        .table-wrapper {
+            width: calc(50% - 1rem);
+        }
+        .table-wrapper h4 {
+            margin: 3rem 0 0.5rem 0;
+        }
+    }
+
     @media only screen and (max-width: 800px) {
         h3 {
             padding-left: 4rem;
@@ -291,12 +331,8 @@
         .table-wrapper {
             width: 100%;
         }
-        .table-wrapper:first-of-type {
-            margin-right: 0;
-            margin: 0 0 3rem 0;
-        }
-        .table-wrapper:last-of-type {
-            margin-left: 0;
+        .table-wrapper h4 {
+            margin: 2rem 0 0.5rem 0;
         }
     }
 </style>

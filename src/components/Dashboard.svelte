@@ -342,6 +342,7 @@
         font-size: var(--14px);
         font-style: italic;
         font-family: var(--sans-narrow);
+        color: var(--color-country-dark-brown); 
     }
     .table-block {
         width: 100%;

@@ -30,7 +30,7 @@
     })
 
     async function fetchData() {
-        const response = await fetch(`assets/data/${startingStation}_withB2B.csv`);
+        const response = await fetch(`./assets/data/${startingStation}_withB2B.csv`);
         const text = await response.text();
         const parsed = csvParse(text)
         data = parsed;

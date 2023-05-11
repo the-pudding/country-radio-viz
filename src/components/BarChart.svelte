@@ -72,7 +72,7 @@
     }
 
     .bar {
-        background: var(--color-country-brown);
+        background: var(--color-country-tan);
         position: relative;
         border-radius: 0.125rem;
     }

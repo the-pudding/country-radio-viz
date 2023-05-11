@@ -1,7 +1,6 @@
 <script>
     import { getContext } from "svelte";
     import title from "$svg/title_hero-bg.svg";
-    import Header from "$components/Header.svelte";
     import { onMount } from "svelte";
     import { min } from "d3";
 
@@ -10,6 +9,8 @@
     let h;
     let minDim;
     let svgH;
+
+    export let value;
 
     function calcDims(w, h) { minDim = min([w, h]); }
 
@@ -20,13 +21,13 @@
     $: calcDims(w, h);
 </script>
 
-<svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
+<svelte:window bind:innerWidth={w} bind:innerHeight={h} />
 
 <section id="intro">
-    <Header />
     {#if minDim}
         <div class="title-wrapper" style="height: {minDim*0.8}px; width: {minDim*0.9}px">
-            <img alt="letterpress sunburst texture" src="assets/images/hero-bg.jpg" />
+            <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
+            <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
             <div class="svg-container" bind:clientHeight={svgH}>
                 {@html title}
             </div>
@@ -68,10 +69,18 @@
         width: 100%;
         position: absolute;
     }
+    .sunburst {
+        z-index: 998;
+    }
+    .overlay {
+        z-index: 999;
+        height: 100%;
+    }
     .svg-container {
         width: 100%;
         position: absolute;
         top: -2rem;
+        z-index: 1000;
     }
     :global(.svg-container svg) {
         width: 100%;
@@ -107,6 +116,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 1000;
     }
     h2, .byline {
         color: var(--color-country-bg);

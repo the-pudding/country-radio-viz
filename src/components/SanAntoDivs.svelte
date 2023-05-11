@@ -118,16 +118,30 @@
         }
     }
 
+    $: console.log(scrollY)
+
     function handleScroll(value) {
         checkScrollY(scrollY)
         if (mountCheck) {
-            if (value == 0 || value == "undefined" && scrollY == 0) {
+            if (value == "undefined" && scrollY == 0 || scrollY == undefined) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 1);
-            } else if (value == 1) {
+                firstSong.transition()
+                        .duration(250)
+                        .style("left", `${w/2-100-32}px`)
+                        .style("bottom", "-2000px");
+                timeLabel.transition()
+                    .duration(1500)
+                    .style("opacity", 0);
+                songLineLabel.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
+                firstDate.transition()
+                    .duration(1000)
+                    .style("opacity", 0);
+            } else if (value == 0) {
                 if (scrollDir == "up") {
-                    console.log("up")
                     firstSong.transition()
                             .duration(250)
                             .style("left", `${w/2-100-32}px`)
@@ -170,7 +184,7 @@
                 firstDate.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 2) {
+            } else if (value == 1) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -218,7 +232,7 @@
                 firstDate.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 3) {
+            } else if (value == 2) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -247,13 +261,23 @@
                 firstDate.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 4) {
+            } else if (value == 3) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
+                firstSong.transition()
+                    .duration(0)
+                    .style("height", `${blockH}px`)
+                    .style("border", "0px")
+                    .style("transform", "translate(0px, 0px)")
+                    .style("width", "100%")
+                    .style("left", "0px")
+                    .style("top", "0px")
+                    .style("bottom", "0px")
+                    .style("background", "#A18D7E")
                 allSongBlocks.filter((d, i) => i >= 0 && i <= 135).transition()
                     .delay(500)
                     .duration(2000)
@@ -287,7 +311,7 @@
                 firstDate.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 5) {
+            } else if (value == 4) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -298,6 +322,17 @@
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 1);
+                firstSong.transition()
+                    .delay(1000)
+                    .duration(1000)
+                    .style("height", `${blockH}px`)
+                    .style("border", "0px")
+                    .style("transform", "translate(0px, 0px)")
+                    .style("width", "100%")
+                    .style("left", "0px")
+                    .style("top", "0px")
+                    .style("bottom", "0px")
+                    .style("background", "#A18D7E")
                 b2bMen.transition()
                     .delay(1000)
                     .duration(1000)
@@ -323,7 +358,7 @@
                 firstDate.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 6) {
+            } else if (value == 5) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -332,13 +367,21 @@
                     .style("opacity", 1);
                 b2bMen.transition()
                     .duration(1000)
+                    .style("opacity", 1)
                     .style("background", "#e1d4ca")
                 b2bWomen.transition()
                     .duration(500)
                     .style("transform", "scaleX(1)")
                     .style("margin-left", "0%")
                 firstSong.transition()
-                    .duration(500)
+                    .duration(0)
+                    .style("height", `${blockH}px`)
+                    .style("border", "0px")
+                    .style("transform", "translate(0px, 0px)")
+                    .style("width", "100%")
+                    .style("left", "0px")
+                    .style("top", "0px")
+                    .style("bottom", "0px")
                     .style("background", "#e1d4ca")
                 select(".song-4").classed("show-label", false);
                 select(".song-73").classed("show-label", false);
@@ -359,7 +402,7 @@
                 firstDate.transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 7) {
+            } else if (value == 6) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -386,7 +429,7 @@
                 dates.filter((d,i) => i !== 0).transition()
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 8) {
+            } else if (value == 7) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -407,7 +450,7 @@
                     .delay(2000)
                     .duration(1000)
                     .style("opacity", 0);
-            } else if (value == 9) {
+            } else if (value == 8) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -423,7 +466,7 @@
                 matchedDates.transition()
                     .duration(1000)
                     .style("font-weight", "700");
-            } else if (value == 10) {
+            } else if (value == 9) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
@@ -439,14 +482,14 @@
                 stickyScroll.transition()
                     .duration(2000)
                     .style("opacity", 1)
-            } else if (value == 11) {
+            } else if (value == 10) {
                 intro.transition()
                     .duration(500)
                     .style("opacity", 0);
                 stickyScroll.transition()
                     .duration(2000)
                     .style("opacity", 0)
-            }
+            } 
         }
     }
     $: if (browser) { handleScroll(value) };

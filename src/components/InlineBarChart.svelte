@@ -144,6 +144,12 @@
         margin-right: -3.5rem;
         width: 3rem;
         font-family: var(--sans-narrow);
+        z-index: 1000;
+        text-shadow:
+            -1px -1px 0 var(--color-country-tan),  
+                1px -1px 0 var(--color-country-tan),
+                -1px 1px 0 var(--color-country-tan),
+                1px 1px 0 var(--color-country-tan);
     }
     .m-bar {
         width: 2px;

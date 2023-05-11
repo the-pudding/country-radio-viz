@@ -1,5 +1,6 @@
 <script>
 	import { getContext, onMount } from "svelte";
+	import Header from "$components/Header.svelte";
 	import Intro from "$components/Intro.svelte";
 	import SanAntoDivs from "$components/SanAntoDivs.svelte";
 	import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
@@ -21,9 +22,12 @@
 	let blockH;
 	let w;
 	let h;
+	let scrollY;
 	onMount(() => {
 		blockH = h > 1000 ? 3 : 2;
 	})
+
+	$: console.log(value)
 </script>
 
 <!-- <div id="tooltip">
@@ -34,10 +38,11 @@
 	<p id="tt-title">Title</p>
 </div> -->
 
-<svelte:window bind:innerWidth={w} bind:innerHeight={h}/>
+<svelte:window bind:innerWidth={w} bind:innerHeight={h} />
+<Header />
 <section id="scrolly">
 	<div class="sticky">
-		<Intro />
+		<Intro value={value} />
 		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		{#if blockH}
@@ -77,11 +82,11 @@
 		color: var(--color-fg);
 		z-index: 1000;
 	}
-	.step:first-of-type {
+	/* .step:first-of-type {
 		margin: 0 auto 80vh auto;
 		pointer-events: none;
 		opacity: 0;
-	}
+	} */
 	.step:last-of-type {
 		margin: 80vh auto 0 auto;
 	} 

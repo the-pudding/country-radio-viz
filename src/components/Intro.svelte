@@ -10,8 +10,6 @@
     let minDim;
     let svgH;
 
-    export let value;
-
     function calcDims(w, h) { minDim = min([w, h]); }
 
     onMount(() => {

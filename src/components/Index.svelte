@@ -42,7 +42,7 @@
 <Header />
 <section id="scrolly">
 	<div class="sticky">
-		<Intro value={value} />
+		<Intro />
 		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		{#if blockH}

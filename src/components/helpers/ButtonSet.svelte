@@ -16,10 +16,6 @@
 		slug: makeSlug(d.value)
 	}));
 	$: isTop = legendPosition === "top";
-
-	function handleBtnClick(value) {
-		console.log(value)
-	}
 </script>
 
 <div class="button-set">
@@ -33,8 +29,7 @@
 		{#if legend}<div class="legend" id="legend-{id}">{legend}</div>{/if}
 		<div class="options">
 			{#each optionsWithSlug as option}
-				<div class="option"
-				on:click={handleBtnClick(option.value)}>
+				<div class="option">
 					<input
 						type="radio"
 						id={`${id}-${option.slug}`}

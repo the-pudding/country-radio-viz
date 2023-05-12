@@ -185,12 +185,12 @@
     }
 
     @media only screen and (max-width: 700px) {
-        .color-bar p, .label-container p {
+        .color-wrapper p, .label-container p {
             font-size: var(--14px);
         }
     }
     @media only screen and (max-width: 500px) {
-        .color-bar p, .label-container p {
+        .color-wrapper p, .label-container p {
             font-size: var(--12px);
         }
     }

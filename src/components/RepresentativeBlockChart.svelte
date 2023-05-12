@@ -91,6 +91,7 @@
         width: 100%;
         padding: 1rem;
         margin-left: 1.25rem;
+        overflow-x: hidden;
     }
     .canvas-container {
         position: absolute;

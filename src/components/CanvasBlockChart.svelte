@@ -117,6 +117,7 @@
         padding: 0 1rem;
         display: flex;
         flex-direction: row;
+        overflow-x: hidden;
     }
 
     .canvas-container {

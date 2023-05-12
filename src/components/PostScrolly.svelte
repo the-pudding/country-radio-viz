@@ -169,6 +169,7 @@
         padding: 0 1rem;
         font-family: var(--sans);
         margin-top: 5rem;
+        overflow-x: hidden;
     }
     .dashTease {
         margin: 2rem auto;

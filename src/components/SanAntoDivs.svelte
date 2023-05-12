@@ -194,6 +194,9 @@
 </section>
 
 <style>
+    #day-chart {
+        overflow-x: hidden;
+    }
     section {
         width: 100%;
         padding: 1rem;
@@ -254,7 +257,7 @@
         color: var(--color-country-text);
         font-size: var(--14px);
         position: absolute;
-        left: -2rem;
+        left: -1.75rem;
         top: 4.125rem;
     }
     .date {

@@ -1,4 +1,5 @@
 <script>
+	import { onMount } from "svelte";
 	import { select, selectAll } from "d3";
 
 	export let i;
@@ -22,6 +23,12 @@
 	let scrollY;
 	let scrollDir;
 	let lastY;
+	let blockH;
+	let h;
+
+	onMount(() => {
+		blockH = h > 1000 ? 3 : 2;
+	})
 
 	function calcOpacity(i, value) {
 		opacity = 1 == 136 ? 1 : 0;
@@ -96,7 +103,7 @@
 	$: left = value == 0 || value == undefined ? `${w/2-100-32}px` : 0;
 	$: bottom = value == undefined ? "-2000px" : 0;
 	$: width = value == 0 || value == undefined  ? "200px" : "100%";
-	$: height = value == 0 || value == undefined ? "200px" : songHeight;
+	$: height = value == 0 || value == undefined ? "200px" : `${blockH}px`;
 	$: transitionMain = value == 1 ? "height 1s, width 1s 1s, left 1s 1s" : "all 1s";
 	$: transitionBlock = value == 2 || value == 4 || scrollDir == "up" ? "opacity 0.5s" : "opacity 0s";
 
@@ -108,7 +115,7 @@
 	$: scrollY, checkScrollY(scrollY)
 </script>
 
-<svelte:window bind:scrollY/>
+<svelte:window bind:innerHeight={h} bind:scrollY/>
 
 {#if i == 136}
 	<div class="song song-{i} song-{songClass}" 

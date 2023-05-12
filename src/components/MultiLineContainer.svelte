@@ -52,7 +52,7 @@
   </script>
 
 <section id="line-chart" bind:clientWidth={w}>
-  <h3>Percentage of radio plays by gender, Billboard Charts 1958–2016</h3>
+  <h3>Representation on Billboard Hot Country Songs chart, 1958-2016</h3>
     <div class="line-container">
       <LayerCake
         padding={{ top: 20, right: 0, bottom: 60, left: 0 }}

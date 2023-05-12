@@ -42,7 +42,6 @@
 		stickyOpacity = value >= 10 || value == undefined && scrollY > 1000 ? 0 : 1; 
 	}
 
-	$: console.log(value)
 	$: value, calcOpacity(value)
 	$: scrollY, checkScrollY(scrollY)
 </script>

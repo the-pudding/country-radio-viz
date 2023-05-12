@@ -23,15 +23,28 @@
 	let w;
 	let h;
 	let stickyOpacity;
+	let scrollY;
+	let scrollDir;
+	let lastY;
 
 	onMount(() => {
 		blockH = h > 1000 ? 3 : 2;
 	})
 
-	function calcOpacity(value) { stickyOpacity = value >= 10 ? 0 : 1; }
+	function checkScrollY(scrollY) {
+        if (scrollY) {
+            scrollDir = scrollY > lastY ? "down" : "up"
+            lastY = scrollY;
+        }
+    }
+
+	function calcOpacity(value) { 
+		stickyOpacity = value >= 10 || value == undefined && scrollY > 1000 ? 0 : 1; 
+	}
 
 	$: console.log(value)
 	$: value, calcOpacity(value)
+	$: scrollY, checkScrollY(scrollY)
 </script>
 
 <!-- <div id="tooltip">
@@ -42,7 +55,7 @@
 	<p id="tt-title">Title</p>
 </div> -->
 
-<svelte:window bind:innerWidth={w} bind:innerHeight={h} />
+<svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 <Header />
 <section id="scrolly">
 	<div class="sticky" style="opacity:{stickyOpacity}">
@@ -87,11 +100,9 @@
 		color: var(--color-fg);
 		z-index: 1000;
 	}
-	/* .step:first-of-type {
+	.step:first-of-type {
 		margin: 0 auto 80vh auto;
-		pointer-events: none;
-		opacity: 0;
-	} */
+	}
 	.step:last-of-type {
 		margin: 80vh auto 0 auto;
 	} 
@@ -113,6 +124,7 @@
 		height: 100vh;
 		z-index: 999;
 		opacity: 0.15;
+		pointer-events: none;
 	}
 
 	:global(.women-span) {

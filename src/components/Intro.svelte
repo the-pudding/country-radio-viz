@@ -3,12 +3,23 @@
     import title from "$svg/title_hero-bg.svg";
     import { onMount } from "svelte";
     import { min } from "d3";
+    import { tweened } from 'svelte/motion';
+    import { cubicOut } from 'svelte/easing';
+    import { fade } from 'svelte/transition'
 
     const copy = getContext("copy");
     let w;
     let h;
+    let scrollY;
     let minDim;
     let svgH;
+
+    export let value;
+
+    const opacity = tweened(0, {
+		duration: 500,
+		easing: cubicOut
+	});
 
     function calcDims(w, h) { minDim = min([w, h]); }
 
@@ -19,11 +30,11 @@
     $: calcDims(w, h);
 </script>
 
-<svelte:window bind:innerWidth={w} bind:innerHeight={h} />
+<svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
 <section id="intro">
-    {#if minDim}
-        <div class="title-wrapper" style="height: {minDim*0.8}px; width: {minDim*0.9}px">
+    {#if minDim && value == undefined && scrollY < 200}
+        <div class="title-wrapper" in:fade={{duration: 250}} out:fade={{duration: 250}} style="height: {minDim*0.8}px; width: {minDim*0.9}px;">
             <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
             <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
             <div class="svg-container" bind:clientHeight={svgH}>

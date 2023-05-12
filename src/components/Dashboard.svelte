@@ -233,6 +233,7 @@
         width: 100%;
         padding: 0;
         margin: 5rem 0;
+        overflow-x: hidden;
     }
     .overlay {
 		position: absolute;

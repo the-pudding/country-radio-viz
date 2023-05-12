@@ -2,6 +2,8 @@
     import { csvParse, groups, select, selectAll, timeParse, timeFormat } from "d3";
     import { onMount, tick } from "svelte";
     import { browser } from "$app/environment";
+    import Song from "$components/Song.svelte";
+    import { fade } from 'svelte/transition'
 
     // data
     let data = [];
@@ -42,6 +44,9 @@
     let songBlocks;
     let b2bBlocks;
     let startingSong;
+
+    //styles
+    let opacity;
 
     // mounted
     let mountCheck = false;
@@ -122,13 +127,13 @@
         checkScrollY(scrollY)
         if (mountCheck) {
             if (value == "undefined" && scrollY == 0 || scrollY == undefined) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 1);
-                firstSong.transition()
-                        .duration(250)
-                        .style("left", `${w/2-100-32}px`)
-                        .style("bottom", "-2000px");
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 1);
+                // firstSong.transition()
+                //         .duration(250)
+                //         .style("left", `${w/2-100-32}px`)
+                //         .style("bottom", "-2000px");
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -139,37 +144,37 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 0) {
-                if (scrollDir == "up") {
-                    firstSong.transition()
-                            .duration(250)
-                            .style("left", `${w/2-100-32}px`)
-                            .style("border", "1px solid #e1d4ca")
-                            .style("bottom", "0px")
-                            .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg')")
-                            .style("background-size", "cover")
-                            .style("width", "200px")
-                            .style("height", "200px")
-                            .style("opacity", 1);
-                } else {
-                    firstSong.transition()
-                    .duration(0)
-                    .style("left", `${w/2-100-32}px`)
-                    .end()
-                    .then(() => {
-                        firstSong.transition()
-                            .delay(250)
-                            .duration(250)
-                            .style("border", "1px solid #e1d4ca")
-                            .style("bottom", "0px")
-                            .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg'), cover")
-                            .style("width", "200px")
-                            .style("height", "200px")
-                            .style("opacity", 1);
-                    })
-                }
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // if (scrollDir == "up") {
+                //     firstSong.transition()
+                //             .duration(250)
+                //             .style("left", `${w/2-100-32}px`)
+                //             .style("border", "1px solid #e1d4ca")
+                //             .style("bottom", "0px")
+                //             .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg')")
+                //             .style("background-size", "cover")
+                //             .style("width", "200px")
+                //             .style("height", "200px")
+                //             .style("opacity", 1);
+                // } else {
+                //     firstSong.transition()
+                //     .duration(0)
+                //     .style("left", `${w/2-100-32}px`)
+                //     .end()
+                //     .then(() => {
+                //         firstSong.transition()
+                //             .delay(250)
+                //             .duration(250)
+                //             .style("border", "1px solid #e1d4ca")
+                //             .style("bottom", "0px")
+                //             .style("background", "url('https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg'), cover")
+                //             .style("width", "200px")
+                //             .style("height", "200px")
+                //             .style("opacity", 1);
+                //     })
+                // }
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -183,9 +188,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 1) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -231,9 +236,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 2) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -260,9 +265,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 3) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 timeLabel.transition()
                     .duration(1500)
                     .style("opacity", 0);
@@ -310,9 +315,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 4) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 allSongBlocks.transition()
                     .delay(500)
                     .duration(2000)
@@ -357,9 +362,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 5) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 allSongBlocks.transition()
                     .duration(2000)
                     .style("opacity", 1);
@@ -401,9 +406,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 6) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 repChart.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -428,9 +433,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 7) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 dates.transition()
                     .delay(1000)
                     .transition()
@@ -449,9 +454,9 @@
                     .duration(1000)
                     .style("opacity", 0);
             } else if (value == 8) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 const unmatchedCurtains = songCurtains.filter((d, i) => !releaseDateArray.includes(i));
                 const unmatchedDates = dates.filter((d, i) => !releaseDateArray.includes(i));
                 const matchedDates = dates.filter((d, i) => releaseDateArray.includes(i))
@@ -465,9 +470,9 @@
                     .duration(1000)
                     .style("font-weight", "700");
             } else if (value == 9) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 songCurtains.transition()
                     .duration(1000)
                     .style("opacity", 0);
@@ -481,34 +486,90 @@
                     .duration(2000)
                     .style("opacity", 1)
             } else if (value == 10) {
-                intro.transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                // intro.transition()
+                //     .duration(500)
+                //     .style("opacity", 0);
                 stickyScroll.transition()
                     .duration(2000)
                     .style("opacity", 0)
             } 
         }
     }
-    $: if (browser) { handleScroll(value) };
+
+    function calcShowRow(i, value) {
+        if (value == 5 && i !== 0) {
+            return 0;
+        } else if (value == 7) {
+            return 0;
+        } else if (value == 8 && releaseDateArray.includes(i)) {
+            return 0;
+        } else if (value == 8 && !releaseDateArray.includes(i)) {
+            return 0.75;
+        } else if (value >= 9 || value == undefined) {
+            return 0
+        } else { return 1 }
+    }
+    function calcShowDate(i, value) {
+        if (value == 6 && i == 0) {
+            return 1;
+        } else if (value == 7) {
+            return 1;
+        } else if (value == 8 && releaseDateArray.includes(i)) {
+            return 1;
+        } else if (value == 8 && !releaseDateArray.includes(i)) {
+            return 0.5;
+        } else if (value >= 9 || value == undefined) {
+            return 1;
+        } else { return 0 }
+    }
+    function calcBoldDate(i, value) {
+        if (value == 6 && i == 0) {
+            return 500;
+        } else if (value == 7) {
+            return 500;
+        } else if (value == 8 && releaseDateArray.includes(i)) {
+            return 600;
+        } else if (value == 8 && !releaseDateArray.includes(i)) {
+            return 500;
+        } else if (value >= 9 || value == undefined) {
+            return 500;
+        } else { return 500 }
+    }
+    // $: if (browser) { handleScroll(value) };
     $: w, calcW(w);
     $: h, calcH(h);
+    // $: left136 = value === 1? 0: 
 </script>
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
 <section id="day-chart">
-    <div class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10-3}px;"><p>Simulations</p></div>
-    <div class="song-line-label" style="margin-left: {colW}px; margin-top: {(blockH+1)*134+(blockH+1)*7}px"><p>Each line is a song</p></div>
-    <div class="time-label-top"><p>Midnight →</p></div>
+    {#if value == 5}
+        <div in:fade={{duration: 250}} out:fade={{duration: 250}} class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10-3}px;"><p>Simulations</p></div>
+    {/if}
+    {#if value == 1}
+        <div in:fade={{duration: 250}} out:fade={{duration: 250}} class="song-line-label" style="margin-left: {colW}px; margin-top: {(blockH+1)*134+(blockH+1)*7}px"><p>Each line is a song</p></div>
+    {/if}
+    {#if value >= 4}
+        <div in:fade={{duration: 250}} out:fade={{duration: 250}} class="time-label-top"><p>Midnight →</p></div>
+    {/if}
     {#each groupedData as indivDate, i}
+    {@const showRow = calcShowRow(i, value)}
+    {@const showDate = calcShowDate(i, value)}
+    {@const fontWeight = calcBoldDate(i, value)}
     <div class="date-block" style="width:{colW}px">
-        <p class="date">{@html formatDate(indivDate[0])}</p>
-        <div class="song-block">
+            <p class="date" style="opacity: {showDate}; font-weight:{fontWeight}">{@html formatDate(indivDate[0])}</p>
+        <div class="song-block" style="opacity: {showRow}">
             {#if i == 0 || i == undefined}
             {#each firstDateData as song, i}
+                <!-- <SpecialSong value></SpecialSong> -->
+                <!-- <Song {first} {hightlight}/>
+                {#if i === 136}
+                    <div style:left={left136}></div>
+                {/if} -->
                 {#if blockH}
-                    <div class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}" style="height: {blockH}px"></div>
+                    <Song {i} songClass={song.b2b_gender} songHeight={blockH} {value} {w} />
+                    <!-- <div class="song song-{i} song-{song.b2b_gender} song-{song.b2b_combinedGender} song-{song.gender}" style="height: {blockH}px"></div> -->
                 {/if}
             {/each}
             {/if}
@@ -535,7 +596,6 @@
         border-left: 1px solid var(--color-country-text);
         border-right: 1px solid var(--color-country-text);
         height: 1rem;
-        opacity: 0;
     } 
     .sim-label p, .song-line-label p {
         font-family: var(--sans-narrow);
@@ -556,7 +616,6 @@
     }
     .song-line-label {
         position: absolute;
-        opacity: 0;
     }
     .song-line-label p {
         margin-left: 1rem;
@@ -573,7 +632,6 @@
         padding: 0;
         margin: 0;
         width: 100%;
-        opacity: 0;
     }
     .time-label-top p {
         transform: rotate(-90deg);
@@ -590,11 +648,11 @@
         line-height: 1.25;
         color: var(--color-country-text);
         margin: 0;
-        opacity: 0;
         font-size: var(--14px);  
         height: 2.25rem;
         overflow: hidden;
-        overflow-wrap: break-word; 
+        overflow-wrap: break-word;
+        transition: all 0.5s; 
     }
     .song-block {
         display: flex;
@@ -603,58 +661,13 @@
         background: var(--color-country-bg);
         height: 100%;
         padding: 0 1px;
+        transition: all 1s;
     }
-    .song {
-        /* height: 2px; */
-        width: 100%;
-        margin: 0 0 1px 0;
-        background: var(--color-country-tan);
-        opacity: 0;
-    }
-    .song-4, .song-73, .song-272 {
-        position: relative;
-    }    
-    .song-4::after {
-        position: absolute;
-        width: 30rem;
-        max-width: 30rem;
-        top: 0.25rem;
-        left: calc(100% + 0.25rem);
-        content: '12:16am: Miranda Lambert "If I Was A Cowboy"';
-        font-family: var(--sans-narrow);
-        color: var(--color-country-blue);
-        font-weight: 700;
-        font-size: var(--14px);
-        opacity: 0;
-    }
-    .song-73::after {
-        position: absolute;
-        width: 30rem;
-        max-width: 30rem;
-        top: 0.25rem;
-        left: calc(100% + 0.25rem);
-        content: '4:18am: Carly Pearce & Ashley McBryde "Never Wanted To Be That Girl"';
-        font-family: var(--sans-narrow);
-        color: var(--color-country-blue);
-        font-weight: 700;
-        font-size: var(--14px);
-        opacity: 0;
-    }
-    .song-272::after {
-        position: absolute;
-        width: 30rem;
-        max-width: 30rem;
-        top: 0.25rem;
-        left: calc(100% + 0.25rem);
-        content: '5:51pm: Priscilla Block "Just About Over You"';
-        font-family: var(--sans-narrow);
-        color: var(--color-country-blue);
-        font-weight: 700;
-        font-size: var(--14px);
+    .song-block.visible-true {
         opacity: 0;
     }
     .show-label::after  {
-        opacity: 1
+        opacity: 1;
     }
     .song-B2Bwomen {
         background: var(--color-country-blue);
@@ -664,21 +677,6 @@
     }
     .song-B2Bmixed {
         background: var(--color-country-orange);
-    }
-    .song-136 {
-        background: "#e1d4ca";
-        /* background: url("./assets/images/brooks-and-dunn-bw.jpg"); */
-        background: url("https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: relative;
-        height: 200px;
-        width: 200px;
-        left: 0;
-        bottom: -2000px;
-        /* transform: translate(-50%, -50%); */
-        border: 1px solid var(--color-country-tan);
-        transition: all 0.5s;
     }
     .first-song {
         background: var(--color-country-brown);

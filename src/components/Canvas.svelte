@@ -43,6 +43,9 @@
 
 		console.log(e.x, e.y);
 	}
+
+	$: if (canvas) canvas.width = width;
+	$: if (canvas) canvas.height = height;
 </script>
 
 <canvas bind:this={canvas} on:mousemove={handleMouseMove}/>

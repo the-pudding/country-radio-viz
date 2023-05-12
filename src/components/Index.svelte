@@ -22,12 +22,16 @@
 	let blockH;
 	let w;
 	let h;
-	let scrollY;
+	let stickyOpacity;
+
 	onMount(() => {
 		blockH = h > 1000 ? 3 : 2;
 	})
 
+	function calcOpacity(value) { stickyOpacity = value >= 10 ? 0 : 1; }
+
 	$: console.log(value)
+	$: value, calcOpacity(value)
 </script>
 
 <!-- <div id="tooltip">
@@ -41,8 +45,8 @@
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} />
 <Header />
 <section id="scrolly">
-	<div class="sticky">
-		<Intro />
+	<div class="sticky" style="opacity:{stickyOpacity}">
+		<Intro {value}/>
 		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		{#if blockH}
@@ -73,6 +77,7 @@
 	.sticky {
 		position: sticky;
 		top: 0.25rem;
+		transition: all 1s;
 	}
 	.step {
 		max-width: 500px;

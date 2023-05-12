@@ -48,8 +48,6 @@
         { label: "Artist", prop: "name", sort: false, type: "text" },
         { label: "%", prop: "percent", sort: false, type: "text" },
     ];
-
-    console.log(rowsTopOverallW, rowsTopCurrentW, rowsTopOverallM, rowsTopCurrentM)
 </script>
 
 <section id="post-scroll">

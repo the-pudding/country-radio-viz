@@ -17,7 +17,10 @@
                 </div>
                 <div class="bar-container" style="width: calc(100% - 10rem)">
                     <div class="bar bar-{i}"></div>
-                    <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
+                    <div class="color-wrapper">
+                        <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"></div>
+                        <p>{bar.percent}%</p>
+                    </div>
                 </div>
             {:else}
                 <div class="label-container" style="width: 5rem">
@@ -25,7 +28,10 @@
                 </div>
                 <div class="bar-container" style="width: calc(100% - 5rem)">
                     <div class="bar bar-{i}"></div>
-                    <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"><p>{bar.percent}%</p></div>
+                    <div class="color-wrapper">
+                        <div class="color-bar color-bar-{i} color-bar-{bar.type}" style="width: {bar.percent}%"></div>
+                        <p>{bar.percent}%</p>
+                    </div>
                 </div>
             {/if}
         </div>
@@ -99,11 +105,16 @@
         position: absolute;
         border-radius: 0.125rem;
     }
-    
+    .color-wrapper {
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        /* align-items: center; */
+    }
     .color-bar {
         background: var(--color-country-blue);
         height: 2rem;
-        position: absolute;
         display: flex;
         align-items: center;
         justify-content: end;
@@ -144,9 +155,10 @@
         background: var(--color-country-blue);
     }
 
-    .color-bar p {
+    .color-wrapper p {
         font-weight: 700;
-        margin-right: -3.5rem;
+        margin: 0.25rem 0 0 0.25rem;
+        padding: 0;
         width: 3rem;
         font-family: var(--sans-narrow);
         z-index: 1000;

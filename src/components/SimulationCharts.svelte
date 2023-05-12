@@ -79,8 +79,8 @@
         height: 150px;
         display: flex;
         flex-direction: row;
-        justify-content: end;
-        align-items: end;
+        justify-content: flex-end;
+        align-items: flex-end;
         border-bottom: 1px solid var(--color-country-text);
     }
     .obs {

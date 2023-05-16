@@ -175,7 +175,7 @@
         <div in:fade={{duration: 250, delay: 1500}} out:fade={{duration: 500}} class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10-3}px;"><p>Simulations</p></div>
     {/if}
     {#if value == 1}
-        <div in:fade={{duration: 250, delay: 2000 }} out:fade={{duration: 250, delay: 250}} class="song-line-label" style="margin-left: {colW}px; margin-top: {(blockH+1)*134+(blockH+1)*7}px"><p>Each line is a song</p></div>
+        <div in:fade={{duration: 250, delay: 2000 }} out:fade={{duration: 250, delay: 250}} class="song-line-label" style="margin-left: {colW}px; margin-top: {(blockH+1)*143}px"><p>Each line is a song</p></div>
     {/if}
     {#if value >= 4}
         <div in:fade={{duration: 250, delay: 500}} out:fade={{duration: 500}} class="time-label-top"><p>Midnight →</p></div>
@@ -279,7 +279,7 @@
         text-align: center;
         line-height: 1.25;
         color: var(--color-country-text);
-        margin: 0;
+        margin: 0.05rem 0 0 0;
         font-size: var(--14px);  
         height: 2.25rem;
         overflow: hidden;
@@ -315,8 +315,15 @@
         position: relative;
     }
 
+    .song-4::after, .song-73::after, .song-272::after {
+            width: 15rem;
+            max-width: 15rem;
+            font-size: var(--14px);
+        }
+
     @media only screen and (max-width: 800px) {
         .song-4::after, .song-73::after, .song-272::after {
+            width: 15rem;
             max-width: 15rem;
             font-size: var(--12px);
         }

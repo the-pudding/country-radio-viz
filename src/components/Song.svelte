@@ -220,4 +220,12 @@
 	.show-label::after  {
         opacity: 1
     }
+
+	@media only screen and (max-width: 800px) {
+        .song-4::after, .song-73::after, .song-272::after {
+            width: 15rem;
+            max-width: 15rem;
+            font-size: var(--12px);
+        }
+    }
 </style>

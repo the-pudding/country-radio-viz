@@ -413,7 +413,7 @@
         width: 100%;
         max-height: 10rem;
     }
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 800px) {
         .date-row p {
             font-size: var(--12px);
         }
@@ -478,6 +478,11 @@
         }
         :global(.button-set) {
             max-width: 15rem;
+        }
+        .time-label-top p {
+          left: -0.25rem;  
+          top: 1.5rem;
+          font-size: var(--12px);
         }
     }
     @media only screen and (max-width: 600px) {

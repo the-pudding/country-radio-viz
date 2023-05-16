@@ -39,7 +39,8 @@
         firstDateData = firstDateData[1]
     }
 
-    if (posType == "absolute") { top = "3.5rem" } 
+    if (posType == "absolute") { 
+        top = "3.5rem" } 
         else { top = "0" }
 
     function calcW(innerWidth) {
@@ -113,6 +114,7 @@
 <style>
     section {
         height: 100vh;
+        min-height: 800px;
         width: 100%;
         padding: 0 1rem;
         display: flex;

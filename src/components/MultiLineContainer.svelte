@@ -15,16 +15,16 @@
     import Labels from "$components/charts/Labels.svelte";
   
     import data from "$data/timeseries.csv";
+	import Area from "./charts/Area.svelte";
     let w;
-    // let drawIn = false;
   
-    const xKey = "date";
+    const xKey = "year";
     const yKey = "value";
     const zKey = "gender";
   
     const seriesNames = Object.keys(data[0]).filter((d, i) => d !== xKey);
-    const seriesColors = ["#3460E5", "#A18D7E", "#fda922"];
-  
+    const seriesColors = ["#fda922", "#3460E5", "#A18D7E"];
+
     const parseDate = timeParse("%Y");
     const formatTick = function(string) { return `${string}%`};
 
@@ -45,14 +45,10 @@
       data.reduce((memo, group) => {
         return memo.concat(group.values);
       }, []);
-
-    // function checkView() {
-    //   drawIn = true;
-    // }
   </script>
 
 <section id="line-chart" bind:clientWidth={w}>
-  <h3>Representation on Billboard Hot Country Songs chart, 1958-2016</h3>
+  <h3>Representation on the Mediabase Airplay chart, 2002-2022</h3>
     <div class="line-container">
       <LayerCake
         padding={{ top: 20, right: 0, bottom: 60, left: 0 }}
@@ -60,7 +56,7 @@
         y={yKey}
         z={zKey}
         yDomain={[0, 100]}
-        xDomain={[1958, 2016]}
+        xDomain={[2002, 2022]}
         zScale={scaleOrdinal()}
         zDomain={seriesNames}
         zRange={seriesColors}
@@ -92,7 +88,7 @@
     #line-chart {
       width: 100%;
       max-width: 50rem;
-      margin: 3rem auto;
+      margin: 3rem auto 5rem auto;
       height: 400px;
       padding: 0 0 1rem 0;
       pointer-events: none;

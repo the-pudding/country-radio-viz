@@ -25,7 +25,6 @@
     let allSongBlocks;
     let b2bMenGroup;
     let b2bMenAll;
-    let b2bMenBeforeGroup;
 
     //styles
     let opacity;
@@ -46,8 +45,6 @@
         calcW(w);
         blockH = h > 1000 ? 2 : 1;
         await tick();
-
-        setSelectors();
         
         // mounted
         mountCheck = true;
@@ -63,13 +60,13 @@
         firstDateData = firstDateData[1];
     }
 
-    function setSelectors() {
-        allSongBlocks = selectAll(".song");
-        b2bMenGroup = allSongBlocks.filter((d, i) => i >= 172 && i <= 184).filter(".song-B2Bmen");
-        b2bMenBeforeGroup = allSongBlocks.filter((d, i) => i < 172).filter(".song-B2Bmen");
-        b2bMenAll = allSongBlocks.filter((d, i) => i !== 136).filter(".song-B2Bmen")
-        selectorsSet = true;
-    }
+    // function setSelectors() {
+    //     allSongBlocks = selectAll(".song");
+    //     b2bMenGroup = allSongBlocks.filter((d, i) => i >= 172 && i <= 184).filter(".song-B2Bmen");
+    //     b2bMenBeforeGroup = allSongBlocks.filter((d, i) => i < 172).filter(".song-B2Bmen");
+    //     b2bMenAll = allSongBlocks.filter((d, i) => i !== 136).filter(".song-B2Bmen")
+    //     selectorsSet = true;
+    // }
     function calcW(w) { colW = Math.floor((w - padding*1.5)/19); }
     function calcH(h) { blockH = h > 1000 ? 2 : 1; }
     function formatDate(indivDate) {
@@ -90,7 +87,7 @@
             return 0;
         } else if (value == 5 && i !== 0) {
             return 0;
-        } else if (value == 7) {
+        } else if (value == 7 && i !== 0) {
             return 0;
         } else if (value == 8 && releaseDateArray.includes(i)) {
             return 0;
@@ -137,15 +134,30 @@
             return `opacity 0.5s`
         }
     }
-
     function recolorBlocks(value) {
-        if (value < 2 && selectorsSet) {
-            b2bMenAll.style("background", "#e1d4ca")
-            b2bMenGroup.style("background", "#A18D7E")
-        } else if (value == 2 && selectorsSet) {
-            b2bMenAll.transition()
+        if (value < 2) {
+            allSongBlocks = selectAll(".song");
+            if (value == 1 && scrollDir == "up") {
+                b2bMenAll = allSongBlocks.filter((d, i) => i == 136)
+                    .transition()
+                    .duration(500)
+                    .style("background-color", "#e1d4ca");
+            }
+            allSongBlocks = selectAll(".song");
+            b2bMenAll = allSongBlocks.filter((d, i) => i !== 136).filter(".song-B2Bmen")
+                .transition()
                 .duration(500)
-                .style("background", "#A18D7E");
+                .style("background-color", "#e1d4ca");
+            b2bMenGroup = allSongBlocks.filter((d, i) => i >= 172 && i <= 184).filter(".song-B2Bmen")
+                .transition()
+                .duration(500)
+                .style("background-color", "#A18D7E");
+        } else if (value == 2) {
+            allSongBlocks = selectAll(".song");
+            b2bMenAll = allSongBlocks.filter(".song-B2Bmen")
+                .transition()
+                .duration(500)
+                .style("background-color", "#A18D7E");
         }
     }
 
@@ -258,7 +270,9 @@
         font-size: var(--14px);
         position: absolute;
         left: -1.75rem;
-        top: 4.125rem;
+        top: 5rem;
+        margin: 0;
+        padding: 0;
     }
     .date {
         font-family: var(--sans-narrow);
@@ -303,12 +317,12 @@
 
     @media only screen and (max-width: 800px) {
         .song-4::after, .song-73::after, .song-272::after {
-            max-width: 20rem;
+            max-width: 15rem;
             font-size: var(--12px);
         }
         .time-label-top p {
-          left: -1.75rem;  
-          top: 3.75rem;
+          left: -1.25rem;  
+          top: 4.75rem;
           font-size: var(--12px);
         }
         .sim-label p {

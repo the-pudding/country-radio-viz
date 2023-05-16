@@ -192,8 +192,8 @@
             <div class="table-wrapper">
                 <div class="table-block">
                     <div class="extra-labels">
-                        <p>Straight</p>
-                        <p>LGBTQ+</p>
+                        <p>Straight Artists</p>
+                        <p>LGBTQ+ Artists</p>
                     </div>
                     {#if rowsOrientation}
                         <SortTable  rows={rowsOrientation} columns={columns}/>
@@ -201,8 +201,8 @@
                 </div>
                 <div class="table-block">
                     <div class="extra-labels">
-                        <p>White</p>
-                        <p>POC</p>
+                        <p>White Artists</p>
+                        <p>Artists of Color</p>
                     </div>
                     {#if rowsRace}
                         <SortTable  rows={rowsRace} columns={columns}/>

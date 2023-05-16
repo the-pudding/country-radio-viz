@@ -16,8 +16,17 @@
   /* --------------------------------------------
 	 * Put the label on the highest value
 	 */
+
   $: left = values => $xScale(max(values, $x)) /  Math.max(...$xRange);
   $: top = values => $yScale(max(values, $y)) / Math.max(...$yRange);
+
+  function returnXPlacement(group) {
+    if (group.gender == "mixed-gender") {
+      return left(group.values) * 0
+    } else {
+      return left(group.values) * 100
+    }
+  }
 </script>
 
 {#each $data as group}
@@ -25,7 +34,7 @@
     class="label"
     style="
       top:{top(group.values) * 100}%;
-      left:{left(group.values) * 100}%;
+      left:{returnXPlacement(group)}%;
     "
   >{cap($z(group))}</div>
 {/each}
@@ -38,18 +47,28 @@
     width: 10rem;
     text-align: left;
 	}
-    .label:nth-of-type(1) {
-        color: var(--color-country-blue);
-        transform: translate(-100%, -100%)translateX(20%)translateY(10%);
+  .label:nth-of-type(1) {
+        display: none;
     }
-
     .label:nth-of-type(2) {
-        color: var(--color-country-dark-brown);
-        transform: translate(-100%, -100%)translateX(80%)translateY(170%);
+        color: var(--color-country-blue);
+        left: 100%;
+        transform: translate(-40%, 60%);
     }
 
     .label:nth-of-type(3) {
+        color: var(--color-country-dark-brown);
+        transform: translate(-20%, 140%);
+    }
+
+    .label:nth-of-type(4) {
         color: var(--color-country-orange);
-        transform: translate(-100%, -100%)translateX(65%)translateY(250%);
+        transform: translate(10%, -20%);
+    }
+
+    @media only screen and (max-width: 500px) {
+      .label {
+        font-size: var(--14px);
+      }
     }
 </style>

@@ -12,6 +12,8 @@
 	let bottom;
 	let width;
 	let height;
+	let border;
+	let backgroundImg;
 	let opacity;
 	let scale;
 	let marginLeft;
@@ -26,9 +28,9 @@
 	let blockH;
 	let h;
 
-	onMount(() => {
-		blockH = h > 1000 ? 3 : 2;
-	})
+	onMount(async () => {
+        blockH = h > 1000 ? 2 : 1;
+    });
 
 	function calcOpacity(i, value) {
 		opacity = 1 == 136 ? 1 : 0;
@@ -48,13 +50,13 @@
 	function calcBlockDelay(i, value) {
 		if (value == 1 && i >= 136 && i <= 184) {
 			if (scrollDir !== "up") {
-				delay = ((i-136)*0.05)+1;
+				delay = ((i-136)*0.025)+1;
 			} else {
 				delay = 0.5;
 			}
 		} else if (value == 3 && i >= 136 && i <= 273) {
 			if (scrollDir !== "up") {
-				delay = ((i-184)*0.05)+1;
+				delay = ((i-184)*0.025)+1;
 			} else {
 				delay = 0.5;
 			}
@@ -103,7 +105,9 @@
 	$: left = value == 0 || value == undefined ? `${w/2-100-32}px` : 0;
 	$: bottom = value == undefined ? "-2000px" : 0;
 	$: width = value == 0 || value == undefined  ? "200px" : "100%";
-	$: height = value == 0 || value == undefined ? "200px" : `${blockH}px`;
+	$: height = value == 0 || value == undefined ? "200px" : `${songHeight}px`;
+	$: border = value == 0 || value == undefined ? "1px solid var(--color-country-tan)" : "none";
+	$: backgroundImg = value == 0 || value == undefined ? "url(https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg)" : "none";
 	$: transitionMain = value == 1 ? "height 1s, width 1s 1s, left 1s 1s" : "all 1s";
 	$: transitionBlock = value == 2 || value == 4 || scrollDir == "up" ? "opacity 0.5s" : "opacity 0s";
 
@@ -112,7 +116,7 @@
 	$: value, calcBlockDelay(i, value);
 	$: value, calcMargin(i, value);
 	$: value, calcMarginDelay(value);
-	$: scrollY, checkScrollY(scrollY)
+	$: scrollY, checkScrollY(scrollY);
 </script>
 
 <svelte:window bind:innerHeight={h} bind:scrollY/>
@@ -125,6 +129,8 @@
 		bottom: {bottom};
 		width: {width};
 		height: {height};
+		border: {border};
+		background-image: {backgroundImg};
 		transition: {transitionMain}">
 	</div>
 {:else if i == 5 || i == 74 || i == 273}
@@ -205,12 +211,10 @@
         opacity: 0;
     }
 	.song-136 {
-        background: "#e1d4ca";
-        background: url("https://the-pudding.github.io/country-radio-viz/assets/images/brooks-and-dunn-bw.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
         position: relative;
-        border: 1px solid var(--color-country-tan);
+		background: var(--color-country-tan);
+		background-size: cover;
+		background-repeat: no-repeat;
     }
 
 	.show-label::after  {

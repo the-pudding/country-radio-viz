@@ -72,7 +72,7 @@
         flex-wrap: wrap;
         margin: 0 0.5rem;
         position: relative;
-        min-width: 150px;
+        min-width: 125px;
     }
     .bar-wrapper {
         width: 100%;

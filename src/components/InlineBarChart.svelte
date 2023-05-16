@@ -188,10 +188,16 @@
         .color-wrapper p, .label-container p {
             font-size: var(--14px);
         }
+        .color-wrapper p {
+            margin-top: 0.35rem;
+        }
     }
     @media only screen and (max-width: 500px) {
         .color-wrapper p, .label-container p {
             font-size: var(--12px);
+        }
+        .color-wrapper p {
+            margin-top: 0.5rem;
         }
     }
 </style>

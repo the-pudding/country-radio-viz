@@ -60,13 +60,6 @@
         firstDateData = firstDateData[1];
     }
 
-    // function setSelectors() {
-    //     allSongBlocks = selectAll(".song");
-    //     b2bMenGroup = allSongBlocks.filter((d, i) => i >= 172 && i <= 184).filter(".song-B2Bmen");
-    //     b2bMenBeforeGroup = allSongBlocks.filter((d, i) => i < 172).filter(".song-B2Bmen");
-    //     b2bMenAll = allSongBlocks.filter((d, i) => i !== 136).filter(".song-B2Bmen")
-    //     selectorsSet = true;
-    // }
     function calcW(w) { colW = Math.floor((w - padding*1.5)/19); }
     function calcH(h) { blockH = h > 1000 ? 2 : 1; }
     function formatDate(indivDate) {
@@ -293,40 +286,8 @@
         height: 100%;
         padding: 0 1px;
     }
-    .song-block.visible-true {
-        opacity: 0;
-    }
-    .show-label::after  {
-        opacity: 1;
-    }
-    .song-B2Bwomen {
-        background: var(--color-country-blue);
-    }
-    .song-B2Bmen {
-        background: var(--color-country-tan);
-    }
-    .song-B2Bmixed {
-        background: var(--color-country-orange);
-    }
-    .first-song {
-        background: var(--color-country-brown);
-        width: 100%;
-        height: 2px;
-        position: relative;
-    }
-
-    .song-4::after, .song-73::after, .song-272::after {
-            width: 15rem;
-            max-width: 15rem;
-            font-size: var(--14px);
-        }
 
     @media only screen and (max-width: 800px) {
-        .song-4::after, .song-73::after, .song-272::after {
-            width: 15rem;
-            max-width: 15rem;
-            font-size: var(--12px);
-        }
         .time-label-top p {
           left: -1.25rem;  
           top: 4.75rem;

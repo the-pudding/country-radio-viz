@@ -13,7 +13,7 @@
 	{#if label}
 		<label for={id}>{label}</label>
 	{/if}
-	<select {id} bind:value {disabled} aria-label={label}>
+	<select {id} bind:value {disabled} aria-label={label} aria-labelledby="station dropdown">
 		{#each options as option}
 			<option>{option}</option>
 		{/each}

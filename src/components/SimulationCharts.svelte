@@ -38,7 +38,7 @@
         <div class="obs" style="left: {station[1][0].obs/230*100}%">
             <p>{station[1][0].obs}</p>
         </div>
-        <h5>{@html station[1][0].city} ({station[1][0].station})</h5>
+        <h5>{@html station[1][0].city}<br> ({station[1][0].station})</h5>
     </div>
     {/each}
     <div class="gradient" style="opacity:{hidden ? '1' : '0'}"></div>

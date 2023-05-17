@@ -11,7 +11,15 @@
     const data = getContext("data");
 	const copy = getContext("copy");
 
-    const stations = summaryData.map(d => `${d.cityName} (${d.stationName})`).sort();
+    function formatCityName(cityName) {
+        if (cityName == "SanAntonio") { return "San Antonio"}
+        else if (cityName == "LosAngeles") { return "Los Angeles"}
+        else if (cityName == "KansasCity") { return "Kansas City"}
+        else if (cityName == "WashingtonDC") { return "Washington DC"}
+        else { return cityName}
+    }
+
+    const stations = summaryData.map(d => `${formatCityName(d.cityName)} (${d.stationName})`).sort();
 
     const dates = ["Jan<br>7", "Jan<br>24", "Jan<br>28", "Feb<br>7", "Feb<br>25", "Mar<br>18",
                     "Mar<br>25", "Apr<br>8", "Apr<br>29", "May<br>20", "May<br>27", "Jun<br>13",
@@ -71,14 +79,6 @@
         calcW(innerWidth);
         calcH(innerHeight);
     })
-
-    function formatCityName(cityName) {
-        if (cityName == "SanAntonio") { return "San Antonio"}
-        else if (cityName == "LosAngeles") { return "Los Angeles"}
-        else if (cityName == "KansasCity") { return "Kansas City"}
-        else if (cityName == "WashingtonDC") { return "Washington DC"}
-        else { return cityName}
-    }
 
     function calcW(innerWidth) {
         colW = Math.floor((innerWidth - padding*1.5)/19);

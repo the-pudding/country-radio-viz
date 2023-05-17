@@ -102,6 +102,14 @@
         }
     }
 
+	function calcScrollyParts(i, value) {
+		showLabels(value);
+		calcOpacity(i, value);
+		calcBlockDelay(i, value);
+		calcMargin(i, value);
+		calcMarginDelay(value);
+	}
+
 	$: left = value == 0 || value == undefined ? `${w/2-100-32}px` : 0;
 	$: bottom = value == undefined ? "-2000px" : 0;
 	$: width = value == 0 || value == undefined  ? "200px" : "100%";
@@ -111,11 +119,7 @@
 	$: transitionMain = value == 1 ? "height 1s, width 1s 1s, left 1s 1s" : "all 1s";
 	$: transitionBlock = value == 2 || value == 4 || scrollDir == "up" ? "opacity 0.5s" : "opacity 0s";
 
-	$: value, showLabels(value);
-	$: value, calcOpacity(i, value);
-	$: value, calcBlockDelay(i, value);
-	$: value, calcMargin(i, value);
-	$: value, calcMarginDelay(value);
+	$: value, calcScrollyParts(i, value);
 	$: scrollY, checkScrollY(scrollY);
 </script>
 

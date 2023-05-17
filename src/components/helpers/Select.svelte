@@ -2,18 +2,18 @@
 	import summaryData from "$data/summary.csv";
 
 	export let options = [];
-	export let label = "";
+	export let label = "Choose a station";
 	export let disabled = false;
 	export let value = options.length ? options[0].value : "";
 
-	const id = `select-${Math.floor(Math.random() * 1000000)}`;
+	const id = `station-city`;
 </script>
 
-<div class="select">
+<div class="select" aria-label={id}>
 	{#if label}
 		<label for={id}>{label}</label>
 	{/if}
-	<select {id} bind:value {disabled}>
+	<select {id} bind:value {disabled} aria-label={label}>
 		{#each options as option}
 			<option>{option}</option>
 		{/each}
@@ -29,8 +29,10 @@
 		display: inline-block;
 		font-family: inherit;
 		font-weight: inherit;
-		font-size: 1em;
+		font-size: var(--14px);
+		font-family: var(--sans-narrow);
 		margin-bottom: 0.25em;
+		color: var(--color-country-dark-brown);
 	}
 
 	select {

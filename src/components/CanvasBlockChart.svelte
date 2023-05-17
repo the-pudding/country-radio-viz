@@ -93,7 +93,7 @@
     $: innerHeight, calcH(innerHeight);
 </script>
 
-<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} id="canvas-chart" style="position: {posType}; top: {top}">
+<section bind:clientWidth={innerWidth} bind:clientHeight={innerHeight} class="canvas-chart" style="position: {posType}; top: {top}">
     {#if innerHeight && innerWidth}
         {#if visible && value}
         <div class="canvas-container" transition:fade>

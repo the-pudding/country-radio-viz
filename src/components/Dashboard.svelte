@@ -273,7 +273,7 @@
         flex-direction: column;
     }
     .owner-label {
-        color: var(--color-country-dark-brown);
+        color: var(--color-country-text);
         font-family: var(--sans-narrow);
         margin: 1rem 0 0 0;
     }

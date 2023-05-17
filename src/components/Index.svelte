@@ -143,7 +143,7 @@
 	}
 
 	:global(.mixed-span) {
-		color: var(--color-white);
+		color: var(--color-country-text);
 		font-weight: 700;
 		background-color: var(--color-country-orange);
 		padding: 0.125rem 0.25rem;

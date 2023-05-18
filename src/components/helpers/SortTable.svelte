@@ -181,6 +181,10 @@
 		width: 5rem;
 	}
 
+	td:nth-of-type(3), td:nth-of-type(5) {
+		background: rgba(225, 212, 202, 0.5);
+	}
+
 	td {
 		border-top: 1px solid var(--color-country-text);
 	}

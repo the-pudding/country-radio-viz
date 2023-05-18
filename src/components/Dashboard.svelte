@@ -495,7 +495,7 @@
             font-size: var(--14px);
         }
         .chart-type {
-            margin: -2rem 0 0 0;
+            margin: 0;
         }
         .chart-type .label { 
             font-size: var(--12px);

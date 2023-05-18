@@ -1,32 +1,70 @@
 <script>
-    import { getContext } from "svelte";
+    import { getContext, onMount, tick } from "svelte";
     import title from "$svg/title_hero-bg.svg";
-    import { onMount } from "svelte";
-    import { min } from "d3";
-    import { tweened } from 'svelte/motion';
-    import { cubicOut } from 'svelte/easing';
+    import { select } from "d3";
     import { fade } from 'svelte/transition';
-    // import { loadImage } from '$utils/loadImage.js'
 
     const copy = getContext("copy");
     let w;
     let h;
     let scrollY;
+    let star;
 
     export let value;
 
     $: console.log(value)
+
+    onMount(async() => {
+        await tick();
+		star = select("#star");
+        clickStar();
+	})
+
+    function jiggleStar() {
+        star.transition()
+            .delay(5000)
+            .duration(100)
+            .style("transform", "translate(1px, 0px)")
+            .transition()
+            .duration(100)
+            .style("transform", "translate(0px, 0px)")
+            .transition()
+            .duration(100)
+            .style("transform", "translate(1px, 0px)")
+            .transition()
+            .duration(100)
+            .style("transform", "translate(0px, 0px)")
+            .on("end",jiggleStar)
+    }
+
+    function clickStar() {
+        jiggleStar();
+        star.on("mouseover", function() {
+            star.select("path").transition()
+                .duration(250)
+                .style("fill", "#3460E5")
+            star.interrupt();
+        })
+        star.on("mouseout", function() {
+            star.select("path").transition()
+                .duration(250)
+                .style("fill", "#2d2724")
+        })
+        star.on("click", function() {
+            window.open("https://open.spotify.com/track/5ow9CpeIj5pVqESTNMs9Vm?si=0f1d80978dd748e1")
+        })
+    }
 </script>
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
 <section id="intro" class:visible={value == undefined}>
         <div class="title-wrapper" out:fade={{duration: 500}}>
-            <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
-            <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
             <div class="svg-container">
                 {@html title}
             </div>
+            <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
+            <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
             <div class="subhed-wrapper">
                 <h2>{copy.subhed}</h2>
                 <p class="byline">By {@html copy.byline}</p>
@@ -41,6 +79,9 @@
 
 
 <style>
+    :global(#star) {
+        cursor: pointer;
+    }
     section {
         width: 100%;
         z-index: 999;
@@ -148,6 +189,9 @@
     }
     :global(.byline a) {
         color: var(--color-country-bg);
+    }
+    :global(.byline a:hover) {
+        color: var(--color-country-tan);
     }
     h1 {
         text-align: center;

@@ -26,13 +26,6 @@
     let b2bMenGroup;
     let b2bMenAll;
 
-    //styles
-    let opacity;
-
-    // mounted
-    let mountCheck = false;
-    let selectorsSet = false;
-
     // exports
     export let startingStation;
     export let value;
@@ -45,9 +38,6 @@
         calcW(w);
         blockH = h > 1000 ? 2 : 1;
         await tick();
-        
-        // mounted
-        mountCheck = true;
     });
 
     async function loadData() {

@@ -5,7 +5,8 @@
     import { min } from "d3";
     import { tweened } from 'svelte/motion';
     import { cubicOut } from 'svelte/easing';
-    import { fade } from 'svelte/transition'
+    import { fade } from 'svelte/transition';
+    // import { loadImage } from '$utils/loadImage.js'
 
     const copy = getContext("copy");
     let w;
@@ -33,9 +34,8 @@
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
-<section id="intro">
-    {#if minDim && value == undefined && scrollY < 200}
-        <div class="title-wrapper" in:fade={{duration: 250}} out:fade={{duration: 250}} style="height: {minDim*0.8}px; width: {minDim*0.9}px;">
+<section id="intro" class:visible={minDim && value == undefined && scrollY < 200}>
+        <div class="title-wrapper" out:fade={{duration: 500}}>
             <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
             <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
             <div class="svg-container" bind:clientHeight={svgH}>
@@ -51,7 +51,6 @@
             <p>Scroll</p>
             <img class="pointer" alt="letterpress pointer hand" src="assets/images/pointer.png" />
         </div>
-    {/if}
 </section>
 
 
@@ -66,6 +65,10 @@
         left: 0;
         height: 100vh;
         z-index: 1000;
+        visibility: hidden;
+    }
+    section.visible {
+        visibility: visible;
     }
     .title-wrapper {
         position: absolute;
@@ -74,6 +77,8 @@
         transform: translate(-50% , -50%);
         z-index: 999;
         margin: 0 auto;
+        width: 85vmin;
+        height: 85vmin;
     }
     .title-wrapper img {
         width: 100%;
@@ -81,6 +86,8 @@
     }
     .sunburst {
         z-index: 998;
+        width: 85vmin;
+        height: 85vmin;
     }
     .overlay {
         z-index: 999;

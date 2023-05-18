@@ -87,6 +87,7 @@
 		position: sticky;
 		top: 0.25rem;
 		transition: all 1s;
+		height: 100vh;
 	}
 	.step {
 		max-width: 500px;

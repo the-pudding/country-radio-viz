@@ -14,8 +14,7 @@
     import AxisY from "$components/charts/AxisY.svg.svelte";
     import Labels from "$components/charts/Labels.svelte";
   
-    import data from "$data/timeseries.csv";
-    import data2 from "$data/timeseries2.csv";
+    import data from "$data/timeseries2.csv";
 
     let w;
   
@@ -24,7 +23,7 @@
     const zKey = "gender";
   
     const seriesNames = Object.keys(data[0]).filter((d, i) => d !== xKey);
-    const seriesColors = ["#fda922", "#3460E5", "#A18D7E"];
+    const seriesColors = ["#3460E5", "#A18D7E", "#fda922"];
 
     const parseDate = timeParse("%Y");
     const formatTick = function(string) { return `${string}%`};
@@ -33,7 +32,7 @@
       return {
         [zKey]: key,
         values: data.map((d) => {
-          d[xKey] = typeof d[xKey] === "string" ? d[xKey] : d[xKey];
+          // d[xKey] = typeof d[xKey] === "string" ? d[xKey] : d[xKey];
           return {
             [yKey]: +d[key],
             [xKey]: d[xKey]
@@ -42,26 +41,10 @@
       };
     });
 
-    const dataLong2 = seriesNames.map((key) => {
-      return {
-        [zKey]: key,
-        values: data2.map((d) => {
-          d[xKey] = typeof d[xKey] === "string" ? d[xKey] : d[xKey];
-          return {
-            [yKey]: +d[key],
-            [xKey]: d[xKey]
-          };
-        })
-      };
-    });
+    console.log(dataLong)
   
     const flatten = (data) =>
       data.reduce((memo, group) => {
-        return memo.concat(group.values);
-      }, []);
-
-    const flatten2 = (data2) =>
-      data2.reduce((memo, group) => {
         return memo.concat(group.values);
       }, []);
   </script>
@@ -76,12 +59,12 @@
         y={yKey}
         z={zKey}
         yDomain={[0, 100]}
-        xDomain={[1958, 2006]}
+        xDomain={[1958, 2022]}
         zScale={scaleOrdinal()}
         zDomain={seriesNames}
         zRange={seriesColors}
-        flatData={flatten(dataLong2)}
-        data={dataLong2}
+        flatData={flatten(dataLong)}
+        data={dataLong}
       >
         <Svg>
           <AxisX 
@@ -102,7 +85,7 @@
         </Html>
       </LayerCake>
     </div>
-    <div class="spacer">
+    <!-- <div class="spacer">
       <p>In 2007, Billboard changed how it calculates the Hot Country Songs Chart</p>
     </div>
     <div class="line-container">
@@ -135,7 +118,7 @@
           <MultiLine />
         </Svg>
       </LayerCake>
-    </div>
+    </div> -->
   </section>
 
   <style>
@@ -165,11 +148,12 @@
       font-size: var(--16px);
     }
     .line-container {
+      width: 100%;
       height: 400px;
       padding: 0;
     }
 
-    .line-container:first-of-type {
+    /* .line-container:first-of-type {
       width: calc(77% - 4rem);
     }
 
@@ -178,7 +162,7 @@
     }
     :global(.line-container:last-of-type .y-axis text) {
       display: none;
-    }
+    } */
     .spacer {
       width: 6rem;
       height: 450px;

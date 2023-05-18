@@ -19,6 +19,7 @@
 
   $: left = values => $xScale(max(values, $x)) /  Math.max(...$xRange);
   $: top = values => $yScale(max(values, $y)) / Math.max(...$yRange);
+  $: note = values => $xScale(2012) / Math.max(...$xRange);
 
   function returnXPlacement(group) {
     if (group.gender == "XX") {
@@ -38,8 +39,21 @@
     "
   >{cap($z(group))}</div>
 {/each}
+<div class="note" style="left:{note(2012)*100-7}%"><p>In 2012, Billboard started including other metrics like streaming data into its Hot Country Chart.</p></div>
 
 <style>
+  .note {
+    position: absolute;
+    padding: 0 1rem;
+    top: -6rem;
+    width: 15rem;
+  }
+  .note p {
+    color: var(--color-country-dark-brown);
+    font-size: var(--14px);
+    font-style: italic;
+    text-align: center;
+  }
 	.label {
 		position: absolute;
 		font-size: var(--16px);
@@ -47,23 +61,20 @@
     width: 10rem;
     text-align: left;
 	}
-  .label:nth-of-type(1) {
-        display: none;
-    }
-    .label:nth-of-type(2) {
+    .label:nth-of-type(1) {
         color: var(--color-country-blue);
         left: 100%;
-        transform: translate(-40%, -40%);
+        transform: translate(-200%, -40%);
+    }
+
+    .label:nth-of-type(2) {
+        color: var(--color-country-dark-brown);
+        transform: translate(-100%, 140%);
     }
 
     .label:nth-of-type(3) {
-        color: var(--color-country-dark-brown);
-        transform: translate(-20%, 140%);
-    }
-
-    .label:nth-of-type(4) {
         color: var(--color-country-orange);
-        transform: translate(-80%, -60%);
+        transform: translate(-120%, -20%);
     }
 
     @media only screen and (max-width: 500px) {

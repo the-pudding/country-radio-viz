@@ -8,7 +8,7 @@
 	import { quadOut } from 'svelte/easing';
 	import { selectAll } from "d3";
 
-	const { data, xGet, yGet, zGet } = getContext('LayerCake');
+	const { data, xGet, yGet, zGet, xScale, yScale, xRange, yRange } = getContext('LayerCake');
 	// export let drawIn
 
 	$: path = values => {
@@ -18,6 +18,8 @@
 			})
 			.join('L');
 	};
+	$: blockWStart = $xScale(2012);
+	$: blockWidth = Math.max(...$xRange) - $xScale(2012)
 
 	// function popStat() {
 	// 	const labels = selectAll("#line-chart .label")
@@ -28,6 +30,9 @@
 	// }
 </script>
 
+<g class="bg-block">
+	<rect x="{blockWStart}" width="{blockWidth}" height="360"/>
+</g>
 <g class="line-group">
 	{#each $data as group}
 		<!-- {#if drawIn} -->
@@ -46,5 +51,10 @@
 		stroke-linejoin: round;
 		stroke-linecap: round;
 		stroke-width: 3px;
+	}
+	rect {
+		fill: var(--color-country-tan);
+		opacity: 0.3;
+		mix-blend-mode: multiply;
 	}
 </style>

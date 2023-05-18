@@ -85,7 +85,7 @@
 <style>
 	.sticky {
 		position: sticky;
-		top: 0.25rem;
+		top: 0.5rem;
 		transition: all 1s;
 		height: 100vh;
 	}

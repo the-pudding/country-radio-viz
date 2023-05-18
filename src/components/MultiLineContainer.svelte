@@ -97,7 +97,6 @@
       max-width: 50rem;
       margin: 2rem auto;
       padding: 0 0 1rem 0;
-      pointer-events: none;
     }
 
     .note {
@@ -106,6 +105,14 @@
         font-family: var(--sans-narrow);
         color: var(--color-country-dark-brown);
         margin: 0;
+    }
+
+    :global(.note a) {
+      color: var(--color-country-dark-brown);
+    }
+
+    :global(.note a:hover) {
+      color: var(--color-country-brown);
     }
 
     h3 {

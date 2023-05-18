@@ -12,33 +12,19 @@
     let w;
     let h;
     let scrollY;
-    let minDim;
-    let svgH;
 
     export let value;
 
-    const opacity = tweened(0, {
-		duration: 500,
-		easing: cubicOut
-	});
-
-    function calcDims(w, h) { minDim = min([w, h]); }
-
-    onMount(() => {
-        calcDims(w, h);
-    })
-
-    $: calcDims(w, h);
     $: console.log(value)
 </script>
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
-<section id="intro" class:visible={minDim && value == undefined && scrollY < 200}>
+<section id="intro" class:visible={value == undefined}>
         <div class="title-wrapper" out:fade={{duration: 500}}>
             <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
             <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
-            <div class="svg-container" bind:clientHeight={svgH}>
+            <div class="svg-container">
                 {@html title}
             </div>
             <div class="subhed-wrapper">
@@ -65,10 +51,11 @@
         left: 0;
         height: 100vh;
         z-index: 1000;
-        visibility: hidden;
+        opacity: 0;
+        transition: all 0.5s;
     }
     section.visible {
-        visibility: visible;
+        opacity: 1;
     }
     .title-wrapper {
         position: absolute;
@@ -80,23 +67,22 @@
         width: 85vmin;
         height: 85vmin;
     }
-    .title-wrapper img {
-        width: 100%;
-        position: absolute;
-    }
     .sunburst {
+        position: absolute;
         z-index: 998;
         width: 85vmin;
         height: 85vmin;
+        object-fit: contain;
     }
     .overlay {
+        position: absolute;
         z-index: 999;
         height: 100%;
     }
     .svg-container {
         width: 100%;
         position: absolute;
-        top: -2rem;
+        top: 0;
         z-index: 1000;
     }
     :global(.svg-container svg) {

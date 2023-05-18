@@ -145,12 +145,18 @@
                 .transition()
                 .duration(500)
                 .style("background-color", "#A18D7E");
-        } else if (value == 2) {
+        } else if (value == 2 || value == 6) {
             allSongBlocks = selectAll(".song");
             b2bMenAll = allSongBlocks.filter(".song-B2Bmen")
                 .transition()
                 .duration(500)
                 .style("background-color", "#A18D7E");
+        } else if (value == 5) {
+            allSongBlocks = selectAll(".song");
+            b2bMenAll = allSongBlocks.filter(".song-B2Bmen")
+                .transition()
+                .duration(500)
+                .style("background-color", "#e1d4ca");
         }
     }
 
@@ -204,7 +210,7 @@
     }
     section {
         width: 100%;
-        padding: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
         display: flex;
         flex-direction: row;
         z-index: 1000;
@@ -214,7 +220,7 @@
     }
     .sim-label {
         position: absolute;
-        top: 1.75rem;
+        top: 2rem;
         border-top: 1px solid var(--color-country-text);
         border-left: 1px solid var(--color-country-text);
         border-right: 1px solid var(--color-country-text);
@@ -263,7 +269,7 @@
         font-size: var(--14px);
         position: absolute;
         left: -1.75rem;
-        top: 5rem;
+        top: 5.25rem;
         margin: 0;
         padding: 0;
     }
@@ -290,7 +296,7 @@
     @media only screen and (max-width: 800px) {
         .time-label-top p {
           left: -1.25rem;  
-          top: 4.75rem;
+          top: 5.25rem;
           font-size: var(--12px);
         }
         .sim-label p {

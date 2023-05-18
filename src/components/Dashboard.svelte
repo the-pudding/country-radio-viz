@@ -87,6 +87,14 @@
         blockH = innerHeight > 1000 ? 3 : 2;
     }
 
+    function showLessThan(number){
+        if (number < 0.05 && number !== 0) {
+            return "<0.1";
+        } else {
+            return Math.round(number).toFixed(1);
+        }
+    }
+
     function updateTableData(value) {  
         let stationName = value.split("(")[1];
         stationName = stationName.split(")")[0];
@@ -95,29 +103,29 @@
         startingStation = `${currData[0].cityName}_${currData[0].stationName}`
 
         womenStraightALL = `${(Math.round(currData[0].onlyWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
-        womenStraightB2B = `${(Math.round(currData[0].b2bWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
+        womenStraightB2B = `${showLessThan(currData[0].b2bWomenSongs_PERCENT*100/100)}%`;
         menStraightALL = `${(Math.round(currData[0].onlyMenSongs_PERCENT*100 - currData[0].onlyLGBTQSongs_PERCENT*100)/100).toFixed(1)}%`;
-        menStraightB2B = `${(Math.round(currData[0].b2bMenSongs_PERCENT*100)/100).toFixed(1)}%`;
+        menStraightB2B = `${showLessThan(currData[0].b2bMenSongs_PERCENT*100/100)}%`;
         mixedStraightALL = `${(Math.round(currData[0].onlyMixedGenderSongs_PERCENT*100)/100).toFixed(1)}%`;
-        mixedStraightB2B = `${(Math.round(currData[0].b2bMixedGenderSongs_PERCENT*100)/100).toFixed(1)}%`;
+        mixedStraightB2B = `${showLessThan(currData[0].b2bMixedGenderSongs_PERCENT*100/100)}%`;
         womenLGBTQALL = `0.0%`;
         womenLGBTQB2B = `0.0%`;
         menLGBTQALL = `${(Math.round(currData[0].onlyLGBTQSongs_PERCENT*100)/100).toFixed(1)}%`;
-        menLGBTQB2B = `${(Math.round(currData[0].b2bLGBTQSongs_PERCENT*100)/100).toFixed(1)}%`;
+        menLGBTQB2B = `${showLessThan(currData[0].b2bLGBTQSongs_PERCENT*100/100)}%`;
         mixedLGBTQALL = `0.0%`;
         mixedLGBTQB2B = `0.0%`;
         womenWhiteALL = `${(Math.round(currData[0].onlyWhiteWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
-        womenWhiteB2B = `${(Math.round(currData[0].b2bWhiteWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
+        womenWhiteB2B = `${showLessThan(currData[0].b2bWhiteWomenSongs_PERCENT*100/100)}%`;
         menWhiteALL = `${(Math.round(currData[0].onlyWhiteMenSongs_PERCENT*100)/100).toFixed(1)}%`;
-        menWhiteB2B = `${(Math.round(currData[0].b2bWhiteMenSongs_PERCENT*100)/100).toFixed(1)}%`;
+        menWhiteB2B = `${showLessThan(currData[0].b2bWhiteMenSongs_PERCENT*100/100)}%`;
         mixedWhiteALL = `${(Math.round(currData[0].onlyWhiteMixedGenderSongs_PERCENT*100)/100).toFixed(1)}%`;
-        mixedWhiteB2B = `${(Math.round(currData[0].b2bWhiteMixedGenderSongs_PERCENT*100)/100).toFixed(1)}%`;
+        mixedWhiteB2B = `${showLessThan(currData[0].b2bWhiteMixedGenderSongs_PERCENT*100/100)}%`;
         womenPOCALL = `${(Math.round(currData[0].onlyPOCWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
-        womenPOCB2B = `${(Math.round(currData[0].b2bPOCWomenSongs_PERCENT*100)/100).toFixed(1)}%`;
+        womenPOCB2B = `${showLessThan(currData[0].b2bPOCWomenSongs_PERCENT*100/100)}%`;
         menPOCALL = `${(Math.round(currData[0].onlyPOCMenSongs_PERCENT*100)/100).toFixed(1)}%`;
-        menPOCB2B = `${(Math.round(currData[0].b2bPOCMenSongs_PERCENT*100)/100).toFixed(1)}%`;
+        menPOCB2B = `${showLessThan(currData[0].b2bPOCMenSongs_PERCENT*100/100)}%`;
         mixedPOCALL = `${(Math.round(currData[0].onlyPOCMixedSongs_PERCENT*100)/100).toFixed(1)}%`;
-        mixedPOCB2B = `${(Math.round(currData[0].b2bPOCMixedSongs_PERCENT*100)/100).toFixed(1)}%`;
+        mixedPOCB2B = `${showLessThan(currData[0].b2bPOCMixedSongs_PERCENT*100/100)}%`;
 
         rowsOrientation = [
             {name: "Women", value1: womenStraightALL, value2: womenStraightB2B, value3: womenLGBTQALL, value4: womenLGBTQB2B},

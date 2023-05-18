@@ -35,7 +35,7 @@
             <p>{@html text.value}</p>
         {/each}
         <div class="playlist-wrapper">
-            <iframe title="Spotify Playlsit" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4iUShEXY8vdrZzZstsNxto?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <!-- <iframe title="Spotify Playlsit" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4iUShEXY8vdrZzZstsNxto?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
         </div>
         <h4>Organizations & communities</h4>
         <ul>

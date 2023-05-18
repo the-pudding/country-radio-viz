@@ -21,7 +21,7 @@
   $: top = values => $yScale(max(values, $y)) / Math.max(...$yRange);
 
   function returnXPlacement(group) {
-    if (group.gender == "mixed-gender") {
+    if (group.gender == "XX") {
       return left(group.values) * 0
     } else {
       return left(group.values) * 100
@@ -53,7 +53,7 @@
     .label:nth-of-type(2) {
         color: var(--color-country-blue);
         left: 100%;
-        transform: translate(-40%, 60%);
+        transform: translate(-40%, -40%);
     }
 
     .label:nth-of-type(3) {
@@ -63,7 +63,7 @@
 
     .label:nth-of-type(4) {
         color: var(--color-country-orange);
-        transform: translate(10%, -20%);
+        transform: translate(-80%, -60%);
     }
 
     @media only screen and (max-width: 500px) {

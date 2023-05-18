@@ -170,21 +170,21 @@
                 </div>
                 {#if buttonVal == "Gender"}
                     <div class="key">
-                        <p class="blue-line">Women back-to-back</p>
-                        <p class="brown-line">Men back-to-back</p>
-                        <p class="orange-line">Mixed-gender back-to-back</p>
+                        <p class="blue-line">Women artists back-to-back</p>
+                        <p class="brown-line">Men artists back-to-back</p>
+                        <p class="orange-line">Mixed-gender artists back-to-back</p>
                         <p class="tan-line">Not a back-to-back</p>
                     </div>
                 {:else if buttonVal =="Race"}
                     <div class="key">
-                        <p class="blue-line">POC back-to-back</p>
-                        <p class="brown-line">White back-to-back</p>
+                        <p class="blue-line">Artists of color back-to-back</p>
+                        <p class="brown-line">White artists back-to-back</p>
                         <p class="tan-line">Not a back-to-back</p>
                     </div>
                 {:else}
                     <div class="key">
-                        <p class="blue-line">LGBTQ+ back-to-back</p>
-                        <p class="brown-line">Straight back-to-back</p>
+                        <p class="blue-line">LGBTQ+ artists back-to-back</p>
+                        <p class="brown-line">Straight artists back-to-back</p>
                         <p class="tan-line">Not a back-to-back</p>
                     </div>
                 {/if}
@@ -467,12 +467,13 @@
             flex-direction: column;
             width: 100%;
         }
-        .key {
+        .chart-type .key {
             display: flex;
             flex-direction: row;
             width: 100%;
             flex-wrap: wrap;
             font-family: var(--sans-narrow);
+            min-height: none;
         }
         .key p {
             width: calc(50% - 2rem);
@@ -500,10 +501,11 @@
         .chart-type .label { 
             font-size: var(--12px);
         }
-        .key {
+        .chart-type .key {
             flex-direction: column;
+            min-height: 5rem;
         }
-        .key p {
+        .chart-type .key p {
             width: 100%;
             font-size: var(--12px);
         }

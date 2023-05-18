@@ -27,6 +27,7 @@
     onMount(async () => {
         calcW(innerWidth);
         calcH(innerHeight);
+        changeMap("Austin_KASE-FM");
     })
 
     async function fetchData() {
@@ -58,6 +59,7 @@
     }
 
     function changeMap() {
+        console.log(startingStation)
         map = select('#map-container');
         let cityName = startingStation.split("_")[0];
         let allDots = map.selectAll(`#dots g circle`).filter((d,i) => i !== 0).style("fill", "#78695E").attr("r", 8.5);

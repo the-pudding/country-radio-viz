@@ -75,16 +75,11 @@
 
     onMount(() => {
         updateTableData(value);
-
         calcW(innerWidth);
-        calcH(innerHeight);
     })
 
     function calcW(innerWidth) {
         colW = Math.floor((innerWidth - padding*1.5)/19);
-    }
-    function calcH(innerHeight) {
-        blockH = innerHeight > 1000 ? 3 : 2;
     }
 
     function showLessThan(number){
@@ -149,7 +144,6 @@
     }
     $: if (value) { updateTableData(value); }
     $: innerWidth, calcW(innerWidth);
-    $: innerHeight, calcH(innerHeight);
 </script>
 
 <section id="dashboard" bind:clientWidth={innerWidth} bind:clientHeight={innerHeight}>

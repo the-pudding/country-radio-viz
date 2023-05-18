@@ -28,8 +28,12 @@
 	let lastY;
 
 	onMount(() => {
-		blockH = h > 1000 ? 3 : 2;
+		calcH(h);
 	})
+
+	function calcH(h) {
+        blockH = h > 1000 ? 3 : 2;
+    }
 
 	function checkScrollY(scrollY) {
         if (scrollY) {
@@ -42,17 +46,10 @@
 		stickyOpacity = value >= 10 || value == undefined && scrollY > 1000 ? 0 : 1; 
 	}
 
-	$: value, calcOpacity(value)
-	$: scrollY, checkScrollY(scrollY)
+	$: value, calcOpacity(value);
+	$: scrollY, checkScrollY(scrollY);
+	$: h, calcH(h);
 </script>
-
-<!-- <div id="tooltip">
-	<p id="tt-station">Station</p>
-	<p id="tt-date">Date</p>
-	<p id="tt-time">Time</p>
-	<p id="tt-artist">Artist</p>
-	<p id="tt-title">Title</p>
-</div> -->
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 <Header />

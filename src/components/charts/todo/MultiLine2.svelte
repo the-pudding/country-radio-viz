@@ -19,25 +19,23 @@
 			.join('L');
 	};
 
-	// function popStat() {
-	// 	const labels = selectAll("#line-chart .label")
-	// 	labels.transition()
-	// 		.delay(1000)
-	// 		.duration(500)
-	// 		.style("opacity", 1);
-	// }
+	$: path2 = values => {
+		return 'M' + values
+			.map(d => {
+				return $xGet(d) + ',' + $yGet(d);
+			})
+			.join('L');
+	};
+
+	console.log($data)
 </script>
 
-<!-- <g class="bg-block">
-	<rect x="{blockWStart}" width="{blockWidth}" height="360"/>
-</g> -->
 <g class="line-group">
 	{#each $data as group}
 		<path
 			class='path-line'
-			d='{path(group.values.slice(0,2))}'
+			d='{path(group.values.slice(1,100))}'
 			stroke="{$zGet(group)}"
-			stroke-dasharray="4 4"
 		></path>
 	{/each}
 </g>
@@ -45,11 +43,8 @@
 <style>
 	.path-line {
 		fill: none;
+		stroke-linejoin: round;
+		stroke-linecap: round;
 		stroke-width: 3px;
-	}
-	rect {
-		fill: var(--color-country-tan);
-		opacity: 0.3;
-		mix-blend-mode: multiply;
 	}
 </style>

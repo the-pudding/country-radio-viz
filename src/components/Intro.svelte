@@ -160,6 +160,7 @@
     }
     .subhed-wrapper {
         width: 100%;
+        margin: 0 auto;
         position: absolute;
         bottom: 3rem;
         left: 0;
@@ -214,9 +215,10 @@
         100%     { bottom:0; }
     }
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1000px) {
         .subhed-wrapper {
             bottom: 1rem;
+            /* min-width: 30rem; */
         }
         h2 {
             font-size: var(--16px); 
@@ -269,6 +271,20 @@
             line-height: 1.25;
             height: 4.25rem;
             clip-path: polygon(0 0, 99.5% 0, 100% 4.25rem, 0.5% 100%);
+        }
+    }
+
+    @media only screen and (max-height: 850px) {
+        .subhed-wrapper {
+            bottom: 1rem;
+            /* min-width: 30rem; */
+        }
+        h2 {
+            font-size: var(--16px); 
+            max-width: 70%;
+            line-height: 1.25;
+            height: 3rem;
+            clip-path: polygon(0 0, 99.5% 0, 100% 3rem, 0.5% 100%);
         }
     }
 </style>

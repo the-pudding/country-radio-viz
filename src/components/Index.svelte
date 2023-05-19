@@ -86,6 +86,7 @@
 		position: sticky;
 		top: 0.5rem;
 		transition: all 1s;
+		height: 100vh;
 	}
 	.step {
 		max-width: 500px;
@@ -110,7 +111,7 @@
 		line-height: 1.65;
 	}
 	.spacer {
-		height: 75vh;
+		height: 50vh;
 	}
 	.overlay {
 		position: absolute;

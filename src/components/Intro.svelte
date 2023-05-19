@@ -12,7 +12,7 @@
 
     export let value;
 
-    $: console.log(value)
+    // $: console.log(value)
 
     onMount(async() => {
         await tick();

@@ -56,7 +56,6 @@
 <section id="scrolly">
 	<div class="sticky" style="opacity:{stickyOpacity}">
 		<Intro {value}/>
-		<img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		{#if blockH}
 			<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
@@ -87,7 +86,6 @@
 		position: sticky;
 		top: 0.5rem;
 		transition: all 1s;
-		height: 100vh;
 	}
 	.step {
 		max-width: 500px;

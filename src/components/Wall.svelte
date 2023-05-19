@@ -54,8 +54,9 @@
         max-width: 300px;
         border: 1px solid var(--color-country-tan);
         border-radius: 0.125rem;
+        position: relative;
     }
-    .img-wrapper-0::before, .img-wrapper-2::before {
+    #wall .img-wrapper-0::before, .img-wrapper-2::before {
         content: "";
         background-image: url("/assets/images/letterpress-texture1.png");
         position: absolute;
@@ -65,7 +66,7 @@
         left: 0px;
         opacity: 0.25;
     }
-    .img-wrapper-1::before {
+    #wall .img-wrapper-1::before {
         content: "";
         background-image: url("/assets/images/letterpress-texture2.png");
         position: absolute;
@@ -75,7 +76,7 @@
         left: 0px;
         opacity: 0.25;
     }
-    .img-wrapper-3::before {
+    #wall .img-wrapper-3::before {
         content: "";
         background-image: url("/assets/images/letterpress-texture3.png");
         position: absolute;

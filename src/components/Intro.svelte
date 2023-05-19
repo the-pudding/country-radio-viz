@@ -63,8 +63,10 @@
             <div class="svg-container">
                 {@html title}
             </div>
+            <!-- <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-full.png" /> -->
             <img class="overlay" alt="lettepress texture" src="assets/images/letterpress-texture2.png">
-            <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-no-texture.png" />
+            <img class="sunburst" alt="letterpress sunburst texture" src="assets/images/bg-texture.png" />
+            <!-- <img class="title-text" alt=" title text: They Don't Play a Lady-O on Coutnry Radio" src="assets/images/bg-text.png" /> -->
             <div class="subhed-wrapper">
                 <h2>{copy.subhed}</h2>
                 <p class="byline">By {@html copy.byline}</p>
@@ -119,6 +121,11 @@
         position: absolute;
         z-index: 999;
         height: 100%;
+    }
+    .title-text {
+        position: absolute;
+        top: 0;
+        z-index: 1000;
     }
     .svg-container {
         width: 100%;

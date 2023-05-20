@@ -178,22 +178,17 @@
         padding: 0.25rem 1rem;
         text-transform: uppercase;
         border-radius: 0.125rem;
-        height: 2.5rem;
         line-height: 1.75;
         margin: 0.5rem 0;
         font-family: var(--sans-narrow);
     }
     h2 {
         font-size: var(--20px);
-        height: 3rem;
         line-height: 1.75;
-        clip-path: polygon(0 0, 99.5% 0, 100% 3rem, 0.5% 100%);
     }
     .byline {
         font-size: var(--14px);
-        height: 2.25rem;
         line-height: 1.75;
-        clip-path: polygon(0.5% 0, 99.5% 0, 100% 2.25rem, 0 100%);
     }
     :global(.byline a) {
         color: var(--color-country-bg);
@@ -222,8 +217,6 @@
         }
         h2 {
             font-size: var(--16px); 
-            height: 2.5rem;
-            clip-path: polygon(0 0, 99.5% 0, 100% 2.5rem, 0.5% 100%);
         }
     }
 
@@ -236,16 +229,10 @@
         }
         h2 {
             font-size: var(--16px); 
-            max-width: 80%;
-            line-height: 1.25;
-            height: 3.25rem;
-            clip-path: polygon(0 0, 99.5% 0, 100% 3.25rem, 0.5% 100%);
+            max-width: 70%;
         }
         .byline {
             font-size: var(--12px);
-            height: 2rem;
-            line-height: 1.75;
-            clip-path: polygon(0.5% 0, 99.5% 0, 100% 2rem, 0 100%);
         }
         .img-wrapper .pointer {
             width: 3rem;
@@ -259,32 +246,15 @@
             top: 40%;
         }
         .subhed-wrapper {
-            bottom: -5rem;
+            bottom: -2rem;
         }
         .img-wrapper {
             /* right: 2rem; */
             bottom: 1rem;
         }
         h2 {
-            font-size: var(--16px); 
-            max-width: 70%;
-            line-height: 1.25;
-            height: 4.25rem;
-            clip-path: polygon(0 0, 99.5% 0, 100% 4.25rem, 0.5% 100%);
-        }
-    }
-
-    @media only screen and (max-height: 850px) {
-        .subhed-wrapper {
-            bottom: 1rem;
-            /* min-width: 30rem; */
-        }
-        h2 {
-            font-size: var(--16px); 
-            max-width: 70%;
-            line-height: 1.25;
-            height: 3rem;
-            clip-path: polygon(0 0, 99.5% 0, 100% 3rem, 0.5% 100%);
+            font-size: var(--14px); 
+            max-width: 90%;
         }
     }
 </style>

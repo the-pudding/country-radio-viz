@@ -7,6 +7,8 @@
     import CanvasBlockChart from "$components/CanvasBlockChart.svelte";
     import SortTable from "$components/helpers/SortTable.svelte";
     import ButtonSet from "$components/helpers/ButtonSet.svelte";
+    import { browser } from "$app/environment";
+    import { select } from "d3";
 
     const data = getContext("data");
 	const copy = getContext("copy");
@@ -68,6 +70,7 @@
     let colW;
     let padding = 32;
     let startingStation;
+    let map;
     
     export let blockH;
     export let spacingX;
@@ -142,7 +145,23 @@
             { label: "B2B songs", prop: "value4", sort: false, type: "text" }
         ];
     }
+
+    function changeMap() {
+        if (startingStation){
+            map = select('#map-container');
+            let cityName = startingStation.split("_")[0];
+            let allDots = map.selectAll(`#dots g circle`).filter((d,i) => i !== 0).style("fill", "#78695E").attr("r", 8.5);
+            let cityDot = map.selectAll(`#${cityName}`);
+            cityDot.raise();
+            cityDot.select("circle").transition()
+                .duration(250)
+                .style("fill", "#3460E5")
+                .attr("r", 10.5);
+        }
+    }
+
     $: if (value) { updateTableData(value); }
+    $: if (browser) changeMap(startingStation);
     $: innerWidth, calcW(innerWidth);
 </script>
 

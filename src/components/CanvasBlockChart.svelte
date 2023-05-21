@@ -3,7 +3,7 @@
     import Rect from "$components/Canvas.Rect.svelte";
     import { fade } from 'svelte/transition';
     import { onMount } from "svelte";
-    import { csvParse, groups, select } from "d3";
+    import { csvParse, groups } from "d3";
     import { browser } from "$app/environment";
 
     let innerWidth;
@@ -15,7 +15,6 @@
     let padding = 32;
     let visible = false;
     let top;
-    let map;
 
     export let startingStation;
     export let value;
@@ -27,7 +26,6 @@
     onMount(async () => {
         calcW(innerWidth);
         calcH(innerHeight);
-        changeMap("Austin_KASE-FM");
     })
 
     async function fetchData() {
@@ -58,19 +56,6 @@
         }
     }
 
-    function changeMap() {
-        // console.log(startingStation)
-        map = select('#map-container');
-        let cityName = startingStation.split("_")[0];
-        let allDots = map.selectAll(`#dots g circle`).filter((d,i) => i !== 0).style("fill", "#78695E").attr("r", 8.5);
-        let cityDot = map.selectAll(`#${cityName}`);
-        cityDot.raise();
-        cityDot.select("circle").transition()
-            .duration(250)
-            .style("fill", "#3460E5")
-            .attr("r", 10.5);
-    }
-
     function returnFillClasses(value, song) {
         let fillColor;
         if (value < 9 || value == "Gender") { 
@@ -85,8 +70,6 @@
         else if (value == "Sexual Orientation") { return song.b2b_lgbtq  }
         else { return song.b2b_gender }
     }
-
-    $: if (browser) changeMap(startingStation);
 
     $: if (browser) fetchData(startingStation);
 

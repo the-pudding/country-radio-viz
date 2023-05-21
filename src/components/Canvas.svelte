@@ -48,6 +48,6 @@
 	$: if (canvas) canvas.height = height;
 </script>
 
-<canvas bind:this={canvas} on:mousemove={handleMouseMove}/>
+<canvas bind:this={canvas}/>
 
 <slot />

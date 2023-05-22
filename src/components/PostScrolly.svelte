@@ -173,7 +173,7 @@
         width: 100%;
         padding: 0 1rem;
         font-family: var(--sans);
-        margin-top: 5rem;
+        margin-top: 7rem;
         overflow-x: hidden;
     }
     .dashTease {

@@ -43,9 +43,15 @@
                 <li><a href={text.link}><strong>{@html text.name}:</strong></a> {@html text.description}</li>
             {/each}
         </ul>
-        <h4>Media & publications</h4>
+        <h4>Blogs, newsletters, & zines</h4>
         <ul>
             {#each copy.methodsListPubs as text, i}
+                <li><a href={text.link}><strong>{@html text.name}:</strong></a> {@html text.description}</li>
+            {/each}
+        </ul>
+        <h4>Podcasts & radio shows</h4>
+        <ul>
+            {#each copy.methodsListPodcasts as text, i}
                 <li><a href={text.link}><strong>{@html text.name}:</strong></a> {@html text.description}</li>
             {/each}
         </ul>

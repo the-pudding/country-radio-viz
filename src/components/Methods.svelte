@@ -31,6 +31,9 @@
     <SimulationCharts />
     <h3>Notes</h3>
     <div class="prose">
+        <p>{@html copy.methodsCorrection[0].text}</p>
+    </div>
+    <div class="prose">
         {#each copy.methods3 as text, i}
             <p>{@html text.value}</p>
         {/each}

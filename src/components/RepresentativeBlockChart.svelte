@@ -23,7 +23,7 @@
     export let spacingY;
 
     onMount(async () => {
-        const response = await fetch(`./assets/data/${startingStation}_1_7_22.csv`);
+        const response = await fetch(`./assets/data/${startingStation}_1_7_22_V2.csv`);
         const text = await response.text();
         const parsed = csvParse(text)
         data = parsed;

@@ -27,8 +27,6 @@
             <p>{@html text.value}</p>
         {/each}
     </div>
-    <h4>"Coin flip" simulations by station</h4>
-    <SimulationCharts />
     <h3>Notes</h3>
     <div class="prose">
         <p>{@html copy.methodsCorrection[0].text}</p>

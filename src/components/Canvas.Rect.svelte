@@ -13,12 +13,12 @@
 			if (fill == 0) { return ("#e1d4ca") }
 			else { return ("#3460E5") }
 		} else {
-			if (value < 9 || value == "Gender") {
+			if (value < 7 || value == "Gender") {
 				if (fill == "B2Bmen") { return ("#A18D7E") }
 				else if (fill == "B2Bwomen") { return ("#3460E5") }
 				else if (fill == "B2Bmixed") { return ("#fda922") }
 				else { return ("#e1d4ca") }
-			} else if (value >= 9) {
+			} else if (value >= 7) {
 				if (fill == "B2BCombMen") { return ("#A18D7E") }
 				else if (fill == "B2BCombWomen") { return ("#3460E5") }
 				else { return ("#e1d4ca") }

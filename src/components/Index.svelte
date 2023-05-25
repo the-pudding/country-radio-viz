@@ -43,12 +43,13 @@
     }
 
 	function calcOpacity(value) { 
-		stickyOpacity = value >= 10 || value == undefined && scrollY > 1000 ? 0 : 1; 
+		stickyOpacity = value >= 8 || value == undefined && scrollY > 1000 ? 0 : 1; 
 	}
 
 	$: value, calcOpacity(value);
 	$: scrollY, checkScrollY(scrollY);
 	$: h, calcH(h);
+	$: console.log(value);
 </script>
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
@@ -58,7 +59,7 @@
 		<Intro {value}/>
 		<SanAntoDivs startingStation={startingStation} value={value} />
 		{#if blockH}
-			<RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} />
+			<!-- <RepresentativeBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} /> -->
 			<CanvasBlockChart startingStation={startingStation} value={value} blockH={blockH} spacingX={spacingX} spacingY={spacingY} posType="absolute" />
 		{/if}
 	</div>

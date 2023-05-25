@@ -49,7 +49,7 @@
         blockH = innerHeight > 1000 ? 3 : 2;
     }
     function changeVisibility(value) {
-        if (value > 6 || value == "Gender" || value == "Race" || value == "Sexual Orientation") {
+        if (value > 4 || value == "Gender" || value == "Race" || value == "Sexual Orientation") {
             visible = true;
         } else {
             visible = false;
@@ -58,11 +58,11 @@
 
     function returnFillClasses(value, song) {
         let fillColor;
-        if (value < 9 || value == "Gender") { 
+        if (value < 7 || value == "Gender") { 
             fillColor = song.b2b_gender;
             return fillColor;
         }
-        else if (value >= 9) { 
+        else if (value >= 7) { 
             fillColor = song.b2b_combinedGender; 
             return fillColor;
         }

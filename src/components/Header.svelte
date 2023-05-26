@@ -1,10 +1,14 @@
 <script>
 	import wordmark from "$svg/wordmark.svg";
+	import Tip from "$components/helpers/Tip.svelte";
 </script>
 
 <header>
 	<div class="wordmark">
 		<a href="https://pudding.cool" aria-label="The Pudding" target="_self">{@html wordmark}</a>
+	</div>
+	<div class="tip_container">
+		<Tip />
 	</div>
 </header>
 

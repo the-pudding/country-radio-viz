@@ -70,46 +70,40 @@
             return 0;
         } else if (value == 5 && i !== 0) {
             return 0;
-        } else if (value == 7 && i !== 0) {
+        } else if (value == 6 && releaseDateArray.includes(i)) {
             return 0;
-        } else if (value == 8 && releaseDateArray.includes(i)) {
-            return 0;
-        } else if (value == 8 && !releaseDateArray.includes(i)) {
+        } else if (value == 6 && !releaseDateArray.includes(i)) {
             return 0.75;
-        } else if (value >= 9) {
+        } else if (value >= 7) {
             return 0
         } else { return 1 }
     }
     function calcShowDate(i, value) {
         if (value == undefined) {
             return 0;
-        } else if (value == 6 && i == 0) {
+        } else if (value == 5) {
             return 1;
-        } else if (value == 7) {
+        } else if (value == 6 && releaseDateArray.includes(i)) {
             return 1;
-        } else if (value == 8 && releaseDateArray.includes(i)) {
-            return 1;
-        } else if (value == 8 && !releaseDateArray.includes(i)) {
+        } else if (value == 6 && !releaseDateArray.includes(i)) {
             return 0.5;
-        } else if (value >= 9) {
+        } else if (value >= 7) {
             return 1;
         } else { return 0 }
     }
     function calcBoldDate(i, value) {
-        if (value == 6 && i == 0) {
+        if (value == 5) {
             return 500;
-        } else if (value == 7) {
-            return 500;
-        } else if (value == 8 && releaseDateArray.includes(i)) {
+        } else if (value == 6 && releaseDateArray.includes(i)) {
             return 600;
-        } else if (value == 8 && !releaseDateArray.includes(i)) {
+        } else if (value == 6 && !releaseDateArray.includes(i)) {
             return 500;
-        } else if (value >= 9 || value == undefined) {
+        } else if (value >= 7 || value == undefined) {
             return 500;
         } else { return 500 }
     }
     function calcBlockDelay(i, value) {
-        if (value == 5 & scrollDir !== "up" || value == 7 && scrollDir !== "up") {
+        if (value == 4 & scrollDir !== "up" || value == 5 && scrollDir !== "up") {
             return `opacity 0s ${i*0.125}s`
         } else if (i == 0) {
             return `opacity 1s`
@@ -135,19 +129,13 @@
                 .transition()
                 .duration(500)
                 .style("background-color", "#A18D7E");
-        } else if (value == 2 || value == 6) {
+        } else if (value == 2 || value == 4) {
             allSongBlocks = selectAll(".song");
             b2bMenAll = allSongBlocks.filter(".song-B2Bmen")
                 .transition()
                 .duration(500)
                 .style("background-color", "#A18D7E");
-        } else if (value == 5) {
-            allSongBlocks = selectAll(".song");
-            b2bMenAll = allSongBlocks.filter(".song-B2Bmen")
-                .transition()
-                .duration(500)
-                .style("background-color", "#e1d4ca");
-        }
+        } 
     }
 
     $: scrollY, checkScrollY(scrollY)
@@ -160,9 +148,9 @@
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
 
 <section id="day-chart">
-    {#if value == 5}
+    <!-- {#if value == 5}
         <div in:fade={{duration: 250, delay: 1500}} out:fade={{duration: 500}} class="sim-label" style="margin-left: {colW*2+2}px; width: {colW*10-3}px;"><p>Simulations</p></div>
-    {/if}
+    {/if} -->
     {#if value == 1}
         <div in:fade={{duration: 250, delay: 2000 }} out:fade={{duration: 250, delay: 250}} class="song-line-label" style="margin-left: {colW}px; margin-top: {(blockH+1)*143}px"><p>Each line is a song</p></div>
     {/if}

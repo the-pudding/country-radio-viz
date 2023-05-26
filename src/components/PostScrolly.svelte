@@ -14,6 +14,8 @@
     import SortTable from "$components/helpers/SortTable.svelte";
     import MultiLineContainer from "$components/MultiLineContainer.svelte";
     import Icon from "$components/helpers/Icon.svelte";
+    import SimulationCharts from "$components/SimulationCharts.svelte";
+
 
 
     rowsTopCurrentW = [
@@ -101,13 +103,20 @@
             <p>{@html text.value}</p>
         {/each}
     </div>
+    <h4 class="coin-title">"Coin flip" simulations by station</h4>
+    <SimulationCharts />
+    <div class="prose">
+        {#each copy.prose5b as text, i}
+            <p>{@html text.value}</p>
+        {/each}
+    </div>
     <div class="pullquote">
         {#each copy.quote2 as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
     <div class="prose">
-        {#each copy.prose5b as text, i}
+        {#each copy.prose5c as text, i}
             <p>{@html text.value}</p>
         {/each}
     </div>
@@ -287,6 +296,10 @@
         color: var(--color-country-text);
         margin: 0 0 0.5rem 0;
         padding: 0;
+    }
+    .coin-title {
+        max-width: 60rem;
+        margin: 4rem auto 0 auto;
     }
 
     @media only screen and (max-width: 1100px) {

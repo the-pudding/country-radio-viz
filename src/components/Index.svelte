@@ -49,7 +49,6 @@
 	$: value, calcOpacity(value);
 	$: scrollY, checkScrollY(scrollY);
 	$: h, calcH(h);
-	$: console.log(value);
 </script>
 
 <svelte:window bind:innerWidth={w} bind:innerHeight={h} bind:scrollY/>
